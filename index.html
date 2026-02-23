@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iTools — Useful Web Tools</title>
+  <meta name="description" content="A collection of useful web tools: JSON formatter, Base64 codec, password generator, QR code generator, hash generator, and more.">
+  <meta name="theme-color" content="#007AFF">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.v13.css">
+  <!-- QR Code library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js" defer></script>
+</head>
+<body>
+  <!-- SVG Liquid Glass Filters
+       feTurbulence  → organic noise pattern
+       feGaussianBlur → soften the noise
+       feDisplacementMap → warp backdrop through the noise (= refraction)
+       Chromium: full distortion effect
+       Safari/Firefox: graceful fallback to plain backdrop-filter blur -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute;overflow:hidden;pointer-events:none">
+    <defs>
+      <!-- Subtle distortion for cards -->
+      <filter id="liquid-glass-subtle" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012 0.012" numOctaves="3" seed="42" result="noise"/>
+        <feGaussianBlur in="noise" stdDeviation="3" result="softNoise"/>
+        <feDisplacementMap in="SourceGraphic" in2="softNoise" scale="18" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <!-- Stronger distortion for modal panel -->
+      <filter id="liquid-glass-panel" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.008 0.008" numOctaves="2" seed="77" result="noise"/>
+        <feGaussianBlur in="noise" stdDeviation="4" result="softNoise"/>
+        <feDisplacementMap in="SourceGraphic" in2="softNoise" scale="30" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <!-- Animated background -->
+  <div class="bg-gradient"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-logo">iT</div>
+    <h1>iTools</h1>
+    <p>A collection of useful web tools, beautifully crafted.</p>
+  </header>
+
+  <!-- Tool Grid -->
+  <main class="container">
+    <div id="tool-grid"></div>
+  </main>
+
+  <!-- Tool Panel Overlay -->
+  <div class="panel-overlay" id="panel-overlay">
+    <div class="tool-panel" id="tool-panel">
+      <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+      <div class="panel-title" id="panel-title"></div>
+      <div id="panel-content"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">iTools &mdash; All tools run entirely in your browser.</div>
+    <div class="footer-links">
+      <a href="https://github.com/1MrC1" target="_blank" rel="noopener">Built by 1MrC1</a>
+      <span class="footer-sep">&middot;</span>
+      <a href="https://github.com/i-Tools-Web/i.Tools" target="_blank" rel="noopener" class="footer-badge">
+        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        Open Source
+      </a>
+    </div>
+  </footer>
+
+  <!-- App logic -->
+  <script src="js/app.v13.js"></script>
+</body>
+</html>
