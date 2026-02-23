@@ -62,4 +62,4 @@ Then open `http://localhost:8000`.
 
 ## License
 
-Open source. See the repository for details.
+[MIT](LICENSE)
