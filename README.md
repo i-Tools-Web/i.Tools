@@ -16,7 +16,7 @@
 
 ## Features
 
-- **57 tools** across 8 categories
+- **86 tools** across 10 categories
 - **Zero backend** — everything runs client-side in your browser
 - **No tracking, no cookies, no data collection**
 - **Apple Liquid Glass** UI design with frosted glass effects
@@ -27,14 +27,15 @@
 
 | Category | Tools |
 |---|---|
-| **Text** | Word Counter, Case Converter, Text Diff, Slug Generator, Line Sorter, Find & Replace, Markdown Table |
+| **Text** | Word Counter, Case Converter, Text Diff, Slug Generator, Line Sorter, Find & Replace, Markdown Table, String Escape/Unescape, Text to ASCII Art, Word Frequency Analyzer, Morse Code Translator |
 | **Encode / Decode** | Base64 Codec, URL Encoder, HTML Entities, JWT Decoder |
 | **Formatters** | JSON Formatter, SQL Formatter, CSS/JS Minifier, Markdown to HTML, XML Formatter, SVG Optimizer |
-| **Developer** | Regex Tester, Hash Generator, Cron Parser, Chmod Calculator, Epoch Converter, User Agent Parser, Number Base, API Tester, .htaccess Generator, Meta Tag Generator, JSONPath Tester, HTML Live Preview, Nginx Config, OG Preview, IP/CIDR Calculator, Code Screenshot |
-| **Generators** | Password Generator, UUID Generator, QR Code Generator, Lorem Ipsum, Emoji Picker |
-| **CSS Tools** | Color Converter, Box Shadow, Gradient Generator, Border Radius, Aspect Ratio, Flexbox Playground, Grid Generator, Color Palette |
-| **Data** | JSON / YAML, JSON / CSV, JSON Diff, Config Converter (TOML/INI/ENV/JSON/YAML) |
+| **Developer** | Regex Tester, Hash Generator, Cron Parser, Chmod Calculator, Epoch Converter, User Agent Parser, Number Base, API Tester, .htaccess Generator, Meta Tag Generator, JSONPath Tester, HTML Live Preview, Nginx Config, OG Preview, IP/CIDR Calculator, Code Screenshot, JSON Schema Validator, CSS Selector Tester, Robots.txt Generator, Sitemap Generator, Schema.org Generator, Git Command Builder, package.json Generator, Favicon Generator, SRI Hash Generator, CSP Header Builder, HTTP Header Parser |
+| **Generators** | Password Generator, UUID Generator, QR Code Generator, Lorem Ipsum, Emoji Picker, Fake Data Generator, Barcode Generator, SVG Pattern Generator, Credit Card Test Numbers |
+| **CSS Tools** | Color Converter, Box Shadow, Gradient Generator, Border Radius, Aspect Ratio, Flexbox Playground, Grid Generator, Color Palette, CSS Animation Builder, CSS Filter Playground, CSS Transform Playground, Clip-Path Generator, Glassmorphism, Type Scale |
+| **Data** | JSON / YAML, JSON / CSV, JSON Diff, Config Converter (TOML/INI/ENV/JSON/YAML), CSV Viewer/Editor, SQL to MongoDB |
 | **Image** | Image to Base64, Placeholder Image, Image Crop & Resize, Image Compressor, Image Converter, Image Filters |
+| **Math** | Scientific Calculator, Statistics Calculator |
 
 ## Tech Stack
 

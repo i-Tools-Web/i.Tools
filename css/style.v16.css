@@ -208,6 +208,76 @@ body {
 }
 
 /* ===========================================
+   SEARCH BOX
+   =========================================== */
+.search-wrap {
+  position: relative;
+  max-width: 420px;
+  margin: 0 auto 8px;
+  padding: 0 24px;
+}
+.search-icon {
+  position: absolute;
+  left: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  opacity: 0.6;
+}
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 42px;
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color var(--transition-fast), background var(--transition-fast), box-shadow var(--transition-fast);
+}
+.search-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.6;
+}
+.search-input:focus {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.15);
+}
+.search-clear {
+  position: absolute;
+  right: 34px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast), background var(--transition-fast);
+}
+.search-wrap.has-value .search-clear {
+  opacity: 1;
+  pointer-events: auto;
+}
+.search-clear:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+/* ===========================================
    CATEGORY NAV — Sticky jump menu
    =========================================== */
 .cat-nav {

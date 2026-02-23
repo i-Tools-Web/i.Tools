@@ -65,6 +65,35 @@
     cidr: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10"/><path d="M12 2a15 15 0 0 0-4 10 15 15 0 0 0 4 10"/></svg>`,
     codescreenshot: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/><path d="M14 3l4 4-4 4"/></svg>`,
     configparse: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h3"/><path d="M8 17h5"/><path d="M16 13h0"/><path d="M16 17h0"/></svg>`,
+    strescape: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M9 8l2 2-2 2"/><path d="M13 12h2"/></svg>`,
+    asciiart: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 10h16"/><path d="M4 14h10"/><path d="M4 18h6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>`,
+    wordfreq: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h7"/><path d="M4 11h16"/><path d="M4 15h12"/><path d="M4 19h9"/><path d="M18 4l2 2-2 2"/><path d="M20 6h-4"/></svg>`,
+    morse: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="4" cy="12" r="1.5"/><line x1="8" y1="12" x2="14" y2="12"/><circle cx="18" cy="12" r="1.5"/><circle cx="4" cy="6" r="1.5"/><circle cx="8" cy="6" r="1.5"/><line x1="12" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="10" y2="18"/><circle cx="14" cy="18" r="1.5"/><line x1="18" y1="18" x2="20" y2="18"/></svg>`,
+    jsonschema: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3"/><path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3"/><path d="M12 8v4"/><path d="M12 16h.01"/><path d="M9 12h6"/></svg>`,
+    cssselector: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg>`,
+    robotstxt: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="9" width="14" height="11" rx="2"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M9 18h6"/><path d="M12 4v5"/><circle cx="12" cy="4" r="1.5"/><path d="M3 13l2-2"/><path d="M21 13l-2-2"/></svg>`,
+    sitemapgen: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18H3z" rx="2"/><path d="M7 8h10"/><path d="M7 12h7"/><path d="M7 16h9"/><circle cx="4.5" cy="8" r="0.5" fill="currentColor" stroke="none"/><circle cx="4.5" cy="12" r="0.5" fill="currentColor" stroke="none"/><circle cx="4.5" cy="16" r="0.5" fill="currentColor" stroke="none"/></svg>`,
+    schemaorg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><path d="M16 3h1a2 2 0 0 1 2 2v5a2 2 0 0 0 2 2 2 2 0 0 0-2 2v5a2 2 0 0 1-2 2h-1"/><path d="M9 10l2 2-2 2"/><path d="M13 10h2"/><path d="M13 14h2"/></svg>`,
+    gitcmd: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><circle cx="6" cy="18" r="2"/><path d="M6 8v8"/><path d="M18 16V9a3 3 0 0 0-3-3H8"/></svg>`,
+    pkgjson: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5z"/><path d="M3 7l9 5 9-5"/><path d="M12 12v10"/></svg>`,
+    favicogen: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="12" cy="12" r="4"/><path d="M12 8v1"/><path d="M12 15v1"/><path d="M8 12h1"/><path d="M15 12h1"/></svg>`,
+    srihash: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5.25-3.5 9.5-7 11-3.5-1.5-7-5.75-7-11V6l7-4z"/><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg>`,
+    cspbuilder: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5.25-3.5 9.5-7 11-3.5-1.5-7-5.75-7-11V6l7-4z"/><path d="M8 12h8"/><path d="M8 9h5"/><path d="M8 15h6"/></svg>`,
+    httpheaders: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="2" y1="9" x2="22" y2="9"/><path d="M6 6h4"/><path d="M6 13h5"/><path d="M13 13h5"/><path d="M6 16.5h5"/><path d="M13 16.5h5"/></svg>`,
+    fakedata: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="13" y2="12"/><line x1="7" y1="16" x2="15" y2="16"/><circle cx="16" cy="14" r="2.5"/><path d="M18 17l1.5 1.5"/></svg>`,
+    barcodegen: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="8" x2="6" y2="16"/><line x1="8.5" y1="8" x2="8.5" y2="16"/><line x1="10" y1="8" x2="10" y2="16"/><line x1="13" y1="8" x2="13" y2="16"/><line x1="15.5" y1="8" x2="15.5" y2="16"/><line x1="17" y1="8" x2="17" y2="16"/><line x1="18.5" y1="8" x2="18.5" y2="16"/></svg>`,
+    svgpattern: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><circle cx="16" cy="8" r="1.5"/><circle cx="8" cy="16" r="1.5"/><circle cx="16" cy="16" r="1.5"/><circle cx="12" cy="12" r="1.5"/></svg>`,
+    testcards: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="6" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="18" y2="14"/></svg>`,
+    cssanim: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-5 0-9 4-9 9s4 9 9 9"/><polyline points="12 7 12 12 15 15"/><path d="M16 3.5c2.5 1.5 4.5 4 5 7"/><polyline points="21 3 21 7.5 16.5 7.5"/></svg>`,
+    cssfilter: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r="3" opacity="0.5"/><circle cx="15" cy="10" r="3" opacity="0.5"/><circle cx="12" cy="15" r="3" opacity="0.5"/></svg>`,
+    csstransform: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1" transform="rotate(15 12 12)" stroke-dasharray="3 2"/><rect x="7" y="7" width="10" height="10" rx="1"/><polyline points="17 10 20 10"/><polyline points="10 17 10 20"/></svg>`,
+    clippath: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/><circle cx="12" cy="12" r="4" stroke-dasharray="2 2"/></svg>`,
+    glassmorph: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="14" height="14" rx="4" opacity="0.4"/><rect x="7" y="4" width="14" height="14" rx="4"/><path d="M11 8h6" opacity="0.5"/><path d="M11 11h4" opacity="0.5"/></svg>`,
+    typoscale: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M12 4v16"/><path d="M8 20h8"/><path d="M18 14v-2h-6v2"/><path d="M15 12v8"/><path d="M13 20h4"/></svg>`,
+    csvview: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><circle cx="6" cy="6" r="0.8" fill="currentColor" stroke="none"/></svg>`,
+    sql2mongo: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="7" cy="5" rx="5" ry="3"/><path d="M2 5v6c0 1.66 2.24 3 5 3s5-1.34 5-3V5"/><path d="M14 11l3 3-3 3"/><path d="M17 17a5 5 0 1 0 0-10"/><circle cx="17" cy="17" r="1" fill="currentColor" stroke="none"/></svg>`,
+    scicalc: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="18" height="20" rx="3"/><rect x="5" y="4" width="14" height="5" rx="1.5"/><circle cx="7.5" cy="13" r="1.2"/><circle cx="12" cy="13" r="1.2"/><circle cx="16.5" cy="13" r="1.2"/><circle cx="7.5" cy="17.5" r="1.2"/><circle cx="12" cy="17.5" r="1.2"/><circle cx="16.5" cy="17.5" r="1.2"/></svg>`,
+    statscalc: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><rect x="5" y="13" width="3" height="7" rx="0.5"/><rect x="10.5" y="8" width="3" height="12" rx="0.5"/><rect x="16" y="4" width="3" height="16" rx="0.5"/><path d="M4 10l5-4 4 3 6-5" stroke-dasharray="3 2"/></svg>`,
   };
 
   // ── Tool Definitions ──────────────────────────
@@ -140,6 +169,41 @@
     { id: 'configparse',cat: 'Data',            title: 'Config Converter',   desc: 'Convert between TOML, INI, ENV, JSON & YAML' },
     // Text
     { id: 'mdtable',   cat: 'Text',             title: 'Markdown Table',     desc: 'Build markdown tables with a visual editor' },
+    // Text (new)
+    { id: 'strescape', cat: 'Text',             title: 'String Escape/Unescape', desc: 'Escape and unescape strings for JS, JSON, HTML, CSV, SQL' },
+    { id: 'asciiart',  cat: 'Text',             title: 'Text to ASCII Art',  desc: 'Convert text into block-letter ASCII art using # characters' },
+    { id: 'wordfreq',  cat: 'Text',             title: 'Word Frequency Analyzer', desc: 'Analyze word frequency, count, and percentage in any text' },
+    { id: 'morse',     cat: 'Text',             title: 'Morse Code Translator', desc: 'Translate between text and Morse code with audio playback' },
+    // Developer (new)
+    { id: 'jsonschema',cat: 'Developer',        title: 'JSON Schema Validator', desc: 'Validate JSON data against a JSON Schema definition' },
+    { id: 'cssselector',cat: 'Developer',       title: 'CSS Selector Tester', desc: 'Test CSS selectors against HTML and see matched elements' },
+    { id: 'robotstxt', cat: 'Developer',        title: 'Robots.txt Generator', desc: 'Generate robots.txt files with common crawl directives' },
+    { id: 'sitemapgen',cat: 'Developer',        title: 'Sitemap Generator',  desc: 'Generate XML sitemaps from a list of URLs' },
+    { id: 'schemaorg', cat: 'Developer',        title: 'Schema.org Generator', desc: 'Generate JSON-LD structured data for SEO' },
+    { id: 'gitcmd',    cat: 'Developer',        title: 'Git Command Builder', desc: 'Build git commands with a visual interface' },
+    { id: 'pkgjson',   cat: 'Developer',        title: 'package.json Generator', desc: 'Generate package.json files for Node.js projects' },
+    { id: 'favicogen', cat: 'Developer',        title: 'Favicon Generator',  desc: 'Create favicons from text or emoji with canvas' },
+    { id: 'srihash',   cat: 'Developer',        title: 'SRI Hash Generator', desc: 'Generate Subresource Integrity hashes for scripts & styles' },
+    { id: 'cspbuilder',cat: 'Developer',        title: 'CSP Header Builder', desc: 'Build Content-Security-Policy headers visually' },
+    { id: 'httpheaders',cat: 'Developer',       title: 'HTTP Header Parser', desc: 'Parse and analyze HTTP headers with security checks' },
+    // Generators (new)
+    { id: 'fakedata',  cat: 'Generators',       title: 'Fake Data Generator', desc: 'Generate realistic fake data for testing and development' },
+    { id: 'barcodegen',cat: 'Generators',       title: 'Barcode Generator',  desc: 'Create Code 128, EAN-13, EAN-8, and UPC-A barcodes' },
+    { id: 'svgpattern',cat: 'Generators',       title: 'SVG Pattern Generator', desc: 'Create seamless SVG patterns with live preview' },
+    { id: 'testcards', cat: 'Generators',       title: 'Credit Card Test Numbers', desc: 'Test card numbers for payment development' },
+    // CSS Tools (new)
+    { id: 'cssanim',   cat: 'CSS Tools',        title: 'CSS Animation Builder', desc: 'Build CSS keyframe animations visually' },
+    { id: 'cssfilter', cat: 'CSS Tools',        title: 'CSS Filter Playground', desc: 'Experiment with CSS filter effects in real-time' },
+    { id: 'csstransform',cat: 'CSS Tools',      title: 'CSS Transform Playground', desc: 'Visualize and build CSS transforms interactively' },
+    { id: 'clippath',  cat: 'CSS Tools',        title: 'Clip-Path Generator', desc: 'Create CSS clip-path shapes with live preview' },
+    { id: 'glassmorph',cat: 'CSS Tools',        title: 'Glassmorphism',      desc: 'Generate glassmorphism CSS with live preview' },
+    { id: 'typoscale', cat: 'CSS Tools',        title: 'Type Scale',         desc: 'Calculate typographic scale with CSS custom properties' },
+    // Data (new)
+    { id: 'csvview',   cat: 'Data',             title: 'CSV Viewer/Editor',  desc: 'Parse, view, edit and export CSV data' },
+    { id: 'sql2mongo', cat: 'Data',             title: 'SQL to MongoDB',     desc: 'Convert SQL queries to MongoDB shell commands' },
+    // Math (new)
+    { id: 'scicalc',   cat: 'Math',             title: 'Scientific Calculator', desc: 'Full scientific calculator with keyboard support' },
+    { id: 'statscalc', cat: 'Math',             title: 'Statistics Calculator', desc: 'Compute mean, median, std dev, quartiles & more' },
   ];
 
   // ── Render Tool Cards (grouped by category) ──
@@ -150,6 +214,24 @@
   const catNav = document.createElement('nav');
   catNav.className = 'cat-nav';
   catNav.id = 'cat-nav';
+
+  // Search box
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'search-wrap';
+  searchWrap.innerHTML = `<svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.className = 'search-input';
+  searchInput.placeholder = 'Search tools…';
+  searchInput.setAttribute('aria-label', 'Search tools');
+  searchWrap.appendChild(searchInput);
+  const searchClear = document.createElement('button');
+  searchClear.className = 'search-clear';
+  searchClear.innerHTML = '&times;';
+  searchClear.setAttribute('aria-label', 'Clear search');
+  searchWrap.appendChild(searchClear);
+  catNav.appendChild(searchWrap);
+
   const catNavInner = document.createElement('div');
   catNavInner.className = 'cat-nav-inner';
   categories.forEach(cat => {
@@ -216,6 +298,43 @@
   }
   window.addEventListener('scroll', updateActiveNav, { passive: true });
   updateActiveNav();
+
+  // ── Search Filter ───────────────────────────────
+  function filterTools(query) {
+    const q = query.trim().toLowerCase();
+    searchWrap.classList.toggle('has-value', q.length > 0);
+    catNavInner.style.display = q ? 'none' : '';
+
+    document.querySelectorAll('.tool-section').forEach(section => {
+      const cards = section.querySelectorAll('.glass-card');
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const tool = tools.find(t => t.id === card.dataset.tool);
+        const match = !q || tool.title.toLowerCase().includes(q) || tool.desc.toLowerCase().includes(q) || tool.cat.toLowerCase().includes(q);
+        card.style.display = match ? '' : 'none';
+        if (match) visibleCount++;
+      });
+      section.style.display = visibleCount ? '' : 'none';
+    });
+  }
+  searchInput.addEventListener('input', () => filterTools(searchInput.value));
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    filterTools('');
+    searchInput.focus();
+  });
+  // Keyboard shortcut: / to focus search
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && document.activeElement !== searchInput && !document.querySelector('.panel-overlay.active')) {
+      e.preventDefault();
+      searchInput.focus();
+    }
+    if (e.key === 'Escape' && document.activeElement === searchInput) {
+      searchInput.value = '';
+      filterTools('');
+      searchInput.blur();
+    }
+  });
 
   // ── Panel Overlay ─────────────────────────────
   const overlay = document.getElementById('panel-overlay');
@@ -3613,4 +3732,2006 @@
     }
   };
 
+  // ── String Escape/Unescape ──
+  toolBuilders.strescape = (container) => {
+    const fmtFg = el('div', { className: 'form-group' });
+    fmtFg.appendChild(el('label', { textContent: 'Format' }));
+    const fmtPicker = glassPicker('se-fmt', ['JavaScript', 'JSON', 'HTML', 'CSV', 'SQL'], 'JavaScript');
+    fmtFg.appendChild(fmtPicker.wrapper);
+    container.appendChild(fmtFg);
+
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input' }));
+    const textarea = el('textarea', { className: 'glass-input', placeholder: 'Enter text to escape or unescape...', rows: '6', style: 'width:100%;resize:vertical;font-family:monospace' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const btns = el('div', { className: 'tool-row' });
+    btns.appendChild(el('button', { className: 'glass-btn', textContent: 'Escape', onClick: () => {
+      const t = textarea.value, fmt = fmtPicker.value;
+      let r;
+      if (fmt === 'JavaScript') r = t.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,'\\n').replace(/\r/g,'\\r').replace(/\t/g,'\\t');
+      else if (fmt === 'JSON') r = JSON.stringify(t).slice(1,-1);
+      else if (fmt === 'HTML') r = t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      else if (fmt === 'CSV') { const needsQuote = /[",\n\r]/.test(t); r = needsQuote ? '"' + t.replace(/"/g,'""') + '"' : t; }
+      else if (fmt === 'SQL') r = t.replace(/'/g,"''").replace(/\\/g,'\\\\');
+      else r = t;
+      resultBox(container, r);
+    }}));
+    btns.appendChild(el('button', { className: 'glass-btn-secondary', textContent: 'Unescape', onClick: () => {
+      const t = textarea.value, fmt = fmtPicker.value;
+      let r;
+      try {
+        if (fmt === 'JavaScript') r = t.replace(/\\n/g,'\n').replace(/\\r/g,'\r').replace(/\\t/g,'\t').replace(/\\"/g,'"').replace(/\\'/g,"'").replace(/\\\\/g,'\\');
+        else if (fmt === 'JSON') r = JSON.parse('"' + t.replace(/"/g,'\\"').replace(/\\"/g,'\\"') + '"');
+        else if (fmt === 'HTML') { const d = document.createElement('div'); d.innerHTML = t; r = d.textContent; }
+        else if (fmt === 'CSV') r = t.startsWith('"') && t.endsWith('"') ? t.slice(1,-1).replace(/""/g,'"') : t;
+        else if (fmt === 'SQL') r = t.replace(/''/g,"'").replace(/\\\\/g,'\\');
+        else r = t;
+      } catch(e) { r = 'Error: ' + e.message; }
+      resultBox(container, r);
+    }}));
+    container.appendChild(btns);
+  };
+
+  // ── Text to ASCII Art ──
+  toolBuilders.asciiart = (container) => {
+    const GLYPHS = {
+      'A':'##\n# #\n###\n# #\n# #','B':'## \n# #\n## \n# #\n## ','C':' ##\n#  \n#  \n#  \n ##','D':'## \n# #\n# #\n# #\n## ','E':'###\n#  \n###\n#  \n###','F':'###\n#  \n###\n#  \n#  ','G':' ##\n#  \n# #\n# #\n ###','H':'# #\n# #\n###\n# #\n# #','I':'###\n # \n # \n # \n###','J':' ##\n  #\n  #\n# #\n ## ','K':'# #\n##\n# \n##\n# #','L':'#  \n#  \n#  \n#  \n###','M':'# #\n###\n###\n# #\n# #','N':'# #\n###\n###\n###\n# #','O':' # \n# #\n# #\n# #\n # ','P':'## \n# #\n## \n#  \n#  ','Q':' # \n# #\n# #\n ###\n  #','R':'## \n# #\n## \n##\n# #','S':' ##\n#  \n ## \n  #\n## ','T':'###\n # \n # \n # \n # ','U':'# #\n# #\n# #\n# #\n ###','V':'# #\n# #\n# #\n ###\n  # ','W':'# #\n# #\n###\n###\n# #','X':'# #\n # \n # \n # \n# #','Y':'# #\n # \n # \n # \n # ','Z':'###\n  #\n # \n#  \n###',
+      '0':' # \n# #\n# #\n# #\n # ','1':' # \n## \n # \n # \n###','2':' # \n# #\n  #\n #\n###','3':'## \n  #\n ## \n  #\n## ','4':'# #\n# #\n###\n  #\n  #','5':'###\n#  \n## \n  #\n## ','6':' ##\n#  \n## \n# #\n ## ','7':'###\n  #\n  #\n  #\n  #','8':' # \n# #\n # \n# #\n # ','9':' ##\n# #\n ###\n  #\n ## ',
+      ' ':'   \n   \n   \n   \n   ','!':' # \n # \n # \n   \n # ','?':' ##\n# #\n  #\n   \n # ','.':'   \n   \n   \n   \n # ',',':'   \n   \n   \n # \n #  ','-':'   \n   \n###\n   \n   ','_':'   \n   \n   \n   \n###','+':' # \n###\n # \n   \n   ','=':'   \n###\n   \n###\n   ','#':'# #\n###\n# #\n###\n# #','@':' ## \n# ##\n# ##\n#   \n ## ',
+    };
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input Text (A-Z, 0-9, punctuation)' }));
+    const input = el('input', { className: 'glass-input', placeholder: 'HELLO', style: 'width:100%', onInput: generate });
+    fg.appendChild(input);
+    container.appendChild(fg);
+
+    const out = el('pre', { style: 'font-family:monospace;font-size:11px;line-height:1.2;overflow-x:auto;padding:12px;background:rgba(0,0,0,0.15);border-radius:8px;margin-top:12px;white-space:pre' });
+    container.appendChild(out);
+
+    const copyBtn = el('button', { className: 'glass-btn-secondary', style: 'margin-top:8px', textContent: 'Copy ASCII Art', onClick: () => {
+      navigator.clipboard.writeText(out.textContent);
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => copyBtn.textContent = 'Copy ASCII Art', 1500);
+    }});
+    container.appendChild(copyBtn);
+
+    function generate() {
+      const text = (input.value || 'HELLO').toUpperCase();
+      const rows = ['','','','',''];
+      for (const ch of text) {
+        const glyph = GLYPHS[ch] || GLYPHS[' '];
+        const lines = glyph.split('\n');
+        for (let i = 0; i < 5; i++) rows[i] += (lines[i] || '   ').replace(/#/g, '█') + '  ';
+      }
+      out.textContent = rows.join('\n');
+    }
+    generate();
+  };
+
+  // ── Word Frequency Analyzer ──
+  toolBuilders.wordfreq = (container) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input Text' }));
+    const textarea = el('textarea', { className: 'glass-input', placeholder: 'Paste text here to analyze word frequency...', rows: '6', style: 'width:100%;resize:vertical' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const opts = el('div', { className: 'tool-row', style: 'gap:12px;flex-wrap:wrap' });
+    const { row: caseRow, input: caseToggle } = iosToggle('wf-case', 'Ignore case', true);
+    const { row: stopRow, input: stopToggle } = iosToggle('wf-stop', 'Ignore stop words', true);
+    opts.appendChild(caseRow);
+    opts.appendChild(stopRow);
+    container.appendChild(opts);
+
+    const analyzeBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Analyze', onClick: analyze });
+    container.appendChild(analyzeBtn);
+
+    const tableWrap = el('div', { style: 'margin-top:12px;max-height:320px;overflow-y:auto' });
+    container.appendChild(tableWrap);
+
+    const STOP = new Set(['the','a','an','and','or','but','in','on','at','to','for','of','with','by','from','up','about','into','through','during','is','are','was','were','be','been','being','have','has','had','do','does','did','will','would','could','should','may','might','shall','can','need','dare','ought','used','this','that','these','those','i','you','he','she','it','we','they','me','him','her','us','them','my','your','his','its','our','their','what','which','who','whom','whose','when','where','why','how','all','both','each','few','more','most','other','some','such','no','not','only','same','so','than','too','very','just','as','if','then','there','here','s','t']);
+
+    function analyze() {
+      const raw = textarea.value;
+      if (!raw.trim()) { tableWrap.innerHTML = ''; return; }
+      let text = caseToggle.checked ? raw.toLowerCase() : raw;
+      const words = text.match(/\b[a-zA-Z']+\b/g) || [];
+      const filtered = stopToggle.checked ? words.filter(w => !STOP.has(w.toLowerCase())) : words;
+      const freq = {};
+      filtered.forEach(w => { freq[w] = (freq[w] || 0) + 1; });
+      const total = filtered.length;
+      const sorted = Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0,100);
+      tableWrap.innerHTML = '';
+      const tbl = el('table', { style: 'width:100%;border-collapse:collapse;font-size:13px' });
+      const head = el('tr');
+      ['Word','Count','Percent'].forEach(h => head.appendChild(el('th', { textContent: h, style: 'text-align:left;padding:6px 8px;border-bottom:1px solid rgba(255,255,255,0.15);opacity:0.7' })));
+      tbl.appendChild(head);
+      sorted.forEach(([word, count]) => {
+        const tr = el('tr');
+        [word, count, (count/total*100).toFixed(1)+'%'].forEach((v, i) => tr.appendChild(el('td', { textContent: v, style: 'padding:5px 8px;border-bottom:1px solid rgba(255,255,255,0.07)' + (i===0?';font-weight:500':'') })));
+        tbl.appendChild(tr);
+      });
+      tableWrap.appendChild(tbl);
+      const summary = el('div', { textContent: `${sorted.length} unique words, ${total} total`, style: 'font-size:12px;opacity:0.6;margin-top:8px' });
+      tableWrap.appendChild(summary);
+    }
+  };
+
+  // ── Morse Code Translator ──
+  toolBuilders.morse = (container) => {
+    const CODE = {A:'.-',B:'-...',C:'-.-.',D:'-..',E:'.',F:'..-.',G:'--.',H:'....',I:'..',J:'.---',K:'-.-',L:'.-..',M:'--',N:'-.',O:'---',P:'.--.',Q:'--.-',R:'.-.',S:'...',T:'-',U:'..-',V:'...-',W:'.--',X:'-..-',Y:'-.--',Z:'--..',0:'-----',1:'.----',2:'..---',3:'...--',4:'....-',5:'.....',6:'-....',7:'--...',8:'---..',9:'----.','.':'.-.-.-',',':'--..--','?':'..--..',  "'":'.----.',  '!':'-.-.--','/':'-..-.',  '(':'-.--.',  ')':'-.--.-','&':'.-...',':':'---...',';':'-.-.-.',  '=':'-...-','+':'.-.-.',  '-':'-....-',  '_':'..--.-',  '"':'.-..-.','$':'...-..-','@':'.--.-.','#':''};
+    const DECODE = {};
+    Object.entries(CODE).forEach(([k,v]) => { if(v) DECODE[v] = k; });
+
+    const row = el('div', { className: 'tool-row', style: 'gap:12px;align-items:flex-start' });
+
+    const leftFg = el('div', { className: 'form-group', style: 'flex:1' });
+    leftFg.appendChild(el('label', { textContent: 'Text' }));
+    const textArea = el('textarea', { className: 'glass-input', rows: '5', placeholder: 'Type text here...', style: 'width:100%;resize:vertical' });
+    leftFg.appendChild(textArea);
+
+    const rightFg = el('div', { className: 'form-group', style: 'flex:1' });
+    rightFg.appendChild(el('label', { textContent: 'Morse Code' }));
+    const morseArea = el('textarea', { className: 'glass-input', rows: '5', placeholder: '... --- ...', style: 'width:100%;resize:vertical;font-family:monospace' });
+    rightFg.appendChild(morseArea);
+
+    row.appendChild(leftFg);
+    row.appendChild(rightFg);
+    container.appendChild(row);
+
+    const btnRow = el('div', { className: 'tool-row', style: 'gap:8px;flex-wrap:wrap' });
+    btnRow.appendChild(el('button', { className: 'glass-btn', textContent: 'Text to Morse', onClick: () => {
+      const t = textArea.value.toUpperCase();
+      morseArea.value = t.split('').map(c => c === ' ' ? '/' : (CODE[c] || '')).filter((c,i,a) => c || (a[i-1] !== '/' && a[i+1] !== '/')).join(' ');
+    }}));
+    btnRow.appendChild(el('button', { className: 'glass-btn-secondary', textContent: 'Morse to Text', onClick: () => {
+      const words = morseArea.value.trim().split(/\s*\/\s*/);
+      textArea.value = words.map(w => w.trim().split(/\s+/).map(s => DECODE[s] || '?').join('')).join(' ');
+    }}));
+    btnRow.appendChild(el('button', { className: 'glass-btn-secondary', textContent: 'Play Audio', onClick: playAudio }));
+    container.appendChild(btnRow);
+
+    async function playAudio() {
+      const morse = morseArea.value.trim();
+      if (!morse) return;
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const dot = 0.07, dash = 0.21, gap = 0.07, letterGap = 0.21, wordGap = 0.5;
+      let t = ctx.currentTime + 0.05;
+      function beep(dur) {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain); gain.connect(ctx.destination);
+        osc.type = 'sine'; osc.frequency.value = 600;
+        gain.gain.setValueAtTime(0.4, t);
+        gain.gain.exponentialRampToValueAtTime(0.001, t + dur - 0.01);
+        osc.start(t); osc.stop(t + dur);
+        t += dur + gap;
+      }
+      for (const token of morse.split('')) {
+        if (token === '.') beep(dot);
+        else if (token === '-') beep(dash);
+        else if (token === ' ') t += letterGap;
+        else if (token === '/') t += wordGap;
+      }
+    }
+  };
+
+  // ── JSON Schema Validator ──
+  toolBuilders.jsonschema = (container) => {
+    const row = el('div', { className: 'tool-row', style: 'gap:12px;align-items:flex-start' });
+
+    const leftFg = el('div', { className: 'form-group', style: 'flex:1' });
+    leftFg.appendChild(el('label', { textContent: 'JSON Data' }));
+    const dataArea = el('textarea', { className: 'glass-input', rows: '10', placeholder: '{\n  "name": "Alice",\n  "age": 30\n}', style: 'width:100%;resize:vertical;font-family:monospace' });
+    leftFg.appendChild(dataArea);
+
+    const rightFg = el('div', { className: 'form-group', style: 'flex:1' });
+    rightFg.appendChild(el('label', { textContent: 'JSON Schema' }));
+    const schemaArea = el('textarea', { className: 'glass-input', rows: '10', placeholder: '{\n  "type": "object",\n  "required": ["name"],\n  "properties": {\n    "name": {"type": "string"},\n    "age": {"type": "integer", "minimum": 0}\n  }\n}', style: 'width:100%;resize:vertical;font-family:monospace' });
+    rightFg.appendChild(schemaArea);
+
+    row.appendChild(leftFg);
+    row.appendChild(rightFg);
+    container.appendChild(row);
+
+    const validateBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:4px', textContent: 'Validate', onClick: validate });
+    container.appendChild(validateBtn);
+
+    function validateNode(data, schema, path) {
+      const errors = [];
+      if (!schema || typeof schema !== 'object') return errors;
+      if (schema.type) {
+        const types = Array.isArray(schema.type) ? schema.type : [schema.type];
+        const jsType = data === null ? 'null' : Array.isArray(data) ? 'array' : typeof data;
+        const typeMap = { integer: v => Number.isInteger(v) };
+        const matches = types.some(t => t === 'integer' ? Number.isInteger(data) : (t === 'number' ? typeof data === 'number' : jsType === t));
+        if (!matches) errors.push(`${path || 'root'}: expected type "${types.join('|')}", got "${jsType}"`);
+      }
+      if (schema.required && typeof data === 'object' && data !== null && !Array.isArray(data)) {
+        schema.required.forEach(k => { if (!(k in data)) errors.push(`${path || 'root'}: missing required property "${k}"`); });
+      }
+      if (schema.properties && typeof data === 'object' && data !== null && !Array.isArray(data)) {
+        Object.entries(schema.properties).forEach(([k, s]) => { if (k in data) errors.push(...validateNode(data[k], s, (path ? path + '.' : '') + k)); });
+      }
+      if (schema.items && Array.isArray(data)) {
+        data.forEach((item, i) => errors.push(...validateNode(item, schema.items, (path || 'root') + '[' + i + ']')));
+      }
+      if (typeof schema.minimum === 'number' && typeof data === 'number' && data < schema.minimum) errors.push(`${path || 'root'}: value ${data} is less than minimum ${schema.minimum}`);
+      if (typeof schema.maximum === 'number' && typeof data === 'number' && data > schema.maximum) errors.push(`${path || 'root'}: value ${data} exceeds maximum ${schema.maximum}`);
+      if (typeof schema.minLength === 'number' && typeof data === 'string' && data.length < schema.minLength) errors.push(`${path || 'root'}: string length ${data.length} is less than minLength ${schema.minLength}`);
+      if (typeof schema.maxLength === 'number' && typeof data === 'string' && data.length > schema.maxLength) errors.push(`${path || 'root'}: string length ${data.length} exceeds maxLength ${schema.maxLength}`);
+      if (schema.pattern && typeof data === 'string' && !new RegExp(schema.pattern).test(data)) errors.push(`${path || 'root'}: string does not match pattern "${schema.pattern}"`);
+      if (schema.enum && !schema.enum.some(e => JSON.stringify(e) === JSON.stringify(data))) errors.push(`${path || 'root'}: value not in enum ${JSON.stringify(schema.enum)}`);
+      if (typeof schema.minItems === 'number' && Array.isArray(data) && data.length < schema.minItems) errors.push(`${path || 'root'}: array length ${data.length} is less than minItems ${schema.minItems}`);
+      if (typeof schema.maxItems === 'number' && Array.isArray(data) && data.length > schema.maxItems) errors.push(`${path || 'root'}: array length ${data.length} exceeds maxItems ${schema.maxItems}`);
+      return errors;
+    }
+
+    function validate() {
+      let data, schema;
+      try { data = JSON.parse(dataArea.value); } catch(e) { resultBox(container, 'JSON Data parse error: ' + e.message); return; }
+      try { schema = JSON.parse(schemaArea.value); } catch(e) { resultBox(container, 'JSON Schema parse error: ' + e.message); return; }
+      const errors = validateNode(data, schema, '');
+      if (errors.length === 0) resultBox(container, 'PASS — JSON is valid against the schema.');
+      else resultBox(container, 'FAIL — ' + errors.length + ' error(s):\n\n' + errors.map((e,i) => (i+1) + '. ' + e).join('\n'));
+    }
+  };
+
+  // ── CSS Selector Tester ──
+  toolBuilders.cssselector = (container) => {
+    const fg1 = el('div', { className: 'form-group' });
+    fg1.appendChild(el('label', { textContent: 'HTML Input' }));
+    const htmlArea = el('textarea', { className: 'glass-input', rows: '7', placeholder: '<div class="container">\n  <p class="text">Hello</p>\n  <p class="text active">World</p>\n  <span id="note">Note</span>\n</div>', style: 'width:100%;resize:vertical;font-family:monospace' });
+    fg1.appendChild(htmlArea);
+    container.appendChild(fg1);
+
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'CSS Selector' }));
+    const selInput = el('input', { className: 'glass-input', placeholder: '.text.active', style: 'width:100%' });
+    fg2.appendChild(selInput);
+    container.appendChild(fg2);
+
+    const testBtn = el('button', { className: 'glass-btn', style: 'width:100%', textContent: 'Test Selector', onClick: test });
+    container.appendChild(testBtn);
+
+    const preview = el('div', { style: 'margin-top:12px' });
+    container.appendChild(preview);
+
+    function test() {
+      const html = htmlArea.value.trim();
+      const sel = selInput.value.trim();
+      if (!html || !sel) { resultBox(container, 'Enter HTML and a CSS selector above'); return; }
+      try {
+        const doc = new DOMParser().parseFromString('<body>' + html + '</body>', 'text/html');
+        const matches = Array.from(doc.querySelectorAll(sel));
+        preview.innerHTML = '';
+        const count = el('div', { textContent: matches.length + ' element(s) matched', style: 'font-weight:600;margin-bottom:8px;color:' + (matches.length ? '#34d399' : '#f87171') });
+        preview.appendChild(count);
+        matches.forEach((el_, i) => {
+          const item = el('div', { style: 'padding:8px;margin-bottom:6px;background:rgba(0,0,0,0.15);border-radius:6px;font-family:monospace;font-size:12px;border-left:3px solid #34d399' });
+          item.textContent = (i+1) + '. ' + el_.outerHTML.slice(0, 200);
+          preview.appendChild(item);
+        });
+        resultBox(container, matches.length + ' match(es) for selector "' + sel + '":\n\n' + matches.map((m,i) => (i+1)+'. '+m.outerHTML).join('\n'));
+      } catch(e) {
+        resultBox(container, 'Error: ' + e.message);
+      }
+    }
+  };
+
+  // ── Robots.txt Generator ──
+  toolBuilders.robotstxt = (container) => {
+    const agentFg = el('div', { className: 'form-group' });
+    agentFg.appendChild(el('label', { textContent: 'User-agent' }));
+    const agentInput = el('input', { className: 'glass-input', value: '*', style: 'width:100%' });
+    agentFg.appendChild(agentInput);
+    container.appendChild(agentFg);
+
+    const presets = [
+      { id: 'rb-allowall', label: 'Allow all crawlers', code: () => '' },
+      { id: 'rb-disallowall', label: 'Disallow all crawlers', code: () => 'Disallow: /' },
+      { id: 'rb-noindex', label: 'Disallow /admin/', code: () => 'Disallow: /admin/' },
+      { id: 'rb-noimages', label: 'Disallow /images/', code: () => 'Disallow: /images/' },
+      { id: 'rb-noprivate', label: 'Disallow /private/', code: () => 'Disallow: /private/' },
+      { id: 'rb-nocgi', label: 'Disallow /cgi-bin/', code: () => 'Disallow: /cgi-bin/' },
+      { id: 'rb-noapi', label: 'Disallow /api/', code: () => 'Disallow: /api/' },
+      { id: 'rb-allowcss', label: 'Allow /assets/', code: () => 'Allow: /assets/' },
+    ];
+    const toggles = {};
+    presets.forEach(p => {
+      const { row, input } = iosToggle(p.id, p.label, false, generate);
+      toggles[p.id] = input;
+      container.appendChild(row);
+    });
+
+    const sitemapFg = el('div', { className: 'form-group', style: 'margin-top:12px' });
+    sitemapFg.appendChild(el('label', { textContent: 'Sitemap URL (optional)' }));
+    const sitemapInput = el('input', { className: 'glass-input', placeholder: 'https://example.com/sitemap.xml', style: 'width:100%' });
+    sitemapInput.addEventListener('input', generate);
+    sitemapFg.appendChild(sitemapInput);
+    container.appendChild(sitemapFg);
+
+    const customFg = el('div', { className: 'form-group' });
+    customFg.appendChild(el('label', { textContent: 'Custom directives (one per line)' }));
+    const customArea = el('textarea', { className: 'glass-input', rows: '3', placeholder: 'Disallow: /secret/', style: 'width:100%;font-family:monospace' });
+    customArea.addEventListener('input', generate);
+    customFg.appendChild(customArea);
+    container.appendChild(customFg);
+
+    agentInput.addEventListener('input', generate);
+
+    function generate() {
+      const agent = agentInput.value.trim() || '*';
+      let lines = ['User-agent: ' + agent];
+      if (toggles['rb-allowall'].checked && !toggles['rb-disallowall'].checked) lines.push('Allow: /');
+      if (toggles['rb-disallowall'].checked) { lines.push('Disallow: /'); }
+      else {
+        ['rb-noindex','rb-noimages','rb-noprivate','rb-nocgi','rb-noapi'].forEach(id => { if (toggles[id].checked) lines.push(presets.find(p=>p.id===id).code()); });
+      }
+      if (toggles['rb-allowcss'].checked) lines.push('Allow: /assets/');
+      const custom = customArea.value.trim();
+      if (custom) custom.split('\n').forEach(l => { if(l.trim()) lines.push(l.trim()); });
+      if (!lines.some(l => l.startsWith('Disallow') || l.startsWith('Allow'))) lines.push('Allow: /');
+      if (sitemapInput.value.trim()) lines.push('', 'Sitemap: ' + sitemapInput.value.trim());
+      resultBox(container, lines.join('\n'));
+    }
+    generate();
+  };
+
+  // ── Sitemap Generator ──
+  toolBuilders.sitemapgen = (container) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URLs (one per line)' }));
+    const urlArea = el('textarea', { className: 'glass-input', rows: '7', placeholder: 'https://example.com/\nhttps://example.com/about\nhttps://example.com/contact', style: 'width:100%;resize:vertical' });
+    fg.appendChild(urlArea);
+    container.appendChild(fg);
+
+    const optRow = el('div', { className: 'tool-row', style: 'gap:12px;flex-wrap:wrap' });
+
+    const freqFg = el('div', { className: 'form-group', style: 'flex:1;min-width:140px' });
+    freqFg.appendChild(el('label', { textContent: 'Changefreq' }));
+    const freqPicker = glassPicker('sm-freq', ['always','hourly','daily','weekly','monthly','yearly','never'], 'weekly');
+    freqFg.appendChild(freqPicker.wrapper);
+
+    const priFg = el('div', { className: 'form-group', style: 'flex:1;min-width:140px' });
+    priFg.appendChild(el('label', { textContent: 'Priority' }));
+    const priPicker = glassPicker('sm-pri', ['1.0','0.9','0.8','0.7','0.6','0.5','0.4','0.3','0.2','0.1'], '0.8');
+    priFg.appendChild(priPicker.wrapper);
+
+    optRow.appendChild(freqFg);
+    optRow.appendChild(priFg);
+    container.appendChild(optRow);
+
+    const { row: dateRow, input: dateToggle } = iosToggle('sm-date', 'Include lastmod (today)', true);
+    container.appendChild(dateRow);
+
+    const genBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Generate Sitemap', onClick: generate });
+    container.appendChild(genBtn);
+
+    function generate() {
+      const urls = urlArea.value.split('\n').map(u => u.trim()).filter(u => u.length > 0);
+      if (!urls.length) { resultBox(container, 'Enter at least one URL above'); return; }
+      const today = new Date().toISOString().slice(0,10);
+      const freq = freqPicker.value;
+      const pri = priPicker.value;
+      const incDate = dateToggle.checked;
+      const entries = urls.map(url => {
+        const esc = url.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        return `  <url>\n    <loc>${esc}</loc>${incDate ? '\n    <lastmod>'+today+'</lastmod>' : ''}\n    <changefreq>${freq}</changefreq>\n    <priority>${pri}</priority>\n  </url>`;
+      });
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>`;
+      resultBox(container, xml);
+    }
+  };
+
+  // ── Schema.org Generator ──
+  toolBuilders.schemaorg = (container) => {
+    const types = ['Article', 'Product', 'LocalBusiness', 'Event', 'Person', 'FAQ', 'Recipe', 'Organization'];
+    const typeFg = el('div', { className: 'form-group' });
+    typeFg.appendChild(el('label', { textContent: 'Schema Type' }));
+    const typePicker = glassPicker('schema-type', types, 'Article');
+    typeFg.appendChild(typePicker.wrapper);
+    container.appendChild(typeFg);
+
+    const fieldsDiv = el('div');
+    container.appendChild(fieldsDiv);
+
+    const genBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Generate JSON-LD', onClick: generate });
+    container.appendChild(genBtn);
+
+    const typeFields = {
+      Article: [['name','Title','My Article'],['headline','Headline','Article headline'],['author','Author Name','John Doe'],['datePublished','Date Published','2024-01-01'],['description','Description','Article description'],['url','URL','https://example.com/article']],
+      Product: [['name','Product Name','My Product'],['description','Description','Product description'],['sku','SKU','SKU-001'],['brand','Brand','Brand Name'],['price','Price','29.99'],['currency','Currency','USD'],['availability','Availability','InStock']],
+      LocalBusiness: [['name','Business Name','My Business'],['description','Description','Business description'],['telephone','Phone','+1-555-000-0000'],['address','Street Address','123 Main St'],['city','City','New York'],['postalCode','Postal Code','10001'],['country','Country','US'],['url','Website','https://example.com']],
+      Event: [['name','Event Name','My Event'],['description','Description','Event description'],['startDate','Start Date','2024-06-01T10:00'],['endDate','End Date','2024-06-01T18:00'],['location','Location Name','Event Venue'],['address','Location Address','123 Main St'],['organizer','Organizer','Event Org'],['url','URL','https://example.com/event']],
+      Person: [['name','Full Name','Jane Doe'],['jobTitle','Job Title','Software Engineer'],['email','Email','jane@example.com'],['telephone','Phone','+1-555-000-0000'],['url','Website','https://janedoe.com'],['sameAs','Social Profile URL','https://twitter.com/jane']],
+      FAQ: [['q1','Question 1','What is this?'],['a1','Answer 1','This is an example.'],['q2','Question 2','How does it work?'],['a2','Answer 2','It works like this.'],['q3','Question 3','Where can I learn more?'],['a3','Answer 3','Visit our website.']],
+      Recipe: [['name','Recipe Name','Chocolate Cake'],['description','Description','A delicious cake'],['author','Author','Chef Name'],['prepTime','Prep Time (ISO 8601)','PT30M'],['cookTime','Cook Time (ISO 8601)','PT1H'],['recipeYield','Yield','8 servings'],['ingredients','Ingredients (comma-separated)','2 cups flour, 1 cup sugar']],
+      Organization: [['name','Org Name','My Organization'],['description','Description','Org description'],['url','Website','https://example.com'],['logo','Logo URL','https://example.com/logo.png'],['telephone','Phone','+1-555-000-0000'],['email','Email','info@example.com'],['address','Address','123 Main St, New York, NY']],
+    };
+
+    const inputs = {};
+
+    function renderFields(type) {
+      fieldsDiv.innerHTML = '';
+      inputs[type] = inputs[type] || {};
+      (typeFields[type] || []).forEach(([key, label, placeholder]) => {
+        const fg = el('div', { className: 'form-group' });
+        fg.appendChild(el('label', { textContent: label }));
+        const inp = el('input', { className: 'glass-input', placeholder });
+        if (inputs[type][key]) inp.value = inputs[type][key].value || '';
+        fg.appendChild(inp);
+        fieldsDiv.appendChild(fg);
+        inputs[type][key] = inp;
+      });
+    }
+
+    function generate() {
+      const type = typePicker.value;
+      const vals = {};
+      (typeFields[type] || []).forEach(([key]) => { vals[key] = (inputs[type] && inputs[type][key]) ? inputs[type][key].value.trim() : ''; });
+      let schema = { '@context': 'https://schema.org', '@type': type };
+      if (type === 'Article') {
+        schema = { ...schema, name: vals.name, headline: vals.headline, author: { '@type': 'Person', name: vals.author }, datePublished: vals.datePublished, description: vals.description, url: vals.url };
+      } else if (type === 'Product') {
+        schema = { ...schema, name: vals.name, description: vals.description, sku: vals.sku, brand: { '@type': 'Brand', name: vals.brand }, offers: { '@type': 'Offer', price: vals.price, priceCurrency: vals.currency, availability: 'https://schema.org/' + vals.availability } };
+      } else if (type === 'LocalBusiness') {
+        schema = { ...schema, name: vals.name, description: vals.description, telephone: vals.telephone, address: { '@type': 'PostalAddress', streetAddress: vals.address, addressLocality: vals.city, postalCode: vals.postalCode, addressCountry: vals.country }, url: vals.url };
+      } else if (type === 'Event') {
+        schema = { ...schema, name: vals.name, description: vals.description, startDate: vals.startDate, endDate: vals.endDate, location: { '@type': 'Place', name: vals.location, address: vals.address }, organizer: { '@type': 'Organization', name: vals.organizer }, url: vals.url };
+      } else if (type === 'Person') {
+        schema = { ...schema, name: vals.name, jobTitle: vals.jobTitle, email: vals.email, telephone: vals.telephone, url: vals.url, sameAs: vals.sameAs ? [vals.sameAs] : [] };
+      } else if (type === 'FAQ') {
+        const pairs = [[vals.q1, vals.a1],[vals.q2, vals.a2],[vals.q3, vals.a3]].filter(([q]) => q);
+        schema = { ...schema, mainEntity: pairs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+      } else if (type === 'Recipe') {
+        schema = { ...schema, name: vals.name, description: vals.description, author: { '@type': 'Person', name: vals.author }, prepTime: vals.prepTime, cookTime: vals.cookTime, recipeYield: vals.recipeYield, recipeIngredient: vals.ingredients ? vals.ingredients.split(',').map(s => s.trim()) : [] };
+      } else if (type === 'Organization') {
+        schema = { ...schema, name: vals.name, description: vals.description, url: vals.url, logo: vals.logo, telephone: vals.telephone, email: vals.email, address: vals.address };
+      }
+      // Strip empty values
+      const clean = obj => {
+        if (Array.isArray(obj)) return obj.map(clean).filter(v => v !== '' && v !== null && v !== undefined);
+        if (obj && typeof obj === 'object') {
+          const r = {};
+          Object.entries(obj).forEach(([k, v]) => { const cv = clean(v); if (cv !== '' && cv !== null && cv !== undefined && !(Array.isArray(cv) && !cv.length)) r[k] = cv; });
+          return r;
+        }
+        return obj;
+      };
+      const output = `<script type="application/ld+json">\n${JSON.stringify(clean(schema), null, 2)}\n<\/script>`;
+      resultBox(container, output);
+    }
+
+    typePicker.wrapper.addEventListener('click', () => setTimeout(() => renderFields(typePicker.value), 10));
+    renderFields('Article');
+  };
+
+  // ── Git Command Builder ──
+  toolBuilders.gitcmd = (container) => {
+    const cats = ['branch', 'commit', 'remote', 'stash', 'log', 'reset', 'merge', 'rebase'];
+    const catFg = el('div', { className: 'form-group' });
+    catFg.appendChild(el('label', { textContent: 'Command Category' }));
+    const catPicker = glassPicker('git-cat', cats, 'commit');
+    catFg.appendChild(catPicker.wrapper);
+    container.appendChild(catFg);
+
+    const optionsDiv = el('div');
+    container.appendChild(optionsDiv);
+
+    const buildBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Build Command', onClick: build });
+    container.appendChild(buildBtn);
+
+    const catDefs = {
+      branch: {
+        inputs: [['branch-name','Branch Name','feature/my-feature'],['branch-from','From Branch','main']],
+        toggles: [['branch-del','Delete branch (-d)'],['branch-force','Force (-f)'],['branch-all','List all (-a)'],['branch-remote','List remotes (-r)']],
+        build(inp, tog) {
+          if (tog['branch-all']) return 'git branch -a';
+          if (tog['branch-remote']) return 'git branch -r';
+          if (tog['branch-del']) return `git branch ${tog['branch-force'] ? '-D' : '-d'} ${inp['branch-name'] || 'branch-name'}`;
+          const from = inp['branch-from'] ? ` ${inp['branch-from']}` : '';
+          return `git checkout -b ${inp['branch-name'] || 'new-branch'}${from}`;
+        }
+      },
+      commit: {
+        inputs: [['commit-msg','Commit Message','feat: add new feature']],
+        toggles: [['commit-all','Stage all changes (-a)'],['commit-amend','Amend last commit (--amend)'],['commit-empty','Allow empty (--allow-empty)'],['commit-noverify','Skip hooks (--no-verify)']],
+        build(inp, tog) {
+          let cmd = 'git commit';
+          if (tog['commit-all']) cmd += ' -a';
+          if (tog['commit-amend']) cmd += ' --amend';
+          if (tog['commit-empty']) cmd += ' --allow-empty';
+          if (tog['commit-noverify']) cmd += ' --no-verify';
+          if (!tog['commit-amend'] || inp['commit-msg']) cmd += ` -m "${inp['commit-msg'] || 'commit message'}"`;
+          return cmd;
+        }
+      },
+      remote: {
+        inputs: [['remote-name','Remote Name','origin'],['remote-url','Remote URL','https://github.com/user/repo.git'],['remote-branch','Branch','main']],
+        toggles: [['remote-add','Add remote'],['remote-remove','Remove remote'],['remote-push','Push'],['remote-pull','Pull'],['remote-fetch','Fetch all']],
+        build(inp, tog) {
+          const name = inp['remote-name'] || 'origin';
+          if (tog['remote-add']) return `git remote add ${name} ${inp['remote-url'] || 'https://github.com/user/repo.git'}`;
+          if (tog['remote-remove']) return `git remote remove ${name}`;
+          if (tog['remote-push']) return `git push ${name} ${inp['remote-branch'] || 'main'}`;
+          if (tog['remote-pull']) return `git pull ${name} ${inp['remote-branch'] || 'main'}`;
+          if (tog['remote-fetch']) return 'git fetch --all';
+          return `git remote -v`;
+        }
+      },
+      stash: {
+        inputs: [['stash-msg','Stash Message','WIP: work in progress'],['stash-index','Stash Index','0']],
+        toggles: [['stash-push','Push (save)'],['stash-pop','Pop'],['stash-apply','Apply'],['stash-list','List'],['stash-drop','Drop'],['stash-include-untracked','Include untracked (-u)']],
+        build(inp, tog) {
+          if (tog['stash-list']) return 'git stash list';
+          if (tog['stash-pop']) return `git stash pop stash@{${inp['stash-index'] || '0'}}`;
+          if (tog['stash-apply']) return `git stash apply stash@{${inp['stash-index'] || '0'}}`;
+          if (tog['stash-drop']) return `git stash drop stash@{${inp['stash-index'] || '0'}}`;
+          let cmd = 'git stash push';
+          if (tog['stash-include-untracked']) cmd += ' -u';
+          if (inp['stash-msg']) cmd += ` -m "${inp['stash-msg']}"`;
+          return cmd;
+        }
+      },
+      log: {
+        inputs: [['log-n','Max Commits','10'],['log-author','Filter by Author',''],['log-grep','Grep Message',''],['log-since','Since (date)',''],['log-until','Until (date)','']],
+        toggles: [['log-oneline','One line (--oneline)'],['log-graph','Graph (--graph)'],['log-all','All branches (--all)'],['log-stat','Show stats (--stat)'],['log-patch','Show patch (-p)']],
+        build(inp, tog) {
+          let cmd = 'git log';
+          if (inp['log-n']) cmd += ` -n ${inp['log-n']}`;
+          if (tog['log-oneline']) cmd += ' --oneline';
+          if (tog['log-graph']) cmd += ' --graph';
+          if (tog['log-all']) cmd += ' --all';
+          if (tog['log-stat']) cmd += ' --stat';
+          if (tog['log-patch']) cmd += ' -p';
+          if (inp['log-author']) cmd += ` --author="${inp['log-author']}"`;
+          if (inp['log-grep']) cmd += ` --grep="${inp['log-grep']}"`;
+          if (inp['log-since']) cmd += ` --since="${inp['log-since']}"`;
+          if (inp['log-until']) cmd += ` --until="${inp['log-until']}"`;
+          return cmd;
+        }
+      },
+      reset: {
+        inputs: [['reset-commit','Commit / HEAD~n','HEAD~1']],
+        toggles: [['reset-soft','Soft (keep staged)'],['reset-mixed','Mixed (unstage)'],['reset-hard','Hard (discard all)'],['reset-file','Reset specific file']],
+        build(inp, tog) {
+          const commit = inp['reset-commit'] || 'HEAD~1';
+          if (tog['reset-soft']) return `git reset --soft ${commit}`;
+          if (tog['reset-hard']) return `git reset --hard ${commit}`;
+          return `git reset --mixed ${commit}`;
+        }
+      },
+      merge: {
+        inputs: [['merge-branch','Branch to Merge','feature/my-feature']],
+        toggles: [['merge-noff','No fast-forward (--no-ff)'],['merge-squash','Squash commits (--squash)'],['merge-abort','Abort merge'],['merge-continue','Continue merge']],
+        build(inp, tog) {
+          if (tog['merge-abort']) return 'git merge --abort';
+          if (tog['merge-continue']) return 'git merge --continue';
+          let cmd = `git merge ${inp['merge-branch'] || 'branch-name'}`;
+          if (tog['merge-noff']) cmd += ' --no-ff';
+          if (tog['merge-squash']) cmd += ' --squash';
+          return cmd;
+        }
+      },
+      rebase: {
+        inputs: [['rebase-onto','Rebase onto Branch','main'],['rebase-interactive-n','Interactive last N commits','3']],
+        toggles: [['rebase-interactive','Interactive (-i)'],['rebase-abort','Abort'],['rebase-continue','Continue'],['rebase-skip','Skip current patch']],
+        build(inp, tog) {
+          if (tog['rebase-abort']) return 'git rebase --abort';
+          if (tog['rebase-continue']) return 'git rebase --continue';
+          if (tog['rebase-skip']) return 'git rebase --skip';
+          if (tog['rebase-interactive']) return `git rebase -i HEAD~${inp['rebase-interactive-n'] || '3'}`;
+          return `git rebase ${inp['rebase-onto'] || 'main'}`;
+        }
+      },
+    };
+
+    const toggleStates = {};
+    const inputRefs = {};
+
+    function renderOptions(cat) {
+      optionsDiv.innerHTML = '';
+      toggleStates[cat] = toggleStates[cat] || {};
+      inputRefs[cat] = inputRefs[cat] || {};
+      const def = catDefs[cat];
+      if (!def) return;
+      (def.inputs || []).forEach(([key, label, placeholder]) => {
+        const fg = el('div', { className: 'form-group' });
+        fg.appendChild(el('label', { textContent: label }));
+        const inp = el('input', { className: 'glass-input', placeholder });
+        if (inputRefs[cat][key]) inp.value = inputRefs[cat][key];
+        fg.appendChild(inp);
+        optionsDiv.appendChild(fg);
+        inp.addEventListener('input', () => { inputRefs[cat][key] = inp.value; });
+        inputRefs[cat][key] = inp.value || '';
+        inputRefs[cat]['__el_' + key] = inp;
+      });
+      (def.toggles || []).forEach(([key, label]) => {
+        const { row, input } = iosToggle('git-' + key, label, toggleStates[cat][key] || false, () => { toggleStates[cat][key] = input.checked; });
+        optionsDiv.appendChild(row);
+        toggleStates[cat][key] = toggleStates[cat][key] || false;
+      });
+    }
+
+    function build() {
+      const cat = catPicker.value;
+      const def = catDefs[cat];
+      if (!def) return;
+      const tog = toggleStates[cat] || {};
+      const togActual = {};
+      (def.toggles || []).forEach(([key]) => {
+        const chk = document.getElementById('git-' + key);
+        togActual[key] = chk ? chk.checked : (tog[key] || false);
+      });
+      const inp = {};
+      (def.inputs || []).forEach(([key]) => {
+        const elRef = inputRefs[cat] && inputRefs[cat]['__el_' + key];
+        inp[key] = elRef ? elRef.value.trim() : (inputRefs[cat] && inputRefs[cat][key]) || '';
+      });
+      resultBox(container, def.build(inp, togActual));
+    }
+
+    catPicker.wrapper.addEventListener('click', () => setTimeout(() => renderOptions(catPicker.value), 10));
+    renderOptions('commit');
+  };
+
+  // ── package.json Generator ──
+  toolBuilders.pkgjson = (container) => {
+    const fields = [
+      ['pkg-name','name','my-project','text'],
+      ['pkg-version','version','1.0.0','text'],
+      ['pkg-desc','description','My project description','text'],
+      ['pkg-author','author','Your Name <you@example.com>','text'],
+      ['pkg-main','main','index.js','text'],
+      ['pkg-repo','repository','https://github.com/user/repo','text'],
+      ['pkg-keywords','keywords (comma-separated)','node, javascript','text'],
+    ];
+    const inputs = {};
+    fields.forEach(([id, label, placeholder]) => {
+      const fg = el('div', { className: 'form-group' });
+      fg.appendChild(el('label', { textContent: label }));
+      const inp = el('input', { className: 'glass-input', placeholder, id });
+      fg.appendChild(inp);
+      container.appendChild(fg);
+      inputs[id] = inp;
+    });
+
+    const licFg = el('div', { className: 'form-group' });
+    licFg.appendChild(el('label', { textContent: 'license' }));
+    const licPicker = glassPicker('pkg-lic', ['MIT','ISC','Apache-2.0','GPL-3.0','BSD-2-Clause','BSD-3-Clause','UNLICENSED'], 'MIT');
+    licFg.appendChild(licPicker.wrapper);
+    container.appendChild(licFg);
+
+    const { row: privRow, input: privToggle } = iosToggle('pkg-private', 'private', false);
+    const { row: modRow, input: modToggle } = iosToggle('pkg-module', 'type: "module" (ESM)', false);
+    const { row: scriptsRow, input: scriptsToggle } = iosToggle('pkg-scripts', 'Include default scripts', true);
+    container.appendChild(privRow);
+    container.appendChild(modRow);
+    container.appendChild(scriptsRow);
+
+    const genBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Generate package.json', onClick: generate });
+    container.appendChild(genBtn);
+
+    function generate() {
+      const pkg = {};
+      const name = inputs['pkg-name'].value.trim() || 'my-project';
+      const version = inputs['pkg-version'].value.trim() || '1.0.0';
+      const desc = inputs['pkg-desc'].value.trim();
+      const author = inputs['pkg-author'].value.trim();
+      const main = inputs['pkg-main'].value.trim() || 'index.js';
+      const repo = inputs['pkg-repo'].value.trim();
+      const keywords = inputs['pkg-keywords'].value.trim();
+
+      pkg.name = name;
+      pkg.version = version;
+      if (desc) pkg.description = desc;
+      if (privToggle.checked) pkg.private = true;
+      if (modToggle.checked) pkg.type = 'module';
+      pkg.main = main;
+      if (scriptsToggle.checked) pkg.scripts = { start: 'node ' + main, test: 'echo "Error: no test specified" && exit 1', build: 'node build.js' };
+      if (keywords) pkg.keywords = keywords.split(',').map(k => k.trim()).filter(Boolean);
+      if (author) pkg.author = author;
+      pkg.license = licPicker.value;
+      if (repo) pkg.repository = { type: 'git', url: repo };
+      pkg.engines = { node: '>=16.0.0' };
+
+      resultBox(container, JSON.stringify(pkg, null, 2));
+    }
+    generate();
+  };
+
+  // ── Favicon Generator ──
+  toolBuilders.favicogen = (container) => {
+    const textFg = el('div', { className: 'form-group' });
+    textFg.appendChild(el('label', { textContent: 'Text / Emoji (1-2 chars)' }));
+    const textInput = el('input', { className: 'glass-input', placeholder: 'Fx', maxlength: '2', value: 'Fx' });
+    textFg.appendChild(textInput);
+    container.appendChild(textFg);
+
+    const bgFg = el('div', { className: 'form-group' });
+    bgFg.appendChild(el('label', { textContent: 'Background Color' }));
+    const bgPicker = glassPicker('fav-bg', ['#007AFF','#34C759','#FF3B30','#FF9500','#AF52DE','#1C1C1E','#FFFFFF','#F2F2F7','#000000','#5856D6'], '#007AFF');
+    bgFg.appendChild(bgPicker.wrapper);
+    container.appendChild(bgFg);
+
+    const fgFg = el('div', { className: 'form-group' });
+    fgFg.appendChild(el('label', { textContent: 'Text Color' }));
+    const fgPicker = glassPicker('fav-fg', ['#FFFFFF','#000000','#1C1C1E','#007AFF','#FF3B30','#34C759','#FF9500','#AF52DE'], '#FFFFFF');
+    fgFg.appendChild(fgPicker.wrapper);
+    container.appendChild(fgFg);
+
+    const { group: sizeGroup, input: sizeSlider, label: sizeLabel } = lgSlider('fav-size', 8, 28, 18, 'fav-size-label', render);
+    sizeLabel.textContent = 'Font Size: 18px';
+    container.appendChild(sizeGroup);
+
+    const previewWrap = el('div', { style: 'display:flex;align-items:center;gap:16px;margin:12px 0' });
+    const canvas = el('canvas', { width: '64', height: '64', style: 'border-radius:12px;width:64px;height:64px' });
+    previewWrap.appendChild(canvas);
+    const canvas32 = el('canvas', { width: '32', height: '32', style: 'border-radius:8px;width:32px;height:32px' });
+    previewWrap.appendChild(canvas32);
+    const canvas16 = el('canvas', { width: '16', height: '16', style: 'border-radius:4px;width:16px;height:16px' });
+    previewWrap.appendChild(canvas16);
+    container.appendChild(previewWrap);
+
+    const dlRow = el('div', { className: 'tool-row' });
+    const dl32 = el('button', { className: 'glass-btn', textContent: 'Download 32x32 PNG', onClick: () => download(32) });
+    const dl64 = el('button', { className: 'glass-btn glass-btn-secondary', textContent: 'Download 64x64 PNG', onClick: () => download(64) });
+    dlRow.appendChild(dl32);
+    dlRow.appendChild(dl64);
+    container.appendChild(dlRow);
+
+    function render() {
+      sizeLabel.textContent = `Font Size: ${sizeSlider.value}px`;
+      const text = textInput.value || 'Fx';
+      const bg = bgPicker.value;
+      const fg2 = fgPicker.value;
+      const fontSize = parseInt(sizeSlider.value, 10);
+      [canvas, canvas32, canvas16].forEach(cv => {
+        const s = parseInt(cv.width);
+        const ctx = cv.getContext('2d');
+        ctx.clearRect(0, 0, s, s);
+        ctx.fillStyle = bg;
+        const r = s * 0.18;
+        ctx.beginPath();
+        ctx.moveTo(r, 0); ctx.lineTo(s - r, 0); ctx.quadraticCurveTo(s, 0, s, r);
+        ctx.lineTo(s, s - r); ctx.quadraticCurveTo(s, s, s - r, s);
+        ctx.lineTo(r, s); ctx.quadraticCurveTo(0, s, 0, s - r);
+        ctx.lineTo(0, r); ctx.quadraticCurveTo(0, 0, r, 0);
+        ctx.closePath();
+        ctx.fill();
+        ctx.fillStyle = fg2;
+        const scaledFont = Math.round(fontSize * s / 64);
+        ctx.font = `bold ${scaledFont}px system-ui, sans-serif`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(text.slice(0, 2), s / 2, s / 2 + scaledFont * 0.05);
+      });
+    }
+
+    function download(size) {
+      const cv = size === 32 ? canvas32 : canvas;
+      if (size === 64) { render(); }
+      const a = el('a', { download: `favicon-${size}x${size}.png`, href: cv.toDataURL('image/png') });
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    }
+
+    textInput.addEventListener('input', render);
+    bgPicker.wrapper.addEventListener('click', () => setTimeout(render, 10));
+    fgPicker.wrapper.addEventListener('click', () => setTimeout(render, 10));
+    render();
+  };
+
+  // ── SRI Hash Generator ──
+  toolBuilders.srihash = (container) => {
+    const urlFg = el('div', { className: 'form-group' });
+    urlFg.appendChild(el('label', { textContent: 'URL or Paste Content' }));
+    const urlInput = el('input', { className: 'glass-input', placeholder: 'https://cdn.example.com/script.js or paste content below' });
+    urlFg.appendChild(urlInput);
+    container.appendChild(urlFg);
+
+    const contentFg = el('div', { className: 'form-group' });
+    contentFg.appendChild(el('label', { textContent: 'Paste Content (optional, used if URL is empty)' }));
+    const contentArea = el('textarea', { className: 'glass-textarea', placeholder: 'Paste file content here...', rows: '4' });
+    contentFg.appendChild(contentArea);
+    container.appendChild(contentFg);
+
+    const algoFg = el('div', { className: 'form-group' });
+    algoFg.appendChild(el('label', { textContent: 'Hash Algorithm' }));
+    const algoPicker = glassPicker('sri-algo', ['sha256','sha384','sha512'], 'sha384');
+    algoFg.appendChild(algoPicker.wrapper);
+    container.appendChild(algoFg);
+
+    const tagFg = el('div', { className: 'form-group' });
+    tagFg.appendChild(el('label', { textContent: 'Tag Type' }));
+    const tagPicker = glassPicker('sri-tag', ['<script>','<link rel="stylesheet">','Hash only'], '<script>');
+    tagFg.appendChild(tagPicker.wrapper);
+    container.appendChild(tagFg);
+
+    const genBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:8px', textContent: 'Generate SRI Hash', onClick: generate });
+    container.appendChild(genBtn);
+
+    async function hashContent(content) {
+      const algo = algoPicker.value.toUpperCase().replace('SHA', 'SHA-');
+      const encoded = new TextEncoder().encode(content);
+      const buf = await crypto.subtle.digest(algo, encoded);
+      const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
+      return `${algoPicker.value}-${b64}`;
+    }
+
+    async function generate() {
+      const url = urlInput.value.trim();
+      const content = contentArea.value;
+      let textContent = content;
+      let srcUrl = url;
+
+      if (url && !content) {
+        try {
+          const resp = await fetch(url);
+          if (!resp.ok) throw new Error('HTTP ' + resp.status);
+          textContent = await resp.text();
+        } catch (e) {
+          resultBox(container, 'Error fetching URL: ' + e.message + '\n\nNote: URL must support CORS. Paste content directly as an alternative.');
+          return;
+        }
+      }
+      if (!textContent) { resultBox(container, 'Enter a URL or paste content'); return; }
+
+      try {
+        const integrity = await hashContent(textContent);
+        const tag = tagPicker.value;
+        let output = `integrity="${integrity}"\ncrossorigin="anonymous"`;
+        if (tag === '<script>') {
+          output = `<script\n  src="${srcUrl || 'https://cdn.example.com/script.js'}"\n  integrity="${integrity}"\n  crossorigin="anonymous"\n><\/script>`;
+        } else if (tag === '<link rel="stylesheet">') {
+          output = `<link\n  rel="stylesheet"\n  href="${srcUrl || 'https://cdn.example.com/style.css'}"\n  integrity="${integrity}"\n  crossorigin="anonymous"\n>`;
+        }
+        resultBox(container, output);
+      } catch (e) {
+        resultBox(container, 'Error: ' + e.message);
+      }
+    }
+  };
+
+  // ── CSP Header Builder ──
+  toolBuilders.cspbuilder = (container) => {
+    const directives = [
+      { key: 'default-src',  label: 'default-src',  defaultVal: "'self'",   checked: true },
+      { key: 'script-src',   label: 'script-src',   defaultVal: "'self'",   checked: true },
+      { key: 'style-src',    label: 'style-src',    defaultVal: "'self'",   checked: true },
+      { key: 'img-src',      label: 'img-src',      defaultVal: "'self' data:", checked: true },
+      { key: 'font-src',     label: 'font-src',     defaultVal: "'self'",   checked: false },
+      { key: 'connect-src',  label: 'connect-src',  defaultVal: "'self'",   checked: false },
+      { key: 'frame-src',    label: 'frame-src',    defaultVal: "'none'",   checked: false },
+      { key: 'object-src',   label: 'object-src',   defaultVal: "'none'",   checked: false },
+      { key: 'media-src',    label: 'media-src',    defaultVal: "'self'",   checked: false },
+      { key: 'worker-src',   label: 'worker-src',   defaultVal: "'self'",   checked: false },
+      { key: 'form-action',  label: 'form-action',  defaultVal: "'self'",   checked: false },
+      { key: 'frame-ancestors', label: 'frame-ancestors', defaultVal: "'none'", checked: false },
+      { key: 'base-uri',     label: 'base-uri',     defaultVal: "'self'",   checked: false },
+      { key: 'upgrade-insecure-requests', label: 'upgrade-insecure-requests', defaultVal: '', checked: false },
+    ];
+
+    const toggleMap = {};
+    const inputMap = {};
+
+    directives.forEach(d => {
+      const row = el('div', { className: 'tool-row', style: 'align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap' });
+      const { row: togRow, input: togInput } = iosToggle('csp-' + d.key, d.label, d.checked, buildCSP);
+      toggleMap[d.key] = togInput;
+      row.appendChild(togRow);
+      if (d.defaultVal !== '') {
+        const inp = el('input', { className: 'glass-input', placeholder: d.defaultVal, value: d.defaultVal, style: 'flex:1;min-width:180px;margin-top:4px' });
+        inp.addEventListener('input', buildCSP);
+        inputMap[d.key] = inp;
+        row.appendChild(inp);
+      }
+      container.appendChild(row);
+    });
+
+    const modeFg = el('div', { className: 'form-group', style: 'margin-top:8px' });
+    modeFg.appendChild(el('label', { textContent: 'Report Mode' }));
+    const modePicker = glassPicker('csp-mode', ['Content-Security-Policy','Content-Security-Policy-Report-Only'], 'Content-Security-Policy');
+    modeFg.appendChild(modePicker.wrapper);
+    container.appendChild(modeFg);
+
+    modePicker.wrapper.addEventListener('click', () => setTimeout(buildCSP, 10));
+
+    function buildCSP() {
+      const parts = [];
+      directives.forEach(d => {
+        if (!toggleMap[d.key] || !toggleMap[d.key].checked) return;
+        if (d.defaultVal === '') { parts.push(d.key); return; }
+        const val = inputMap[d.key] ? inputMap[d.key].value.trim() : d.defaultVal;
+        parts.push(`${d.key} ${val}`);
+      });
+      if (!parts.length) { resultBox(container, '# Enable at least one directive above'); return; }
+      const header = `${modePicker.value}: ${parts.join('; ')}`;
+      resultBox(container, header);
+    }
+    buildCSP();
+  };
+
+  // ── HTTP Header Parser ──
+  toolBuilders.httpheaders = (container) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Paste Raw HTTP Headers' }));
+    const textarea = el('textarea', { className: 'glass-textarea', rows: '8', placeholder: 'HTTP/1.1 200 OK\nContent-Type: text/html; charset=UTF-8\nStrict-Transport-Security: max-age=31536000\nX-Frame-Options: SAMEORIGIN\n...' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const parseBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-top:4px', textContent: 'Parse Headers', onClick: parse });
+    container.appendChild(parseBtn);
+
+    const outputDiv = el('div', { style: 'margin-top:12px' });
+    container.appendChild(outputDiv);
+
+    const securityHeaders = {
+      'strict-transport-security': { name: 'HSTS', pass: v => v.includes('max-age'), tip: 'Should include max-age' },
+      'content-security-policy': { name: 'CSP', pass: v => v.length > 0, tip: 'CSP header present' },
+      'x-frame-options': { name: 'X-Frame-Options', pass: v => /DENY|SAMEORIGIN/i.test(v), tip: 'Should be DENY or SAMEORIGIN' },
+      'x-content-type-options': { name: 'X-Content-Type-Options', pass: v => /nosniff/i.test(v), tip: 'Should be nosniff' },
+      'referrer-policy': { name: 'Referrer-Policy', pass: v => v.length > 0, tip: 'Should be set' },
+      'permissions-policy': { name: 'Permissions-Policy', pass: v => v.length > 0, tip: 'Should be set' },
+      'x-xss-protection': { name: 'X-XSS-Protection', pass: v => /1/.test(v), tip: 'Deprecated; use CSP instead' },
+      'cache-control': { name: 'Cache-Control', pass: v => v.length > 0, tip: 'Should define caching policy' },
+      'content-security-policy-report-only': { name: 'CSP-RO', pass: v => v.length > 0, tip: 'Report-Only CSP present' },
+    };
+
+    const requiredSecurity = ['strict-transport-security','content-security-policy','x-frame-options','x-content-type-options','referrer-policy','permissions-policy'];
+
+    function parse() {
+      const raw = textarea.value.trim();
+      if (!raw) return;
+      outputDiv.innerHTML = '';
+
+      const lines = raw.split('\n');
+      const parsed = [];
+
+      lines.forEach(line => {
+        const colonIdx = line.indexOf(':');
+        if (colonIdx > 0) {
+          const name = line.slice(0, colonIdx).trim();
+          const value = line.slice(colonIdx + 1).trim();
+          parsed.push({ name, value, lname: name.toLowerCase() });
+        } else if (line.trim()) {
+          parsed.push({ name: line.trim(), value: '', lname: line.trim().toLowerCase(), isStatus: true });
+        }
+      });
+
+      if (!parsed.length) { outputDiv.textContent = 'No headers found'; return; }
+
+      // Status line
+      const statusLine = parsed.find(h => h.isStatus);
+      if (statusLine) {
+        const statusEl = el('div', { style: 'margin-bottom:12px;font-weight:600;font-size:1.05em' });
+        statusEl.textContent = statusLine.name;
+        outputDiv.appendChild(statusEl);
+      }
+
+      // Header table
+      const table = el('div', { style: 'display:grid;gap:2px;margin-bottom:16px' });
+      parsed.filter(h => !h.isStatus).forEach(h => {
+        const sec = securityHeaders[h.lname];
+        const row = el('div', { style: 'display:grid;grid-template-columns:200px 1fr auto;gap:8px;align-items:start;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.05)' });
+        const nameEl = el('span', { style: 'font-weight:600;word-break:break-all;font-size:0.85em' });
+        nameEl.textContent = h.name;
+        const valEl = el('span', { style: 'font-size:0.82em;opacity:0.85;word-break:break-all' });
+        valEl.textContent = h.value;
+        const badge = el('span', { style: 'font-size:0.75em;font-weight:700;padding:2px 8px;border-radius:6px;white-space:nowrap' });
+        if (sec) {
+          const passing = sec.pass(h.value);
+          badge.textContent = passing ? 'PASS' : 'WARN';
+          badge.style.background = passing ? 'rgba(52,199,89,0.25)' : 'rgba(255,149,0,0.25)';
+          badge.style.color = passing ? '#34C759' : '#FF9500';
+          badge.title = sec.tip;
+        }
+        row.appendChild(nameEl);
+        row.appendChild(valEl);
+        row.appendChild(badge);
+        table.appendChild(row);
+      });
+      outputDiv.appendChild(table);
+
+      // Security audit
+      const auditLabel = el('div', { style: 'font-weight:600;margin-bottom:8px;margin-top:4px' });
+      auditLabel.textContent = 'Security Audit';
+      outputDiv.appendChild(auditLabel);
+
+      const auditGrid = el('div', { style: 'display:grid;gap:4px' });
+      const presentKeys = new Set(parsed.map(h => h.lname));
+
+      requiredSecurity.forEach(key => {
+        const sec = securityHeaders[key];
+        const present = presentKeys.has(key);
+        const header = parsed.find(h => h.lname === key);
+        const passing = present && header && sec.pass(header.value);
+
+        const row = el('div', { style: 'display:flex;align-items:center;gap:10px;padding:6px 10px;border-radius:8px;background:rgba(255,255,255,0.04)' });
+        const icon = el('span', { style: `font-size:1em;font-weight:700;color:${passing ? '#34C759' : '#FF3B30'}` });
+        icon.textContent = passing ? '✓' : '✗';
+        const txt = el('span', { style: 'font-size:0.85em;flex:1' });
+        txt.textContent = sec.name;
+        const tip = el('span', { style: 'font-size:0.75em;opacity:0.6' });
+        tip.textContent = present ? sec.tip : 'Missing';
+        row.appendChild(icon);
+        row.appendChild(txt);
+        row.appendChild(tip);
+        auditGrid.appendChild(row);
+      });
+
+      const score = requiredSecurity.filter(key => {
+        const present = presentKeys.has(key);
+        const header = parsed.find(h => h.lname === key);
+        return present && header && securityHeaders[key].pass(header.value);
+      }).length;
+
+      outputDiv.appendChild(auditGrid);
+
+      const scoreLine = el('div', { style: 'margin-top:10px;font-weight:600;font-size:0.9em;text-align:center;padding:8px;border-radius:10px;background:rgba(255,255,255,0.06)' });
+      scoreLine.textContent = `Security Score: ${score}/${requiredSecurity.length} headers passing`;
+      outputDiv.appendChild(scoreLine);
+    }
+  };
+
+  // ── Fake Data Generator ──
+  toolBuilders.fakedata = (container) => {
+    const typeFg = el('div', { className: 'form-group' });
+    typeFg.appendChild(el('label', { textContent: 'Data Type' }));
+    const typePicker = glassPicker('fd-type', ['Name', 'Email', 'Phone', 'Address', 'Company', 'Date', 'UUID', 'IP Address', 'Credit Card', 'URL'], 'Name', null);
+    typeFg.appendChild(typePicker.wrapper);
+    container.appendChild(typeFg);
+
+    const { group: cntGroup, input: cntSlider, label: cntLabel } = lgSlider('fd-count', 1, 50, 10, 'fd-count-label', () => { cntLabel.textContent = `Count: ${cntSlider.value}`; });
+    cntLabel.textContent = 'Count: 10';
+    container.appendChild(cntGroup);
+
+    const genBtn = el('button', { className: 'glass-btn', style: 'width:100%', textContent: 'Generate', onClick: generate });
+    container.appendChild(genBtn);
+
+    const firstNames = ['James','Mary','John','Patricia','Robert','Jennifer','Michael','Linda','William','Barbara','David','Susan','Richard','Jessica','Joseph','Sarah','Thomas','Karen','Charles','Lisa','Christopher','Nancy','Daniel','Betty','Matthew','Margaret','Anthony','Sandra','Mark','Ashley','Donald','Kimberly','Steven','Emily','Paul','Donna','Andrew','Michelle','Kenneth','Dorothy'];
+    const lastNames = ['Smith','Johnson','Williams','Brown','Jones','Garcia','Miller','Davis','Rodriguez','Martinez','Hernandez','Lopez','Gonzalez','Wilson','Anderson','Thomas','Taylor','Moore','Jackson','Martin','Lee','Perez','Thompson','White','Harris','Sanchez','Clark','Ramirez','Lewis','Robinson'];
+    const domains = ['gmail.com','yahoo.com','outlook.com','icloud.com','proton.me','fastmail.com','hotmail.com','live.com'];
+    const streets = ['Main St','Oak Ave','Maple Dr','Cedar Ln','Pine Rd','Elm St','Washington Blvd','Lake View Dr','Hillside Ave','Park Way'];
+    const cities = ['New York','Los Angeles','Chicago','Houston','Phoenix','Philadelphia','San Antonio','San Diego','Dallas','San Jose'];
+    const states = ['NY','CA','IL','TX','AZ','PA','TX','CA','TX','CA'];
+    const companies = ['Acme Corp','Globex Inc','Initech','Umbrella Ltd','Stark Industries','Wayne Enterprises','Hooli','Pied Piper','Dunder Mifflin','Massive Dynamic'];
+    const tlds = ['com','net','org','io','co','dev','app'];
+
+    function rand(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+    function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function uuidv4() { return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => { const r = Math.random() * 16 | 0; return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16); }); }
+
+    function generateOne(type) {
+      const fn = rand(firstNames), ln = rand(lastNames);
+      switch (type) {
+        case 'Name': return `${fn} ${ln}`;
+        case 'Email': return `${fn.toLowerCase()}.${ln.toLowerCase()}${randInt(1,99)}@${rand(domains)}`;
+        case 'Phone': return `+1 (${randInt(200,999)}) ${randInt(200,999)}-${randInt(1000,9999)}`;
+        case 'Address': return `${randInt(100,9999)} ${rand(streets)}, ${rand(cities)}, ${rand(states)} ${randInt(10000,99999)}`;
+        case 'Company': return rand(companies);
+        case 'Date': { const d = new Date(Date.now() - Math.random() * 315e10); return d.toISOString().slice(0,10); }
+        case 'UUID': return uuidv4();
+        case 'IP Address': return `${randInt(1,254)}.${randInt(0,255)}.${randInt(0,255)}.${randInt(1,254)}`;
+        case 'Credit Card': { const p = rand(['4','5','37','6011']); const rest = Array.from({length: 15 - p.length + 1}, () => randInt(0,9)).join(''); return `${p}${rest}`.replace(/(.{4})/g,'$1 ').trim(); }
+        case 'URL': return `https://${fn.toLowerCase()}${ln.toLowerCase()}.${rand(tlds)}/${rand(['about','products','services','blog','contact'])}`;
+        default: return '';
+      }
+    }
+
+    function generate() {
+      const type = typePicker.value;
+      const count = parseInt(cntSlider.value, 10);
+      const results = Array.from({ length: count }, () => generateOne(type)).join('\n');
+      resultBox(container, results);
+    }
+    generate();
+  };
+
+  // ── Barcode Generator ──
+  toolBuilders.barcodegen = (container) => {
+    const valFg = el('div', { className: 'form-group' });
+    valFg.appendChild(el('label', { textContent: 'Value' }));
+    const valInput = el('input', { className: 'glass-input', placeholder: 'Enter barcode value...', value: '012345678905' });
+    valFg.appendChild(valInput);
+    container.appendChild(valFg);
+
+    const typeFg = el('div', { className: 'form-group' });
+    typeFg.appendChild(el('label', { textContent: 'Barcode Type' }));
+    const typePicker = glassPicker('bc-type', ['Code 128', 'EAN-13', 'EAN-8', 'UPC-A'], 'EAN-13', () => renderBarcode());
+    typeFg.appendChild(typePicker.wrapper);
+    container.appendChild(typeFg);
+
+    const canvasWrap = el('div', { style: 'display:flex;flex-direction:column;align-items:center;gap:12px;padding:20px 0' });
+    const canvas = document.createElement('canvas');
+    canvas.style.cssText = 'border-radius:8px;background:#fff;padding:16px;max-width:100%';
+    canvasWrap.appendChild(canvas);
+    container.appendChild(canvasWrap);
+
+    const btnRow = el('div', { className: 'tool-row' });
+    btnRow.appendChild(el('button', { className: 'glass-btn', textContent: 'Generate', onClick: renderBarcode }));
+    btnRow.appendChild(el('button', { className: 'glass-btn-secondary', textContent: 'Download PNG', onClick: () => {
+      const a = document.createElement('a'); a.download = 'barcode.png'; a.href = canvas.toDataURL(); a.click();
+    }}));
+    container.appendChild(btnRow);
+
+    function encodeCode128(text) {
+      // Code 128B encoding
+      const startB = 104, stop = 106;
+      let bars = [startB]; let checksum = startB;
+      for (let i = 0; i < text.length; i++) { const v = text.charCodeAt(i) - 32; bars.push(v); checksum += v * (i + 1); }
+      bars.push(checksum % 103); bars.push(stop);
+      // Code128 bar widths (subset B, indices 0-106 + stop)
+      const patterns = ['212222','222122','222221','121223','121322','131222','122213','122312','132212','221213','221312','231212','112232','122132','122231','113222','123122','123221','223211','221132','221231','213212','223112','312131','311222','321122','321221','312212','322112','322211','212123','212321','232121','111323','131123','131321','112313','132113','111221','111221','111122','211312','211321','231112','112132','112321','132112','111212','122112','311132','311221','221113','211213','211312','211321','221123','221222','211411','221311','231211','112133','112231','113123','113221','223121','311213','312113','312311','332111','314111','221411','431111','111224','111422','121124','121421','141122','141221','112214','112412','122114','122411','142112','142211','241211','221114','213111','241112','134111','111242','121142','121241','114212','124112','124211','411212','421112','421211','212141','214121','412121','111143','111341','131141','114113','114311','411113','411311','113141','114131','311141','411131','211412','211214','211232','23311120'];
+      return { bars, patterns };
+    }
+
+    function renderBarcode() {
+      const value = valInput.value.trim();
+      const type = typePicker.value;
+      if (!value) return;
+      const ctx = canvas.getContext('2d');
+      const barW = 2, height = 100, margin = 20;
+
+      if (type === 'Code 128') {
+        const { bars, patterns } = encodeCode128(value);
+        let totalBars = 0;
+        bars.forEach(b => { const p = patterns[b] || ''; for (const ch of p) totalBars += parseInt(ch, 10) || 1; });
+        canvas.width = totalBars * barW + margin * 2;
+        canvas.height = height + 30;
+        ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+        let x = margin;
+        bars.forEach(b => {
+          const p = patterns[b] || '';
+          let isBar = true;
+          for (const ch of p) {
+            const w = (parseInt(ch, 10) || 1) * barW;
+            if (isBar) { ctx.fillStyle = '#000'; ctx.fillRect(x, 5, w, height); }
+            x += w; isBar = !isBar;
+          }
+        });
+        ctx.fillStyle = '#000'; ctx.font = '12px monospace'; ctx.textAlign = 'center';
+        ctx.fillText(value, canvas.width / 2, height + 22);
+      } else {
+        // EAN/UPC — draw simplified version
+        const digits = value.replace(/\D/g, '');
+        const expected = { 'EAN-13': 13, 'EAN-8': 8, 'UPC-A': 12 };
+        const len = expected[type];
+        const padded = digits.padEnd(len, '0').slice(0, len);
+
+        // EAN-13 encoding tables
+        const L = ['0001101','0011001','0010011','0111101','0100011','0110001','0101111','0111011','0110111','0001011'];
+        const G = ['0100111','0110011','0011011','0100001','0011101','0111001','0000101','0010001','0001001','0010111'];
+        const R = ['1110010','1100110','1101100','1000010','1011100','1001110','1010000','1000100','1001000','1110100'];
+        const parities = { 'EAN-13': ['LLLLLL','LLGLGG','LLGGLG','LLGGGL','LGLLGG','LGGLLG','LGGGLL','LGLGLG','LGLGGL','LGGLGL'], 'EAN-8': null, 'UPC-A': null };
+
+        let code = '';
+        if (type === 'EAN-13') {
+          const first = parseInt(padded[0], 10);
+          const parity = parities['EAN-13'][first];
+          code = '101'; // start
+          for (let i = 1; i <= 6; i++) { const d = parseInt(padded[i], 10); code += parity[i-1] === 'L' ? L[d] : G[d]; }
+          code += '01010'; // middle
+          for (let i = 7; i <= 12; i++) { code += R[parseInt(padded[i], 10)]; }
+          code += '101'; // end
+        } else if (type === 'EAN-8') {
+          code = '101';
+          for (let i = 0; i < 4; i++) code += L[parseInt(padded[i], 10)];
+          code += '01010';
+          for (let i = 4; i < 8; i++) code += R[parseInt(padded[i], 10)];
+          code += '101';
+        } else { // UPC-A
+          code = '101';
+          for (let i = 0; i < 6; i++) code += L[parseInt(padded[i], 10)];
+          code += '01010';
+          for (let i = 6; i < 12; i++) code += R[parseInt(padded[i], 10)];
+          code += '101';
+        }
+
+        canvas.width = code.length * barW + margin * 2;
+        canvas.height = height + 30;
+        ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < code.length; i++) {
+          if (code[i] === '1') { ctx.fillStyle = '#000'; ctx.fillRect(margin + i * barW, 5, barW, height); }
+        }
+        ctx.fillStyle = '#000'; ctx.font = '12px monospace'; ctx.textAlign = 'center';
+        ctx.fillText(padded, canvas.width / 2, height + 22);
+      }
+    }
+    valInput.addEventListener('input', renderBarcode);
+    renderBarcode();
+  };
+
+  // ── SVG Pattern Generator ──
+  toolBuilders.svgpattern = (container) => {
+    const typeFg = el('div', { className: 'form-group' });
+    typeFg.appendChild(el('label', { textContent: 'Pattern Type' }));
+    const typePicker = glassPicker('svgp-type', ['dots', 'lines', 'crosses', 'chevrons', 'waves', 'grid'], 'dots', () => update());
+    typeFg.appendChild(typePicker.wrapper);
+    container.appendChild(typeFg);
+
+    const { group: sizeGroup, input: sizeSlider, label: sizeLabel } = lgSlider('svgp-size', 2, 40, 10, 'svgp-size-label', () => { sizeLabel.textContent = `Size: ${sizeSlider.value}px`; update(); });
+    sizeLabel.textContent = 'Size: 10px';
+    container.appendChild(sizeGroup);
+
+    const { group: spGroup, input: spSlider, label: spLabel } = lgSlider('svgp-spacing', 4, 80, 20, 'svgp-sp-label', () => { spLabel.textContent = `Spacing: ${spSlider.value}px`; update(); });
+    spLabel.textContent = 'Spacing: 20px';
+    container.appendChild(spGroup);
+
+    const colorRow = el('div', { className: 'tool-row' });
+    const fgColorFg = el('div', { className: 'form-group', style: 'flex:1' });
+    fgColorFg.appendChild(el('label', { textContent: 'Pattern Color' }));
+    const fgColor = el('input', { type: 'color', className: 'ios-color-picker', value: '#6366f1' });
+    fgColor.addEventListener('input', update);
+    fgColorFg.appendChild(fgColor);
+    const bgColorFg = el('div', { className: 'form-group', style: 'flex:1' });
+    bgColorFg.appendChild(el('label', { textContent: 'Background' }));
+    const bgColor = el('input', { type: 'color', className: 'ios-color-picker', value: '#ffffff' });
+    bgColor.addEventListener('input', update);
+    bgColorFg.appendChild(bgColor);
+    colorRow.appendChild(fgColorFg);
+    colorRow.appendChild(bgColorFg);
+    container.appendChild(colorRow);
+
+    const preview = el('div', { style: 'width:100%;height:160px;border-radius:12px;margin:16px 0;border:1px solid rgba(255,255,255,0.15);overflow:hidden' });
+    container.appendChild(preview);
+
+    const codeFg = el('div', { className: 'form-group' });
+    codeFg.appendChild(el('label', { textContent: 'SVG Code' }));
+    const codeArea = el('textarea', { className: 'glass-input', rows: '5', style: 'width:100%;font-family:monospace;font-size:0.8em;resize:vertical', readOnly: 'true' });
+    codeFg.appendChild(codeArea);
+    container.appendChild(codeFg);
+
+    const copyBtn = el('button', { className: 'glass-btn-secondary', textContent: 'Copy SVG', onClick: () => {
+      navigator.clipboard.writeText(codeArea.value);
+      copyBtn.textContent = 'Copied!'; setTimeout(() => copyBtn.textContent = 'Copy SVG', 1500);
+    }});
+    container.appendChild(copyBtn);
+
+    function buildPattern(type, size, spacing, fg, bg) {
+      const s = spacing, h = size;
+      let patternContent = '';
+      if (type === 'dots') {
+        patternContent = `<circle cx="${s/2}" cy="${s/2}" r="${h/2}" fill="${fg}"/>`;
+      } else if (type === 'lines') {
+        patternContent = `<line x1="0" y1="${s/2}" x2="${s}" y2="${s/2}" stroke="${fg}" stroke-width="${h}"/>`;
+      } else if (type === 'crosses') {
+        patternContent = `<line x1="${s/2}" y1="${s/2-h}" x2="${s/2}" y2="${s/2+h}" stroke="${fg}" stroke-width="2"/><line x1="${s/2-h}" y1="${s/2}" x2="${s/2+h}" y2="${s/2}" stroke="${fg}" stroke-width="2"/>`;
+      } else if (type === 'chevrons') {
+        patternContent = `<polyline points="0,${s/2} ${s/2},0 ${s},${s/2}" fill="none" stroke="${fg}" stroke-width="${Math.max(1,h/4)}"/>`;
+      } else if (type === 'waves') {
+        patternContent = `<path d="M0 ${s/2} Q ${s/4} ${s/2-h} ${s/2} ${s/2} T ${s} ${s/2}" fill="none" stroke="${fg}" stroke-width="${Math.max(1,h/4)}"/>`;
+      } else { // grid
+        patternContent = `<path d="M${s} 0 L0 0 0 ${s}" fill="none" stroke="${fg}" stroke-width="${Math.max(1,h/5)}"/>`;
+      }
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><rect width="200" height="200" fill="${bg}"/><defs><pattern id="p" x="0" y="0" width="${s}" height="${s}" patternUnits="userSpaceOnUse">${patternContent}</pattern></defs><rect width="200" height="200" fill="url(#p)"/></svg>`;
+    }
+
+    function update() {
+      const svg = buildPattern(typePicker.value, parseInt(sizeSlider.value), parseInt(spSlider.value), fgColor.value, bgColor.value);
+      const encoded = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+      preview.style.backgroundImage = `url("${encoded}")`;
+      preview.style.backgroundSize = 'cover';
+      codeArea.value = svg;
+    }
+    update();
+  };
+
+  // ── Credit Card Test Numbers ──
+  toolBuilders.testcards = (container) => {
+    const cards = [
+      { brand: 'Visa', number: '4111111111111111', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Visa', number: '4000000000000002', type: 'Declined', cvv: '123', exp: '12/26' },
+      { brand: 'Visa', number: '4000000000009995', type: 'Insufficient Funds', cvv: '123', exp: '12/26' },
+      { brand: 'Mastercard', number: '5555555555554444', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Mastercard', number: '5105105105105100', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Mastercard', number: '5200828282828210', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Amex', number: '378282246310005', type: 'Valid', cvv: '1234', exp: '12/26' },
+      { brand: 'Amex', number: '371449635398431', type: 'Valid', cvv: '1234', exp: '12/26' },
+      { brand: 'Discover', number: '6011111111111117', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Discover', number: '6011000990139424', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'JCB', number: '3530111333300000', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'JCB', number: '3566002020360505', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Diners', number: '30569309025904', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'Diners', number: '38520000023237', type: 'Valid', cvv: '123', exp: '12/26' },
+      { brand: 'UnionPay', number: '6200000000000005', type: 'Valid', cvv: '123', exp: '12/26' },
+    ];
+
+    const brandColors = { Visa: '#1a1f71', Mastercard: '#eb001b', Amex: '#007bc1', Discover: '#ff6600', JCB: '#003087', Diners: '#004a97', UnionPay: '#c0271e' };
+
+    const note = el('div', { style: 'font-size:0.8em;opacity:0.6;margin-bottom:14px' });
+    note.textContent = 'Use any future expiry date. CVV shown is typical for testing. These numbers pass Luhn check.';
+    container.appendChild(note);
+
+    const table = el('div', { style: 'display:grid;gap:6px' });
+
+    const header = el('div', { style: 'display:grid;grid-template-columns:90px 1fr 100px 60px 50px;gap:8px;padding:6px 10px;font-weight:600;font-size:0.78em;opacity:0.7;text-transform:uppercase;letter-spacing:0.04em' });
+    ['Brand','Number','Type','CVV',''].forEach(h => { const c = el('div', { textContent: h }); header.appendChild(c); });
+    table.appendChild(header);
+
+    cards.forEach(card => {
+      const row = el('div', { style: 'display:grid;grid-template-columns:90px 1fr 100px 60px 50px;gap:8px;align-items:center;padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.04);font-size:0.85em' });
+
+      const brandDot = el('div', { style: 'display:flex;align-items:center;gap:6px' });
+      const dot = el('span', { style: `width:8px;height:8px;border-radius:50%;background:${brandColors[card.brand] || '#888'};flex-shrink:0;display:inline-block` });
+      brandDot.appendChild(dot);
+      brandDot.appendChild(document.createTextNode(card.brand));
+
+      const numEl = el('div', { style: 'font-family:monospace;letter-spacing:0.05em' });
+      numEl.textContent = card.number;
+
+      const typeEl = el('div');
+      const badge = el('span', { style: `font-size:0.75em;padding:2px 7px;border-radius:10px;background:${card.type === 'Valid' ? 'rgba(52,199,89,0.2)' : 'rgba(255,59,48,0.2)'};color:${card.type === 'Valid' ? '#34c759' : '#ff3b30'}` });
+      badge.textContent = card.type;
+      typeEl.appendChild(badge);
+
+      const cvvEl = el('div', { style: 'font-family:monospace;opacity:0.7' });
+      cvvEl.textContent = card.cvv;
+
+      const copyBtn = el('button', { className: 'glass-btn-secondary', style: 'font-size:0.75em;padding:3px 8px', textContent: 'Copy', onClick: () => {
+        navigator.clipboard.writeText(card.number);
+        copyBtn.textContent = 'Done!'; setTimeout(() => copyBtn.textContent = 'Copy', 1500);
+      }});
+
+      row.appendChild(brandDot); row.appendChild(numEl); row.appendChild(typeEl); row.appendChild(cvvEl); row.appendChild(copyBtn);
+      table.appendChild(row);
+    });
+
+    container.appendChild(table);
+  };
+
+  // ── CSS Animation Builder ──
+  toolBuilders.cssanim = (container) => {
+    const typeFg = el('div', { className: 'form-group' });
+    typeFg.appendChild(el('label', { textContent: 'Animation Type' }));
+    const typePicker = glassPicker('ca-type', ['fade', 'slide', 'bounce', 'rotate', 'pulse', 'shake'], 'fade', () => update());
+    typeFg.appendChild(typePicker.wrapper);
+    container.appendChild(typeFg);
+
+    const { group: durGroup, input: durSlider, label: durLabel } = lgSlider('ca-dur', 1, 50, 10, 'ca-dur-label', () => { durLabel.textContent = `Duration: ${(durSlider.value / 10).toFixed(1)}s`; update(); });
+    durLabel.textContent = 'Duration: 1.0s';
+    container.appendChild(durGroup);
+
+    const { group: delGroup, input: delSlider, label: delLabel } = lgSlider('ca-del', 0, 30, 0, 'ca-del-label', () => { delLabel.textContent = `Delay: ${(delSlider.value / 10).toFixed(1)}s`; update(); });
+    delLabel.textContent = 'Delay: 0.0s';
+    container.appendChild(delGroup);
+
+    const { group: itGroup, input: itSlider, label: itLabel } = lgSlider('ca-iter', 1, 20, 3, 'ca-iter-label', () => { itLabel.textContent = `Iterations: ${itSlider.value === '20' ? 'infinite' : itSlider.value}`; update(); });
+    itLabel.textContent = 'Iterations: 3';
+    container.appendChild(itGroup);
+
+    const { row: dirRow, input: dirInput } = iosToggle('ca-dir', 'Alternate Direction', false, () => update());
+    container.appendChild(dirRow);
+
+    const previewWrap = el('div', { style: 'display:flex;justify-content:center;padding:32px 16px;margin:16px 0' });
+    const previewBox = el('div', { style: 'width:80px;height:80px;background:linear-gradient(135deg,#6366f1,#8b5cf6);border-radius:16px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.85em;font-weight:600' });
+    previewBox.textContent = 'Preview';
+    previewWrap.appendChild(previewBox);
+    container.appendChild(previewWrap);
+
+    const keyframesMap = {
+      fade:   `@keyframes ca-anim {\n  from { opacity: 0; }\n  to   { opacity: 1; }\n}`,
+      slide:  `@keyframes ca-anim {\n  from { transform: translateX(-40px); opacity: 0; }\n  to   { transform: translateX(0);    opacity: 1; }\n}`,
+      bounce: `@keyframes ca-anim {\n  0%, 100% { transform: translateY(0);    }\n  50%       { transform: translateY(-20px); }\n}`,
+      rotate: `@keyframes ca-anim {\n  from { transform: rotate(0deg);   }\n  to   { transform: rotate(360deg); }\n}`,
+      pulse:  `@keyframes ca-anim {\n  0%, 100% { transform: scale(1);    }\n  50%       { transform: scale(1.15); }\n}`,
+      shake:  `@keyframes ca-anim {\n  0%, 100% { transform: translateX(0);    }\n  20%, 60% { transform: translateX(-8px); }\n  40%, 80% { transform: translateX(8px);  }\n}`,
+    };
+
+    let styleTag = document.createElement('style');
+    document.head.appendChild(styleTag);
+
+    function update() {
+      const type = typePicker.value;
+      const dur = (durSlider.value / 10).toFixed(1);
+      const del = (delSlider.value / 10).toFixed(1);
+      const iter = parseInt(itSlider.value) >= 20 ? 'infinite' : itSlider.value;
+      const dir = dirInput.checked ? 'alternate' : 'normal';
+      const kf = keyframesMap[type] || keyframesMap.fade;
+      const animCSS = `animation: ca-anim ${dur}s ${del}s ${iter} ${dir} ease-in-out both;`;
+      styleTag.textContent = kf + `\n.ca-preview { ${animCSS} }`;
+      previewBox.style.animation = 'none';
+      void previewBox.offsetWidth; // reflow
+      previewBox.style.cssText = `width:80px;height:80px;background:linear-gradient(135deg,#6366f1,#8b5cf6);border-radius:16px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.85em;font-weight:600;animation:ca-anim ${dur}s ${del}s ${iter} ${dir} ease-in-out both`;
+      const output = `${kf}\n\n.element {\n  ${animCSS}\n}`;
+      resultBox(container, output);
+    }
+    update();
+  };
+
+  // ── CSS Filter Playground ──
+  toolBuilders.cssfilter = (container) => {
+    const preview = el('div', { style: 'width:100%;height:140px;border-radius:16px;margin-bottom:16px;background:linear-gradient(135deg,#667eea 0%,#f093fb 50%,#f5576c 100%);position:relative;overflow:hidden;border:1px solid rgba(255,255,255,0.15)' });
+    const previewInner = el('div', { style: 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center' });
+    const previewLabel = el('div', { style: 'color:#fff;font-weight:700;font-size:1.1em;text-shadow:0 1px 4px rgba(0,0,0,0.4);pointer-events:none' });
+    previewLabel.textContent = 'Live Preview';
+    previewInner.appendChild(previewLabel);
+    preview.appendChild(previewInner);
+    container.appendChild(preview);
+
+    const filterDefs = [
+      { id: 'cf-blur',       label: 'Blur',        min: 0,   max: 20,  val: 0,   unit: 'px',  css: v => `blur(${v}px)` },
+      { id: 'cf-brightness', label: 'Brightness',  min: 0,   max: 200, val: 100, unit: '%',   css: v => `brightness(${v}%)` },
+      { id: 'cf-contrast',   label: 'Contrast',    min: 0,   max: 200, val: 100, unit: '%',   css: v => `contrast(${v}%)` },
+      { id: 'cf-saturate',   label: 'Saturate',    min: 0,   max: 200, val: 100, unit: '%',   css: v => `saturate(${v}%)` },
+      { id: 'cf-grayscale',  label: 'Grayscale',   min: 0,   max: 100, val: 0,   unit: '%',   css: v => `grayscale(${v}%)` },
+      { id: 'cf-sepia',      label: 'Sepia',       min: 0,   max: 100, val: 0,   unit: '%',   css: v => `sepia(${v}%)` },
+      { id: 'cf-hue',        label: 'Hue Rotate',  min: 0,   max: 360, val: 0,   unit: 'deg', css: v => `hue-rotate(${v}deg)` },
+      { id: 'cf-invert',     label: 'Invert',      min: 0,   max: 100, val: 0,   unit: '%',   css: v => `invert(${v}%)` },
+      { id: 'cf-opacity',    label: 'Opacity',     min: 0,   max: 100, val: 100, unit: '%',   css: v => `opacity(${v}%)` },
+    ];
+
+    const sliders = {};
+    filterDefs.forEach(f => {
+      const { group, input: s, label: lab } = lgSlider(f.id, f.min, f.max, f.val, f.id + '-lab', () => {
+        lab.textContent = `${f.label}: ${s.value}${f.unit}`; update();
+      });
+      lab.textContent = `${f.label}: ${f.val}${f.unit}`;
+      sliders[f.id] = s;
+      container.appendChild(group);
+    });
+
+    const resetBtn = el('button', { className: 'glass-btn-secondary', style: 'margin-top:4px', textContent: 'Reset All', onClick: () => {
+      // Rebuild by closing/reopening — just reload defaults by triggering update with reset values
+      filterDefs.forEach(f => { sliders[f.id]._reset && sliders[f.id]._reset(); });
+      update();
+    }});
+    container.appendChild(resetBtn);
+
+    function update() {
+      const parts = filterDefs.map(f => f.css(sliders[f.id].value));
+      const filterStr = parts.join(' ');
+      preview.style.filter = filterStr;
+      resultBox(container, `filter: ${filterStr};`);
+    }
+    update();
+  };
+
+  // ── CSS Transform Playground ──
+  toolBuilders.csstransform = (container) => {
+    const previewWrap = el('div', { style: 'display:flex;justify-content:center;align-items:center;padding:40px 16px;margin-bottom:8px;min-height:180px' });
+    const previewBox = el('div', { style: 'width:100px;height:100px;background:linear-gradient(135deg,#0ea5e9,#6366f1);border-radius:14px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.8em;font-weight:600;transition:transform 0.2s ease;transform-origin:center center' });
+    previewBox.textContent = 'Transform';
+    previewWrap.appendChild(previewBox);
+    container.appendChild(previewWrap);
+
+    const transformDefs = [
+      { id: 'ct-tx',    label: 'Translate X', min: -150, max: 150, val: 0,   css: v => `translateX(${v}px)` },
+      { id: 'ct-ty',    label: 'Translate Y', min: -150, max: 150, val: 0,   css: v => `translateY(${v}px)` },
+      { id: 'ct-rot',   label: 'Rotate',      min: -180, max: 180, val: 0,   css: v => `rotate(${v}deg)` },
+      { id: 'ct-sx',    label: 'Scale X',     min: 10,   max: 300, val: 100, css: v => `scaleX(${(v/100).toFixed(2)})` },
+      { id: 'ct-sy',    label: 'Scale Y',     min: 10,   max: 300, val: 100, css: v => `scaleY(${(v/100).toFixed(2)})` },
+      { id: 'ct-skx',   label: 'Skew X',      min: -45,  max: 45,  val: 0,   css: v => `skewX(${v}deg)` },
+      { id: 'ct-sky',   label: 'Skew Y',      min: -45,  max: 45,  val: 0,   css: v => `skewY(${v}deg)` },
+    ];
+
+    const labelFormats = {
+      'ct-tx':  v => `Translate X: ${v}px`,
+      'ct-ty':  v => `Translate Y: ${v}px`,
+      'ct-rot': v => `Rotate: ${v}deg`,
+      'ct-sx':  v => `Scale X: ${(v/100).toFixed(2)}`,
+      'ct-sy':  v => `Scale Y: ${(v/100).toFixed(2)}`,
+      'ct-skx': v => `Skew X: ${v}deg`,
+      'ct-sky': v => `Skew Y: ${v}deg`,
+    };
+
+    const sliders = {};
+    transformDefs.forEach(f => {
+      const { group, input: s, label: lab } = lgSlider(f.id, f.min, f.max, f.val, f.id + '-lab', () => {
+        lab.textContent = labelFormats[f.id](s.value); update();
+      });
+      lab.textContent = labelFormats[f.id](f.val);
+      sliders[f.id] = s;
+      container.appendChild(group);
+    });
+
+    const resetBtn = el('button', { className: 'glass-btn-secondary', style: 'margin-top:4px', textContent: 'Reset All', onClick: update });
+    container.appendChild(resetBtn);
+
+    function update() {
+      const parts = transformDefs.map(f => f.css(sliders[f.id].value));
+      const transformStr = parts.join(' ');
+      previewBox.style.transform = transformStr;
+      resultBox(container, `transform: ${transformStr};`);
+    }
+    update();
+  };
+
+  // ── Clip-Path Generator ──
+  toolBuilders.clippath = (container) => {
+    const shapes = {
+      'Circle':   () => `circle(50% at 50% 50%)`,
+      'Ellipse':  () => `ellipse(50% 35% at 50% 50%)`,
+      'Triangle': () => `polygon(50% 0%, 0% 100%, 100% 100%)`,
+      'Pentagon': () => `polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)`,
+      'Hexagon':  () => `polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)`,
+      'Star':     () => `polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)`,
+      'Cross':    () => `polygon(33% 0%, 66% 0%, 66% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 66%, 0% 66%, 0% 33%, 33% 33%)`,
+      'Arrow':    () => `polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%)`,
+    };
+
+    const shapeFg = el('div', { className: 'form-group' });
+    shapeFg.appendChild(el('label', { textContent: 'Shape' }));
+    const shapePicker = glassPicker('cp-shape', Object.keys(shapes), 'Circle', updateClip);
+    shapeFg.appendChild(shapePicker.wrapper);
+    container.appendChild(shapeFg);
+
+    const { group: sizeGroup, input: sizeSlider, label: sizeLabel } = lgSlider('cp-size', 10, 100, 50, 'cp-size-label', () => { sizeLabel.textContent = `Size: ${sizeSlider.value}%`; updateClip(); });
+    sizeLabel.textContent = 'Size: 50%';
+    container.appendChild(sizeGroup);
+
+    const { group: posXGroup, input: posXSlider, label: posXLabel } = lgSlider('cp-posx', 0, 100, 50, 'cp-posx-label', () => { posXLabel.textContent = `Position X: ${posXSlider.value}%`; updateClip(); });
+    posXLabel.textContent = 'Position X: 50%';
+    container.appendChild(posXGroup);
+
+    const { group: posYGroup, input: posYSlider, label: posYLabel } = lgSlider('cp-posy', 0, 100, 50, 'cp-posy-label', () => { posYLabel.textContent = `Position Y: ${posYSlider.value}%`; updateClip(); });
+    posYLabel.textContent = 'Position Y: 50%';
+    container.appendChild(posYGroup);
+
+    const colorFg = el('div', { className: 'form-group' });
+    colorFg.appendChild(el('label', { textContent: 'Preview Color' }));
+    const colorInput = el('input', { type: 'color', className: 'ios-color-picker', value: '#6366f1' });
+    colorInput.addEventListener('input', updateClip);
+    colorFg.appendChild(colorInput);
+    container.appendChild(colorFg);
+
+    const previewWrap = el('div', { style: 'display:flex;justify-content:center;padding:30px 16px;margin:12px 0' });
+    const previewBox = el('div', { style: 'width:180px;height:180px;background:#6366f1;transition:clip-path 0.3s ease,background 0.2s' });
+    previewWrap.appendChild(previewBox);
+    container.appendChild(previewWrap);
+
+    function updateClip() {
+      const name = shapePicker.value;
+      const sz = sizeSlider.value;
+      const px = posXSlider.value;
+      const py = posYSlider.value;
+      let clipVal;
+      if (name === 'Circle') {
+        clipVal = `circle(${sz}% at ${px}% ${py}%)`;
+      } else if (name === 'Ellipse') {
+        clipVal = `ellipse(${sz}% ${Math.round(sz * 0.7)}% at ${px}% ${py}%)`;
+      } else {
+        clipVal = shapes[name]();
+      }
+      previewBox.style.clipPath = clipVal;
+      previewBox.style.background = colorInput.value;
+      resultBox(container, `clip-path: ${clipVal};`);
+    }
+    updateClip();
+  };
+
+  // ── Glassmorphism Generator ──
+  toolBuilders.glassmorph = (container) => {
+    const { group: blurGroup, input: blurSlider, label: blurLabel } = lgSlider('gm-blur', 0, 30, 12, 'gm-blur-label', () => { blurLabel.textContent = `Blur: ${blurSlider.value}px`; updateGlass(); });
+    blurLabel.textContent = 'Blur: 12px';
+    container.appendChild(blurGroup);
+
+    const { group: opGroup, input: opSlider, label: opLabel } = lgSlider('gm-op', 0, 100, 18, 'gm-op-label', () => { opLabel.textContent = `Transparency: ${opSlider.value}%`; updateGlass(); });
+    opLabel.textContent = 'Transparency: 18%';
+    container.appendChild(opGroup);
+
+    const { group: brGroup, input: brSlider, label: brLabel } = lgSlider('gm-br', 0, 50, 18, 'gm-br-label', () => { brLabel.textContent = `Border Radius: ${brSlider.value}px`; updateGlass(); });
+    brLabel.textContent = 'Border Radius: 18px';
+    container.appendChild(brGroup);
+
+    const { group: bopGroup, input: bopSlider, label: bopLabel } = lgSlider('gm-bop', 0, 100, 30, 'gm-bop-label', () => { bopLabel.textContent = `Border Opacity: ${bopSlider.value}%`; updateGlass(); });
+    bopLabel.textContent = 'Border Opacity: 30%';
+    container.appendChild(bopGroup);
+
+    const colorFg = el('div', { className: 'form-group' });
+    colorFg.appendChild(el('label', { textContent: 'Tint Color' }));
+    const tintColor = el('input', { type: 'color', className: 'ios-color-picker', value: '#ffffff' });
+    tintColor.addEventListener('input', updateGlass);
+    colorFg.appendChild(tintColor);
+    container.appendChild(colorFg);
+
+    const previewWrap = el('div', { style: 'display:flex;justify-content:center;align-items:center;padding:30px 16px;margin:12px 0;background:linear-gradient(135deg,#667eea,#f093fb,#f5576c);border-radius:16px' });
+    const previewBox = el('div', { style: 'width:200px;height:120px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:0.9em;text-shadow:0 1px 4px rgba(0,0,0,0.3)' });
+    previewBox.textContent = 'Glassmorphism';
+    previewWrap.appendChild(previewBox);
+    container.appendChild(previewWrap);
+
+    function hexToRgbGm(hex) {
+      const n = parseInt(hex.replace('#', ''), 16);
+      return { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
+    }
+
+    function updateGlass() {
+      const blur = blurSlider.value;
+      const op = opSlider.value / 100;
+      const br = brSlider.value;
+      const bop = bopSlider.value / 100;
+      const { r, g, b } = hexToRgbGm(tintColor.value);
+      const bgRgba = `rgba(${r}, ${g}, ${b}, ${op.toFixed(2)})`;
+      const borderRgba = `rgba(${r}, ${g}, ${b}, ${bop.toFixed(2)})`;
+      previewBox.style.cssText = `width:200px;height:120px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:0.9em;text-shadow:0 1px 4px rgba(0,0,0,0.3);background:${bgRgba};backdrop-filter:blur(${blur}px);-webkit-backdrop-filter:blur(${blur}px);border-radius:${br}px;border:1px solid ${borderRgba};box-shadow:0 8px 32px rgba(0,0,0,0.15)`;
+      const css = `.glass {\n  background: ${bgRgba};\n  backdrop-filter: blur(${blur}px);\n  -webkit-backdrop-filter: blur(${blur}px);\n  border-radius: ${br}px;\n  border: 1px solid ${borderRgba};\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);\n}`;
+      resultBox(container, css);
+    }
+    updateGlass();
+  };
+
+  // ── Type Scale ──
+  toolBuilders.typoscale = (container) => {
+    const ratios = {
+      'Minor Second (1.067)':     1.067,
+      'Major Second (1.125)':     1.125,
+      'Minor Third (1.2)':        1.2,
+      'Major Third (1.25)':       1.25,
+      'Perfect Fourth (1.333)':   1.333,
+      'Augmented Fourth (1.414)': 1.414,
+      'Perfect Fifth (1.5)':      1.5,
+      'Golden Ratio (1.618)':     1.618,
+    };
+
+    const rFg = el('div', { className: 'form-group' });
+    rFg.appendChild(el('label', { textContent: 'Scale Ratio' }));
+    const ratioPicker = glassPicker('ts-ratio', Object.keys(ratios), 'Perfect Fourth (1.333)', updateScale);
+    rFg.appendChild(ratioPicker.wrapper);
+    container.appendChild(rFg);
+
+    const bFg = el('div', { className: 'form-group' });
+    bFg.appendChild(el('label', { textContent: 'Base Size (px)' }));
+    const baseInput = el('input', { className: 'glass-input', type: 'number', value: '16', min: '8', max: '24' });
+    baseInput.addEventListener('input', updateScale);
+    bFg.appendChild(baseInput);
+    container.appendChild(bFg);
+
+    const uFg = el('div', { className: 'form-group' });
+    uFg.appendChild(el('label', { textContent: 'Unit' }));
+    const unitPicker = glassPicker('ts-unit', ['px', 'rem', 'em'], 'rem', updateScale);
+    uFg.appendChild(unitPicker.wrapper);
+    container.appendChild(uFg);
+
+    const previewWrap = el('div', { style: 'margin:16px 0' });
+    container.appendChild(previewWrap);
+
+    function updateScale() {
+      const base = parseFloat(baseInput.value) || 16;
+      const ratio = ratios[ratioPicker.value] || 1.333;
+      const unit = unitPicker.value;
+      const levels = [
+        { name: 'h1', steps: 5 }, { name: 'h2', steps: 4 }, { name: 'h3', steps: 3 },
+        { name: 'h4', steps: 2 }, { name: 'h5', steps: 1 }, { name: 'h6', steps: 0 },
+        { name: 'p', steps: -1 }, { name: 'small', steps: -2 },
+      ];
+      previewWrap.innerHTML = '';
+      const cssLines = [':root {'];
+      levels.forEach(lv => {
+        const px = base * Math.pow(ratio, lv.steps);
+        const pxRound = Math.round(px * 100) / 100;
+        const valPx = pxRound.toFixed(2);
+        const valRem = (pxRound / 16).toFixed(3);
+        const displayVal = unit === 'px' ? `${valPx}px` : unit === 'rem' ? `${valRem}rem` : `${(pxRound / base).toFixed(3)}em`;
+        const row = el('div', { style: 'display:flex;align-items:baseline;gap:12px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.06)' });
+        const nameEl = el('span', { style: 'font-size:0.78em;opacity:0.55;min-width:40px;font-weight:600' });
+        nameEl.textContent = lv.name;
+        const sizeEl = el('span', { style: 'font-size:0.75em;opacity:0.5;min-width:70px' });
+        sizeEl.textContent = displayVal;
+        const textEl = el('span', { style: `font-size:${valPx}px;line-height:1.2;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:200px` });
+        textEl.textContent = lv.name === 'small' ? 'Small text' : lv.name === 'p' ? 'Paragraph' : `Heading ${lv.name}`;
+        row.appendChild(nameEl); row.appendChild(sizeEl); row.appendChild(textEl);
+        previewWrap.appendChild(row);
+        const varName = lv.name === 'p' ? '--text-base' : lv.name === 'small' ? '--text-sm' : `--text-${lv.name}`;
+        cssLines.push(`  ${varName}: ${displayVal};`);
+      });
+      cssLines.push('}');
+      resultBox(container, cssLines.join('\n'));
+    }
+    updateScale();
+  };
+
+  // ── CSV Viewer/Editor ──
+  toolBuilders.csvview = (container) => {
+    const delimFg = el('div', { className: 'form-group' });
+    delimFg.appendChild(el('label', { textContent: 'Delimiter' }));
+    const delimPicker = glassPicker('csv-delim', ['Comma (,)', 'Semicolon (;)', 'Tab', 'Pipe (|)'], 'Comma (,)', () => parseCsv());
+    delimFg.appendChild(delimPicker.wrapper);
+    container.appendChild(delimFg);
+
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'CSV Data' }));
+    const textarea = el('textarea', { className: 'glass-textarea', rows: '5', placeholder: 'name,age,city\nAlice,30,New York\nBob,25,London' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const btnRow = el('div', { style: 'display:flex;gap:8px;margin-bottom:12px' });
+    btnRow.appendChild(el('button', { className: 'glass-btn', textContent: 'Parse CSV', onClick: parseCsv }));
+    btnRow.appendChild(el('button', { className: 'glass-btn-secondary', textContent: 'Export CSV', onClick: exportCsv }));
+    container.appendChild(btnRow);
+
+    const tableWrap = el('div', { style: 'overflow-x:auto;margin-top:8px' });
+    container.appendChild(tableWrap);
+
+    function getDelim() {
+      const d = delimPicker.value;
+      if (d === 'Comma (,)') return ',';
+      if (d === 'Semicolon (;)') return ';';
+      if (d === 'Tab') return '\t';
+      return '|';
+    }
+
+    function parseCsv() {
+      const raw = textarea.value.trim();
+      if (!raw) { tableWrap.innerHTML = ''; return; }
+      const delim = getDelim();
+      const rows = raw.split('\n').map(line => {
+        const cells = []; let cur = '', inQ = false;
+        for (let i = 0; i < line.length; i++) {
+          const ch = line[i];
+          if (ch === '"') { inQ = !inQ; }
+          else if (ch === delim && !inQ) { cells.push(cur); cur = ''; }
+          else { cur += ch; }
+        }
+        cells.push(cur);
+        return cells;
+      });
+      if (!rows.length) return;
+      const headers = rows[0];
+      const table = el('table', { style: 'width:100%;border-collapse:collapse;font-size:0.85em' });
+      const thead = el('thead');
+      const hRow = el('tr');
+      headers.forEach(h => {
+        const th = el('th', { style: 'padding:8px 10px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.1);text-align:left;font-weight:600;white-space:nowrap' });
+        th.textContent = h;
+        hRow.appendChild(th);
+      });
+      thead.appendChild(hRow); table.appendChild(thead);
+      const tbody = el('tbody');
+      rows.slice(1).forEach(row => {
+        const tr = el('tr');
+        headers.forEach((_, ci) => {
+          const td = el('td', { style: 'padding:6px 10px;border:1px solid rgba(255,255,255,0.07)' });
+          const inp = el('input', { className: 'glass-input', value: row[ci] || '', style: 'min-width:80px;width:100%;padding:3px 6px;font-size:0.9em' });
+          td.appendChild(inp); tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody); tableWrap.innerHTML = ''; tableWrap.appendChild(table);
+    }
+
+    function exportCsv() {
+      const table = tableWrap.querySelector('table');
+      if (!table) { resultBox(container, 'Parse CSV first'); return; }
+      const delim = getDelim();
+      const rows = [];
+      table.querySelectorAll('tr').forEach(tr => {
+        const cells = [];
+        tr.querySelectorAll('th,td').forEach(cell => {
+          const inp = cell.querySelector('input');
+          const val = inp ? inp.value : cell.textContent;
+          const escaped = val.includes(delim) || val.includes('"') || val.includes('\n') ? `"${val.replace(/"/g, '""')}"` : val;
+          cells.push(escaped);
+        });
+        rows.push(cells.join(delim));
+      });
+      resultBox(container, rows.join('\n'));
+    }
+
+    textarea.value = 'name,age,city\nAlice,30,New York\nBob,25,London\nCarla,28,Paris';
+    parseCsv();
+  };
+
+  // ── SQL to MongoDB ──
+  toolBuilders.sql2mongo = (container) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'SQL Query' }));
+    const textarea = el('textarea', { className: 'glass-textarea', rows: '6', placeholder: 'SELECT * FROM users WHERE age > 18 ORDER BY name LIMIT 10' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const convertBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-bottom:4px', textContent: 'Convert to MongoDB', onClick: convert });
+    container.appendChild(convertBtn);
+
+    function parseWhere(where) {
+      if (!where) return '{}';
+      where = where.trim();
+      const conds = {};
+      where.split(/\bAND\b/i).forEach(part => {
+        part = part.trim();
+        const m = part.match(/^(\w+)\s*(=|!=|<>|>=|<=|>|<|LIKE|IN|IS\s+NOT\s+NULL|IS\s+NULL)\s*(.*)?$/i);
+        if (!m) return;
+        const field = m[1], op = m[2].replace(/\s+/g,' ').toUpperCase(), valRaw = (m[3] || '').trim();
+        const val = valRaw.replace(/^['"]|['"]$/g, '');
+        const numVal = parseFloat(val);
+        const jsVal = isNaN(numVal) ? `"${val}"` : numVal;
+        if (op === '=') { conds[field] = jsVal; }
+        else if (op === '!=' || op === '<>') { conds[field] = `{ $ne: ${jsVal} }`; }
+        else if (op === '>') { conds[field] = `{ $gt: ${jsVal} }`; }
+        else if (op === '>=') { conds[field] = `{ $gte: ${jsVal} }`; }
+        else if (op === '<') { conds[field] = `{ $lt: ${jsVal} }`; }
+        else if (op === '<=') { conds[field] = `{ $lte: ${jsVal} }`; }
+        else if (op === 'LIKE') { conds[field] = `{ $regex: /${val.replace(/%/g, '.*')}/, $options: "i" }`; }
+        else if (op === 'IN') { const arr = valRaw.replace(/[()]/g,'').split(',').map(s=>s.trim().replace(/^['"]|['"]$/g,'')); conds[field] = `{ $in: [${arr.map(a=>`"${a}"`).join(', ')}] }`; }
+        else if (op === 'IS NULL') { conds[field] = 'null'; }
+        else if (op === 'IS NOT NULL') { conds[field] = `{ $ne: null }`; }
+      });
+      if (!Object.keys(conds).length) return `{ /* ${where} */ }`;
+      return '{ ' + Object.entries(conds).map(([k,v]) => `${k}: ${v}`).join(', ') + ' }';
+    }
+
+    function convert() {
+      const sql = textarea.value.trim();
+      if (!sql) { resultBox(container, 'Enter a SQL query'); return; }
+      let result = '';
+
+      const selM = sql.match(/^SELECT\s+(.*?)\s+FROM\s+(\w+)((?:\s+WHERE\s+.*?)?)((?:\s+ORDER\s+BY\s+.*?)?)((?:\s+LIMIT\s+\d+)?)((?:\s+OFFSET\s+\d+)?)$/is);
+      if (selM) {
+        const cols = selM[1].trim(), coll = selM[2];
+        const whereM = selM[3].trim().match(/WHERE\s+(.*)/i);
+        const filter = whereM ? parseWhere(whereM[1].trim()) : '{}';
+        const proj = cols === '*' ? '{}' : '{ ' + cols.split(',').map(c => `${c.trim()}: 1`).join(', ') + ' }';
+        let cmd = `db.${coll}.find(${filter}, ${proj})`;
+        const ordM = selM[4].trim().match(/ORDER\s+BY\s+(.*)/i);
+        if (ordM) { const sp = ordM[1].split(',').map(s => { const [f,d] = s.trim().split(/\s+/); return `${f}: ${(d||'').toUpperCase()==='DESC'?-1:1}`; }); cmd += `.sort({ ${sp.join(', ')} })`; }
+        const limM = selM[5].trim().match(/LIMIT\s+(\d+)/i);
+        if (limM) cmd += `.limit(${limM[1]})`;
+        const offM = selM[6].trim().match(/OFFSET\s+(\d+)/i);
+        if (offM) cmd += `.skip(${offM[1]})`;
+        result = cmd + ';';
+      }
+
+      const insM = sql.match(/^INSERT\s+INTO\s+(\w+)\s*\(([^)]+)\)\s*VALUES\s*\(([^)]+)\)/is);
+      if (insM) {
+        const coll = insM[1], fields = insM[2].split(',').map(s=>s.trim()), vals = insM[3].split(',').map(s=>s.trim().replace(/^['"]|['"]$/g,''));
+        const doc = fields.map((f,i) => { const n=parseFloat(vals[i]); return `${f}: ${isNaN(n)?'"'+vals[i]+'"':n}`; }).join(', ');
+        result = `db.${coll}.insertOne({ ${doc} });`;
+      }
+
+      const updM = sql.match(/^UPDATE\s+(\w+)\s+SET\s+(.*?)\s+WHERE\s+(.*)/is);
+      if (updM) {
+        const coll = updM[1], filter = parseWhere(updM[3].trim());
+        const sets = updM[2].split(',').map(s => { const [f,v] = s.split('=').map(x=>x.trim()); const clean=v.replace(/^['"]|['"]$/g,''); const n=parseFloat(clean); return `${f}: ${isNaN(n)?'"'+clean+'"':n}`; });
+        result = `db.${coll}.updateMany(${filter}, { $set: { ${sets.join(', ')} } });`;
+      }
+
+      const delM = sql.match(/^DELETE\s+FROM\s+(\w+)(\s+WHERE\s+(.*?))?$/is);
+      if (delM) {
+        result = `db.${delM[1]}.deleteMany(${parseWhere(delM[3])});`;
+      }
+
+      if (!result) result = '// Unsupported SQL statement\n// Supported: SELECT, INSERT INTO, UPDATE, DELETE FROM';
+      resultBox(container, result);
+    }
+
+    textarea.value = "SELECT id, name, email FROM users WHERE age > 21 AND status = 'active' ORDER BY name LIMIT 10";
+    convert();
+  };
+
+  // ── Scientific Calculator ──
+  toolBuilders.scicalc = (container) => {
+    const display = el('input', { className: 'glass-input', style: 'width:100%;text-align:right;font-size:1.4em;letter-spacing:0.02em;margin-bottom:12px', value: '0' });
+    display.setAttribute('readonly', 'readonly');
+    container.appendChild(display);
+
+    let expr = '', justEvaled = false;
+
+    function setDisplay(v) { display.value = String(v) || '0'; }
+
+    const btnDefs = [
+      ['sin', 'cos', 'tan', 'log'],
+      ['ln',  'sqrt','pow', 'PI' ],
+      ['e',   '(',   ')',   'C'  ],
+      ['7',   '8',   '9',   '/' ],
+      ['4',   '5',   '6',   '*' ],
+      ['1',   '2',   '3',   '-' ],
+      ['0',   '.',   '=',   '+' ],
+    ];
+
+    const calcGrid = el('div', { style: 'display:grid;grid-template-columns:repeat(4,1fr);gap:6px' });
+    btnDefs.forEach(row => {
+      row.forEach(key => {
+        const isPrimary = key === '=';
+        const cls = isPrimary ? 'glass-btn' : 'glass-btn-secondary';
+        const btn = el('button', { className: cls, style: 'padding:10px 6px;font-size:0.95em', textContent: key });
+        btn.addEventListener('click', () => pressKey(key));
+        calcGrid.appendChild(btn);
+      });
+    });
+    container.appendChild(calcGrid);
+
+    function pressKey(key) {
+      if (key === 'C') { expr = ''; justEvaled = false; setDisplay('0'); return; }
+      if (key === '=') {
+        try {
+          const evalExpr = expr
+            .replace(/sin\(/g, 'Math.sin(Math.PI/180*')
+            .replace(/cos\(/g, 'Math.cos(Math.PI/180*')
+            .replace(/tan\(/g, 'Math.tan(Math.PI/180*')
+            .replace(/log\(/g, 'Math.log10(')
+            .replace(/ln\(/g, 'Math.log(')
+            .replace(/sqrt\(/g, 'Math.sqrt(')
+            .replace(/pow\(/g, 'Math.pow(')
+            .replace(/\bPI\b/g, 'Math.PI')
+            .replace(/\be\b/g, 'Math.E');
+          const result = Function('"use strict"; return (' + evalExpr + ')')();
+          const rounded = Math.round(result * 1e10) / 1e10;
+          setDisplay(rounded);
+          expr = String(rounded);
+          justEvaled = true;
+        } catch (err) {
+          setDisplay('Error');
+          expr = '';
+        }
+        return;
+      }
+      if (justEvaled && /[0-9.(]/.test(key)) { expr = ''; justEvaled = false; }
+      if (justEvaled && /[+\-*/]/.test(key)) { justEvaled = false; }
+      const fnMap = { sin:'sin(', cos:'cos(', tan:'tan(', log:'log(', ln:'ln(', sqrt:'sqrt(', pow:'pow(' };
+      if (fnMap[key]) { expr += fnMap[key]; setDisplay(expr); return; }
+      if (key === 'PI') { expr += 'PI'; setDisplay(expr); return; }
+      if (key === 'e') { expr += 'e'; setDisplay(expr); return; }
+      expr += key;
+      setDisplay(expr);
+    }
+
+    function calcKeydown(e) {
+      if (!container.isConnected) { document.removeEventListener('keydown', calcKeydown); return; }
+      const k = e.key;
+      if ('0123456789.+-*/()'.includes(k)) { pressKey(k); }
+      else if (k === 'Enter') { pressKey('='); }
+      else if (k === 'Backspace') { expr = expr.slice(0, -1); setDisplay(expr || '0'); }
+      else if (k === 'Escape') { pressKey('C'); }
+    }
+    document.addEventListener('keydown', calcKeydown);
+  };
+
+  // ── Statistics Calculator ──
+  toolBuilders.statscalc = (container) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Numbers (comma or newline separated)' }));
+    const textarea = el('textarea', { className: 'glass-textarea', rows: '5', placeholder: '1, 2, 3, 4, 5, 6, 7, 8, 9, 10' });
+    fg.appendChild(textarea);
+    container.appendChild(fg);
+
+    const calcBtn = el('button', { className: 'glass-btn', style: 'width:100%;margin-bottom:4px', textContent: 'Calculate Statistics', onClick: calculate });
+    container.appendChild(calcBtn);
+
+    function calculate() {
+      const raw = textarea.value.replace(/\n/g, ',').split(',').map(s => s.trim()).filter(s => s !== '');
+      const nums = raw.map(Number).filter(n => !isNaN(n));
+      if (!nums.length) { resultBox(container, 'Enter valid numbers'); return; }
+      nums.sort((a, b) => a - b);
+      const n = nums.length;
+      const sum = nums.reduce((a, b) => a + b, 0);
+      const mean = sum / n;
+      const median = n % 2 === 0 ? (nums[n/2 - 1] + nums[n/2]) / 2 : nums[Math.floor(n/2)];
+      const freq = {}; nums.forEach(x => { freq[x] = (freq[x]||0) + 1; });
+      const maxFreq = Math.max(...Object.values(freq));
+      const modes = Object.keys(freq).filter(k => freq[k] === maxFreq).map(Number);
+      const modeStr = maxFreq === 1 ? 'None' : modes.join(', ');
+      const variance = nums.reduce((acc, x) => acc + Math.pow(x - mean, 2), 0) / n;
+      const stddev = Math.sqrt(variance);
+      const lowerHalf = nums.slice(0, Math.floor(n/2));
+      const upperHalf = nums.slice(Math.ceil(n/2));
+      const medOf = arr => arr.length === 0 ? 0 : arr.length % 2 === 0 ? (arr[arr.length/2-1]+arr[arr.length/2])/2 : arr[Math.floor(arr.length/2)];
+      const q1 = medOf(lowerHalf);
+      const q3 = medOf(upperHalf);
+      const iqr = q3 - q1;
+      const r = v => Math.round(v * 10000) / 10000;
+      const lines = [
+        `Count:              ${n}`,
+        `Sum:                ${r(sum)}`,
+        `Mean (Average):     ${r(mean)}`,
+        `Median:             ${r(median)}`,
+        `Mode:               ${modeStr}`,
+        `Min:                ${nums[0]}`,
+        `Max:                ${nums[n-1]}`,
+        `Range:              ${r(nums[n-1] - nums[0])}`,
+        `Variance:           ${r(variance)}`,
+        `Std Deviation:      ${r(stddev)}`,
+        `Q1 (25th pct):      ${r(q1)}`,
+        `Q3 (75th pct):      ${r(q3)}`,
+        `IQR (Q3 - Q1):      ${r(iqr)}`,
+      ];
+      resultBox(container, lines.join('\n'));
+    }
+
+    textarea.value = '4, 8, 15, 16, 23, 42, 4, 8, 15';
+    calculate();
+  };
+
 })();
+
