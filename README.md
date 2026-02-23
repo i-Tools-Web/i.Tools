@@ -16,7 +16,7 @@
 
 ## Features
 
-- **41 tools** across 8 categories
+- **57 tools** across 8 categories
 - **Zero backend** — everything runs client-side in your browser
 - **No tracking, no cookies, no data collection**
 - **Apple Liquid Glass** UI design with frosted glass effects
@@ -27,13 +27,13 @@
 
 | Category | Tools |
 |---|---|
-| **Text** | Word Counter, Case Converter, Text Diff, Slug Generator, Line Sorter, Find & Replace |
+| **Text** | Word Counter, Case Converter, Text Diff, Slug Generator, Line Sorter, Find & Replace, Markdown Table |
 | **Encode / Decode** | Base64 Codec, URL Encoder, HTML Entities, JWT Decoder |
-| **Formatters** | JSON Formatter, SQL Formatter, CSS/JS Minifier, Markdown to HTML |
-| **Developer** | Regex Tester, Hash Generator, Cron Parser, Chmod Calculator, Epoch Converter, User Agent Parser, Number Base, API Tester, .htaccess Generator, Meta Tag Generator |
-| **Generators** | Password Generator, UUID Generator, QR Code Generator |
-| **CSS Tools** | Color Converter, Box Shadow, Gradient Generator, Border Radius, Aspect Ratio |
-| **Data** | JSON / YAML, JSON / CSV |
+| **Formatters** | JSON Formatter, SQL Formatter, CSS/JS Minifier, Markdown to HTML, XML Formatter, SVG Optimizer |
+| **Developer** | Regex Tester, Hash Generator, Cron Parser, Chmod Calculator, Epoch Converter, User Agent Parser, Number Base, API Tester, .htaccess Generator, Meta Tag Generator, JSONPath Tester, HTML Live Preview, Nginx Config, OG Preview, IP/CIDR Calculator, Code Screenshot |
+| **Generators** | Password Generator, UUID Generator, QR Code Generator, Lorem Ipsum, Emoji Picker |
+| **CSS Tools** | Color Converter, Box Shadow, Gradient Generator, Border Radius, Aspect Ratio, Flexbox Playground, Grid Generator, Color Palette |
+| **Data** | JSON / YAML, JSON / CSV, JSON Diff, Config Converter (TOML/INI/ENV/JSON/YAML) |
 | **Image** | Image to Base64, Placeholder Image, Image Crop & Resize, Image Compressor, Image Converter, Image Filters |
 
 ## Tech Stack
