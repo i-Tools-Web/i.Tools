@@ -199,6 +199,257 @@
     cloudbcrypt: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><text x="12" y="18" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">B</text></svg>`,
   };
 
+  // ── i18n: Simplified Chinese translations ─────
+  // Keyed by tool id. If a tool is missing here it falls back to the English
+  // strings in tools[] / categories. The current language is persisted in
+  // localStorage; default is auto-detected from navigator.language.
+  const I18N_ZH = {
+    cats: {
+      'Text':           '文本',
+      'Encode / Decode':'编码 / 解码',
+      'Formatters':     '格式化',
+      'Developer':      '开发者',
+      'Generators':     '生成器',
+      'CSS Tools':      'CSS 工具',
+      'Data':           '数据',
+      'Image':          '图像',
+      'Math':           '数学',
+      'Converters':     '单位换算',
+      'Reference':      '速查表',
+      'Cloud':          '云端',
+    },
+    ui: {
+      heroDesc:           '一组实用的网页工具,精心打造',
+      searchPlaceholder:  '搜索工具…',
+      searchAria:         '搜索工具',
+      footerBrand:        'iTools — 所有工具均在你的浏览器中运行',
+      footerBuiltBy:      '由 1MrC1 制作',
+      footerOpenSource:   '开源',
+      langToggle:         'EN',  // shown when zh is active (offers to switch back)
+      noResults:          '没有匹配的工具',
+      copy:               '复制',
+      copied:             '已复制',
+      close:              '关闭',
+    },
+    tools: {
+      // Text
+      wordcount:    { title: '字数统计',     desc: '统计字数、字符、句子和行数' },
+      caseconv:     { title: '大小写转换',   desc: '转换文本大小写——大写、小写、首字母大写等' },
+      diff:         { title: '文本对比',     desc: '比较两段文本并高亮差异' },
+      slug:         { title: 'Slug 生成',    desc: '从文本生成 URL 友好的 Slug' },
+      linesort:     { title: '行排序',       desc: '排序行、去重、反转顺序' },
+      textreplace:  { title: '查找替换',     desc: '支持正则的查找和替换' },
+      mdtable:      { title: 'Markdown 表格',desc: '用可视化编辑器构建 Markdown 表格' },
+      strescape:    { title: '字符串转义',   desc: '在 JS、JSON、HTML、CSV、SQL 之间转义/反转义' },
+      asciiart:     { title: 'ASCII 艺术字', desc: '用 # 字符把文字转为大块字母' },
+      wordfreq:     { title: '词频分析',     desc: '分析任意文本的词频、计数和占比' },
+      morse:        { title: '摩尔斯电码',   desc: '文字与摩尔斯电码互译,支持音频' },
+      camelsnake:   { title: '驼峰/下划线',  desc: '在 camelCase、snake_case、kebab-case、PascalCase 之间转换' },
+      fullhalf:     { title: '全/半角转换',  desc: '在全角和半角字符之间转换' },
+      unicodeascii: { title: 'Unicode/ASCII',desc: 'Unicode 转义序列与原始文本互转' },
+      textreverse:  { title: '文本反转',     desc: '反转、上下翻转、镜像或反转大小写' },
+      textvertical: { title: '竖排文字',     desc: '把文字按竖排显示(从右到左)' },
+      simpltrad:    { title: '简体/繁体',    desc: '简体中文与繁体中文互转' },
+      martian:      { title: '火星文',       desc: '把文字转为火星文/网络流行语' },
+      rmbcapital:   { title: '人民币大写',   desc: '数字转人民币大写金额' },
+      autoformat:   { title: '自动排版',     desc: '整理文章:行修剪、段落分隔、智能引号' },
+      texteffects:  { title: '文字特效',     desc: '加入装饰效果:删除线、下划线、圆圈、加粗' },
+      textcompress: { title: '文本压缩',     desc: '用 gzip+base64 压缩文本(可分享 URL)' },
+
+      // Encode / Decode
+      base64:    { title: 'Base64 编解码',   desc: 'Base64 字符串编码与解码' },
+      url:       { title: 'URL 编解码',      desc: 'URL 组件编码与解码' },
+      htmlentity:{ title: 'HTML 实体',       desc: 'HTML 实体和特殊字符编解码' },
+      jwt:       { title: 'JWT 解码',        desc: '解码并查看 JSON Web Token' },
+      aes:       { title: 'AES 加解密',      desc: '使用密码进行 AES-128/192/256 对称加密' },
+      des:       { title: 'DES 加解密',      desc: 'DES 对称加密(已弃用,新项目请用 AES)' },
+      tripledes: { title: '三重 DES',        desc: '3DES (TripleDES) 对称加密' },
+      rc4:       { title: 'RC4 加密',        desc: 'RC4 流密码(已弃用,仅供历史用途)' },
+      rabbit:    { title: 'Rabbit 加密',     desc: 'Rabbit 流密码加解密' },
+      urlhex:    { title: 'URL 十六进制',    desc: '把 URL 编码为十六进制 % 转义' },
+
+      // Formatters
+      json:        { title: 'JSON 格式化',   desc: '美化、压缩与校验 JSON' },
+      sqlformat:   { title: 'SQL 格式化',    desc: '美化与压缩 SQL 查询' },
+      cssminify:   { title: 'CSS/JS 压缩',   desc: '压缩或美化 CSS 与 JavaScript' },
+      md2html:     { title: 'Markdown→HTML', desc: '把 Markdown 转为干净的 HTML' },
+      xmlformat:   { title: 'XML 格式化',    desc: '美化与压缩 XML 文档' },
+      svgoptimize: { title: 'SVG 优化',      desc: '优化与压缩 SVG 代码,带实时预览' },
+
+      // Developer
+      regex:         { title: '正则测试',         desc: '实时测试正则表达式匹配' },
+      hash:          { title: '哈希生成',         desc: 'MD5、SHA-1、SHA-256 哈希' },
+      cron:          { title: 'Cron 解析',        desc: '解析并描述 cron 计划表达式' },
+      chmod:         { title: 'Chmod 计算',       desc: '计算文件权限模式' },
+      epoch:         { title: 'Unix 时间戳',      desc: 'Unix 时间戳与日期互转' },
+      timestamp:     { title: '日期格式化',       desc: '格式化日期并在不同格式间转换' },
+      useragent:     { title: 'User-Agent 解析',  desc: '解析浏览器 User Agent 字符串' },
+      numberbase:    { title: '进制转换',         desc: '十进制、十六进制、八进制和二进制互转' },
+      apitester:     { title: 'API 测试',         desc: '发送 HTTP 请求并查看响应' },
+      htaccess:      { title: '.htaccess 生成',   desc: '生成常用的 .htaccess 规则' },
+      metatags:      { title: 'Meta 标签生成',    desc: '生成 Open Graph 与 SEO meta 标签' },
+      jsonpath:      { title: 'JSONPath 测试',    desc: '用 JSONPath 表达式查询 JSON 数据' },
+      htmlpreview:   { title: 'HTML 实时预览',    desc: '编写 HTML/CSS/JS 并实时预览' },
+      nginx:         { title: 'Nginx 配置',       desc: '生成 Nginx server 块配置' },
+      ogpreview:     { title: 'OG 预览',          desc: '预览 Open Graph meta 标签的社交分享效果' },
+      cidr:          { title: 'IP/CIDR 计算',     desc: '计算子网、主机数与网络范围' },
+      codescreenshot:{ title: '代码截图',         desc: '生成漂亮的代码截图' },
+      jsonschema:    { title: 'JSON Schema 校验', desc: '用 JSON Schema 校验 JSON 数据' },
+      cssselector:   { title: 'CSS 选择器测试',   desc: '测试 CSS 选择器对 HTML 的匹配' },
+      robotstxt:     { title: 'robots.txt 生成',  desc: '生成带常用规则的 robots.txt' },
+      sitemapgen:    { title: 'Sitemap 生成',     desc: '从 URL 列表生成 XML 站点地图' },
+      schemaorg:     { title: 'Schema.org 生成',  desc: '生成用于 SEO 的 JSON-LD 结构化数据' },
+      gitcmd:        { title: 'Git 命令构建',     desc: '用可视化界面构建 Git 命令' },
+      pkgjson:       { title: 'package.json 生成',desc: '生成 Node.js 项目的 package.json' },
+      favicogen:     { title: 'Favicon 生成',     desc: '用文字或表情通过 canvas 生成 favicon' },
+      srihash:       { title: 'SRI 哈希',         desc: '为脚本与样式生成 SRI 完整性哈希' },
+      cspbuilder:    { title: 'CSP 头生成',       desc: '可视化构建 Content-Security-Policy 头' },
+      httpheaders:   { title: 'HTTP 头解析',      desc: '解析 HTTP 头并做安全检查' },
+      json2java:     { title: 'JSON→Java',        desc: '从 JSON 生成 Java POJO/实体类' },
+      json2csharp:   { title: 'JSON→C#',          desc: '从 JSON 生成 C# 实体类' },
+      json2go:       { title: 'JSON→Go 结构体',   desc: '从 JSON 生成带类型推断的 Go 结构体' },
+      json2ts:       { title: 'JSON→TypeScript',  desc: '从 JSON 生成 TypeScript 接口' },
+      sql2java:      { title: 'SQL→Java',         desc: '从 CREATE TABLE 语句生成 Java 实体类' },
+      xmljson:       { title: 'XML/JSON 互转',    desc: 'XML 与 JSON 双向转换' },
+      jsonparams:    { title: 'JSON/URL 参数',    desc: 'JSON 对象与 URL 查询字符串互转' },
+      html2md:       { title: 'HTML→Markdown',    desc: '把 HTML 转为 Markdown' },
+      htmljs:        { title: 'HTML/JS 字符串',   desc: 'HTML 与 JS 字符串字面量互转' },
+      htmlformat:    { title: 'HTML 格式化',      desc: '美化或压缩 HTML 文档' },
+      codeformat:    { title: '代码格式化',       desc: '缩进格式化 C/C++/Java/C#/PHP/Python/Ruby' },
+      jsobfuscate:   { title: 'JS 混淆',          desc: '用 eval/String.fromCharCode 混淆 JavaScript' },
+      htaccess2nginx:{ title: 'htaccess→Nginx',   desc: '把常用 .htaccess 规则转为 Nginx 配置' },
+      xpath:         { title: 'XPath 测试',       desc: '用 XPath 表达式匹配 XML 或 HTML' },
+      htmltable:     { title: 'HTML 表格生成',    desc: '可视化构建 HTML 表格并导出代码' },
+      htmlubb:       { title: 'HTML/BBCode',      desc: '在 HTML 与 UBB/BBCode 标签之间转换' },
+      htmlsanitize:  { title: 'HTML 净化',        desc: '去除 HTML 中的标签、脚本、样式与属性' },
+      websocket:     { title: 'WebSocket 测试',   desc: '连接 WebSocket 服务器并收发消息' },
+      browserinfo:   { title: '浏览器信息',       desc: '显示当前浏览器的能力、特性与环境' },
+      keyboardtest:  { title: '键盘测试',         desc: '实时显示按键事件、键码与修饰键' },
+      autorefresh:   { title: '自动刷新网址',     desc: '把 URL 放进 iframe 并按间隔自动刷新' },
+      shortcut:      { title: '桌面快捷方式',     desc: '生成任意 URL 的 .url/.desktop 快捷方式' },
+      ipnum:         { title: 'IP/数字互转',      desc: '点分十进制 IPv4 与整数互转' },
+      ipgeo:         { title: 'IP 归属地',        desc: '查询任意公网 IP 的位置、ISP、ASN' },
+      metaanalyzer:  { title: 'Meta 标签分析',    desc: '粘贴 HTML 分析 SEO meta 与社交预览' },
+      keyworddensity:{ title: '关键词密度',       desc: '分析文本或 HTML 中的关键词密度' },
+      onthisday:     { title: '历史上的今天',     desc: '维基百科今日历史事件、生日与逝世' },
+      whois:         { title: 'WHOIS / RDAP',     desc: '通过 RDAP 查询域名注册信息' },
+      regexcodegen:  { title: '正则→代码',        desc: '把正则包装成 JS/Python/PHP/Java/Go/C# 代码' },
+      worldclock:    { title: '世界时钟',         desc: '显示主要城市与时区的实时时间' },
+
+      // Generators
+      password:    { title: '密码生成',     desc: '生成安全的随机密码' },
+      uuid:        { title: 'UUID 生成',    desc: '生成随机 UUID v4 标识符' },
+      qr:          { title: '二维码生成',   desc: '从文字或网址生成二维码' },
+      lorem:       { title: 'Lorem Ipsum',  desc: '生成 lorem ipsum 占位文本' },
+      emoji:       { title: 'Emoji 选择器', desc: '搜索并复制 emoji' },
+      fakedata:    { title: '假数据生成',   desc: '生成测试与开发用的逼真假数据' },
+      barcodegen:  { title: '条形码生成',   desc: '创建 Code 128、EAN-13、EAN-8、UPC-A 条形码' },
+      svgpattern:  { title: 'SVG 图案',     desc: '实时预览生成无缝 SVG 图案' },
+      testcards:   { title: '测试信用卡号', desc: '用于支付开发的测试卡号' },
+      randomnum:   { title: '随机数生成',   desc: '按范围、数量与选项生成随机数' },
+      htpasswd:    { title: 'htpasswd 生成',desc: '创建 Apache htpasswd 条目(MD5/SHA/bcrypt)' },
+
+      // CSS Tools
+      color:        { title: '颜色转换',     desc: '在 HEX、RGB、HSL 之间转换' },
+      boxshadow:    { title: '阴影生成',     desc: '生成 box-shadow CSS,带实时预览' },
+      gradient:     { title: '渐变生成',     desc: '创建 CSS 渐变,带实时预览' },
+      borderradius: { title: '圆角生成',     desc: '生成 border-radius CSS,带实时预览' },
+      aspectratio:  { title: '宽高比',       desc: '计算与转换宽高比' },
+      flexbox:      { title: 'Flexbox 演练', desc: '可视化生成 flexbox 布局并实时预览' },
+      cssgrid:      { title: '网格生成',     desc: '可视化构建 CSS Grid 布局' },
+      palette:      { title: '调色板',       desc: '从任意基色生成和谐的调色板' },
+      cssanim:      { title: 'CSS 动画',     desc: '可视化构建 CSS keyframes 动画' },
+      cssfilter:    { title: 'CSS 滤镜',     desc: '实时调试 CSS filter 效果' },
+      csstransform: { title: 'CSS 变换',     desc: '可视化构建 CSS transform' },
+      clippath:     { title: '裁剪路径',     desc: '生成 clip-path 形状,带实时预览' },
+      glassmorph:   { title: '玻璃拟物',     desc: '生成玻璃拟物 CSS,带实时预览' },
+      typoscale:    { title: '字号比例',     desc: '计算字号比例并输出 CSS 自定义属性' },
+
+      // Data
+      json2yaml:   { title: 'JSON / YAML',     desc: 'JSON 与 YAML 互转' },
+      json2csv:    { title: 'JSON / CSV',      desc: 'JSON 与 CSV 互转' },
+      jsondiff:    { title: 'JSON 对比',       desc: '深度比较 JSON 对象并高亮差异' },
+      configparse: { title: '配置转换',        desc: '在 TOML、INI、ENV、JSON、YAML 之间转换' },
+      csvview:     { title: 'CSV 查看器',      desc: '解析、查看、编辑并导出 CSV 数据' },
+      sql2mongo:   { title: 'SQL→MongoDB',     desc: '把 SQL 查询转为 MongoDB shell 命令' },
+      setdiff:     { title: '集合差异',        desc: '比较两份列表:交集、差集、对称差' },
+
+      // Image
+      img2base64: { title: '图片转 Base64', desc: '把图片转为 Base64 Data URI' },
+      placeholder:{ title: '占位图',        desc: '按自定义尺寸生成占位图' },
+      imgcrop:    { title: '图片裁剪',      desc: '在浏览器内裁剪与缩放图片' },
+      imgcompress:{ title: '图片压缩',      desc: '通过调整质量压缩图片' },
+      imgconvert: { title: '图片格式转换',  desc: '在 PNG、JPG、WebP 之间转换' },
+      imgfilters: { title: '图片滤镜',      desc: '调节亮度、对比度、饱和度等' },
+      drawpad:    { title: '涂鸦板',        desc: '自由绘画画布,支持画笔、橡皮、颜色' },
+
+      // Math
+      scicalc:      { title: '科学计算器',  desc: '全功能科学计算器,支持键盘' },
+      statscalc:    { title: '统计计算器',  desc: '计算均值、中位数、标准差、四分位数等' },
+      interestcalc: { title: '利率计算器',  desc: '简单与复合利息、贷款与摊销' },
+
+      // Converters
+      length:    { title: '长度换算',     desc: '在米、英尺、英寸、英里等之间换算' },
+      weight:    { title: '重量换算',     desc: '在 kg、lb、oz、吨等之间换算' },
+      temp:      { title: '温度换算',     desc: '摄氏、华氏、开尔文、兰金互转' },
+      area:      { title: '面积换算',     desc: '在平方米、平方英尺、英亩、公顷之间换算' },
+      volume:    { title: '体积换算',     desc: '在升、加仑、立方米等之间换算' },
+      timeconv:  { title: '时间换算',     desc: '秒、分、时、日、年互转' },
+      speed:     { title: '速度换算',     desc: '在 km/h、mph、m/s、节等之间换算' },
+      angle:     { title: '角度换算',     desc: '在度、弧度、百分度、圈数之间换算' },
+      datasize:  { title: '数据大小换算', desc: '字节、KB、MB、GB、TB(二进制与十进制)' },
+      pressure:  { title: '压力换算',     desc: '在 Pa、bar、psi、atm、torr 之间换算' },
+      power:     { title: '功率换算',     desc: '在瓦特、马力、千瓦、BTU/h 之间换算' },
+      energy:    { title: '能量换算',     desc: '在焦耳、卡路里、kWh、BTU、eV 之间换算' },
+      density:   { title: '密度换算',     desc: '在 kg/m³、g/cm³、lb/ft³ 之间换算' },
+      force:     { title: '力换算',       desc: '在牛顿、达因、磅力、千克力之间换算' },
+      rempx:     { title: 'rem/px 换算',  desc: 'CSS rem 与像素值互转' },
+
+      // Reference
+      httpstatus:    { title: 'HTTP 状态码',  desc: '所有 HTTP 状态码及含义查询' },
+      httpheadersref:{ title: 'HTTP 头大全',  desc: '常用请求头与响应头说明' },
+      httpmethods:   { title: 'HTTP 方法',    desc: 'GET、POST、PUT、DELETE、PATCH 等' },
+      mimetypes:     { title: 'MIME 类型',    desc: '可搜索的 Content-Type / MIME 速查' },
+      commonports:   { title: '常用端口',    desc: '常见 TCP/UDP 端口与服务' },
+      asciitable:    { title: 'ASCII 表',     desc: '完整 128 字符 ASCII 表(HEX/DEC/HTML)' },
+      useragents:    { title: 'User-Agent 大全', desc: 'Chrome、Safari、Firefox、爬虫等' },
+      keycodes:      { title: '键盘 KeyCode', desc: 'JavaScript keyCode 与 KeyboardEvent.code' },
+      androidkeys:   { title: 'Android 键码', desc: 'Android KeyEvent 键码参考' },
+      androidperms:  { title: 'Android 权限', desc: 'Android manifest 权限名称与用途' },
+      specialchars:  { title: '特殊字符',    desc: '可搜索的 Unicode 符号、箭头、数学、货币' },
+      linuxcmds:     { title: 'Linux 命令',   desc: '常用 Linux shell 命令及示例' },
+      regexcheat:    { title: '正则速查',    desc: '正则语法快速参考:Token、Flag、字符类' },
+      regexcommon:   { title: '常用正则',    desc: '即用即拷的正则模式(邮箱、URL、日期等)' },
+      capitals:      { title: '世界首都',    desc: '国家与首都查询' },
+      currencies:    { title: '世界货币',    desc: '各国货币代码、符号与名称(ISO 4217)' },
+      dialcodes:     { title: '国际区号 / 时区', desc: '电话区号、ISO 代码与 UTC 时差' },
+      holidays:      { title: '世界节日',    desc: '常见国际节日按月份整理' },
+      dynasties:     { title: '中国朝代',    desc: '中国历史朝代时间表' },
+      dns:           { title: '公共 DNS',    desc: 'Google、Cloudflare、Quad9、OpenDNS 等' },
+
+      // Cloud
+      cloudfile:    { title: '文件传输',       desc: '上传小文件(≤20MB)并获得分享链接' },
+      cloudpaste:   { title: '在线粘贴板',     desc: '匿名分享文本片段,支持有效期与阅后即焚' },
+      cloudshort:   { title: '短链接',         desc: '创建带访问统计的短链接' },
+      cloudheaders: { title: 'HTTP 头抓取',    desc: '服务器端抓取任意 URL 的响应头(绕过 CORS)' },
+      cloudgzip:    { title: 'Gzip/Brotli 检测',desc: '检测 URL 是否启用 gzip 或 brotli 压缩' },
+      cloudbroken:  { title: '死链检测',       desc: '抓取页面并报告死链(每次最多 40 条)' },
+      cloudbcrypt:  { title: 'bcrypt 哈希',    desc: '服务器端 bcrypt 密码哈希(用于 htpasswd)' },
+    },
+  };
+
+  // Current language: zh / en. Auto-pick zh for Chinese browsers on first visit.
+  let lang = (function () {
+    const saved = (() => { try { return localStorage.getItem('iTools-lang'); } catch (_) { return null; } })();
+    if (saved === 'zh' || saved === 'en') return saved;
+    return (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+  })();
+
+  // Translation lookups. Each falls back to the English source.
+  function tT(t)        { if (lang !== 'zh') return t; const z = I18N_ZH.tools[t.id]; return z ? Object.assign({}, t, z) : t; }
+  function tC(cat)      { return lang === 'zh' ? (I18N_ZH.cats[cat] || cat) : cat; }
+  function tU(key, en)  { return lang === 'zh' ? (I18N_ZH.ui[key] || en) : en; }
+
   // ── Tool Definitions ──────────────────────────
   const tools = [
     // Text
@@ -428,8 +679,8 @@
   const searchInput = document.createElement('input');
   searchInput.type = 'text';
   searchInput.className = 'search-input';
-  searchInput.placeholder = 'Search tools…';
-  searchInput.setAttribute('aria-label', 'Search tools');
+  searchInput.placeholder = tU('searchPlaceholder', 'Search tools…');
+  searchInput.setAttribute('aria-label', tU('searchAria', 'Search tools'));
   searchWrap.appendChild(searchInput);
   const searchClear = document.createElement('button');
   searchClear.className = 'search-clear';
@@ -445,7 +696,8 @@
     const btn = document.createElement('a');
     btn.className = 'cat-nav-item';
     btn.href = '#cat-' + slug;
-    btn.textContent = cat;
+    btn.dataset.cat = cat; // keep English key for re-translation lookup
+    btn.textContent = tC(cat);
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const target = document.getElementById('cat-' + slug);
@@ -454,6 +706,20 @@
     catNavInner.appendChild(btn);
   });
   catNav.appendChild(catNavInner);
+
+  // Language toggle: shows the OPPOSITE language as a hint of what clicking does.
+  const langBtn = document.createElement('button');
+  langBtn.className = 'lang-toggle';
+  langBtn.type = 'button';
+  langBtn.setAttribute('aria-label', 'Switch language');
+  langBtn.textContent = lang === 'zh' ? 'EN' : '中文';
+  langBtn.addEventListener('click', () => {
+    lang = lang === 'zh' ? 'en' : 'zh';
+    try { localStorage.setItem('iTools-lang', lang); } catch (_) {}
+    applyLang();
+  });
+  catNav.appendChild(langBtn);
+
   grid.parentNode.insertBefore(catNav, grid);
 
   // Highlight active category on scroll
@@ -463,10 +729,11 @@
     const section = document.createElement('div');
     section.className = 'tool-section';
     section.id = 'cat-' + slug;
+    section.dataset.cat = cat;
 
     const heading = document.createElement('div');
     heading.className = 'section-title';
-    heading.textContent = cat;
+    heading.textContent = tC(cat);
     section.appendChild(heading);
 
     const sectionGrid = document.createElement('div');
@@ -476,10 +743,11 @@
       const card = document.createElement('div');
       card.className = 'glass-card';
       card.dataset.tool = t.id;
+      const tt = tT(t);
       card.innerHTML = `
         <div class="card-icon">${icons[t.id]}</div>
-        <div class="card-title">${t.title}</div>
-        <div class="card-desc">${t.desc}</div>
+        <div class="card-title">${tt.title}</div>
+        <div class="card-desc">${tt.desc}</div>
       `;
       card.addEventListener('click', () => openTool(t));
       sectionGrid.appendChild(card);
@@ -489,6 +757,70 @@
     grid.appendChild(section);
     sectionEls.push({ slug, el: section });
   });
+
+  // applyLang(): re-text all the chrome without re-rendering the DOM tree.
+  // Cards/sections/nav-items keep their English keys in dataset.* so we can
+  // look up the translation. Hero + footer text live in index.html and are
+  // patched by selector here.
+  function applyLang() {
+    document.documentElement.lang = lang === 'zh' ? 'zh' : 'en';
+    // Cards
+    document.querySelectorAll('.glass-card').forEach(card => {
+      const tool = tools.find(x => x.id === card.dataset.tool);
+      if (!tool) return;
+      const tt = tT(tool);
+      const titleEl = card.querySelector('.card-title');
+      const descEl  = card.querySelector('.card-desc');
+      if (titleEl) titleEl.textContent = tt.title;
+      if (descEl)  descEl.textContent  = tt.desc;
+    });
+    // Section headings
+    document.querySelectorAll('.tool-section').forEach(sec => {
+      const cat = sec.dataset.cat;
+      const heading = sec.querySelector('.section-title');
+      if (cat && heading) heading.textContent = tC(cat);
+    });
+    // Nav items
+    document.querySelectorAll('.cat-nav-item').forEach(item => {
+      const cat = item.dataset.cat;
+      if (cat) item.textContent = tC(cat);
+    });
+    // Search box
+    if (searchInput) {
+      searchInput.placeholder = tU('searchPlaceholder', 'Search tools…');
+      searchInput.setAttribute('aria-label', tU('searchAria', 'Search tools'));
+    }
+    // Hero subtitle
+    const heroP = document.querySelector('.hero p');
+    if (heroP) heroP.textContent = tU('heroDesc', 'A collection of useful web tools, beautifully crafted.');
+    // Footer brand line
+    const fb = document.querySelector('.footer-brand');
+    if (fb) fb.textContent = tU('footerBrand', 'iTools — All tools run entirely in your browser.');
+    // Footer links: "Built by 1MrC1" + "Open Source"
+    document.querySelectorAll('.footer-links a').forEach(a => {
+      if (a.textContent.includes('1MrC1')) a.textContent = tU('footerBuiltBy', 'Built by 1MrC1');
+      else if (a.querySelector('svg')) {
+        // Open Source badge: keep the SVG, replace just the trailing text node
+        const lastNode = [...a.childNodes].reverse().find(n => n.nodeType === 3 && n.textContent.trim());
+        if (lastNode) lastNode.textContent = ' ' + tU('footerOpenSource', 'Open Source');
+      }
+    });
+    // Lang toggle button label always shows the OPPOSITE language
+    const lb = document.querySelector('.lang-toggle');
+    if (lb) lb.textContent = lang === 'zh' ? 'EN' : '中文';
+    // Re-translate the open-tool panel title if a tool is currently open
+    const panel = document.getElementById('panel-overlay');
+    if (panel && panel.classList.contains('active')) {
+      const titleEl = document.getElementById('panel-title');
+      if (titleEl && titleEl.dataset.toolId) {
+        const t = tools.find(x => x.id === titleEl.dataset.toolId);
+        if (t) titleEl.innerHTML = `<span class="panel-icon">${icons[t.id]}</span> ${tT(t).title}`;
+      }
+    }
+  }
+  // Apply the chosen language once on initial load (mainly for hero/footer
+  // which start out as English in the HTML).
+  applyLang();
 
   // Active state tracking on scroll
   let navItems = catNavInner.querySelectorAll('.cat-nav-item');
@@ -516,7 +848,12 @@
       let visibleCount = 0;
       cards.forEach(card => {
         const tool = tools.find(t => t.id === card.dataset.tool);
-        const match = !q || tool.title.toLowerCase().includes(q) || tool.desc.toLowerCase().includes(q) || tool.cat.toLowerCase().includes(q);
+        const tt = tT(tool);
+        // Match either the English source or the current-language translation.
+        // This way Chinese users can search "颜色" AND English users can still
+        // search "color" even if the translated label is showing.
+        const match = !q || tool.title.toLowerCase().includes(q) || tool.desc.toLowerCase().includes(q) || tool.cat.toLowerCase().includes(q)
+          || tt.title.toLowerCase().includes(q) || tt.desc.toLowerCase().includes(q) || tC(tool.cat).toLowerCase().includes(q);
         card.style.display = match ? '' : 'none';
         if (match) visibleCount++;
       });
@@ -552,7 +889,8 @@
   let activeInterval = null;
 
   function openTool(t) {
-    panelTitle.innerHTML = `<span class="panel-icon">${icons[t.id]}</span> ${t.title}`;
+    panelTitle.dataset.toolId = t.id;
+    panelTitle.innerHTML = `<span class="panel-icon">${icons[t.id]}</span> ${tT(t).title}`;
     panelContent.innerHTML = '';
     clearInterval(activeInterval);
     activeInterval = null;
