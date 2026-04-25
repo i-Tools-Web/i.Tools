@@ -1,1 +1,28 @@
+# Server / aaPanel local config
 .user.ini
+
+# Claude Code local config (per-machine, not shared)
+.claude/
+
+# /api/data is RUNTIME state — never commit
+# (SQLite DB, user-uploaded files, rate-limit counters)
+api/data/.itools.db
+api/data/.itools.db-wal
+api/data/.itools.db-shm
+api/data/uploads/*
+!api/data/uploads/.gitkeep
+api/data/rl_*
+
+# Editor / IDE / OS junk
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Node modules (if anyone runs the optional jsdom test runner)
+node_modules/
+
+# Logs
+*.log

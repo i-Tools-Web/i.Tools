@@ -94,6 +94,109 @@
     sql2mongo: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="7" cy="5" rx="5" ry="3"/><path d="M2 5v6c0 1.66 2.24 3 5 3s5-1.34 5-3V5"/><path d="M14 11l3 3-3 3"/><path d="M17 17a5 5 0 1 0 0-10"/><circle cx="17" cy="17" r="1" fill="currentColor" stroke="none"/></svg>`,
     scicalc: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="18" height="20" rx="3"/><rect x="5" y="4" width="14" height="5" rx="1.5"/><circle cx="7.5" cy="13" r="1.2"/><circle cx="12" cy="13" r="1.2"/><circle cx="16.5" cy="13" r="1.2"/><circle cx="7.5" cy="17.5" r="1.2"/><circle cx="12" cy="17.5" r="1.2"/><circle cx="16.5" cy="17.5" r="1.2"/></svg>`,
     statscalc: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><rect x="5" y="13" width="3" height="7" rx="0.5"/><rect x="10.5" y="8" width="3" height="12" rx="0.5"/><rect x="16" y="4" width="3" height="16" rx="0.5"/><path d="M4 10l5-4 4 3 6-5" stroke-dasharray="3 2"/></svg>`,
+    // v17 additions: Converters
+    length: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h18v8H3z"/><path d="M6 8v3"/><path d="M9 8v3"/><path d="M12 8v5"/><path d="M15 8v3"/><path d="M18 8v3"/></svg>`,
+    weight: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h12l2 15H4L6 6z"/><circle cx="12" cy="4" r="2"/><path d="M9 12l6 0"/></svg>`,
+    temp: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4 4 0 1 0 5 0z"/></svg>`,
+    area: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 7h10v10"/><path d="M7 7v10h10" opacity="0.4"/></svg>`,
+    volume: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12v16H6z"/><path d="M6 8h12"/><path d="M6 16h12"/></svg>`,
+    timeconv: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/><path d="M12 3v2"/></svg>`,
+    speed: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><circle cx="12" cy="14" r="1.5" fill="currentColor" stroke="none"/><path d="M4 14a8 8 0 0 1 16 0"/><path d="M4 14v2"/><path d="M20 14v2"/></svg>`,
+    angle: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M4 20L20 4"/><path d="M10 20a6 6 0 0 1 6-6"/></svg>`,
+    datasize: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="2.5"/><path d="M4 5v6c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5V5"/><path d="M4 11v6c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5v-6"/></svg>`,
+    pressure: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 12l4-4"/><path d="M12 4v2"/><path d="M20 12h-2"/><path d="M12 20v-2"/><path d="M4 12h2"/></svg>`,
+    power: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>`,
+    energy: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 4-4 8-4 11a4 4 0 0 0 8 0c0-3-1-7-4-11z"/><path d="M12 17a1.5 1.5 0 0 1-1.5-1.5"/></svg>`,
+    density: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1" fill="currentColor" stroke="none"/><circle cx="13" cy="8" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="8" r="1" fill="currentColor" stroke="none"/><circle cx="8" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="13" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="8" cy="18" r="1" fill="currentColor" stroke="none"/><circle cx="13" cy="18" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="18" r="1" fill="currentColor" stroke="none"/></svg>`,
+    force: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h11"/><path d="M12 5l7 7-7 7"/></svg>`,
+    // v17 additions: Text
+    camelsnake: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h4l2-6 2 6h4"/><path d="M17 7h4"/><path d="M19 5v4"/><path d="M13 17h8"/><path d="M13 19h6"/></svg>`,
+    fullhalf: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="8" height="14" rx="1"/><rect x="13" y="7" width="8" height="10" rx="1"/><text x="7" y="14" text-anchor="middle" font-size="8" fill="currentColor" stroke="none">A</text></svg>`,
+    unicodeascii: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6h4v12H5z"/><path d="M15 6h4v12h-4z"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>`,
+    ipnum: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l3-3h12l3 3"/><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>`,
+    textreverse: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9"/><path d="M3 3v6h6"/><path d="M14 10l-4 4 4 4"/></svg>`,
+    textvertical: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4v16"/><path d="M15 4v16"/><path d="M9 4h6"/><path d="M6 8h3"/><path d="M6 12h3"/><path d="M6 16h3"/><path d="M15 8h3"/><path d="M15 12h3"/><path d="M15 16h3"/></svg>`,
+    simpltrad: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h6v6H4z"/><path d="M14 13h6v6h-6z"/><path d="M10 8l4 0"/><path d="M13 6l-3 2 3 2"/></svg>`,
+    martian: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="6"/><path d="M8 10a4 4 0 0 1 8 0"/><circle cx="10" cy="10" r="1" fill="currentColor" stroke="none"/><circle cx="14" cy="10" r="1" fill="currentColor" stroke="none"/><path d="M9 20h6"/><path d="M12 16v4"/></svg>`,
+    rmbcapital: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4l5 8 5-8"/><path d="M7 10h10"/><path d="M7 14h10"/><path d="M12 12v8"/></svg>`,
+    autoformat: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 10h12"/><path d="M4 14h16"/><path d="M4 18h10"/><path d="M18 14l3-3-3-3"/><path d="M21 11h-7"/></svg>`,
+    texteffects: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4l3 16"/><path d="M18 4l-3 16"/><path d="M9 12h6"/><path d="M4 20h16"/></svg>`,
+    textcompress: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V4h4"/><path d="M20 8V4h-4"/><path d="M4 16v4h4"/><path d="M20 16v4h-4"/><path d="M9 9l6 6"/><path d="M15 9l-6 6"/></svg>`,
+    // v17 additions: Crypto
+    aes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><text x="12" y="17.5" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">A</text></svg>`,
+    des: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><text x="12" y="17.5" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">D</text></svg>`,
+    tripledes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><text x="12" y="17.5" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">3D</text></svg>`,
+    rc4: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><text x="12" y="17.5" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">R4</text></svg>`,
+    rabbit: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 10V4l2 3 2-3 2 3 2-3v6"/><circle cx="12" cy="15" r="5"/><circle cx="10" cy="14" r="0.5" fill="currentColor" stroke="none"/><circle cx="14" cy="14" r="0.5" fill="currentColor" stroke="none"/></svg>`,
+    urlhex: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><text x="12" y="14" text-anchor="middle" font-size="4" fill="currentColor" stroke="none">0x</text></svg>`,
+    // v17 additions: Code conversion
+    json2java: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><path d="M13 11l3 3-3 3"/><path d="M20 14h-5"/></svg>`,
+    json2csharp: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><path d="M15 10a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3"/><path d="M19 9v2m0 2v2"/><path d="M17 10h4m-4 4h4"/></svg>`,
+    json2go: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><circle cx="17" cy="14" r="3"/><path d="M14 14h3"/></svg>`,
+    json2ts: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><path d="M13 10h6"/><path d="M16 10v8"/></svg>`,
+    sql2java: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="7" cy="5" rx="5" ry="2.5"/><path d="M2 5v6c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V5"/><path d="M14 10l3 3-3 3"/><path d="M20 13h-5"/></svg>`,
+    xmljson: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 2 12 6 16"/><polyline points="18 8 22 12 18 16"/><path d="M14 4l-4 16"/></svg>`,
+    jsonparams: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>`,
+    html2md: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 15V9l3 3 3-3v6"/><path d="M16 9v6"/><path d="M14 13l2 2 2-2"/></svg>`,
+    htmljs: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 2 12 6 16"/><polyline points="18 8 22 12 18 16"/><path d="M11 20l2-16"/></svg>`,
+    // v17 additions: Formatters/Dev
+    htmlformat: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><path d="M12 4l-1 4"/></svg>`,
+    codeformat: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/><path d="M14 4l-4 16"/></svg>`,
+    jsobfuscate: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 10h10"/><path d="M4 14h12"/><path d="M4 18h6"/><circle cx="17" cy="17" r="3"/><path d="M17 14v6"/><path d="M14 17h6"/></svg>`,
+    htaccess2nginx: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="8" height="8" rx="1"/><rect x="14" y="13" width="8" height="8" rx="1"/><path d="M10 7l4 0"/><path d="M12 5l2 2-2 2"/></svg>`,
+    xpath: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><path d="M8 6h2m2 0h2m-8 2v2m0 2v2m2 2h2m2 0h2m2-2v-2m0-2V8"/></svg>`,
+    rempx: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h6v6H4z"/><path d="M14 12h6v6h-6z"/><path d="M10 9l4 3"/><path d="M12 7l2 2-2 2"/></svg>`,
+    htmltable: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><path d="M6 7l12 0" stroke-width="2.5"/></svg>`,
+    htmlubb: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6l-2 6 2 6"/><path d="M20 6l2 6-2 6"/><path d="M10 6h4v12h-4z"/></svg>`,
+    htmlsanitize: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V6l7-4z"/><path d="M8 11l4 4 4-4"/></svg>`,
+    websocket: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9-9 9-9-9z"/><path d="M8 12l4-4 4 4-4 4-4-4z"/></svg>`,
+    browserinfo: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><path d="M12 3a15 15 0 0 0 0 18"/></svg>`,
+    keyboardtest: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01"/><path d="M10 10h.01"/><path d="M14 10h.01"/><path d="M18 10h.01"/><path d="M7 14h10"/></svg>`,
+    autorefresh: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.85 3.36L1 14"/></svg>`,
+    shortcut: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 15l6-6"/><path d="M10 9h5v5"/></svg>`,
+    ipgeo: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+    metaanalyzer: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 8h10"/><path d="M7 12h6"/><circle cx="17" cy="14" r="3"/><path d="M19 16l2 2"/></svg>`,
+    keyworddensity: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M4 11h10"/><path d="M4 15h13"/><path d="M4 19h8"/><rect x="17" y="10" width="4" height="10" rx="1"/></svg>`,
+    onthisday: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="16" r="3"/></svg>`,
+    whois: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><circle cx="18" cy="18" r="3"/><path d="M20 20l2 2"/></svg>`,
+    // v17 additions: Generators
+    randomnum: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="8" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="8" cy="16" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="16" r="1.2" fill="currentColor" stroke="none"/></svg>`,
+    htpasswd: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><path d="M12 15v3"/><circle cx="12" cy="15" r="1" fill="currentColor" stroke="none"/></svg>`,
+    // v17 additions: Reference
+    httpstatus: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="2" y1="9" x2="22" y2="9"/><text x="12" y="17" text-anchor="middle" font-size="6" fill="currentColor" stroke="none">200</text></svg>`,
+    httpheadersref: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="2" y1="8" x2="22" y2="8"/><line x1="2" y1="13" x2="22" y2="13"/><line x1="2" y1="18" x2="22" y2="18"/></svg>`,
+    mimetypes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>`,
+    commonports: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M7 8V6a5 5 0 0 1 10 0v2"/><circle cx="8" cy="14" r="1"/><circle cx="12" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>`,
+    asciitable: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>`,
+    useragents: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="2" y1="8" x2="22" y2="8"/><path d="M6 12h8"/><path d="M6 14h12"/></svg>`,
+    keycodes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M5 10h2"/><path d="M9 10h2"/><path d="M13 10h2"/><path d="M17 10h2"/><path d="M5 14h14"/></svg>`,
+    specialchars: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 9l8 6"/><path d="M16 9l-8 6"/></svg>`,
+    linuxcmds: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><polyline points="7 10 10 13 7 16"/><line x1="12" y1="16" x2="17" y2="16"/></svg>`,
+    regexcheat: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 8h10"/><path d="M7 12h10"/><path d="M7 16h6"/><circle cx="16" cy="16" r="1" fill="currentColor" stroke="none"/></svg>`,
+    regexcommon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6l4-3-4-3z"/><circle cx="12" cy="16" r="1.5"/><path d="M17 8l-3 4"/><path d="M7 8l3 4"/><path d="M5 20h14"/><circle cx="5" cy="20" r="0.6" fill="currentColor" stroke="none"/></svg>`,
+    regexcodegen: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6l4-3-4-3z"/><circle cx="12" cy="14" r="1"/><path d="M17 8l-3 4"/><path d="M7 8l3 4"/><polyline points="6 18 3 21 6 24" transform="translate(0,-3)"/><polyline points="18 18 21 21 18 24" transform="translate(0,-3)"/></svg>`,
+    capitals: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><path d="M12 3a15 15 0 0 0 0 18"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/></svg>`,
+    currencies: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15 8.5a3.5 3.5 0 1 0 0 7"/><path d="M9 9h4"/><path d="M9 15h4"/></svg>`,
+    dialcodes: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
+    holidays: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 15l2 2 5-5"/></svg>`,
+    dynasties: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 20V8l4-3 3 3 3-3 4 3v12"/><path d="M9 20v-6h6v6"/></svg>`,
+    dns: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>`,
+    androidperms: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="2"/><path d="M10 2h4"/><circle cx="12" cy="17" r="1" fill="currentColor" stroke="none"/><path d="M9 8h6"/></svg>`,
+    androidkeys: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="2"/><circle cx="12" cy="17" r="1"/><path d="M9 12h6"/><path d="M9 8h6"/></svg>`,
+    httpmethods: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 10h12"/><path d="M6 14h8"/><circle cx="18" cy="14" r="1" fill="currentColor" stroke="none"/></svg>`,
+    // v17 additions: Misc
+    worldclock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><path d="M12 7v5l3 2"/></svg>`,
+    drawpad: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>`,
+    interestcalc: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 16l8-8"/><circle cx="9" cy="9" r="1.5" fill="currentColor" stroke="none"/><circle cx="15" cy="15" r="1.5" fill="currentColor" stroke="none"/></svg>`,
+    setdiff: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/><path d="M9 6a6 6 0 0 1 0 12" opacity="0.4"/></svg>`,
+    // v17: Cloud (PHP-backed) tools
+    cloudfile: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="12 18 12 12"/><polyline points="9 15 12 12 15 15"/></svg>`,
+    cloudpaste: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="18" rx="2"/><path d="M9 4V2h6v2"/><path d="M9 12h6"/><path d="M9 16h4"/></svg>`,
+    cloudshort: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><path d="M9 9l6 6"/></svg>`,
+    cloudheaders: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18"/><rect x="8" y="9" width="8" height="6" rx="1"/></svg>`,
+    cloudgzip: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V4h4"/><path d="M20 8V4h-4"/><path d="M4 16v4h4"/><path d="M20 16v4h-4"/><circle cx="12" cy="12" r="4"/><path d="M9 12l2 2 4-4"/></svg>`,
+    cloudbroken: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><line x1="3" y1="3" x2="21" y2="21"/></svg>`,
+    cloudbcrypt: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><text x="12" y="18" text-anchor="middle" font-size="5" fill="currentColor" stroke="none">B</text></svg>`,
   };
 
   // ── Tool Definitions ──────────────────────────
@@ -204,6 +307,109 @@
     // Math (new)
     { id: 'scicalc',   cat: 'Math',             title: 'Scientific Calculator', desc: 'Full scientific calculator with keyboard support' },
     { id: 'statscalc', cat: 'Math',             title: 'Statistics Calculator', desc: 'Compute mean, median, std dev, quartiles & more' },
+    { id: 'interestcalc',cat: 'Math',           title: 'Interest Calculator',desc: 'Simple & compound interest, loans, and amortization' },
+    // v17: Converters (unit converters)
+    { id: 'length',    cat: 'Converters',       title: 'Length Converter',   desc: 'Convert between meters, feet, inches, miles, and more' },
+    { id: 'weight',    cat: 'Converters',       title: 'Weight Converter',   desc: 'Convert between kg, lb, oz, tons, and more' },
+    { id: 'temp',      cat: 'Converters',       title: 'Temperature Converter', desc: 'Convert between Celsius, Fahrenheit, Kelvin, Rankine' },
+    { id: 'area',      cat: 'Converters',       title: 'Area Converter',     desc: 'Convert between m2, ft2, acres, hectares, and more' },
+    { id: 'volume',    cat: 'Converters',       title: 'Volume Converter',   desc: 'Convert between liters, gallons, cubic meters, and more' },
+    { id: 'timeconv',  cat: 'Converters',       title: 'Time Converter',     desc: 'Convert between seconds, minutes, hours, days, years' },
+    { id: 'speed',     cat: 'Converters',       title: 'Speed Converter',    desc: 'Convert between km/h, mph, m/s, knots, and more' },
+    { id: 'angle',     cat: 'Converters',       title: 'Angle Converter',    desc: 'Convert between degrees, radians, gradians, turns' },
+    { id: 'datasize',  cat: 'Converters',       title: 'Data Size Converter',desc: 'Convert between bytes, KB, MB, GB, TB (binary & decimal)' },
+    { id: 'pressure',  cat: 'Converters',       title: 'Pressure Converter', desc: 'Convert between Pa, bar, psi, atm, torr, and more' },
+    { id: 'power',     cat: 'Converters',       title: 'Power Converter',    desc: 'Convert between watts, horsepower, kW, BTU/h, and more' },
+    { id: 'energy',    cat: 'Converters',       title: 'Energy Converter',   desc: 'Convert between joules, calories, kWh, BTU, eV, and more' },
+    { id: 'density',   cat: 'Converters',       title: 'Density Converter',  desc: 'Convert between kg/m3, g/cm3, lb/ft3, and more' },
+    { id: 'force',     cat: 'Converters',       title: 'Force Converter',    desc: 'Convert between Newtons, dynes, pound-force, kgf' },
+    { id: 'rempx',     cat: 'Converters',       title: 'rem / px Converter', desc: 'Convert between CSS rem and pixel values' },
+    // v17: Text additions
+    { id: 'camelsnake',cat: 'Text',             title: 'Camel / Snake Case', desc: 'Convert between camelCase, snake_case, kebab-case, PascalCase' },
+    { id: 'fullhalf',  cat: 'Text',             title: 'Full/Half Width',    desc: 'Convert between full-width and half-width characters' },
+    { id: 'unicodeascii',cat: 'Text',           title: 'Unicode / ASCII',    desc: 'Convert between Unicode escape sequences and raw text' },
+    { id: 'textreverse',cat: 'Text',            title: 'Text Reverse/Flip',  desc: 'Reverse text, flip upside-down, mirror, and invert case' },
+    { id: 'textvertical',cat: 'Text',           title: 'Vertical Text',      desc: 'Display text vertically (top-to-bottom, right-to-left)' },
+    { id: 'simpltrad', cat: 'Text',             title: 'Simp / Traditional', desc: 'Convert between Simplified and Traditional Chinese' },
+    { id: 'martian',   cat: 'Text',             title: 'Martian Text',       desc: 'Convert text to martian / internet slang substitution' },
+    { id: 'rmbcapital',cat: 'Text',             title: 'RMB Uppercase',      desc: 'Convert numbers to Chinese uppercase currency format' },
+    { id: 'autoformat',cat: 'Text',             title: 'Auto-Format Article',desc: 'Clean up article text: trim lines, fix paragraphs, smart quotes' },
+    { id: 'texteffects',cat: 'Text',            title: 'Text Effects',       desc: 'Add decorative styles: strikethrough, underline, bubbles, bold' },
+    { id: 'textcompress',cat: 'Text',           title: 'Text Compression',   desc: 'Compress text using LZ-string algorithm (shareable URLs)' },
+    // v17: Encoding additions
+    { id: 'aes',       cat: 'Encode / Decode',  title: 'AES Encrypt/Decrypt',desc: 'AES-128/192/256 symmetric encryption with passphrase' },
+    { id: 'des',       cat: 'Encode / Decode',  title: 'DES Encrypt/Decrypt',desc: 'DES symmetric encryption (legacy — use AES for new work)' },
+    { id: 'tripledes', cat: 'Encode / Decode',  title: 'Triple DES',         desc: '3DES (TripleDES) symmetric encryption' },
+    { id: 'rc4',       cat: 'Encode / Decode',  title: 'RC4 Cipher',         desc: 'RC4 stream cipher (deprecated — historical use only)' },
+    { id: 'rabbit',    cat: 'Encode / Decode',  title: 'Rabbit Cipher',      desc: 'Rabbit stream cipher encrypt/decrypt' },
+    { id: 'urlhex',    cat: 'Encode / Decode',  title: 'URL Hex Encoding',   desc: 'Encode URLs as hexadecimal %-escape sequences' },
+    // v17: Developer additions
+    { id: 'json2java', cat: 'Developer',        title: 'JSON to Java Class', desc: 'Generate Java POJO / entity class from JSON' },
+    { id: 'json2csharp',cat: 'Developer',       title: 'JSON to C# Class',   desc: 'Generate C# entity class with properties from JSON' },
+    { id: 'json2go',   cat: 'Developer',        title: 'JSON to Go Struct',  desc: 'Generate Go struct with type inference from JSON' },
+    { id: 'json2ts',   cat: 'Developer',        title: 'JSON to TypeScript', desc: 'Generate TypeScript interfaces from JSON' },
+    { id: 'sql2java',  cat: 'Developer',        title: 'SQL to Java Class',  desc: 'Generate Java entity class from CREATE TABLE statement' },
+    { id: 'xmljson',   cat: 'Developer',        title: 'XML / JSON',         desc: 'Bidirectional XML and JSON converter' },
+    { id: 'jsonparams',cat: 'Developer',        title: 'JSON / URL Params',  desc: 'Convert between JSON objects and URL query strings' },
+    { id: 'html2md',   cat: 'Developer',        title: 'HTML to Markdown',   desc: 'Convert HTML to Markdown (reverse of md2html)' },
+    { id: 'htmljs',    cat: 'Developer',        title: 'HTML / JS String',   desc: 'Convert HTML to JS string literal and back' },
+    { id: 'htmlformat',cat: 'Developer',        title: 'HTML Formatter',     desc: 'Beautify or minify HTML documents' },
+    { id: 'codeformat',cat: 'Developer',        title: 'Code Formatter',     desc: 'Indent-format C, C++, Java, C#, PHP, Python, Ruby code' },
+    { id: 'jsobfuscate',cat: 'Developer',       title: 'JS Obfuscator',      desc: 'Obfuscate JavaScript using eval/String.fromCharCode wrapping' },
+    { id: 'htaccess2nginx',cat: 'Developer',    title: 'htaccess / Nginx',   desc: 'Convert common Apache .htaccess rules to Nginx config' },
+    { id: 'xpath',     cat: 'Developer',        title: 'XPath Tester',       desc: 'Test XPath expressions against XML or HTML' },
+    { id: 'htmltable', cat: 'Developer',        title: 'HTML Table Builder', desc: 'Visually build HTML tables and export the markup' },
+    { id: 'htmlubb',   cat: 'Developer',        title: 'HTML / BBCode',      desc: 'Convert between HTML and UBB/BBCode tags' },
+    { id: 'htmlsanitize',cat: 'Developer',      title: 'HTML Sanitizer',     desc: 'Strip tags, scripts, styles, attributes from HTML' },
+    { id: 'websocket', cat: 'Developer',        title: 'WebSocket Tester',   desc: 'Connect to WebSocket servers and send/receive messages' },
+    { id: 'browserinfo',cat: 'Developer',       title: 'Browser Info',       desc: 'Display current browser capabilities, features & environment' },
+    { id: 'keyboardtest',cat: 'Developer',      title: 'Keyboard Tester',    desc: 'Show key events, codes, and modifiers in real time' },
+    { id: 'autorefresh',cat: 'Developer',       title: 'Auto Refresh URL',   desc: 'Open a URL in an iframe and auto-refresh on an interval' },
+    { id: 'shortcut',  cat: 'Developer',        title: 'Desktop Shortcut',   desc: 'Generate .url / .desktop shortcut files for any URL' },
+    { id: 'ipnum',     cat: 'Developer',        title: 'IP / Number',        desc: 'Convert between dotted IPv4 and integer representation' },
+    { id: 'ipgeo',     cat: 'Developer',        title: 'IP Geolocation',     desc: 'Look up location, ISP, and ASN for any public IP' },
+    { id: 'metaanalyzer',cat: 'Developer',      title: 'Meta Tag Analyzer',  desc: 'Paste HTML to analyze SEO meta tags and social previews' },
+    { id: 'keyworddensity',cat: 'Developer',    title: 'Keyword Density',    desc: 'Analyze keyword frequency and density in text or HTML' },
+    { id: 'onthisday', cat: 'Developer',        title: 'On This Day',        desc: 'Historical events, births, and deaths for today (Wikipedia)' },
+    { id: 'whois',     cat: 'Developer',        title: 'WHOIS / RDAP',       desc: 'Look up domain registration info via RDAP' },
+    { id: 'regexcodegen',cat: 'Developer',      title: 'Regex to Code',      desc: 'Wrap a regex in JS / Python / PHP / Java / Go / C# code' },
+    { id: 'worldclock',cat: 'Developer',        title: 'World Clock',        desc: 'Live clocks for major world cities and timezones' },
+    // v17: Generators additions
+    { id: 'randomnum', cat: 'Generators',       title: 'Random Number',      desc: 'Generate random numbers with range, count, and options' },
+    { id: 'htpasswd',  cat: 'Generators',       title: 'htpasswd Generator', desc: 'Create Apache htpasswd entries (MD5/SHA/bcrypt)' },
+    // v17: Data additions
+    { id: 'setdiff',   cat: 'Data',             title: 'Set Diff',           desc: 'Compare two lists: intersection, difference, symmetric diff' },
+    // v17: Image additions
+    { id: 'drawpad',   cat: 'Image',            title: 'Drawing Pad',        desc: 'Freehand drawing canvas with brush, eraser, and colors' },
+    // v17: Reference (new category)
+    { id: 'httpstatus',cat: 'Reference',        title: 'HTTP Status Codes',  desc: 'Searchable table of all HTTP status codes and meanings' },
+    { id: 'httpheadersref',cat: 'Reference',    title: 'HTTP Headers Ref',   desc: 'Common request and response HTTP headers with descriptions' },
+    { id: 'httpmethods',cat: 'Reference',       title: 'HTTP Methods',       desc: 'GET, POST, PUT, DELETE, PATCH — all HTTP methods' },
+    { id: 'mimetypes', cat: 'Reference',        title: 'MIME Types',         desc: 'Searchable Content-Type / MIME type reference' },
+    { id: 'commonports',cat: 'Reference',       title: 'Common Ports',       desc: 'Well-known TCP / UDP port numbers and their services' },
+    { id: 'asciitable',cat: 'Reference',        title: 'ASCII Table',        desc: 'Full 128-character ASCII table with HEX, DEC, and HTML' },
+    { id: 'useragents',cat: 'Reference',        title: 'Common User-Agents', desc: 'Browser User-Agent strings for Chrome, Safari, Firefox, bots' },
+    { id: 'keycodes',  cat: 'Reference',        title: 'Keyboard KeyCodes',  desc: 'JavaScript keyCode and KeyboardEvent.code reference' },
+    { id: 'androidkeys',cat: 'Reference',       title: 'Android KeyCodes',   desc: 'Android KeyEvent keycodes for remote and hardware keys' },
+    { id: 'androidperms',cat: 'Reference',      title: 'Android Permissions',desc: 'Android manifest permission names and use cases' },
+    { id: 'specialchars',cat: 'Reference',      title: 'Special Characters', desc: 'Searchable table of Unicode symbols, arrows, math, currency' },
+    { id: 'linuxcmds', cat: 'Reference',        title: 'Linux Commands',     desc: 'Common Linux shell commands with examples' },
+    { id: 'regexcheat',cat: 'Reference',        title: 'Regex Cheatsheet',   desc: 'Quick reference for regex syntax: tokens, flags, classes' },
+    { id: 'regexcommon',cat: 'Reference',       title: 'Common Regex',       desc: 'Ready-to-copy regex patterns (email, URL, date, phone, etc.)' },
+    { id: 'capitals',  cat: 'Reference',        title: 'World Capitals',     desc: 'Searchable list of countries and their capital cities' },
+    { id: 'currencies',cat: 'Reference',        title: 'World Currencies',   desc: 'Country currency codes, symbols, and names (ISO 4217)' },
+    { id: 'dialcodes', cat: 'Reference',        title: 'Dial Codes & TZ',    desc: 'International calling codes, ISO country codes, and UTC offsets' },
+    { id: 'holidays',  cat: 'Reference',        title: 'World Holidays',     desc: 'Common international holidays by month (static reference)' },
+    { id: 'dynasties', cat: 'Reference',        title: 'Chinese Dynasties',  desc: 'Timeline of Chinese dynasties through history' },
+    { id: 'dns',       cat: 'Reference',        title: 'Public DNS Servers', desc: 'Public DNS resolvers: Google, Cloudflare, Quad9, OpenDNS, etc.' },
+    // v17: Cloud (PHP backend, optional — runs only if /api is reachable)
+    { id: 'cloudfile', cat: 'Cloud',            title: 'File Transfer',      desc: 'Upload a small file (≤20MB) and get a shareable link with TTL' },
+    { id: 'cloudpaste',cat: 'Cloud',            title: 'Pastebin',           desc: 'Anonymous text snippet sharing with TTL and burn-after-read' },
+    { id: 'cloudshort',cat: 'Cloud',            title: 'URL Shortener',      desc: 'Create short links with hit counters' },
+    { id: 'cloudheaders',cat: 'Cloud',          title: 'HTTP Header Fetcher',desc: 'Fetch any URL\'s response headers server-side (bypasses CORS)' },
+    { id: 'cloudgzip', cat: 'Cloud',            title: 'Gzip / Brotli Check',desc: 'Check if a URL serves gzip or brotli compression' },
+    { id: 'cloudbroken',cat: 'Cloud',           title: 'Broken Link Checker',desc: 'Crawl a page and report broken links (up to 40 per scan)' },
+    { id: 'cloudbcrypt',cat: 'Cloud',           title: 'bcrypt Hash',        desc: 'Server-side bcrypt password hashing for htpasswd' },
   ];
 
   // ── Render Tool Cards (grouped by category) ──
@@ -363,6 +569,11 @@
     document.body.style.overflow = '';
     clearInterval(activeInterval);
     activeInterval = null;
+    // Call tool-specific cleanup if it registered one (timers, event listeners, sockets)
+    if (panelContent && typeof panelContent._cleanup === 'function') {
+      try { panelContent._cleanup(); } catch (_) {}
+      panelContent._cleanup = null;
+    }
   }
 
   closeBtn.addEventListener('click', closePanel);
@@ -5731,6 +5942,4306 @@
 
     textarea.value = '4, 8, 15, 16, 23, 42, 4, 8, 15';
     calculate();
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 SHARED HELPERS
+  // ═══════════════════════════════════════════════
+
+  // Generic unit converter: factor-based (value in base unit = inputValue * factor)
+  function makeUnitConverter(container, units, fmt) {
+    fmt = fmt || ((n) => {
+      if (!isFinite(n)) return '—';
+      const abs = Math.abs(n);
+      if (abs !== 0 && (abs < 1e-4 || abs >= 1e12)) return n.toExponential(6);
+      return parseFloat(n.toPrecision(10)).toString();
+    });
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Value' }));
+    const input = el('input', { type: 'number', className: 'glass-input', value: '1', step: 'any' });
+    fg.appendChild(input);
+    container.appendChild(fg);
+
+    const fromWrap = el('div', { className: 'form-group' });
+    fromWrap.appendChild(el('label', { textContent: 'From' }));
+    container.appendChild(fromWrap);
+    let fromUnit = units[0].key;
+    const fromPicker = glassPicker('conv-from-' + Math.random().toString(36).slice(2,8),
+      units.map(u => u.label), units[0].label, (label) => {
+        fromUnit = units.find(u => u.label === label).key;
+        update();
+      });
+    fromWrap.appendChild(fromPicker.wrapper);
+
+    const list = el('div', { className: 'result-box', style: 'white-space:pre-wrap;font-family:ui-monospace,monospace;font-size:13px;line-height:1.8' });
+    container.appendChild(list);
+
+    function update() {
+      const v = parseFloat(input.value);
+      if (isNaN(v)) { list.textContent = 'Enter a number'; return; }
+      const fromDef = units.find(u => u.key === fromUnit);
+      // convert to base
+      const base = fromDef.toBase ? fromDef.toBase(v) : v * fromDef.factor;
+      const rows = units.map(u => {
+        const out = u.fromBase ? u.fromBase(base) : base / u.factor;
+        const marker = u.key === fromUnit ? '▸' : ' ';
+        return `${marker} ${u.label.padEnd(28)} ${fmt(out)}`;
+      });
+      list.textContent = rows.join('\n');
+    }
+    input.addEventListener('input', update);
+    update();
+  }
+
+  // Generic reference table: searchable, copy-on-click
+  function makeReferenceTable(container, columns, rows, opts) {
+    opts = opts || {};
+    const search = el('input', { type: 'text', className: 'glass-input', placeholder: opts.placeholder || 'Search…' });
+    container.appendChild(search);
+
+    const wrap = el('div', { style: 'margin-top:12px;max-height:62vh;overflow:auto;border-radius:14px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08)' });
+    const table = el('table', { style: 'width:100%;border-collapse:collapse;font-size:13px' });
+    const thead = el('thead');
+    const htr = el('tr');
+    columns.forEach(c => {
+      htr.appendChild(el('th', {
+        textContent: c,
+        style: 'position:sticky;top:0;background:rgba(20,20,30,0.95);backdrop-filter:blur(8px);padding:10px 12px;text-align:left;font-weight:600;color:rgba(255,255,255,0.9);border-bottom:1px solid rgba(255,255,255,0.1);z-index:1'
+      }));
+    });
+    thead.appendChild(htr);
+    table.appendChild(thead);
+
+    const tbody = el('tbody');
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    container.appendChild(wrap);
+
+    const count = el('div', { style: 'margin-top:8px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    container.appendChild(count);
+
+    function render(filter) {
+      tbody.innerHTML = '';
+      const f = (filter || '').toLowerCase().trim();
+      let shown = 0;
+      rows.forEach(row => {
+        const rowText = row.join(' ').toLowerCase();
+        if (f && !rowText.includes(f)) return;
+        const tr = el('tr', { style: 'cursor:pointer;transition:background 0.15s' });
+        tr.addEventListener('mouseenter', () => tr.style.background = 'rgba(255,255,255,0.05)');
+        tr.addEventListener('mouseleave', () => tr.style.background = '');
+        tr.addEventListener('click', () => {
+          const txt = opts.copy ? opts.copy(row) : row.join('\t');
+          navigator.clipboard.writeText(txt).then(() => {
+            tr.style.background = 'rgba(0,200,120,0.2)';
+            setTimeout(() => tr.style.background = '', 400);
+          });
+        });
+        row.forEach((cell, i) => {
+          const td = el('td', {
+            style: 'padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.05);color:rgba(255,255,255,0.85);vertical-align:top'
+          });
+          if (i === 0 && opts.firstColMono !== false) td.style.fontFamily = 'ui-monospace,monospace';
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+        shown++;
+      });
+      count.textContent = `${shown} of ${rows.length} rows  •  click row to copy`;
+    }
+    search.addEventListener('input', () => render(search.value));
+    render('');
+  }
+
+  // ═══════════════════════════════════════════════
+  //  v17 CONVERTERS (unit converters)
+  // ═══════════════════════════════════════════════
+  toolBuilders.length = (c) => makeUnitConverter(c, [
+    { key: 'mm',  label: 'Millimeter (mm)',   factor: 0.001 },
+    { key: 'cm',  label: 'Centimeter (cm)',   factor: 0.01 },
+    { key: 'm',   label: 'Meter (m)',         factor: 1 },
+    { key: 'km',  label: 'Kilometer (km)',    factor: 1000 },
+    { key: 'in',  label: 'Inch (in)',         factor: 0.0254 },
+    { key: 'ft',  label: 'Foot (ft)',         factor: 0.3048 },
+    { key: 'yd',  label: 'Yard (yd)',         factor: 0.9144 },
+    { key: 'mi',  label: 'Mile (mi)',         factor: 1609.344 },
+    { key: 'nmi', label: 'Nautical mile (nmi)', factor: 1852 },
+    { key: 'au',  label: 'Astronomical unit (AU)', factor: 149597870700 },
+    { key: 'ly',  label: 'Light year (ly)',   factor: 9.4607304725808e15 },
+    { key: 'pc',  label: 'Parsec (pc)',       factor: 3.0857e16 },
+  ]);
+
+  toolBuilders.weight = (c) => makeUnitConverter(c, [
+    { key: 'mg',  label: 'Milligram (mg)',    factor: 1e-6 },
+    { key: 'g',   label: 'Gram (g)',          factor: 0.001 },
+    { key: 'kg',  label: 'Kilogram (kg)',     factor: 1 },
+    { key: 't',   label: 'Metric ton (t)',    factor: 1000 },
+    { key: 'oz',  label: 'Ounce (oz)',        factor: 0.028349523125 },
+    { key: 'lb',  label: 'Pound (lb)',        factor: 0.45359237 },
+    { key: 'st',  label: 'Stone (st)',        factor: 6.35029318 },
+    { key: 'uston',label: 'US ton',           factor: 907.18474 },
+    { key: 'ukton',label: 'UK long ton',      factor: 1016.0469088 },
+    { key: 'ct',  label: 'Carat (ct)',        factor: 0.0002 },
+    { key: 'jin', label: 'Chinese 斤 (jin)',   factor: 0.5 },
+    { key: 'liang',label: 'Chinese 两 (liang)',factor: 0.05 },
+  ]);
+
+  toolBuilders.temp = (c) => makeUnitConverter(c, [
+    { key: 'c', label: 'Celsius (°C)',    toBase: v => v,                     fromBase: v => v },
+    { key: 'f', label: 'Fahrenheit (°F)', toBase: v => (v - 32) * 5/9,        fromBase: v => v * 9/5 + 32 },
+    { key: 'k', label: 'Kelvin (K)',      toBase: v => v - 273.15,            fromBase: v => v + 273.15 },
+    { key: 'r', label: 'Rankine (°R)',    toBase: v => (v - 491.67) * 5/9,    fromBase: v => (v + 273.15) * 9/5 },
+    { key: 're',label: 'Réaumur (°Ré)',   toBase: v => v * 5/4,               fromBase: v => v * 4/5 },
+  ]);
+
+  toolBuilders.area = (c) => makeUnitConverter(c, [
+    { key: 'mm2', label: 'Square mm (mm²)',   factor: 1e-6 },
+    { key: 'cm2', label: 'Square cm (cm²)',   factor: 1e-4 },
+    { key: 'm2',  label: 'Square m (m²)',     factor: 1 },
+    { key: 'km2', label: 'Square km (km²)',   factor: 1e6 },
+    { key: 'ha',  label: 'Hectare (ha)',      factor: 10000 },
+    { key: 'in2', label: 'Square inch (in²)', factor: 0.00064516 },
+    { key: 'ft2', label: 'Square foot (ft²)', factor: 0.09290304 },
+    { key: 'yd2', label: 'Square yard (yd²)', factor: 0.83612736 },
+    { key: 'ac',  label: 'Acre (ac)',         factor: 4046.8564224 },
+    { key: 'mi2', label: 'Square mile (mi²)', factor: 2589988.110336 },
+    { key: 'mu',  label: 'Chinese 亩 (mu)',    factor: 666.6666667 },
+  ]);
+
+  toolBuilders.volume = (c) => makeUnitConverter(c, [
+    { key: 'ml',   label: 'Milliliter (mL)',   factor: 1e-6 },
+    { key: 'cl',   label: 'Centiliter (cL)',   factor: 1e-5 },
+    { key: 'l',    label: 'Liter (L)',         factor: 0.001 },
+    { key: 'm3',   label: 'Cubic meter (m³)',  factor: 1 },
+    { key: 'cm3',  label: 'Cubic cm (cm³)',    factor: 1e-6 },
+    { key: 'in3',  label: 'Cubic inch (in³)',  factor: 1.6387064e-5 },
+    { key: 'ft3',  label: 'Cubic foot (ft³)',  factor: 0.028316846592 },
+    { key: 'yd3',  label: 'Cubic yard (yd³)',  factor: 0.764554857984 },
+    { key: 'usgal',label: 'US gallon (gal)',   factor: 0.003785411784 },
+    { key: 'usqt', label: 'US quart (qt)',     factor: 0.000946352946 },
+    { key: 'uspt', label: 'US pint (pt)',      factor: 0.000473176473 },
+    { key: 'usfloz',label: 'US fluid oz',      factor: 2.95735295625e-5 },
+    { key: 'ukgal',label: 'UK gallon',         factor: 0.00454609 },
+    { key: 'ukpt', label: 'UK pint',           factor: 0.00056826125 },
+    { key: 'cup',  label: 'US cup',            factor: 0.0002365882365 },
+    { key: 'tbsp', label: 'US tablespoon',     factor: 1.478676478125e-5 },
+    { key: 'tsp',  label: 'US teaspoon',       factor: 4.92892159375e-6 },
+  ]);
+
+  toolBuilders.timeconv = (c) => makeUnitConverter(c, [
+    { key: 'ns',  label: 'Nanosecond (ns)',   factor: 1e-9 },
+    { key: 'us',  label: 'Microsecond (µs)',  factor: 1e-6 },
+    { key: 'ms',  label: 'Millisecond (ms)',  factor: 0.001 },
+    { key: 's',   label: 'Second (s)',        factor: 1 },
+    { key: 'min', label: 'Minute (min)',      factor: 60 },
+    { key: 'h',   label: 'Hour (h)',          factor: 3600 },
+    { key: 'day', label: 'Day',               factor: 86400 },
+    { key: 'wk',  label: 'Week',              factor: 604800 },
+    { key: 'mo',  label: 'Month (avg 30.44d)', factor: 2629746 },
+    { key: 'yr',  label: 'Year (365.25d)',    factor: 31557600 },
+    { key: 'dec', label: 'Decade',            factor: 315576000 },
+    { key: 'cen', label: 'Century',           factor: 3155760000 },
+  ]);
+
+  toolBuilders.speed = (c) => makeUnitConverter(c, [
+    { key: 'ms',    label: 'Meter per second (m/s)',  factor: 1 },
+    { key: 'kmh',   label: 'Kilometer per hour (km/h)', factor: 1/3.6 },
+    { key: 'mph',   label: 'Mile per hour (mph)',     factor: 0.44704 },
+    { key: 'fts',   label: 'Foot per second (ft/s)',  factor: 0.3048 },
+    { key: 'knot',  label: 'Knot (kn)',               factor: 0.514444444 },
+    { key: 'mach',  label: 'Mach (at sea level)',     factor: 343 },
+    { key: 'c',     label: 'Speed of light (c)',      factor: 299792458 },
+  ]);
+
+  toolBuilders.angle = (c) => makeUnitConverter(c, [
+    { key: 'deg',  label: 'Degree (°)',       factor: 1 },
+    { key: 'rad',  label: 'Radian (rad)',     factor: 180/Math.PI },
+    { key: 'grad', label: 'Gradian (gon)',    factor: 0.9 },
+    { key: 'turn', label: 'Turn (revolution)',factor: 360 },
+    { key: 'arcmin',label: 'Arcminute (′)',   factor: 1/60 },
+    { key: 'arcsec',label: 'Arcsecond (″)',   factor: 1/3600 },
+    { key: 'mil', label: 'NATO mil',          factor: 360/6400 },
+  ]);
+
+  toolBuilders.datasize = (c) => makeUnitConverter(c, [
+    { key: 'bit',  label: 'Bit (b)',           factor: 0.125 },
+    { key: 'byte', label: 'Byte (B)',          factor: 1 },
+    { key: 'kb',   label: 'Kilobyte (kB, 1000)', factor: 1000 },
+    { key: 'mb',   label: 'Megabyte (MB, 1000²)',factor: 1e6 },
+    { key: 'gb',   label: 'Gigabyte (GB)',     factor: 1e9 },
+    { key: 'tb',   label: 'Terabyte (TB)',     factor: 1e12 },
+    { key: 'pb',   label: 'Petabyte (PB)',     factor: 1e15 },
+    { key: 'kib',  label: 'Kibibyte (KiB, 1024)',   factor: 1024 },
+    { key: 'mib',  label: 'Mebibyte (MiB, 1024²)',  factor: 1048576 },
+    { key: 'gib',  label: 'Gibibyte (GiB)',    factor: 1073741824 },
+    { key: 'tib',  label: 'Tebibyte (TiB)',    factor: 1099511627776 },
+    { key: 'pib',  label: 'Pebibyte (PiB)',    factor: 1125899906842624 },
+  ]);
+
+  toolBuilders.pressure = (c) => makeUnitConverter(c, [
+    { key: 'pa',   label: 'Pascal (Pa)',        factor: 1 },
+    { key: 'hpa',  label: 'Hectopascal (hPa)',  factor: 100 },
+    { key: 'kpa',  label: 'Kilopascal (kPa)',   factor: 1000 },
+    { key: 'mpa',  label: 'Megapascal (MPa)',   factor: 1e6 },
+    { key: 'bar',  label: 'Bar',                factor: 100000 },
+    { key: 'mbar', label: 'Millibar (mbar)',    factor: 100 },
+    { key: 'atm',  label: 'Atmosphere (atm)',   factor: 101325 },
+    { key: 'torr', label: 'Torr (mmHg)',        factor: 133.322387415 },
+    { key: 'psi',  label: 'PSI (lb/in²)',       factor: 6894.757293168 },
+    { key: 'ksi',  label: 'KSI',                factor: 6894757.293168 },
+    { key: 'mmh2o',label: 'mmH₂O',              factor: 9.80665 },
+    { key: 'inhg', label: 'inHg',               factor: 3386.389 },
+  ]);
+
+  toolBuilders.power = (c) => makeUnitConverter(c, [
+    { key: 'mw',   label: 'Milliwatt (mW)',     factor: 0.001 },
+    { key: 'w',    label: 'Watt (W)',           factor: 1 },
+    { key: 'kw',   label: 'Kilowatt (kW)',      factor: 1000 },
+    { key: 'mw2',  label: 'Megawatt (MW)',      factor: 1e6 },
+    { key: 'gw',   label: 'Gigawatt (GW)',      factor: 1e9 },
+    { key: 'hp',   label: 'Mechanical HP',      factor: 745.6998715822702 },
+    { key: 'mhp',  label: 'Metric HP (PS)',     factor: 735.49875 },
+    { key: 'btuh', label: 'BTU/h',              factor: 0.29307107 },
+    { key: 'ftlbs',label: 'ft·lb/s',            factor: 1.3558179483 },
+    { key: 'cals', label: 'Cal/s',              factor: 4.184 },
+  ]);
+
+  toolBuilders.energy = (c) => makeUnitConverter(c, [
+    { key: 'j',    label: 'Joule (J)',           factor: 1 },
+    { key: 'kj',   label: 'Kilojoule (kJ)',      factor: 1000 },
+    { key: 'mj',   label: 'Megajoule (MJ)',      factor: 1e6 },
+    { key: 'cal',  label: 'Calorie (cal)',       factor: 4.184 },
+    { key: 'kcal', label: 'Kilocalorie (kcal)',  factor: 4184 },
+    { key: 'wh',   label: 'Watt-hour (Wh)',      factor: 3600 },
+    { key: 'kwh',  label: 'Kilowatt-hour (kWh)', factor: 3.6e6 },
+    { key: 'mwh',  label: 'Megawatt-hour (MWh)', factor: 3.6e9 },
+    { key: 'btu',  label: 'BTU',                 factor: 1055.056 },
+    { key: 'ev',   label: 'Electronvolt (eV)',   factor: 1.602176634e-19 },
+    { key: 'erg',  label: 'Erg',                 factor: 1e-7 },
+    { key: 'ftlb', label: 'Foot-pound (ft·lb)',  factor: 1.3558179483 },
+    { key: 'ton',  label: 'Ton of TNT',          factor: 4.184e9 },
+  ]);
+
+  toolBuilders.density = (c) => makeUnitConverter(c, [
+    { key: 'kgm3', label: 'kg/m³',             factor: 1 },
+    { key: 'gcm3', label: 'g/cm³',             factor: 1000 },
+    { key: 'gml',  label: 'g/mL',              factor: 1000 },
+    { key: 'kgl',  label: 'kg/L',              factor: 1000 },
+    { key: 'lbft3',label: 'lb/ft³',            factor: 16.01846337 },
+    { key: 'lbin3',label: 'lb/in³',            factor: 27679.90471 },
+    { key: 'ozin3',label: 'oz/in³',            factor: 1729.994049 },
+    { key: 'ozgal',label: 'oz/US gal',         factor: 7.4891517 },
+  ]);
+
+  toolBuilders.force = (c) => makeUnitConverter(c, [
+    { key: 'n',    label: 'Newton (N)',          factor: 1 },
+    { key: 'kn',   label: 'Kilonewton (kN)',     factor: 1000 },
+    { key: 'mn',   label: 'Meganewton (MN)',     factor: 1e6 },
+    { key: 'dyn',  label: 'Dyne (dyn)',          factor: 1e-5 },
+    { key: 'kgf',  label: 'Kilogram-force (kgf)',factor: 9.80665 },
+    { key: 'gf',   label: 'Gram-force (gf)',     factor: 0.00980665 },
+    { key: 'lbf',  label: 'Pound-force (lbf)',   factor: 4.4482216152605 },
+    { key: 'ozf',  label: 'Ounce-force (ozf)',   factor: 0.2780138509537812 },
+    { key: 'pdl',  label: 'Poundal (pdl)',       factor: 0.138254954376 },
+  ]);
+
+  toolBuilders.rempx = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Root font-size (px)' }));
+    const base = el('input', { type: 'number', className: 'glass-input', value: '16', step: '1', min: '1' });
+    fg.appendChild(base);
+    c.appendChild(fg);
+
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const pxWrap = el('div', { className: 'form-group' });
+    pxWrap.appendChild(el('label', { textContent: 'Pixels' }));
+    const pxInput = el('input', { type: 'number', className: 'glass-input', value: '16', step: 'any' });
+    pxWrap.appendChild(pxInput);
+    const remWrap = el('div', { className: 'form-group' });
+    remWrap.appendChild(el('label', { textContent: 'rem' }));
+    const remInput = el('input', { type: 'number', className: 'glass-input', value: '1', step: 'any' });
+    remWrap.appendChild(remInput);
+    row.appendChild(pxWrap); row.appendChild(remWrap);
+    c.appendChild(row);
+
+    const table = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:13px;line-height:1.7' });
+    c.appendChild(table);
+
+    let updating = false;
+    function fromPx() {
+      if (updating) return;
+      updating = true;
+      const b = parseFloat(base.value) || 16;
+      const p = parseFloat(pxInput.value);
+      if (!isNaN(p)) remInput.value = (p / b).toString();
+      renderTable();
+      updating = false;
+    }
+    function fromRem() {
+      if (updating) return;
+      updating = true;
+      const b = parseFloat(base.value) || 16;
+      const r = parseFloat(remInput.value);
+      if (!isNaN(r)) pxInput.value = (r * b).toString();
+      renderTable();
+      updating = false;
+    }
+    function renderTable() {
+      const b = parseFloat(base.value) || 16;
+      const lines = ['px    rem      px    rem'];
+      for (let i = 0; i < 24; i += 2) {
+        const pxA = i, remA = (i / b).toFixed(4);
+        const pxB = i + 24, remB = ((i + 24) / b).toFixed(4);
+        lines.push(`${String(pxA).padStart(3)}  ${String(remA).padStart(8)}  ${String(pxB).padStart(3)}  ${String(remB).padStart(8)}`);
+      }
+      table.textContent = lines.join('\n');
+    }
+    pxInput.addEventListener('input', fromPx);
+    remInput.addEventListener('input', fromRem);
+    base.addEventListener('input', () => { fromPx(); });
+    renderTable();
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 TEXT TOOLS
+  // ═══════════════════════════════════════════════
+
+  // Camel / Snake / Kebab / Pascal case converter
+  toolBuilders.camelsnake = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text (any case)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '4', placeholder: 'myVariableName or my_variable_name or my-variable-name' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:13px;line-height:1.8' });
+    c.appendChild(out);
+
+    function splitWords(s) {
+      return s
+        .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+        .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+        .split(/[\s_\-\.]+/)
+        .filter(Boolean)
+        .map(w => w.toLowerCase());
+    }
+    function cap(w) { return w.charAt(0).toUpperCase() + w.slice(1); }
+    function update() {
+      const words = splitWords(input.value);
+      if (!words.length) { out.textContent = 'Enter some text above.'; return; }
+      const camel = words[0] + words.slice(1).map(cap).join('');
+      const pascal = words.map(cap).join('');
+      const snake = words.join('_');
+      const snakeU = words.join('_').toUpperCase();
+      const kebab = words.join('-');
+      const kebabU = words.join('-').toUpperCase();
+      const dot = words.join('.');
+      const space = words.join(' ');
+      const title = words.map(cap).join(' ');
+      const upper = words.join(' ').toUpperCase();
+      out.textContent = [
+        `camelCase         ${camel}`,
+        `PascalCase        ${pascal}`,
+        `snake_case        ${snake}`,
+        `SCREAMING_SNAKE   ${snakeU}`,
+        `kebab-case        ${kebab}`,
+        `SCREAMING-KEBAB   ${kebabU}`,
+        `dot.case          ${dot}`,
+        `Title Case        ${title}`,
+        `UPPERCASE         ${upper}`,
+        `lowercase         ${space}`,
+      ].join('\n');
+    }
+    input.addEventListener('input', update);
+    input.value = 'myVariableName';
+    update();
+  };
+
+  // Full-width ↔ Half-width
+  toolBuilders.fullhalf = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    function toHalf(s) {
+      return s.replace(/[！-～]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
+              .replace(/　/g, ' ');
+    }
+    function toFull(s) {
+      return s.replace(/[\x21-\x7e]/g, ch => String.fromCharCode(ch.charCodeAt(0) + 0xfee0))
+              .replace(/ /g, '　');
+    }
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Full → Half', onClick: () => {
+      resultBox(c, toHalf(input.value));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Half → Full', onClick: () => {
+      resultBox(c, toFull(input.value));
+    }}));
+    c.appendChild(btns);
+    input.value = 'Hello 你好 123 ABC';
+  };
+
+  // Unicode ↔ ASCII escape
+  toolBuilders.unicodeascii = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5', placeholder: 'Hello 世界  →  Hello \\u4e16\\u754c' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Text → \\u escape', onClick: () => {
+      const out = [...input.value].map(ch => {
+        const code = ch.codePointAt(0);
+        if (code < 128) return ch;
+        if (code <= 0xffff) return '\\u' + code.toString(16).padStart(4, '0');
+        return '\\u{' + code.toString(16) + '}';
+      }).join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'All → \\u escape', onClick: () => {
+      const out = [...input.value].map(ch => {
+        const code = ch.codePointAt(0);
+        if (code <= 0xffff) return '\\u' + code.toString(16).padStart(4, '0');
+        return '\\u{' + code.toString(16) + '}';
+      }).join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Decode \\u', onClick: () => {
+      try {
+        const out = input.value
+          .replace(/\\u\{([0-9a-fA-F]+)\}/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+          .replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
+          .replace(/\\x([0-9a-fA-F]{2})/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
+        resultBox(c, out);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'To \\x (ASCII hex)', onClick: () => {
+      const out = [...input.value].map(ch => {
+        const code = ch.charCodeAt(0);
+        if (code < 128 && code >= 32) return ch;
+        if (code < 256) return '\\x' + code.toString(16).padStart(2, '0');
+        return '\\u' + code.toString(16).padStart(4, '0');
+      }).join('');
+      resultBox(c, out);
+    }}));
+    c.appendChild(btns);
+  };
+
+  // Text reverse / flip / mirror
+  toolBuilders.textreverse = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    // Mapping for upside-down flip (latin letters & digits)
+    const flip = {
+      a:'ɐ', b:'q', c:'ɔ', d:'p', e:'ǝ', f:'ɟ', g:'ƃ', h:'ɥ', i:'ᴉ', j:'ɾ', k:'ʞ', l:'l', m:'ɯ', n:'u', o:'o', p:'d', q:'b', r:'ɹ', s:'s', t:'ʇ', u:'n', v:'ʌ', w:'ʍ', x:'x', y:'ʎ', z:'z',
+      A:'∀', B:'Б', C:'Ɔ', D:'ᗡ', E:'Ǝ', F:'Ⅎ', G:'⅁', H:'H', I:'I', J:'ſ', K:'⋊', L:'˥', M:'W', N:'N', O:'O', P:'Ԁ', Q:'Q', R:'ᴚ', S:'S', T:'⊥', U:'∩', V:'Λ', W:'M', X:'X', Y:'⅄', Z:'Z',
+      '0':'0','1':'⇂','2':'ᄅ','3':'Ɛ','4':'ㄣ','5':'ϛ','6':'9','7':'ㄥ','8':'8','9':'6',
+      '.':'˙',',':'ʻ','\'':',','"':'„','`':',','?':'¿','!':'¡','(':')',')':'(','[':']',']':'[','{':'}','}':'{','<':'>','>':'<','&':'⅋','_':'‾'
+    };
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Reverse characters', onClick: () => {
+      resultBox(c, [...input.value].reverse().join(''));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Reverse words', onClick: () => {
+      resultBox(c, input.value.split(/(\s+)/).reverse().join(''));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Reverse lines', onClick: () => {
+      resultBox(c, input.value.split('\n').reverse().join('\n'));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Flip upside-down', onClick: () => {
+      const out = [...input.value].map(ch => flip[ch] || ch).reverse().join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Invert case', onClick: () => {
+      const out = [...input.value].map(ch => ch === ch.toLowerCase() ? ch.toUpperCase() : ch.toLowerCase()).join('');
+      resultBox(c, out);
+    }}));
+    c.appendChild(btns);
+    input.value = 'Hello World! 123';
+  };
+
+  // Text vertical display
+  toolBuilders.textvertical = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text (spaces separate columns when in column mode)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '3' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const modeWrap = el('div', { className: 'form-group' });
+    modeWrap.appendChild(el('label', { textContent: 'Direction' }));
+    let mode = 'rtl';
+    modeWrap.appendChild(glassPicker('tv-mode', ['Right → Left (traditional)', 'Left → Right', 'Single column'], 'Right → Left (traditional)', (val) => { mode = val.startsWith('Right') ? 'rtl' : val.startsWith('Left') ? 'ltr' : 'single'; render(); }).wrapper);
+    const sepWrap = el('div', { className: 'form-group' });
+    sepWrap.appendChild(el('label', { textContent: 'Column separator' }));
+    let sep = ' ';
+    sepWrap.appendChild(glassPicker('tv-sep', ['Space', 'Line break', 'Pipe |', 'Tab'], 'Space', (val) => { sep = val === 'Space' ? ' ' : val === 'Line break' ? '\n' : val === 'Pipe |' ? '|' : '\t'; render(); }).wrapper);
+    row.appendChild(modeWrap); row.appendChild(sepWrap);
+    c.appendChild(row);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:15px;line-height:1.6' });
+    c.appendChild(out);
+
+    function render() {
+      const text = input.value;
+      if (!text) { out.textContent = ''; return; }
+      if (mode === 'single') {
+        out.textContent = [...text.replace(/\s+/g, '')].join('\n');
+        return;
+      }
+      // Columns: split by the separator first, then each column is a char column top-to-bottom
+      const cols = text.split(sep === '\n' ? /\n+/ : sep === ' ' ? /\s+/ : sep === '|' ? /\|/ : /\t/).filter(Boolean);
+      if (mode === 'rtl') cols.reverse();
+      const maxLen = Math.max(...cols.map(s => [...s].length));
+      const lines = [];
+      for (let i = 0; i < maxLen; i++) {
+        const row = cols.map(col => {
+          const chars = [...col];
+          return chars[i] || '　';
+        });
+        lines.push(row.join(' '));
+      }
+      out.textContent = lines.join('\n');
+    }
+    input.addEventListener('input', render);
+    input.value = '山不在高 水不在深';
+    render();
+  };
+
+  // Simplified ↔ Traditional Chinese (basic ~700-pair mapping of common characters)
+  toolBuilders.simpltrad = (c) => {
+    const S2T_PAIRS = '爱愛碍礙袄襖奥奧罢罷摆擺败敗颁頒办辦绊絆帮幫绑綁榜榜膀膀谤謗绷繃逼逼鼻鼻笔筆毕畢币幣闭閉弊弊边邊编編鞭鞭贬貶遍遍辫辮辩辯标標婊婊表錶别別瘪癟宾賓濒瀕滨濱兵兵并並饼餅病病拨撥钵缽博博驳駁饽餑补補卜蔔布佈猜猜才才财財采採彩彩踩踩餐餐参參残殘蚕蠶惭慚惨慘灿燦苍蒼舱艙操操槽槽测測侧側厕廁册冊层層查查插插茶茶搽搽察察岔岔差差诧詫拆拆柴柴搀攙掺摻谗讒婵嬋缠纏忏懺颤顫阊閶场場尝嘗偿償肠腸厂廠长長唱唱钞鈔车車彻徹尘塵陈陳趁趁称稱衬襯撑撑承承乘乘诚誠惩懲程程骋騁吃吃迟遲持持斥斥赤赤翅翅冲衝宠寵虫蟲稠稠愁愁踌躊丑醜瞅瞅臭臭初初出出厨廚础礎处處触觸传傳川川船船喘喘串串床床创創吹吹垂垂锤錘纯純蠢蠢辍輟绰綽祠祠磁磁辞辭慈慈此此刺刺匆匆从從丛叢凑湊粗粗促促蹿躥篡篡村村醋醋催催摧摧翠翠寸寸搓搓挫挫错錯答答达達打打大大呆呆代代带帶贷貸待待担擔胆膽蛋蛋当當挡擋党黨档檔捣搗导導岛島倒倒盗盜道道得得德德的的灯燈登登等等瞪瞪凳凳低低敌敵笛笛底底抵抵地地弟弟帝帝递遞第第颠顛典典点點电電店店垫墊殿殿奠奠碟碟叠疊丁丁顶頂订訂定定丢丟冬冬东東董董动動冻凍栋棟洞洞都都斗鬥陡陡豆豆逗逗督督毒毒读讀独獨赌賭堵堵度度渡渡端端短短段段断斷缎緞堆堆对對兑兌吨噸蹲蹲盾盾顿頓囤囤多多夺奪朵朵躲躲额額俄俄鹅鵝恶惡饿餓遏遏恩恩儿兒尔爾耳耳饵餌二二发發罚罰法法发髮帆帆凡凡烦煩繁繁反反范範饭飯贩販梵梵方方防防访訪纺紡放放飞飛非非肥肥匪匪肺肺费費废廢分分芬芬纷紛坟墳粉粉份份愤憤奋奮丰豐风風封封枫楓疯瘋峰峰锋鋒蜂蜂冯馮缝縫逢逢凤鳳奉奉佛佛否否夫夫肤膚伏伏扶扶服服俘俘符符福福抚撫府府腐腐父父附附复複妇婦该該改改盖蓋丐丐概概干乾赶趕敢敢感感冈岡刚剛钢鋼岗崗港港高高搞搞糕糕告告哥哥歌歌革革格格隔隔阁閣葛葛个個各各给給根根跟跟耕耕工工攻攻功功宫宮恭恭躬躬公公龚龔共共贡貢沟溝钩鉤勾勾狗狗购購构構够夠估估辜辜姑姑孤孤古古谷谷骨骨股股故故顾顧挂掛瓜瓜刮刮寡寡挂掛观觀关關官官冠冠馆館管管贯貫惯慣灌灌罐罐光光广廣归歸龟龜规規闺閨轨軌鬼鬼柜櫃贵貴桂桂棍棍锅鍋国國果果裹裹过過哈哈孩孩海海害害酣酣憨憨含含寒寒汉漢汗汗航航毫毫豪豪好好耗耗号號喝喝合合何何河河核核禾禾合合盒盒贺賀黑黑很很狠狠恨恨横橫衡衡轰轟烘烘红紅宏宏洪洪鸿鴻候候后後厚厚呼呼忽忽狐狐胡胡湖湖壶壺蝴蝴糊糊虎虎互互户戶沪滬护護花花华華滑滑化化划劃画畫话話怀懷坏壞欢歡还還环環缓緩换換患患唤喚焕煥涣渙黄黃徽徽恢恢挥揮辉輝回回毁毀汇匯会會绘繪贿賄秽穢惠惠慧慧混混活活火火伙夥或或货貨获獲祸禍击擊机機肌肌鸡雞积積基基绩績激激及及吉吉级級极極急急疾疾集集籍籍几幾己己挤擠济濟计計记記际際剂劑季季既既济濟继繼寂寂加加佳佳家家嘉嘉夹夾颊頰甲甲价價驾駕假假架架嫁嫁稼稼监監尖尖坚堅间間肩肩艰艱兼兼煎煎捡撿简簡俭儉检檢减減剪剪拣揀见見件件建建荐薦贱賤践踐鉴鑒将將江江姜薑疆疆讲講奖獎桨槳降降酱醬交交郊郊娇嬌浇澆骄驕胶膠椒椒焦焦蕉蕉角角饺餃脚腳搅攪缴繳叫叫轿轎较較教教阶階皆皆接接揭揭街街节節结結截截杰傑竭竭姐姐解解界界借借介介届屆巾巾今今斤斤金金津津筋筋仅僅紧緊锦錦谨謹尽盡劲勁进進近近晋晉浸浸禁禁京京经經惊驚晶晶精精井井颈頸景景警警净淨径徑境境静靜敬敬镜鏡纠糾究究九九久久酒酒旧舊救救就就舅舅居居局局橘橘举舉巨巨拒拒具具剧劇惧懼距距聚聚卷卷倦倦绢絹决決觉覺绝絕爵爵菌菌咖咖卡卡开開揩揩楷楷凯凱慨慨刊刊堪堪勘勘砍砍看看康康糠糠慷慷扛扛抗抗考考靠靠科科棵棵颗顆壳殼咳咳可可渴渴克克刻刻客客课課肯肯啃啃垦墾恳懇空空孔孔恐恐控控口口扣扣寇寇枯枯哭哭骷骷苦苦库庫裤褲酷酷夸誇垮垮跨跨块塊快快宽寬款款狂狂况況旷曠框框矿礦葵葵窥窺亏虧岿巋愧愧昆昆捆捆困困扩擴括括阔闊垃垃拉拉啦啦喇喇蜡蠟腊臘来來赖賴兰蘭拦攔栏欄蓝藍懒懶烂爛滥濫郎郎廊廊朗朗浪浪捞撈劳勞牢牢老老姥姥涝澇乐樂雷雷垒壘累累类類泪淚棱棱冷冷厘釐离離梨梨犁犁礼禮里裡鲤鯉理理力力历歷丽麗利利沥瀝例例立立粒粒栗栗连連联聯莲蓮怜憐联聯脸臉链鏈恋戀练練炼煉粮糧凉涼良良梁梁粱粱两兩亮亮辽遼疗療料料列列裂裂猎獵邻鄰林林临臨淋淋琳琳零零灵靈领領令令溜溜留留榴榴刘劉流流硫硫柳柳六六龙龍笼籠聋聾楼樓娄婁陋陋漏漏露露卢盧炉爐鲁魯鹿鹿录錄陆陸绿綠驴驢旅旅侣侶屡屢履履虑慮律律率率绿綠卵卵乱亂略略轮輪论論罗羅萝蘿螺螺逻邏骆駱络絡妈媽麻麻马馬码碼玛瑪蚂螞骂罵吗嗎埋埋买買麦麥卖賣迈邁脉脈瞒瞞馒饅满滿慢慢漫漫忙忙猫貓毛毛矛矛茂茂冒冒贸貿么麼梅梅媒媒煤煤每每美美妹妹门門蒙蒙盟盟梦夢迷迷眯眯米米蜜蜜面面苗苗秒秒妙妙庙廟灭滅民民皿皿明明名名鸣鳴命命谬謬摸摸膜膜魔魔末末沫沫陌陌模模谋謀母母亩畝木木目目幕幕拿拿那那哪哪乃乃奶奶耐耐男男南南难難囊囊恼惱脑腦闹鬧呢呢内內嫩嫩能能尼尼泥泥逆逆年年念念娘娘酿釀鸟鳥尿尿捏捏您您宁寧凝凝拧擰牛牛扭扭纽紐农農浓濃弄弄奴奴努努怒怒女女暖暖挪挪哦哦偶偶呕嘔藕藕怕怕拍拍牌牌徘徘派派攀攀盘盤判判叛叛乓乓庞龐旁旁螃螃胖胖抛拋泡泡陪陪赔賠佩佩喷噴盆盆朋朋棚棚碰碰批批披披皮皮疲疲脾脾匹匹屁屁片片骗騙漂漂瓢瓢票票拼拼贫貧品品聘聘平平评評凭憑苹蘋屏屏萍萍坡坡婆婆破破剖剖扑撲铺鋪仆僕葡葡朴樸谱譜普普七七漆漆期期欺欺戚戚妻妻齐齊骑騎旗旗起起岂豈启啟气氣弃棄器器汽汽砌砌千千铅鉛牵牽千韆迁遷谦謙签簽前前钱錢潜潛遣遣欠欠歉歉抢搶强強墙牆枪槍呛嗆腔腔蔷薔抢搶乔喬桥橋瞧瞧巧巧切切茄茄且且窃竊锲鍥亲親芹芹勤勤擒擒琴琴寝寢青青轻輕氢氫倾傾清清情情晴晴请請庆慶穷窮琼瓊秋秋丘丘求求球球曲曲屈屈区區躯軀趋趨取取娶娶去去趣趣圈圈权權全全拳拳犬犬劝勸缺缺瘸瘸鹊鵲裙裙群群然然燃燃染染嚷嚷让讓饶饒扰擾绕繞惹惹热熱人人仁仁忍忍认認刃刃韧韌日日戎戎绒絨荣榮容容熔熔融融柔柔揉揉肉肉如如儒儒辱辱乳乳入入软軟锐銳瑞瑞润潤弱弱撒撒洒灑萨薩塞塞赛賽三三伞傘散散桑桑嗓嗓丧喪扫掃嫂嫂色色刹剎沙沙砂砂杀殺刹剎啥啥筛篩晒曬山山删刪杉杉删刪扇扇善善伤傷商商晌晌赏賞尚尚烧燒稍稍勺勺少少绍紹奢奢舌舌舍舍设設涉涉社社射射摄攝伸伸身身深深神神审審婶嬸肾腎甚甚渗滲声聲生生牲牲升升绳繩省省圣聖胜勝盛盛剩剩尸屍失失师師诗詩施施湿濕十十石石时時什什识識实實食食史史使使始始驶駛士士示示世世柿柿事事视視饰飾试試释釋寿壽手手守守首首受受寿壽兽獸枢樞叔叔梳梳舒舒输輸熟熟鼠鼠属屬术術束束树樹数數刷刷耍耍摔摔衰衰甩甩帅帥栓栓双雙水水税稅睡睡吮吮顺順瞬瞬说說硕碩司司私私丝絲四四寺寺饲飼松松宋宋颂頌耸聳送送诉訴速速素素塑塑宿宿虽雖随隨岁歲遂遂穗穗碎碎孙孫损損笋筍所所锁鎖他他它它她她塌塌塔塔踏踏台臺胎胎太太态態泰泰贪貪摊攤滩灘瘫癱弹彈坛壇谈談毯毯叹嘆汤湯唐唐糖糖倘倘躺躺烫燙涛濤逃逃桃桃讨討套套特特疼疼腾騰梯梯踢踢提提题題体體替替天天田田甜甜填填挑挑条條跳跳贴貼铁鐵厅廳听聽停停庭庭挺挺艇艇通通同同铜銅童童统統痛痛偷偷头頭投投透透突突图圖徒徒涂塗途途屠屠土土吐吐兔兔团團推推腿腿退退吞吞屯屯托托拖拖脱脫妥妥椭橢拓拓唾唾挖挖哇哇娃娃瓦瓦袜襪歪歪外外弯彎湾灣豌豌玩玩顽頑晚晚碗碗万萬汪汪网網往往望望危危威威微微为為违違围圍桅桅唯唯维維伟偉伪偽尾尾纬緯委委卫衛未未味味畏畏喂喂慰慰温溫文文蚊蚊稳穩问問翁翁卧臥涡渦窝窩我我沃沃握握乌烏污污呜嗚屋屋无無蜈蜈吴吳梧梧五五午午武武舞舞务務物物误誤雾霧夕夕西西吸吸希希惜惜稀稀席席袭襲习習媳媳喜喜戏戲细細虾蝦瞎瞎峡峽狭狹霞霞下下吓嚇夏夏仙仙先先掀掀纤纖弦弦咸鹹嫌嫌衔銜显顯险險县縣现現陷陷线線相相香香箱箱详詳响響享享向向项項巷巷象象像像橡橡削削消消销銷宵宵小小晓曉孝孝笑笑效效些些歇歇协協鞋鞋携攜谐諧写寫泻瀉卸卸谢謝蟹蟹心心辛辛欣欣新新信信兴興星星猩猩刑刑行行形形型型醒醒杏杏幸幸性性姓姓兄兄凶凶胸胸雄雄熊熊休休修修羞羞朽朽绣繡秀秀袖袖需需虚虛徐徐许許序序绪緒续續畜畜宣宣喧喧玄玄悬懸旋旋选選绚絢学學雪雪血血寻尋巡巡询詢驯馴循循熏熏寻尋训訓讯訊迅迅鸭鴨牙牙芽芽蚜蚜崖崖哑啞亚亞咽咽烟煙淹淹严嚴研研盐鹽颜顏眼眼衍衍演演厌厭宴宴艳艷咽嚥燕燕羊羊阳陽杨楊扬揚洋洋仰仰养養氧氧痒癢样樣妖妖腰腰邀邀摇搖遥遙咬咬药藥要要耀耀爷爺椰椰也也野野业業页頁夜夜叶葉一一伊伊衣衣医醫依依仪儀宜宜姨姨移移疑疑彝彝已已以以椅椅乙乙亿億艺藝忆憶议議异異役役译譯易易疫疫益益谊誼意意溢溢毅毅因因阴陰姻姻茵茵殷殷吟吟银銀引引饮飲隐隱印印英英婴嬰樱櫻鹰鷹迎迎莹瑩盈盈萤螢营營蝇蠅赢贏影影应應哟喲佣傭拥擁庸庸雍雍永永勇勇涌湧踊踴蛹蛹用用优優忧憂悠悠尤尤由由犹猶邮郵油油铀鈾游游友友有有右右幼幼诱誘于於淤淤迂迂予予余餘鱼魚娱娛渔漁愉愉榆榆愚愚舆輿与與宇宇屿嶼语語羽羽雨雨玉玉郁鬱欲欲育育浴浴预預域域寓寓御御愈愈誉譽裕裕元元冤冤员員园園原原圆圓援援缘緣源源远遠院院愿願曰曰月月阅閱乐樂云雲匀勻允允孕孕运運酝醞晕暈杂雜灾災栽栽宰宰再再在在暂暫赞讚脏臟葬葬遭遭糟糟早早枣棗澡澡灶竈造造噪噪燥燥责責则則泽澤贼賊增增赠贈渣渣扎扎炸炸榨榨摘摘窄窄债債寨寨沾沾粘粘展展占佔战戰站站张張章章涨漲掌掌丈丈帐帳胀脹账賬障障招招昭昭找找沼沼召召照照罩罩折折哲哲者者这這遮遮折摺贞貞针針侦偵珍珍真真诊診枕枕阵陣震震镇鎮蒸蒸征征争爭睁睜整整正正证證郑鄭政政症症之之支支只只汁汁芝芝枝枝知知值值职職纸紙止止旨旨指指趾趾志志质質至至致致智智制制治治窒窒掷擲中中忠忠钟鐘终終种種肿腫重重众眾州州洲洲舟舟周週轴軸昼晝皱皺宙宙咒咒骤驟朱朱猪豬珠珠蛛蛛诸諸逐逐竹竹烛燭主主煮煮嘱囑瞩矚助助住住注注驻駐祝祝著著抓抓爪爪拽拽专專转轉撰撰赚賺庄莊桩樁装裝壮壯状狀撞撞追追锥錐准準捉捉浊濁啄啄茁茁卓卓浊濁濯濯桌桌琢琢兹茲姿姿资資滋滋子子紫紫自自字字宗宗综綜棕棕总總纵縱走走奏奏租租足足族族阻阻组組祖祖嘴嘴醉醉最最罪罪尊尊遵遵左左佐佐昨昨作作做做坐坐座座';
+    // Build both directions
+    const s2t = {}, t2s = {};
+    for (let i = 0; i < S2T_PAIRS.length; i += 2) {
+      const s = S2T_PAIRS[i], t = S2T_PAIRS[i+1];
+      if (s && t && s !== t) { s2t[s] = t; if (!t2s[t]) t2s[t] = s; }
+    }
+
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text (基本约700字常见对照)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '6' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: '简 → 繁', onClick: () => {
+      resultBox(c, [...input.value].map(ch => s2t[ch] || ch).join(''));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: '繁 → 简', onClick: () => {
+      resultBox(c, [...input.value].map(ch => t2s[ch] || ch).join(''));
+    }}));
+    c.appendChild(btns);
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Basic converter using ~700 common character pairs. For full accuracy on formal documents use OpenCC.' });
+    c.appendChild(note);
+    input.value = '中国古代文学';
+  };
+
+  // Martian text (火星文) — substitute common Chinese chars + apply leetspeak on latin
+  toolBuilders.martian = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const map = {
+      '的':'の','是':'昰','你':'沵','我':'莪','他':'牠','她':'孻','爱':'愛','好':'恏','不':'卟','了':'叻','们':'們','是':'昰','这':'這','那':'哪','和':'龢','有':'冇','为':'爲','与':'與','个':'茖','中':'狆','人':'亽','大':'夶','小':'ぷ','多':'誃','少':'尐','年':'姩','月':'仴','日':'馹','时':'溡','真':'眞','美':'媄','丽':'筣','明':'眀','天':'兲','地':'哋','心':'吢','情':'凊','长':'萇','短':'耟','来':'徕','去':'呿','看':'冚','说':'説','做':'莋','问':'問','想':'想','家':'傢','国':'國','学':'學','生':'泩','活':'活','死':'歹匕','想':'緗','吃':'吃','喝':'噶','玩':'ㄨ抏','乐':'樂','欢':'歡','笑':'笑','哭':'哖','帅':'帥','哥':'哥','弟':'苐','姐':'莭','妹':'牣','可':'徕','以':'苡'
+    };
+    const leet = { a:'4', e:'3', i:'1', o:'0', s:'5', t:'7', b:'8', g:'9', l:'1', z:'2' };
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Text → 火星文', onClick: () => {
+      const out = [...input.value].map(ch => {
+        if (map[ch]) return map[ch];
+        const lc = ch.toLowerCase();
+        if (leet[lc] && Math.random() > 0.5) return leet[lc];
+        return ch;
+      }).join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Randomize again', onClick: () => {
+      const out = [...input.value].map(ch => {
+        if (map[ch]) return map[ch];
+        const lc = ch.toLowerCase();
+        if (leet[lc] && Math.random() > 0.4) return leet[lc];
+        return ch;
+      }).join('');
+      resultBox(c, out);
+    }}));
+    c.appendChild(btns);
+    input.value = '你好 我爱你 真的';
+  };
+
+  // RMB uppercase (人民币大写)
+  toolBuilders.rmbcapital = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Amount (RMB Yuan)' }));
+    const input = el('input', { type: 'number', className: 'glass-input', placeholder: '1234.56', step: '0.01' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    function convert(amount) {
+      if (isNaN(amount) || amount === null || amount === '') return '';
+      const num = Math.abs(parseFloat(amount));
+      if (num >= 1e16) return '金额过大 (Amount too large)';
+      const neg = parseFloat(amount) < 0;
+      const digits = ['零','壹','贰','叁','肆','伍','陆','柒','捌','玖'];
+      const units = ['','拾','佰','仟'];
+      const sections = ['','万','亿','万'];
+      // Round to 2 decimals
+      const fixed = num.toFixed(2);
+      const [intStrRaw, decStr] = fixed.split('.');
+      const intStr = intStrRaw.replace(/^0+/, '') || '0';
+
+      // Process integer part section by section (every 4 digits)
+      let intResult = '';
+      if (intStr === '0') {
+        intResult = '';
+      } else {
+        const padded = intStr.padStart(Math.ceil(intStr.length / 4) * 4, '0');
+        const groups = [];
+        for (let i = 0; i < padded.length; i += 4) groups.push(padded.slice(i, i + 4));
+        for (let g = 0; g < groups.length; g++) {
+          const group = groups[g];
+          const sectIdx = groups.length - g - 1;
+          let sectStr = '';
+          let zero = false;
+          for (let i = 0; i < 4; i++) {
+            const d = parseInt(group[i], 10);
+            const u = 3 - i;
+            if (d === 0) { zero = true; }
+            else {
+              if (zero && sectStr) sectStr += '零';
+              sectStr += digits[d] + units[u];
+              zero = false;
+            }
+          }
+          if (sectStr) intResult += sectStr + sections[sectIdx];
+        }
+        intResult = intResult.replace(/零+/g, '零').replace(/零$/, '');
+      }
+
+      // Build final
+      let result = '';
+      if (intResult) result += intResult + '元';
+      else result += '零元';
+
+      const jiao = parseInt(decStr[0], 10);
+      const fen = parseInt(decStr[1], 10);
+      if (jiao === 0 && fen === 0) {
+        result += '整';
+      } else {
+        if (jiao > 0) result += digits[jiao] + '角';
+        else if (intResult) result += '零';
+        if (fen > 0) result += digits[fen] + '分';
+      }
+      return (neg ? '负' : '') + result;
+    }
+
+    const out = el('div', { className: 'result-box' });
+    c.appendChild(out);
+    function update() {
+      const result = convert(input.value);
+      out.textContent = result || '—';
+    }
+    input.addEventListener('input', update);
+    input.value = '1234.56';
+    update();
+    // Examples
+    const examples = el('div', { style: 'margin-top:12px;font-size:12px;color:rgba(255,255,255,0.6);line-height:1.8' });
+    examples.innerHTML = 'Examples: <code>0</code>, <code>100</code>, <code>10050.7</code>, <code>1000000000.00</code>';
+    c.appendChild(examples);
+  };
+
+  // Auto-format article
+  toolBuilders.autoformat = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input article' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Auto-format', onClick: () => {
+      let t = input.value;
+      t = t.replace(/\r\n?/g, '\n');
+      t = t.replace(/[ \t]+/g, ' ');
+      t = t.replace(/ +\n/g, '\n');
+      t = t.replace(/\n{3,}/g, '\n\n');
+      t = t.replace(/\n([^\n])/g, (m, c) => /^\s|^[-*•]/.test(c) ? m : '\n' + c);
+      // Smart quotes
+      t = t.replace(/"([^"]*)"/g, '“$1”');
+      t = t.replace(/(^|[\s(])'([^']+)'/g, '$1‘$2’');
+      // Ellipsis
+      t = t.replace(/\.\.\./g, '…');
+      // Dash
+      t = t.replace(/ -- /g, ' — ');
+      // Space after CJK/Latin boundary
+      t = t.replace(/([一-鿿])([a-zA-Z0-9])/g, '$1 $2');
+      t = t.replace(/([a-zA-Z0-9])([一-鿿])/g, '$1 $2');
+      t = t.trim();
+      resultBox(c, t);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Strip blank lines', onClick: () => {
+      resultBox(c, input.value.split('\n').filter(l => l.trim()).join('\n'));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Trim each line', onClick: () => {
+      resultBox(c, input.value.split('\n').map(l => l.trim()).join('\n'));
+    }}));
+    c.appendChild(btns);
+  };
+
+  // Text effects
+  toolBuilders.texteffects = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text' }));
+    const input = el('input', { type: 'text', className: 'glass-input', placeholder: 'Type here…' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const wrap = el('div', { style: 'display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px' });
+    c.appendChild(wrap);
+    const effects = {
+      'Strikethrough (̶)': (s) => [...s].map(ch => ch + '̶').join(''),
+      'Underline (̲)': (s) => [...s].map(ch => ch + '̲').join(''),
+      'Double underline (̳)': (s) => [...s].map(ch => ch + '̳').join(''),
+      'Overline (̅)': (s) => [...s].map(ch => ch + '̅').join(''),
+      'Bold Math (𝐁)': (s) => s.replace(/[a-zA-Z0-9]/g, ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 >= 97 && c0 <= 122) return String.fromCodePoint(0x1d41a + c0 - 97);
+        if (c0 >= 65 && c0 <= 90)  return String.fromCodePoint(0x1d400 + c0 - 65);
+        if (c0 >= 48 && c0 <= 57)  return String.fromCodePoint(0x1d7ce + c0 - 48);
+        return ch;
+      }),
+      'Italic (𝐼)': (s) => s.replace(/[a-zA-Z]/g, ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 === 104) return 'ℎ'; // h
+        if (c0 >= 97 && c0 <= 122) return String.fromCodePoint(0x1d44e + c0 - 97);
+        if (c0 >= 65 && c0 <= 90)  return String.fromCodePoint(0x1d434 + c0 - 65);
+        return ch;
+      }),
+      'Monospace (𝚖)': (s) => s.replace(/[a-zA-Z0-9]/g, ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 >= 97 && c0 <= 122) return String.fromCodePoint(0x1d68a + c0 - 97);
+        if (c0 >= 65 && c0 <= 90)  return String.fromCodePoint(0x1d670 + c0 - 65);
+        if (c0 >= 48 && c0 <= 57)  return String.fromCodePoint(0x1d7f6 + c0 - 48);
+        return ch;
+      }),
+      'Fullwidth (Ａ)': (s) => [...s].map(ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 >= 33 && c0 <= 126) return String.fromCharCode(c0 + 0xfee0);
+        if (ch === ' ') return '　';
+        return ch;
+      }).join(''),
+      'Bubble (Ⓐ)': (s) => [...s].map(ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 >= 97 && c0 <= 122) return String.fromCodePoint(0x24d0 + c0 - 97);
+        if (c0 >= 65 && c0 <= 90)  return String.fromCodePoint(0x24b6 + c0 - 65);
+        if (c0 >= 49 && c0 <= 57)  return String.fromCodePoint(0x2460 + c0 - 49);
+        if (ch === '0') return '⓪';
+        return ch;
+      }).join(''),
+      'Squared (🅰)': (s) => [...s].map(ch => {
+        const c0 = ch.charCodeAt(0);
+        if (c0 >= 65 && c0 <= 90) return String.fromCodePoint(0x1f170 + c0 - 65);
+        if (c0 >= 97 && c0 <= 122) return String.fromCodePoint(0x1f170 + c0 - 97);
+        return ch;
+      }).join(''),
+      'Small caps (ᴀ)': (s) => s.toLowerCase().replace(/[a-z]/g, ch => ({a:'ᴀ',b:'ʙ',c:'ᴄ',d:'ᴅ',e:'ᴇ',f:'ꜰ',g:'ɢ',h:'ʜ',i:'ɪ',j:'ᴊ',k:'ᴋ',l:'ʟ',m:'ᴍ',n:'ɴ',o:'ᴏ',p:'ᴘ',q:'ǫ',r:'ʀ',s:'s',t:'ᴛ',u:'ᴜ',v:'ᴠ',w:'ᴡ',x:'x',y:'ʏ',z:'ᴢ'}[ch] || ch)),
+      'Reversed (ɐ)': (s) => [...s].reverse().join(''),
+      'SpAcInG': (s) => s.split('').join(' '),
+    };
+
+    function render() {
+      wrap.innerHTML = '';
+      const val = input.value || 'Hello World 123';
+      for (const [name, fn] of Object.entries(effects)) {
+        const card = el('div', { style: 'padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;transition:all 0.15s' });
+        const meta = el('div');
+        meta.appendChild(el('div', { textContent: name, style: 'font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px' }));
+        meta.appendChild(el('div', { textContent: fn(val), style: 'font-size:15px;color:#fff;word-break:break-all' }));
+        card.appendChild(meta);
+        card.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Copy', onClick: (e) => {
+          e.stopPropagation();
+          navigator.clipboard.writeText(fn(val));
+        }}));
+        card.addEventListener('click', () => navigator.clipboard.writeText(fn(val)));
+        wrap.appendChild(card);
+      }
+    }
+    input.addEventListener('input', render);
+    input.value = 'Hello World 123';
+    render();
+  };
+
+  // Text compression (gzip via CompressionStream → base64)
+  toolBuilders.textcompress = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '6' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const stats = el('div', { style: 'font-size:12px;color:rgba(255,255,255,0.6);margin-bottom:8px' });
+    c.appendChild(stats);
+    const btns = el('div', { className: 'btn-group' });
+
+    async function gzCompress(str) {
+      const cs = new CompressionStream('gzip');
+      const writer = cs.writable.getWriter();
+      writer.write(new TextEncoder().encode(str));
+      writer.close();
+      const buf = await new Response(cs.readable).arrayBuffer();
+      return btoa(String.fromCharCode(...new Uint8Array(buf)));
+    }
+    async function gzDecompress(b64) {
+      const bytes = Uint8Array.from(atob(b64), ch => ch.charCodeAt(0));
+      const ds = new DecompressionStream('gzip');
+      const writer = ds.writable.getWriter();
+      writer.write(bytes);
+      writer.close();
+      return await new Response(ds.readable).text();
+    }
+
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Compress → base64', onClick: async () => {
+      try {
+        const t = input.value;
+        const origSize = new Blob([t]).size;
+        const compressed = await gzCompress(t);
+        const compSize = compressed.length;
+        const ratio = origSize ? ((1 - compSize / origSize) * 100).toFixed(1) : 0;
+        stats.textContent = `Original: ${origSize} B → Compressed: ${compSize} B (${ratio > 0 ? '-' : '+'}${Math.abs(ratio)}%)`;
+        resultBox(c, compressed);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Decompress base64', onClick: async () => {
+      try {
+        const t = await gzDecompress(input.value);
+        const origSize = input.value.length;
+        const outSize = new Blob([t]).size;
+        stats.textContent = `base64: ${origSize} B → Decompressed: ${outSize} B`;
+        resultBox(c, t);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'To hex', onClick: async () => {
+      try {
+        const cs = new CompressionStream('gzip');
+        const writer = cs.writable.getWriter();
+        writer.write(new TextEncoder().encode(input.value));
+        writer.close();
+        const bytes = new Uint8Array(await new Response(cs.readable).arrayBuffer());
+        resultBox(c, [...bytes].map(b => b.toString(16).padStart(2, '0')).join(''));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = 'The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.';
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 CRYPTO (CryptoJS-backed)
+  // ═══════════════════════════════════════════════
+
+  function makeSymmetricCipher(c, title, encFn, decFn) {
+    if (typeof CryptoJS === 'undefined') {
+      c.appendChild(el('div', { className: 'result-box', textContent: 'CryptoJS is still loading. Close and reopen the tool in a moment.' }));
+      return;
+    }
+    const fg1 = el('div', { className: 'form-group' });
+    fg1.appendChild(el('label', { textContent: 'Plaintext or ciphertext (base64)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5' });
+    fg1.appendChild(input);
+    c.appendChild(fg1);
+
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Passphrase / key' }));
+    const pass = el('input', { type: 'text', className: 'glass-input', value: 'my-secret-passphrase' });
+    fg2.appendChild(pass);
+    c.appendChild(fg2);
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Encrypt', onClick: () => {
+      try {
+        const out = encFn(input.value, pass.value).toString();
+        resultBox(c, out);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Decrypt', onClick: () => {
+      try {
+        const bytes = decFn(input.value, pass.value);
+        const out = bytes.toString(CryptoJS.enc.Utf8);
+        if (!out) throw new Error('Decryption failed — wrong passphrase or malformed ciphertext');
+        resultBox(c, out);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    note.textContent = `${title} — ciphertext is OpenSSL-compatible (salted, base64). Compatible with "openssl enc -d" when the same passphrase is used.`;
+    c.appendChild(note);
+    input.value = 'Hello, World!';
+  }
+
+  toolBuilders.aes = (c) => makeSymmetricCipher(c, 'AES-256-CBC',
+    (t, p) => CryptoJS.AES.encrypt(t, p),
+    (t, p) => CryptoJS.AES.decrypt(t, p));
+
+  toolBuilders.des = (c) => makeSymmetricCipher(c, 'DES (legacy)',
+    (t, p) => CryptoJS.DES.encrypt(t, p),
+    (t, p) => CryptoJS.DES.decrypt(t, p));
+
+  toolBuilders.tripledes = (c) => makeSymmetricCipher(c, 'Triple DES (3DES)',
+    (t, p) => CryptoJS.TripleDES.encrypt(t, p),
+    (t, p) => CryptoJS.TripleDES.decrypt(t, p));
+
+  toolBuilders.rc4 = (c) => makeSymmetricCipher(c, 'RC4 (deprecated — historical use only)',
+    (t, p) => CryptoJS.RC4.encrypt(t, p),
+    (t, p) => CryptoJS.RC4.decrypt(t, p));
+
+  toolBuilders.rabbit = (c) => makeSymmetricCipher(c, 'Rabbit stream cipher',
+    (t, p) => CryptoJS.Rabbit.encrypt(t, p),
+    (t, p) => CryptoJS.Rabbit.decrypt(t, p));
+
+  toolBuilders.urlhex = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URL' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '4', placeholder: 'https://example.com/path?q=hello' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Encode (all chars)', onClick: () => {
+      const out = [...input.value].map(ch => {
+        const bytes = new TextEncoder().encode(ch);
+        return [...bytes].map(b => '%' + b.toString(16).toUpperCase().padStart(2, '0')).join('');
+      }).join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Encode (safe chars only)', onClick: () => {
+      const out = [...input.value].map(ch => {
+        if (/[a-zA-Z0-9_\-.~]/.test(ch)) return ch;
+        const bytes = new TextEncoder().encode(ch);
+        return [...bytes].map(b => '%' + b.toString(16).toUpperCase().padStart(2, '0')).join('');
+      }).join('');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Decode', onClick: () => {
+      try { resultBox(c, decodeURIComponent(input.value)); }
+      catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Hex string (no %)', onClick: () => {
+      const out = [...input.value].map(ch => {
+        const bytes = new TextEncoder().encode(ch);
+        return [...bytes].map(b => b.toString(16).padStart(2, '0')).join('');
+      }).join('');
+      resultBox(c, out);
+    }}));
+    c.appendChild(btns);
+    input.value = 'https://example.com/?q=hello world';
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 CODE CONVERSION TOOLS
+  // ═══════════════════════════════════════════════
+
+  // Shared: infer a "class name" from tool title
+  function _capId(s) {
+    return (s || 'Root').replace(/^[^a-zA-Z_]+/, '').replace(/[^a-zA-Z0-9_]/g, '_').split('_')
+      .map(w => w ? w.charAt(0).toUpperCase() + w.slice(1) : '').join('') || 'Root';
+  }
+  // Infer a type from a JS value
+  function _inferType(v, lang) {
+    if (v === null || v === undefined) return { java: 'Object', cs: 'object', go: 'interface{}', ts: 'any' }[lang];
+    if (Array.isArray(v)) {
+      const item = v.length ? _inferType(v[0], lang) : { java: 'Object', cs: 'object', go: 'interface{}', ts: 'any' }[lang];
+      return { java: 'List<' + item + '>', cs: 'List<' + item + '>', go: '[]' + item, ts: item + '[]' }[lang];
+    }
+    if (typeof v === 'object') return '__OBJ__';
+    if (typeof v === 'string')  return { java: 'String',  cs: 'string',  go: 'string',  ts: 'string' }[lang];
+    if (typeof v === 'boolean') return { java: 'boolean', cs: 'bool',    go: 'bool',    ts: 'boolean' }[lang];
+    if (typeof v === 'number') {
+      const isInt = Number.isInteger(v);
+      return { java: isInt ? 'int' : 'double', cs: isInt ? 'int' : 'double', go: isInt ? 'int' : 'float64', ts: 'number' }[lang];
+    }
+    return { java: 'Object', cs: 'object', go: 'interface{}', ts: 'any' }[lang];
+  }
+
+  function _jsonBuilderUI(c, generate, exampleLabel) {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input JSON' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '6' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Root class / struct name' }));
+    const name = el('input', { type: 'text', className: 'glass-input', value: 'Root' });
+    fg2.appendChild(name);
+    c.appendChild(fg2);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Generate', onClick: () => {
+      try {
+        const obj = JSON.parse(input.value);
+        resultBox(c, generate(obj, name.value || 'Root'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = '{\n  "id": 42,\n  "name": "Alice",\n  "active": true,\n  "scores": [1, 2, 3],\n  "address": {\n    "city": "Tokyo",\n    "zip": "100-0001"\n  }\n}';
+  }
+
+  toolBuilders.json2java = (c) => _jsonBuilderUI(c, (obj, rootName) => {
+    const classes = [];
+    function visit(v, name) {
+      const className = _capId(name);
+      if (classes.find(c => c.name === className)) return className;
+      const fields = [];
+      for (const [k, val] of Object.entries(v)) {
+        let t;
+        if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+          t = visit(val, k);
+        } else if (Array.isArray(val) && val.length && typeof val[0] === 'object' && !Array.isArray(val[0])) {
+          const inner = visit(val[0], k.replace(/s$/, '') || k + 'Item');
+          t = 'List<' + inner + '>';
+        } else {
+          t = _inferType(val, 'java').replace('__OBJ__', 'Object');
+        }
+        fields.push({ name: k, type: t });
+      }
+      classes.push({ name: className, fields });
+      return className;
+    }
+    visit(obj, rootName);
+    return classes.map(cls => {
+      const lines = ['public class ' + cls.name + ' {'];
+      cls.fields.forEach(f => lines.push(`    private ${f.type} ${f.name};`));
+      lines.push('');
+      cls.fields.forEach(f => {
+        const cap = f.name.charAt(0).toUpperCase() + f.name.slice(1);
+        lines.push(`    public ${f.type} get${cap}() { return ${f.name}; }`);
+        lines.push(`    public void set${cap}(${f.type} ${f.name}) { this.${f.name} = ${f.name}; }`);
+      });
+      lines.push('}');
+      return lines.join('\n');
+    }).reverse().join('\n\n');
+  });
+
+  toolBuilders.json2csharp = (c) => _jsonBuilderUI(c, (obj, rootName) => {
+    const classes = [];
+    function visit(v, name) {
+      const className = _capId(name);
+      if (classes.find(c => c.name === className)) return className;
+      const fields = [];
+      for (const [k, val] of Object.entries(v)) {
+        let t;
+        if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+          t = visit(val, k);
+        } else if (Array.isArray(val) && val.length && typeof val[0] === 'object' && !Array.isArray(val[0])) {
+          const inner = visit(val[0], k.replace(/s$/, '') || k + 'Item');
+          t = 'List<' + inner + '>';
+        } else {
+          t = _inferType(val, 'cs').replace('__OBJ__', 'object');
+        }
+        fields.push({ name: k, type: t });
+      }
+      classes.push({ name: className, fields });
+      return className;
+    }
+    visit(obj, rootName);
+    const out = classes.map(cls => {
+      const lines = ['public class ' + cls.name + ' {'];
+      cls.fields.forEach(f => {
+        const prop = f.name.charAt(0).toUpperCase() + f.name.slice(1);
+        lines.push(`    [JsonPropertyName("${f.name}")]`);
+        lines.push(`    public ${f.type} ${prop} { get; set; }`);
+      });
+      lines.push('}');
+      return lines.join('\n');
+    }).reverse().join('\n\n');
+    return 'using System.Collections.Generic;\nusing System.Text.Json.Serialization;\n\n' + out;
+  });
+
+  toolBuilders.json2go = (c) => _jsonBuilderUI(c, (obj, rootName) => {
+    const structs = [];
+    function visit(v, name) {
+      const structName = _capId(name);
+      if (structs.find(s => s.name === structName)) return structName;
+      const fields = [];
+      for (const [k, val] of Object.entries(v)) {
+        const fname = _capId(k);
+        let t;
+        if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+          t = visit(val, k);
+        } else if (Array.isArray(val) && val.length && typeof val[0] === 'object' && !Array.isArray(val[0])) {
+          const inner = visit(val[0], k.replace(/s$/, '') || k + 'Item');
+          t = '[]' + inner;
+        } else {
+          t = _inferType(val, 'go').replace('__OBJ__', 'interface{}');
+        }
+        fields.push({ name: fname, type: t, tag: k });
+      }
+      structs.push({ name: structName, fields });
+      return structName;
+    }
+    visit(obj, rootName);
+    return structs.map(s => {
+      const maxName = Math.max(...s.fields.map(f => f.name.length));
+      const maxType = Math.max(...s.fields.map(f => f.type.length));
+      const lines = ['type ' + s.name + ' struct {'];
+      s.fields.forEach(f => {
+        lines.push(`    ${f.name.padEnd(maxName)} ${f.type.padEnd(maxType)} \`json:"${f.tag}"\``);
+      });
+      lines.push('}');
+      return lines.join('\n');
+    }).reverse().join('\n\n');
+  });
+
+  toolBuilders.json2ts = (c) => _jsonBuilderUI(c, (obj, rootName) => {
+    const interfaces = [];
+    function visit(v, name) {
+      const iName = _capId(name);
+      if (interfaces.find(i => i.name === iName)) return iName;
+      const fields = [];
+      for (const [k, val] of Object.entries(v)) {
+        let t;
+        if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+          t = visit(val, k);
+        } else if (Array.isArray(val) && val.length && typeof val[0] === 'object' && !Array.isArray(val[0])) {
+          const inner = visit(val[0], k.replace(/s$/, '') || k + 'Item');
+          t = inner + '[]';
+        } else {
+          t = _inferType(val, 'ts').replace('__OBJ__', 'Record<string, any>');
+        }
+        fields.push({ name: k, type: t });
+      }
+      interfaces.push({ name: iName, fields });
+      return iName;
+    }
+    visit(obj, rootName);
+    return interfaces.map(i => {
+      const lines = ['export interface ' + i.name + ' {'];
+      i.fields.forEach(f => {
+        const safe = /^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(f.name) ? f.name : `"${f.name}"`;
+        lines.push(`  ${safe}: ${f.type};`);
+      });
+      lines.push('}');
+      return lines.join('\n');
+    }).reverse().join('\n\n');
+  });
+
+  toolBuilders.sql2java = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'SQL CREATE TABLE statement' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+
+    function sqlTypeToJava(t) {
+      const low = t.toLowerCase();
+      if (/^(int|integer|mediumint|smallint|tinyint)/.test(low)) return 'Integer';
+      if (/^bigint/.test(low)) return 'Long';
+      if (/^(decimal|numeric)/.test(low)) return 'BigDecimal';
+      if (/^(float|real)/.test(low)) return 'Float';
+      if (/^double/.test(low)) return 'Double';
+      if (/^(bool|bit)/.test(low)) return 'Boolean';
+      if (/^(date)/.test(low)) return 'LocalDate';
+      if (/^(time)/.test(low) && !/stamp/.test(low)) return 'LocalTime';
+      if (/^(datetime|timestamp)/.test(low)) return 'LocalDateTime';
+      if (/^(blob|binary|varbinary)/.test(low)) return 'byte[]';
+      return 'String';
+    }
+    function snakeToCamel(s) {
+      return s.replace(/_([a-z])/g, (_, ch) => ch.toUpperCase());
+    }
+
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Generate Java class', onClick: () => {
+      try {
+        const sql = input.value;
+        const match = sql.match(/CREATE\s+TABLE\s+(?:IF\s+NOT\s+EXISTS\s+)?[`"']?([a-zA-Z_][a-zA-Z0-9_]*)[`"']?\s*\(([\s\S]+)\)/i);
+        if (!match) throw new Error('No CREATE TABLE found');
+        const tableName = match[1];
+        const body = match[2];
+        const className = _capId(tableName.replace(/^tbl_/, '').replace(/^t_/, ''));
+
+        const columnLines = body.split(/,\s*(?![^()]*\))/);
+        const fields = [];
+        for (let line of columnLines) {
+          line = line.trim();
+          if (!line || /^(PRIMARY|KEY|UNIQUE|CONSTRAINT|INDEX|FOREIGN)/i.test(line)) continue;
+          const m = line.match(/^[`"']?([a-zA-Z_][a-zA-Z0-9_]*)[`"']?\s+([a-zA-Z]+(?:\([^)]*\))?)/);
+          if (!m) continue;
+          fields.push({ sql: m[1], type: sqlTypeToJava(m[2]), camel: snakeToCamel(m[1]), raw: line });
+        }
+
+        const imports = new Set(['import java.io.Serializable;']);
+        fields.forEach(f => {
+          if (f.type === 'BigDecimal') imports.add('import java.math.BigDecimal;');
+          if (/^Local/.test(f.type)) imports.add('import java.time.' + f.type + ';');
+        });
+
+        const lines = [];
+        [...imports].sort().forEach(i => lines.push(i));
+        lines.push('');
+        lines.push('public class ' + className + ' implements Serializable {');
+        fields.forEach(f => {
+          lines.push(`    /** ${f.sql} */`);
+          lines.push(`    private ${f.type} ${f.camel};`);
+        });
+        lines.push('');
+        fields.forEach(f => {
+          const cap = f.camel.charAt(0).toUpperCase() + f.camel.slice(1);
+          lines.push(`    public ${f.type} get${cap}() { return ${f.camel}; }`);
+          lines.push(`    public void set${cap}(${f.type} ${f.camel}) { this.${f.camel} = ${f.camel}; }`);
+        });
+        lines.push('}');
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = `CREATE TABLE users (
+  id BIGINT NOT NULL PRIMARY KEY,
+  user_name VARCHAR(64) NOT NULL,
+  email VARCHAR(128),
+  balance DECIMAL(12,2) DEFAULT 0,
+  is_active TINYINT(1),
+  created_at DATETIME,
+  updated_at TIMESTAMP
+);`;
+  };
+
+  toolBuilders.xmljson = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input (XML or JSON)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    function xmlToObj(node) {
+      const obj = {};
+      // Attributes
+      if (node.attributes && node.attributes.length) {
+        obj['@attributes'] = {};
+        for (const a of node.attributes) obj['@attributes'][a.name] = a.value;
+      }
+      // Children
+      const children = [...node.childNodes].filter(n => n.nodeType === 1);
+      if (children.length === 0) {
+        const text = node.textContent.trim();
+        if (Object.keys(obj).length === 0) return text || '';
+        if (text) obj['#text'] = text;
+        return obj;
+      }
+      for (const ch of children) {
+        const val = xmlToObj(ch);
+        if (obj[ch.nodeName] !== undefined) {
+          if (!Array.isArray(obj[ch.nodeName])) obj[ch.nodeName] = [obj[ch.nodeName]];
+          obj[ch.nodeName].push(val);
+        } else {
+          obj[ch.nodeName] = val;
+        }
+      }
+      return obj;
+    }
+
+    function objToXml(obj, name) {
+      if (obj === null || obj === undefined) return `<${name}/>`;
+      if (typeof obj !== 'object') return `<${name}>${String(obj).replace(/[<>&"']/g, ch => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'})[ch])}</${name}>`;
+      if (Array.isArray(obj)) return obj.map(v => objToXml(v, name)).join('');
+      const attrs = obj['@attributes'] || {};
+      const attrStr = Object.entries(attrs).map(([k, v]) => ` ${k}="${String(v).replace(/"/g, '&quot;')}"`).join('');
+      const children = Object.entries(obj).filter(([k]) => k !== '@attributes' && k !== '#text');
+      const text = obj['#text'] || '';
+      if (children.length === 0 && !text) return `<${name}${attrStr}/>`;
+      const inner = children.map(([k, v]) => objToXml(v, k)).join('') + text;
+      return `<${name}${attrStr}>${inner}</${name}>`;
+    }
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'XML → JSON', onClick: () => {
+      try {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(input.value, 'text/xml');
+        const err = doc.querySelector('parsererror');
+        if (err) throw new Error('XML parse error');
+        const out = { [doc.documentElement.nodeName]: xmlToObj(doc.documentElement) };
+        resultBox(c, JSON.stringify(out, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'JSON → XML', onClick: () => {
+      try {
+        const obj = JSON.parse(input.value);
+        const keys = Object.keys(obj);
+        let xml;
+        if (keys.length === 1) xml = objToXml(obj[keys[0]], keys[0]);
+        else xml = objToXml(obj, 'root');
+        const pretty = xml.replace(/></g, '>\n<');
+        // Rough indent
+        let depth = 0;
+        const out = pretty.split('\n').map(line => {
+          if (/^<\//.test(line)) depth--;
+          const r = '  '.repeat(Math.max(0, depth)) + line;
+          if (/^<[^!?\/][^>]*[^\/]>$/.test(line) && !/<\/[^>]+>$/.test(line)) depth++;
+          return r;
+        }).join('\n');
+        resultBox(c, '<?xml version="1.0" encoding="UTF-8"?>\n' + out);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = '<?xml version="1.0"?>\n<user id="42">\n  <name>Alice</name>\n  <active>true</active>\n</user>';
+  };
+
+  toolBuilders.jsonparams = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input (JSON object or URL / query string)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '5' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'JSON → Query string', onClick: () => {
+      try {
+        const obj = JSON.parse(input.value);
+        const parts = [];
+        function walk(key, val) {
+          if (val === null || val === undefined) { parts.push(encodeURIComponent(key) + '='); return; }
+          if (Array.isArray(val)) { val.forEach(v => walk(key + '[]', v)); return; }
+          if (typeof val === 'object') { Object.entries(val).forEach(([k, v]) => walk(key + '[' + k + ']', v)); return; }
+          parts.push(encodeURIComponent(key) + '=' + encodeURIComponent(String(val)));
+        }
+        Object.entries(obj).forEach(([k, v]) => walk(k, v));
+        resultBox(c, parts.join('&'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Query → JSON', onClick: () => {
+      try {
+        let q = input.value.trim();
+        const hashIdx = q.indexOf('?');
+        if (hashIdx >= 0) q = q.slice(hashIdx + 1);
+        q = q.split('#')[0];
+        const obj = {};
+        q.split('&').filter(Boolean).forEach(pair => {
+          const [k, v] = pair.split('=');
+          const key = decodeURIComponent(k || '');
+          const val = decodeURIComponent(v || '');
+          if (key.endsWith('[]')) {
+            const base = key.slice(0, -2);
+            if (!obj[base]) obj[base] = [];
+            obj[base].push(val);
+          } else if (key in obj) {
+            if (!Array.isArray(obj[key])) obj[key] = [obj[key]];
+            obj[key].push(val);
+          } else {
+            obj[key] = val;
+          }
+        });
+        resultBox(c, JSON.stringify(obj, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = '{"q":"hello world","page":2,"tags":["js","tools"]}';
+  };
+
+  toolBuilders.html2md = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'HTML input' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    function htmlToMd(html) {
+      const doc = new DOMParser().parseFromString('<div>' + html + '</div>', 'text/html');
+      function walk(node) {
+        if (node.nodeType === 3) return node.textContent;
+        if (node.nodeType !== 1) return '';
+        const tag = node.tagName.toLowerCase();
+        const kids = [...node.childNodes].map(walk).join('');
+        switch (tag) {
+          case 'h1': return '\n# ' + kids + '\n\n';
+          case 'h2': return '\n## ' + kids + '\n\n';
+          case 'h3': return '\n### ' + kids + '\n\n';
+          case 'h4': return '\n#### ' + kids + '\n\n';
+          case 'h5': return '\n##### ' + kids + '\n\n';
+          case 'h6': return '\n###### ' + kids + '\n\n';
+          case 'strong': case 'b': return '**' + kids + '**';
+          case 'em': case 'i': return '*' + kids + '*';
+          case 'del': case 's': case 'strike': return '~~' + kids + '~~';
+          case 'code': return node.parentElement && node.parentElement.tagName === 'PRE' ? kids : '`' + kids + '`';
+          case 'pre': {
+            const code = node.querySelector('code');
+            const langMatch = code && [...code.classList].find(c => c.startsWith('language-'));
+            const lang = langMatch ? langMatch.slice(9) : '';
+            return '\n```' + lang + '\n' + (code ? code.textContent : kids) + '\n```\n\n';
+          }
+          case 'a': return '[' + kids + '](' + (node.getAttribute('href') || '') + ')';
+          case 'img': return '![' + (node.getAttribute('alt') || '') + '](' + (node.getAttribute('src') || '') + ')';
+          case 'blockquote': return '\n' + kids.split('\n').map(l => '> ' + l).join('\n') + '\n\n';
+          case 'ul': return '\n' + [...node.children].filter(c => c.tagName === 'LI').map(li => '- ' + walk(li).trim().replace(/\n/g, '\n  ')).join('\n') + '\n\n';
+          case 'ol': return '\n' + [...node.children].filter(c => c.tagName === 'LI').map((li, i) => (i+1) + '. ' + walk(li).trim().replace(/\n/g, '\n   ')).join('\n') + '\n\n';
+          case 'li': return kids;
+          case 'br': return '  \n';
+          case 'hr': return '\n---\n\n';
+          case 'p': return '\n' + kids + '\n\n';
+          case 'table': {
+            const rows = [...node.querySelectorAll('tr')];
+            if (!rows.length) return kids;
+            const head = [...rows[0].children].map(td => walk(td).trim());
+            const body = rows.slice(1).map(r => [...r.children].map(td => walk(td).trim()));
+            let out = '| ' + head.join(' | ') + ' |\n';
+            out += '| ' + head.map(() => '---').join(' | ') + ' |\n';
+            body.forEach(r => out += '| ' + r.join(' | ') + ' |\n');
+            return '\n' + out + '\n';
+          }
+          case 'script': case 'style': case 'noscript': return '';
+          default: return kids;
+        }
+      }
+      return walk(doc.body.firstChild).trim().replace(/\n{3,}/g, '\n\n');
+    }
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Convert to Markdown', onClick: () => {
+      resultBox(c, htmlToMd(input.value));
+    }}));
+    c.appendChild(btns);
+    input.value = '<h1>Title</h1>\n<p>A <strong>bold</strong> and <em>italic</em> paragraph with a <a href="https://example.com">link</a>.</p>\n<ul><li>One</li><li>Two</li></ul>\n<pre><code class="language-js">console.log(1);</code></pre>';
+  };
+
+  toolBuilders.htmljs = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'HTML or JS string' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '6' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'HTML → JS string', onClick: () => {
+      const esc = input.value.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/\t/g, '\\t');
+      resultBox(c, 'var html = "' + esc + '";');
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'HTML → JS template literal', onClick: () => {
+      const esc = input.value.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${');
+      resultBox(c, 'const html = `' + esc + '`;');
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'HTML → document.write', onClick: () => {
+      const parts = input.value.split('\n').map(line => 'document.write("' + line.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '\\n");');
+      resultBox(c, parts.join('\n'));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'JS string → HTML (unescape)', onClick: () => {
+      let t = input.value.trim();
+      const m = t.match(/^(?:var|let|const)\s+\w+\s*=\s*(["'`])([\s\S]*)\1\s*;?$/);
+      if (m) t = m[2];
+      else if (/^(["'`])[\s\S]*\1$/.test(t)) t = t.slice(1, -1);
+      t = t.replace(/\\n/g, '\n').replace(/\\r/g, '\r').replace(/\\t/g, '\t').replace(/\\"/g, '"').replace(/\\'/g, "'").replace(/\\`/g, '`').replace(/\\\\/g, '\\');
+      resultBox(c, t);
+    }}));
+    c.appendChild(btns);
+    input.value = '<div class="hello">Hello World</div>';
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 DEV: FORMATTERS / PARSERS
+  // ═══════════════════════════════════════════════
+
+  toolBuilders.htmlformat = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'HTML' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const VOID = new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);
+    function beautify(html, indent) {
+      indent = indent || '  ';
+      let depth = 0, out = '', i = 0;
+      const lines = [];
+      function push(line) { lines.push(indent.repeat(Math.max(0, depth)) + line); }
+      const re = /<!--[\s\S]*?-->|<!\[CDATA\[[\s\S]*?\]\]>|<\?[\s\S]*?\?>|<!DOCTYPE[^>]*>|<\/?[a-zA-Z][^>]*>|[^<]+/g;
+      let m;
+      const tokens = [];
+      while ((m = re.exec(html)) !== null) tokens.push(m[0]);
+      for (let t of tokens) {
+        if (/^<!--/.test(t) || /^<!\[CDATA/.test(t) || /^<\?/.test(t) || /^<!DOCTYPE/i.test(t)) {
+          push(t.trim()); continue;
+        }
+        if (/^<\//.test(t)) {
+          depth--;
+          push(t);
+          continue;
+        }
+        if (/^</.test(t)) {
+          const name = (t.match(/^<([a-zA-Z][a-zA-Z0-9-]*)/) || [,''])[1].toLowerCase();
+          push(t);
+          if (!VOID.has(name) && !/\/>$/.test(t) && !/^<(script|style|pre|textarea)/i.test(t)) depth++;
+          else if (/^<(script|style|pre|textarea)/i.test(t)) {
+            depth++;
+            // keep content verbatim until closing
+          }
+          continue;
+        }
+        const text = t.replace(/\s+/g, ' ').trim();
+        if (text) push(text);
+      }
+      return lines.join('\n');
+    }
+
+    function minify(html) {
+      return html
+        .replace(/<!--[\s\S]*?-->/g, '')
+        .replace(/\s+/g, ' ')
+        .replace(/>\s+</g, '><')
+        .trim();
+    }
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Beautify', onClick: () => {
+      resultBox(c, beautify(input.value));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Beautify (4 spaces)', onClick: () => {
+      resultBox(c, beautify(input.value, '    '));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Minify', onClick: () => {
+      resultBox(c, minify(input.value));
+    }}));
+    c.appendChild(btns);
+    input.value = '<!DOCTYPE html><html><head><title>Test</title></head><body><div class="box"><p>Hello <b>world</b></p><ul><li>One</li><li>Two</li></ul></div></body></html>';
+  };
+
+  toolBuilders.codeformat = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Language' }));
+    let lang = 'c';
+    fg.appendChild(glassPicker('cf-lang', ['C/C++', 'Java', 'C#', 'PHP', 'Python', 'Ruby'], 'C/C++', (v) => { lang = v; }).wrapper);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Code' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg2.appendChild(input);
+    c.appendChild(fg2);
+
+    function braceFormat(src, ind) {
+      // Simple brace-based indenter for C-family languages
+      ind = ind || '    ';
+      let depth = 0, out = '', prevChar = '';
+      let inStr = null, inComment = null;
+      const lines = [];
+      let curLine = '';
+      const push = () => {
+        const trimmed = curLine.trim();
+        if (trimmed || lines.length) {
+          // Leading brace closes a block BEFORE indenting
+          let d = depth;
+          if (trimmed.startsWith('}') || trimmed.startsWith(')') || trimmed.startsWith(']')) d = Math.max(0, depth - 1);
+          lines.push(trimmed ? ind.repeat(d) + trimmed : '');
+        }
+        curLine = '';
+      };
+
+      for (let i = 0; i < src.length; i++) {
+        const ch = src[i], next = src[i+1];
+        if (inComment === 'line') {
+          if (ch === '\n') { curLine += ch; push(); inComment = null; }
+          else curLine += ch;
+          continue;
+        }
+        if (inComment === 'block') {
+          curLine += ch;
+          if (ch === '*' && next === '/') { curLine += '/'; i++; inComment = null; }
+          continue;
+        }
+        if (inStr) {
+          curLine += ch;
+          if (ch === '\\' && i+1 < src.length) { curLine += src[i+1]; i++; continue; }
+          if (ch === inStr) inStr = null;
+          continue;
+        }
+        if (ch === '/' && next === '/') { curLine += '//'; i++; inComment = 'line'; continue; }
+        if (ch === '/' && next === '*') { curLine += '/*'; i++; inComment = 'block'; continue; }
+        if (ch === '#' && /[^a-zA-Z0-9_]/.test(prevChar || '\n')) {
+          // Python/PHP comment
+          curLine += ch; inComment = 'line'; continue;
+        }
+        if (ch === '"' || ch === "'" || ch === '`') { curLine += ch; inStr = ch; continue; }
+        if (ch === '{' || ch === '(' || ch === '[') {
+          curLine += ch;
+          if (ch === '{') { push(); depth++; }
+          continue;
+        }
+        if (ch === '}' || ch === ')' || ch === ']') {
+          if (ch === '}') { push(); depth = Math.max(0, depth - 1); curLine = ch; }
+          else curLine += ch;
+          continue;
+        }
+        if (ch === ';') { curLine += ch; push(); continue; }
+        if (ch === '\n') { push(); continue; }
+        if (ch === ' ' || ch === '\t') {
+          if (curLine === '' || curLine.endsWith(' ')) continue;
+          curLine += ' '; continue;
+        }
+        curLine += ch;
+        prevChar = ch;
+      }
+      if (curLine.trim()) push();
+      return lines.join('\n').replace(/\n{3,}/g, '\n\n');
+    }
+
+    function pythonFormat(src) {
+      // Python uses indentation. We normalize tabs, trim trailing space, collapse blank lines.
+      return src.split('\n')
+        .map(l => l.replace(/\t/g, '    ').replace(/\s+$/, ''))
+        .join('\n')
+        .replace(/\n{3,}/g, '\n\n\n');
+    }
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Format', onClick: () => {
+      try {
+        if (lang === 'Python') resultBox(c, pythonFormat(input.value));
+        else if (lang === 'Ruby') resultBox(c, pythonFormat(input.value));
+        else resultBox(c, braceFormat(input.value));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Lightweight brace-based indenter. For production-grade formatting use prettier, black, rubocop, gofmt, etc.' });
+    c.appendChild(note);
+    input.value = 'void main(){int x=1;if(x>0){printf("%d",x);}else{printf("no");}}';
+  };
+
+  toolBuilders.jsobfuscate = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'JavaScript source' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Obfuscate (eval + base64)', onClick: () => {
+      const src = input.value;
+      const b64 = btoa(unescape(encodeURIComponent(src)));
+      resultBox(c, 'eval(decodeURIComponent(escape(atob("' + b64 + '"))));');
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Obfuscate (char codes)', onClick: () => {
+      const src = input.value;
+      const codes = [...src].map(ch => ch.charCodeAt(0)).join(',');
+      resultBox(c, 'eval(String.fromCharCode(' + codes + '));');
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Hex-encode eval', onClick: () => {
+      const src = input.value;
+      const hex = [...src].map(ch => '\\x' + ch.charCodeAt(0).toString(16).padStart(2, '0')).join('');
+      resultBox(c, 'eval("' + hex + '")');
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Minify (rough)', onClick: () => {
+      const out = input.value
+        .replace(/\/\*[\s\S]*?\*\//g, '')
+        .replace(/\/\/.*$/gm, '')
+        .replace(/\s+/g, ' ')
+        .replace(/\s*([{}();,=+\-*\/<>!&|?:])\s*/g, '$1')
+        .trim();
+      resultBox(c, out);
+    }}));
+    c.appendChild(btns);
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Note: obfuscation is not encryption. Anyone can deobfuscate these outputs easily. Use for mild source protection only.' });
+    c.appendChild(note);
+    input.value = 'function greet(name){console.log("Hello, " + name);}\ngreet("world");';
+  };
+
+  toolBuilders.htaccess2nginx = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Apache .htaccess rules' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Convert to Nginx', onClick: () => {
+      const lines = input.value.split('\n');
+      const out = [];
+      let inRewrite = false;
+      for (let line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) { out.push('# ' + trimmed.replace(/^#\s*/, '')); continue; }
+        if (/^RewriteEngine/i.test(trimmed)) { inRewrite = true; continue; }
+        if (/^RewriteBase/i.test(trimmed)) { continue; }
+        const rcond = trimmed.match(/^RewriteCond\s+(\S+)\s+(\S+)(?:\s+\[([^\]]+)\])?/i);
+        if (rcond) { out.push('# RewriteCond: ' + rcond[1] + ' ~ ' + rcond[2]); continue; }
+        const rrule = trimmed.match(/^RewriteRule\s+(\S+)\s+(\S+)(?:\s+\[([^\]]+)\])?/i);
+        if (rrule) {
+          const pattern = rrule[1], target = rrule[2], flags = (rrule[3] || '').toUpperCase();
+          let ngx = '';
+          if (flags.includes('R=301')) ngx = `rewrite ${pattern} ${target} permanent;`;
+          else if (flags.includes('R')) ngx = `rewrite ${pattern} ${target} redirect;`;
+          else if (flags.includes('L')) ngx = `rewrite ${pattern} ${target} last;`;
+          else ngx = `rewrite ${pattern} ${target};`;
+          out.push(ngx);
+          continue;
+        }
+        const redirect = trimmed.match(/^Redirect\s+(\d+)?\s*(\S+)\s+(\S+)/i);
+        if (redirect) {
+          const code = redirect[1] || '302';
+          out.push(`return ${code} ${redirect[3]};`);
+          continue;
+        }
+        const deny = trimmed.match(/^Deny from (.+)/i);
+        if (deny) { out.push('deny ' + deny[1] + ';'); continue; }
+        const allow = trimmed.match(/^Allow from (.+)/i);
+        if (allow) { out.push('allow ' + allow[1] + ';'); continue; }
+        if (/^Options/i.test(trimmed)) { out.push('# ' + trimmed + ' (not directly applicable to nginx)'); continue; }
+        if (/^DirectoryIndex/i.test(trimmed)) {
+          out.push('index ' + trimmed.replace(/^DirectoryIndex\s+/i, '') + ';');
+          continue;
+        }
+        if (/^ErrorDocument/i.test(trimmed)) {
+          const m = trimmed.match(/^ErrorDocument\s+(\d+)\s+(\S+)/i);
+          if (m) out.push(`error_page ${m[1]} ${m[2]};`);
+          continue;
+        }
+        if (/^Header/i.test(trimmed)) {
+          const m = trimmed.match(/^Header\s+(?:set|add|always\s+set)\s+(\S+)\s+"?([^"]*)"?/i);
+          if (m) out.push(`add_header ${m[1]} "${m[2]}";`);
+          continue;
+        }
+        out.push('# [unmapped] ' + trimmed);
+      }
+      const wrapped = ['server {', '    listen 80;', '    server_name example.com;', '    root /var/www/html;', '    index index.html index.php;', '', ...out.map(l => '    ' + l), '', '    location / {', '        try_files $uri $uri/ /index.php?$query_string;', '    }', '}'];
+      resultBox(c, wrapped.join('\n'));
+    }}));
+    c.appendChild(btns);
+    input.value = `RewriteEngine On
+RewriteBase /
+RewriteRule ^api/(.*)$ /api.php?path=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+Redirect 301 /old /new
+Deny from 192.0.2.0
+Allow from all
+ErrorDocument 404 /404.html
+Header set X-Frame-Options "DENY"`;
+  };
+
+  toolBuilders.xpath = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'XML / HTML document' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'XPath expression' }));
+    const xp = el('input', { type: 'text', className: 'glass-input', placeholder: '//book[@id="1"]/title' });
+    fg2.appendChild(xp);
+    c.appendChild(fg2);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Evaluate', onClick: () => {
+      try {
+        const parser = new DOMParser();
+        const isHtml = /<html|<!DOCTYPE html/i.test(input.value);
+        const doc = parser.parseFromString(input.value, isHtml ? 'text/html' : 'text/xml');
+        if (!isHtml) {
+          const err = doc.querySelector('parsererror');
+          if (err) throw new Error('Parse error: ' + err.textContent.split('\n')[0]);
+        }
+        const result = doc.evaluate(xp.value, doc, null, XPathResult.ANY_TYPE, null);
+        const out = [];
+        if (result.resultType === XPathResult.NUMBER_TYPE) out.push('Number: ' + result.numberValue);
+        else if (result.resultType === XPathResult.STRING_TYPE) out.push('String: ' + result.stringValue);
+        else if (result.resultType === XPathResult.BOOLEAN_TYPE) out.push('Boolean: ' + result.booleanValue);
+        else {
+          let n; let i = 0;
+          while ((n = result.iterateNext())) {
+            out.push(`[${++i}] <${n.nodeName}>`);
+            if (n.nodeType === 1) out.push('    ' + new XMLSerializer().serializeToString(n).slice(0, 400));
+            else out.push('    ' + (n.nodeValue || '').slice(0, 400));
+          }
+          if (i === 0) out.push('No matches.');
+          else out.unshift(`Matches: ${i}`, '');
+        }
+        resultBox(c, out.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = '<?xml version="1.0"?>\n<library>\n  <book id="1"><title>The Pragmatic Programmer</title><author>Hunt</author></book>\n  <book id="2"><title>SICP</title><author>Abelson</author></book>\n</library>';
+    xp.value = '//book/title';
+  };
+
+  toolBuilders.htmltable = (c) => {
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px' });
+    const rWrap = el('div', { className: 'form-group' }); rWrap.appendChild(el('label', { textContent: 'Rows' }));
+    const rInput = el('input', { type: 'number', className: 'glass-input', value: '3', min: '1' }); rWrap.appendChild(rInput);
+    const cWrap = el('div', { className: 'form-group' }); cWrap.appendChild(el('label', { textContent: 'Cols' }));
+    const cInput = el('input', { type: 'number', className: 'glass-input', value: '3', min: '1' }); cWrap.appendChild(cInput);
+    const opt = el('div', { className: 'form-group' }); opt.appendChild(el('label', { textContent: 'Options' }));
+    let border = true, headerRow = true;
+    opt.appendChild(iosToggle('htmltable-border', 'Border', true, v => { border = v; render(); }).row);
+    opt.appendChild(iosToggle('htmltable-header', 'Header row', true, v => { headerRow = v; render(); }).row);
+    row.appendChild(rWrap); row.appendChild(cWrap); row.appendChild(opt);
+    c.appendChild(row);
+
+    const grid = el('div', { style: 'margin-top:12px;overflow:auto;border-radius:12px;background:rgba(255,255,255,0.04);padding:12px' });
+    c.appendChild(grid);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:12px' });
+    c.appendChild(out);
+
+    let data = [];
+    function resize() {
+      const r = parseInt(rInput.value) || 1, cc = parseInt(cInput.value) || 1;
+      data = Array.from({ length: r }, (_, i) => Array.from({ length: cc }, (_, j) => (data[i] && data[i][j]) || (i === 0 && headerRow ? `Col ${j+1}` : '')));
+    }
+    function render() {
+      resize();
+      grid.innerHTML = '';
+      const tbl = el('table', { style: 'border-collapse:collapse;width:100%' });
+      data.forEach((row, i) => {
+        const tr = el('tr');
+        row.forEach((cell, j) => {
+          const isHeader = i === 0 && headerRow;
+          const cellEl = el(isHeader ? 'th' : 'td', {
+            style: `padding:4px;${border ? 'border:1px solid rgba(255,255,255,0.2);' : ''}`
+          });
+          const inp = el('input', { type: 'text', className: 'glass-input', value: cell, style: 'padding:6px 8px;font-size:13px' });
+          inp.addEventListener('input', () => { data[i][j] = inp.value; updateHtml(); });
+          cellEl.appendChild(inp);
+          tr.appendChild(cellEl);
+        });
+        tbl.appendChild(tr);
+      });
+      grid.appendChild(tbl);
+      updateHtml();
+    }
+    function updateHtml() {
+      const attr = border ? ' border="1" cellspacing="0" cellpadding="6"' : '';
+      const lines = [`<table${attr}>`];
+      data.forEach((row, i) => {
+        lines.push('  <tr>');
+        row.forEach(cell => {
+          const tag = (i === 0 && headerRow) ? 'th' : 'td';
+          lines.push(`    <${tag}>${cell}</${tag}>`);
+        });
+        lines.push('  </tr>');
+      });
+      lines.push('</table>');
+      out.textContent = lines.join('\n');
+    }
+    rInput.addEventListener('input', render);
+    cInput.addEventListener('input', render);
+    render();
+  };
+
+  toolBuilders.htmlubb = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'HTML or BBCode / UBB' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    function htmlToUbb(h) {
+      return h
+        .replace(/<br\s*\/?>/gi, '\n')
+        .replace(/<b>([\s\S]*?)<\/b>/gi, '[b]$1[/b]')
+        .replace(/<strong>([\s\S]*?)<\/strong>/gi, '[b]$1[/b]')
+        .replace(/<i>([\s\S]*?)<\/i>/gi, '[i]$1[/i]')
+        .replace(/<em>([\s\S]*?)<\/em>/gi, '[i]$1[/i]')
+        .replace(/<u>([\s\S]*?)<\/u>/gi, '[u]$1[/u]')
+        .replace(/<s>([\s\S]*?)<\/s>/gi, '[s]$1[/s]')
+        .replace(/<del>([\s\S]*?)<\/del>/gi, '[s]$1[/s]')
+        .replace(/<a\s+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, '[url=$1]$2[/url]')
+        .replace(/<img\s+src="([^"]+)"[^>]*\/?>/gi, '[img]$1[/img]')
+        .replace(/<h([1-6])>([\s\S]*?)<\/h\1>/gi, '[size=${7-$1}]$2[/size]')
+        .replace(/<blockquote>([\s\S]*?)<\/blockquote>/gi, '[quote]$1[/quote]')
+        .replace(/<code>([\s\S]*?)<\/code>/gi, '[code]$1[/code]')
+        .replace(/<pre>([\s\S]*?)<\/pre>/gi, '[code]$1[/code]')
+        .replace(/<ul>([\s\S]*?)<\/ul>/gi, '[list]$1[/list]')
+        .replace(/<ol>([\s\S]*?)<\/ol>/gi, '[list=1]$1[/list]')
+        .replace(/<li>([\s\S]*?)<\/li>/gi, '[*]$1')
+        .replace(/<font\s+color="?([^">\s]+)"?[^>]*>([\s\S]*?)<\/font>/gi, '[color=$1]$2[/color]')
+        .replace(/<[^>]+>/g, '');
+    }
+    function ubbToHtml(u) {
+      return u
+        .replace(/\[b\]([\s\S]*?)\[\/b\]/gi, '<b>$1</b>')
+        .replace(/\[i\]([\s\S]*?)\[\/i\]/gi, '<i>$1</i>')
+        .replace(/\[u\]([\s\S]*?)\[\/u\]/gi, '<u>$1</u>')
+        .replace(/\[s\]([\s\S]*?)\[\/s\]/gi, '<s>$1</s>')
+        .replace(/\[url=([^\]]+)\]([\s\S]*?)\[\/url\]/gi, '<a href="$1">$2</a>')
+        .replace(/\[url\]([\s\S]*?)\[\/url\]/gi, '<a href="$1">$1</a>')
+        .replace(/\[img\]([\s\S]*?)\[\/img\]/gi, '<img src="$1"/>')
+        .replace(/\[color=([^\]]+)\]([\s\S]*?)\[\/color\]/gi, '<span style="color:$1">$2</span>')
+        .replace(/\[size=([^\]]+)\]([\s\S]*?)\[\/size\]/gi, '<span style="font-size:$1">$2</span>')
+        .replace(/\[quote\]([\s\S]*?)\[\/quote\]/gi, '<blockquote>$1</blockquote>')
+        .replace(/\[code\]([\s\S]*?)\[\/code\]/gi, '<pre><code>$1</code></pre>')
+        .replace(/\[list=1\]([\s\S]*?)\[\/list\]/gi, (_, body) => '<ol>' + body.replace(/\[\*\]([^\[\n]+)/g, '<li>$1</li>') + '</ol>')
+        .replace(/\[list\]([\s\S]*?)\[\/list\]/gi,   (_, body) => '<ul>' + body.replace(/\[\*\]([^\[\n]+)/g, '<li>$1</li>') + '</ul>')
+        .replace(/\n/g, '<br/>');
+    }
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'HTML → BBCode', onClick: () => {
+      resultBox(c, htmlToUbb(input.value));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'BBCode → HTML', onClick: () => {
+      resultBox(c, ubbToHtml(input.value));
+    }}));
+    c.appendChild(btns);
+    input.value = '<p>Hello <b>world</b> and <a href="https://example.com">link</a></p>';
+  };
+
+  toolBuilders.htmlsanitize = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'HTML input' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Strip all tags', onClick: () => {
+      resultBox(c, input.value.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>'));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Remove scripts & styles', onClick: () => {
+      const out = input.value
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/\son\w+="[^"]*"/gi, '')
+        .replace(/\son\w+='[^']*'/gi, '');
+      resultBox(c, out);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Whitelist safe tags', onClick: () => {
+      const safe = new Set(['p','br','b','i','em','strong','u','s','del','ins','a','img','ul','ol','li','h1','h2','h3','h4','h5','h6','blockquote','code','pre','table','thead','tbody','tr','td','th','div','span']);
+      const safeAttrs = { a: ['href','title'], img: ['src','alt','title'] };
+      const doc = new DOMParser().parseFromString(input.value, 'text/html');
+      function clean(node) {
+        [...node.childNodes].forEach(ch => {
+          if (ch.nodeType === 1) {
+            const tag = ch.tagName.toLowerCase();
+            if (!safe.has(tag)) {
+              while (ch.firstChild) node.insertBefore(ch.firstChild, ch);
+              ch.remove();
+              return;
+            }
+            const allowed = safeAttrs[tag] || [];
+            [...ch.attributes].forEach(a => { if (!allowed.includes(a.name)) ch.removeAttribute(a.name); });
+            clean(ch);
+          }
+        });
+      }
+      clean(doc.body);
+      resultBox(c, doc.body.innerHTML);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Escape entities', onClick: () => {
+      resultBox(c, input.value.replace(/[<>&"']/g, ch => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&#39;'})[ch]));
+    }}));
+    c.appendChild(btns);
+    input.value = '<div onclick="alert(1)"><script>bad()</script><p>Hello <b>world</b></p></div>';
+  };
+
+  toolBuilders.websocket = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'WebSocket URL' }));
+    const url = el('input', { type: 'text', className: 'glass-input', value: 'wss://echo.websocket.org' });
+    fg.appendChild(url);
+    c.appendChild(fg);
+    const status = el('div', { style: 'padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.05);margin-bottom:12px;font-size:13px', textContent: '● Not connected' });
+    c.appendChild(status);
+    let ws = null;
+    const log = el('div', { style: 'max-height:280px;overflow:auto;padding:10px;border-radius:12px;background:rgba(0,0,0,0.3);font-family:ui-monospace,monospace;font-size:12px;line-height:1.6;margin-bottom:12px' });
+    c.appendChild(log);
+    function logLine(kind, msg) {
+      const colors = { in: '#7FD1B9', out: '#F6A192', sys: 'rgba(255,255,255,0.55)', err: '#F78181' };
+      const prefix = { in: '← RECV', out: '→ SEND', sys: '· SYS ', err: '⚠ ERR' }[kind];
+      const line = el('div', { style: `color:${colors[kind]}; margin:2px 0` });
+      line.textContent = `[${new Date().toLocaleTimeString()}] ${prefix}: ${msg}`;
+      log.appendChild(line);
+      log.scrollTop = log.scrollHeight;
+    }
+    const btnRow = el('div', { className: 'btn-group' });
+    const connectBtn = el('button', { className: 'btn btn-primary btn-sm', textContent: 'Connect' });
+    const disconnectBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Disconnect', disabled: true });
+    btnRow.appendChild(connectBtn); btnRow.appendChild(disconnectBtn);
+    c.appendChild(btnRow);
+
+    const msgFg = el('div', { className: 'form-group', style: 'margin-top:12px' });
+    msgFg.appendChild(el('label', { textContent: 'Message to send' }));
+    const msgInput = el('textarea', { className: 'glass-textarea', rows: '3', placeholder: 'Plain text or JSON…' });
+    msgFg.appendChild(msgInput);
+    c.appendChild(msgFg);
+    const sendBtn = el('button', { className: 'btn btn-primary btn-sm', textContent: 'Send', disabled: true });
+    c.appendChild(sendBtn);
+
+    connectBtn.onclick = () => {
+      try {
+        ws = new WebSocket(url.value);
+        logLine('sys', 'Connecting to ' + url.value);
+        ws.onopen = () => { status.textContent = '● Connected'; status.style.color = '#7FD1B9'; connectBtn.disabled = true; disconnectBtn.disabled = false; sendBtn.disabled = false; logLine('sys', 'Connected.'); };
+        ws.onmessage = (e) => logLine('in', typeof e.data === 'string' ? e.data : '[binary ' + e.data.size + ' bytes]');
+        ws.onerror = () => logLine('err', 'Connection error');
+        ws.onclose = (e) => { status.textContent = '● Disconnected'; status.style.color = 'rgba(255,255,255,0.5)'; connectBtn.disabled = false; disconnectBtn.disabled = true; sendBtn.disabled = true; logLine('sys', `Closed (code ${e.code})`); };
+      } catch (e) { logLine('err', e.message); }
+    };
+    disconnectBtn.onclick = () => ws && ws.close();
+    sendBtn.onclick = () => {
+      if (ws && ws.readyState === 1) {
+        ws.send(msgInput.value);
+        logLine('out', msgInput.value);
+      }
+    };
+    c._cleanup = () => { if (ws && ws.readyState <= 1) ws.close(); };
+  };
+
+  toolBuilders.browserinfo = (c) => {
+    const rows = [
+      ['User-Agent', navigator.userAgent],
+      ['Platform', navigator.platform],
+      ['Language', navigator.language],
+      ['Languages', (navigator.languages || []).join(', ')],
+      ['Online', navigator.onLine ? 'Yes' : 'No'],
+      ['Cookies Enabled', navigator.cookieEnabled ? 'Yes' : 'No'],
+      ['Do Not Track', navigator.doNotTrack || '(not set)'],
+      ['Hardware Threads', navigator.hardwareConcurrency || '?'],
+      ['Device Memory', (navigator.deviceMemory ? navigator.deviceMemory + ' GB' : '?')],
+      ['Max Touch Points', navigator.maxTouchPoints || '0'],
+      ['Screen Size', screen.width + ' × ' + screen.height],
+      ['Available Screen', screen.availWidth + ' × ' + screen.availHeight],
+      ['Color Depth', screen.colorDepth + '-bit'],
+      ['Pixel Ratio', window.devicePixelRatio],
+      ['Viewport', window.innerWidth + ' × ' + window.innerHeight],
+      ['Timezone', Intl.DateTimeFormat().resolvedOptions().timeZone],
+      ['Timezone offset', -new Date().getTimezoneOffset() / 60 + ' hours'],
+      ['Referrer', document.referrer || '(none)'],
+      ['URL', location.href],
+      ['Protocol', location.protocol],
+      ['Cookie support', typeof document.cookie === 'string' ? 'Yes' : 'No'],
+      ['LocalStorage', (() => { try { return typeof localStorage !== 'undefined' ? 'Yes' : 'No'; } catch (e) { return 'Blocked'; } })()],
+      ['ServiceWorker', 'serviceWorker' in navigator ? 'Yes' : 'No'],
+      ['WebGL', (() => { try { return !!document.createElement('canvas').getContext('webgl'); } catch (e) { return false; } })() ? 'Yes' : 'No'],
+      ['WebAssembly', typeof WebAssembly !== 'undefined' ? 'Yes' : 'No'],
+      ['WebRTC', typeof RTCPeerConnection !== 'undefined' ? 'Yes' : 'No'],
+      ['Web Crypto', typeof crypto.subtle !== 'undefined' ? 'Yes' : 'No'],
+      ['Geolocation', 'geolocation' in navigator ? 'Yes' : 'No'],
+      ['Notifications', 'Notification' in window ? Notification.permission : 'No'],
+      ['Clipboard API', 'clipboard' in navigator ? 'Yes' : 'No'],
+      ['Battery API', 'getBattery' in navigator ? 'Yes' : 'No'],
+      ['Bluetooth', 'bluetooth' in navigator ? 'Yes' : 'No'],
+      ['USB', 'usb' in navigator ? 'Yes' : 'No'],
+      ['WebXR', 'xr' in navigator ? 'Yes' : 'No'],
+    ];
+    makeReferenceTable(c, ['Property', 'Value'], rows, { placeholder: 'Filter…' });
+  };
+
+  toolBuilders.keyboardtest = (c) => {
+    const display = el('div', { style: 'padding:24px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-align:center;min-height:200px' });
+    const keyDisplay = el('div', { style: 'font-size:56px;font-weight:700;color:#fff;min-height:1.2em' });
+    const label = el('div', { style: 'margin-top:12px;color:rgba(255,255,255,0.6);font-size:13px', textContent: 'Press any key on your keyboard' });
+    display.appendChild(keyDisplay);
+    display.appendChild(label);
+    c.appendChild(display);
+
+    const info = el('pre', { style: 'margin-top:16px;padding:14px;background:rgba(0,0,0,0.25);border-radius:12px;font-size:13px;font-family:ui-monospace,monospace;white-space:pre-wrap' });
+    info.textContent = 'Waiting…';
+    c.appendChild(info);
+
+    const history = [];
+    const historyEl = el('div', { style: 'margin-top:12px;display:flex;flex-wrap:wrap;gap:6px;max-height:120px;overflow:auto' });
+    c.appendChild(historyEl);
+
+    function renderHistory() {
+      historyEl.innerHTML = '';
+      history.slice(-30).forEach(k => {
+        historyEl.appendChild(el('span', {
+          textContent: k,
+          style: 'padding:4px 10px;background:rgba(255,255,255,0.08);border-radius:6px;font-family:ui-monospace,monospace;font-size:12px'
+        }));
+      });
+    }
+
+    function onKey(e) {
+      e.preventDefault();
+      keyDisplay.textContent = e.key === ' ' ? 'Space' : e.key.length === 1 ? e.key : e.key;
+      info.textContent = [
+        `event.key       ${JSON.stringify(e.key)}`,
+        `event.code      ${JSON.stringify(e.code)}`,
+        `event.keyCode   ${e.keyCode}`,
+        `event.which     ${e.which}`,
+        `event.location  ${e.location}`,
+        `event.repeat    ${e.repeat}`,
+        `Modifiers       ${[e.ctrlKey && 'Ctrl', e.altKey && 'Alt', e.shiftKey && 'Shift', e.metaKey && 'Meta'].filter(Boolean).join(' + ') || '(none)'}`,
+      ].join('\n');
+      history.push(e.key);
+      renderHistory();
+    }
+
+    const panel = document.getElementById('panel-overlay');
+    const handler = (e) => { if (panel.classList.contains('active')) onKey(e); };
+    window.addEventListener('keydown', handler);
+    // Store cleanup so closePanel can remove it
+    c._cleanup = () => window.removeEventListener('keydown', handler);
+  };
+
+  toolBuilders.autorefresh = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URL' }));
+    const url = el('input', { type: 'text', className: 'glass-input', value: 'https://example.com', placeholder: 'https://…' });
+    fg.appendChild(url);
+    c.appendChild(fg);
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end' });
+    const int = el('div', { className: 'form-group' });
+    int.appendChild(el('label', { textContent: 'Interval (seconds)' }));
+    const intInput = el('input', { type: 'number', className: 'glass-input', value: '5', min: '1' });
+    int.appendChild(intInput);
+    const ctl = el('div', { className: 'btn-group' });
+    const start = el('button', { className: 'btn btn-primary btn-sm', textContent: 'Start' });
+    const stop = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Stop', disabled: true });
+    ctl.appendChild(start); ctl.appendChild(stop);
+    row.appendChild(int); row.appendChild(ctl);
+    c.appendChild(row);
+
+    const frame = el('iframe', { style: 'width:100%;height:420px;margin-top:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:#fff' });
+    c.appendChild(frame);
+    const count = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    c.appendChild(count);
+
+    let timer = null, n = 0;
+    start.onclick = () => {
+      frame.src = url.value;
+      n = 1;
+      count.textContent = 'Loaded 1 time';
+      start.disabled = true; stop.disabled = false;
+      timer = setInterval(() => {
+        frame.src = url.value.includes('?') ? url.value + '&_=' + Date.now() : url.value + '?_=' + Date.now();
+        n++;
+        count.textContent = `Loaded ${n} times · interval ${intInput.value}s`;
+      }, (parseInt(intInput.value) || 5) * 1000);
+    };
+    stop.onclick = () => { clearInterval(timer); timer = null; start.disabled = false; stop.disabled = true; };
+    c._cleanup = () => { if (timer) clearInterval(timer); };
+  };
+
+  toolBuilders.shortcut = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URL' }));
+    const url = el('input', { type: 'text', className: 'glass-input', value: 'https://i.tools' });
+    fg.appendChild(url);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Name' }));
+    const name = el('input', { type: 'text', className: 'glass-input', value: 'iTools' });
+    fg2.appendChild(name);
+    c.appendChild(fg2);
+    const btns = el('div', { className: 'btn-group' });
+    function download(filename, content) {
+      const blob = new Blob([content], { type: 'text/plain' });
+      const a = el('a', { href: URL.createObjectURL(blob), download: filename });
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    }
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Download .url (Windows)', onClick: () => {
+      download(name.value + '.url', `[InternetShortcut]\r\nURL=${url.value}\r\n`);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Download .desktop (Linux)', onClick: () => {
+      const content = `[Desktop Entry]
+Encoding=UTF-8
+Name=${name.value}
+Type=Link
+URL=${url.value}
+Icon=web-browser
+`;
+      download(name.value + '.desktop', content);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Download .webloc (macOS)', onClick: () => {
+      const content = `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+\t<key>URL</key>
+\t<string>${url.value}</string>
+</dict>
+</plist>`;
+      download(name.value + '.webloc', content);
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.ipnum = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'IPv4 address or integer' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: '8.8.8.8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:13px;line-height:1.8' });
+    c.appendChild(out);
+    function update() {
+      const v = input.value.trim();
+      try {
+        let num;
+        if (/^\d+$/.test(v)) {
+          num = parseInt(v, 10);
+          if (num < 0 || num > 0xffffffff) throw new Error('Out of range');
+        } else {
+          const m = v.match(/^(\d+)\.(\d+)\.(\d+)\.(\d+)$/);
+          if (!m) throw new Error('Not an IPv4 or integer');
+          num = (parseInt(m[1]) << 24 >>> 0) + (parseInt(m[2]) << 16) + (parseInt(m[3]) << 8) + parseInt(m[4]);
+        }
+        const oct = [(num >>> 24) & 255, (num >>> 16) & 255, (num >>> 8) & 255, num & 255];
+        out.textContent = [
+          `Dotted IPv4    ${oct.join('.')}`,
+          `Integer (10)   ${num}`,
+          `Integer (16)   0x${num.toString(16).padStart(8, '0')}`,
+          `Integer (2)    ${num.toString(2).padStart(32, '0').match(/.{8}/g).join(' ')}`,
+          `Reversed       ${oct.reverse().join('.')}`,
+          `IPv6 mapped    ::ffff:${oct.map((o,i)=>(i%2?o.toString(16).padStart(2,'0'):':'+o.toString(16).padStart(2,'0'))).join('').slice(1) || ''}`,
+          ``,
+          ...(num === 0 ? ['(zero address)'] : []),
+          ...(num === 0xffffffff ? ['(broadcast)'] : []),
+        ].join('\n');
+      } catch (e) { out.textContent = 'Error: ' + e.message; }
+    }
+    input.addEventListener('input', update);
+    update();
+  };
+
+  toolBuilders.ipgeo = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'IP address (leave empty to look up your IP)' }));
+    const input = el('input', { type: 'text', className: 'glass-input', placeholder: '8.8.8.8' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Look up', onClick: async () => {
+      const box = resultBox(c, 'Looking up…');
+      try {
+        const ip = input.value.trim();
+        const url = ip ? `https://ipapi.co/${encodeURIComponent(ip)}/json/` : 'https://ipapi.co/json/';
+        const r = await fetch(url);
+        const data = await r.json();
+        if (data.error) throw new Error(data.reason || 'Lookup failed');
+        resultBox(c, JSON.stringify(data, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message + '\n\nTry again in a minute — free API may be rate-limited.'); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.metaanalyzer = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Paste full HTML source (or <head> section)' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Analyze', onClick: () => {
+      try {
+        const doc = new DOMParser().parseFromString(input.value, 'text/html');
+        const lines = [];
+        const title = doc.querySelector('title');
+        lines.push(`=== Primary ===`);
+        lines.push(`<title>           ${title ? title.textContent : '(MISSING)'}`);
+        if (title) {
+          const len = title.textContent.length;
+          if (len < 30) lines.push(`   ⚠ Title is short (${len}). Aim for 50–60 chars.`);
+          else if (len > 60) lines.push(`   ⚠ Title is long (${len}). Aim for 50–60 chars.`);
+          else lines.push(`   ✓ Title length: ${len}`);
+        }
+        const desc = doc.querySelector('meta[name="description"]');
+        lines.push(`description       ${desc ? desc.getAttribute('content') : '(MISSING)'}`);
+        if (desc) {
+          const len = (desc.getAttribute('content') || '').length;
+          if (len < 120) lines.push(`   ⚠ Description is short (${len}). Aim for 150–160.`);
+          else if (len > 170) lines.push(`   ⚠ Description is long (${len}). Aim for 150–160.`);
+          else lines.push(`   ✓ Description length: ${len}`);
+        }
+        const canonical = doc.querySelector('link[rel="canonical"]');
+        lines.push(`canonical         ${canonical ? canonical.getAttribute('href') : '(MISSING)'}`);
+        const robots = doc.querySelector('meta[name="robots"]');
+        lines.push(`robots            ${robots ? robots.getAttribute('content') : '(not set)'}`);
+        const viewport = doc.querySelector('meta[name="viewport"]');
+        lines.push(`viewport          ${viewport ? viewport.getAttribute('content') : '(MISSING — mobile unfriendly)'}`);
+        const charset = doc.querySelector('meta[charset]');
+        lines.push(`charset           ${charset ? charset.getAttribute('charset') : '(MISSING)'}`);
+        const lang = doc.documentElement.getAttribute('lang');
+        lines.push(`<html lang>       ${lang || '(MISSING)'}`);
+
+        lines.push(``);
+        lines.push(`=== Open Graph ===`);
+        ['title','description','image','url','type','site_name','locale'].forEach(p => {
+          const m = doc.querySelector(`meta[property="og:${p}"]`);
+          lines.push(`og:${p.padEnd(12)} ${m ? m.getAttribute('content') : '(missing)'}`);
+        });
+
+        lines.push(``);
+        lines.push(`=== Twitter Card ===`);
+        ['card','site','creator','title','description','image'].forEach(p => {
+          const m = doc.querySelector(`meta[name="twitter:${p}"]`);
+          lines.push(`tw:${p.padEnd(12)} ${m ? m.getAttribute('content') : '(missing)'}`);
+        });
+
+        lines.push(``);
+        lines.push(`=== Headings ===`);
+        ['h1','h2','h3'].forEach(t => {
+          const els = [...doc.querySelectorAll(t)];
+          lines.push(`${t.toUpperCase()} (${els.length}): ${els.slice(0, 5).map(e => e.textContent.trim()).join(' | ')}`);
+        });
+        if (doc.querySelectorAll('h1').length > 1) lines.push(`   ⚠ Multiple <h1> tags found. Use exactly one.`);
+
+        lines.push(``);
+        lines.push(`=== Images ===`);
+        const imgs = [...doc.querySelectorAll('img')];
+        lines.push(`Total images: ${imgs.length}`);
+        const noAlt = imgs.filter(i => !i.getAttribute('alt'));
+        if (noAlt.length) lines.push(`   ⚠ ${noAlt.length} image(s) missing alt attribute`);
+
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+    input.value = '<html lang="en"><head><meta charset="utf-8"><title>iTools</title><meta name="description" content="A collection of useful web tools running entirely in the browser"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="https://i.tools"><meta property="og:title" content="iTools"><meta property="og:image" content="https://i.tools/og.png"></head><body><h1>Hello</h1></body></html>';
+  };
+
+  toolBuilders.keyworddensity = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Input text or HTML' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const stopFg = el('div', { className: 'form-group' });
+    stopFg.appendChild(el('label', { textContent: 'Ignore stop words' }));
+    let useStop = true;
+    stopFg.appendChild(iosToggle('kd-stop', 'Filter common English stop words', true, v => { useStop = v; update(); }).row);
+    c.appendChild(stopFg);
+    const STOP = new Set('the and or but if then else to of a an is are was were be been being have has had do does did will would can could should may might must shall its it this that these those in on at for by with as from not no so such than too very just also only if then he she we you they them i me my your his her our their own up down out over under about into through during before after above below between against without within which who whom whose where when why how all any each few more most other some what'.split(' '));
+
+    function update() {
+      const raw = input.value.replace(/<[^>]+>/g, ' ');
+      const words = raw.toLowerCase().match(/[\p{L}]+/gu) || [];
+      const filtered = useStop ? words.filter(w => !STOP.has(w) && w.length > 1) : words;
+      const counts = {};
+      filtered.forEach(w => counts[w] = (counts[w] || 0) + 1);
+      const total = filtered.length;
+      const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 50);
+      const lines = [`Total words: ${words.length}  ·  Unique: ${Object.keys(counts).length}  ·  After filter: ${total}`, ''];
+      lines.push('Rank  Word                     Count   Density');
+      sorted.forEach(([w, n], i) => {
+        const pct = total ? ((n / total) * 100).toFixed(2) + '%' : '0%';
+        lines.push(`${String(i+1).padEnd(5)} ${w.padEnd(24)} ${String(n).padStart(5)}   ${pct.padStart(7)}`);
+      });
+      resultBox(c, lines.join('\n'));
+    }
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Analyze', onClick: update }));
+    c.appendChild(btns);
+    input.value = 'The quick brown fox jumps over the lazy dog. The lazy dog just sleeps. The fox keeps running through the forest. JavaScript is a programming language. JavaScript runs everywhere.';
+  };
+
+  toolBuilders.onthisday = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Date (M/D)' }));
+    const now = new Date();
+    const input = el('input', { type: 'text', className: 'glass-input', value: `${now.getMonth()+1}/${now.getDate()}`, placeholder: '4/24' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Fetch events', onClick: async () => {
+      resultBox(c, 'Loading from Wikipedia…');
+      try {
+        const m = input.value.match(/(\d{1,2})[\/\-](\d{1,2})/);
+        if (!m) throw new Error('Use M/D format, e.g. 4/24');
+        const url = `https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/${m[1]}/${m[2]}`;
+        const r = await fetch(url);
+        const data = await r.json();
+        const lines = [];
+        lines.push(`=== On ${m[1]}/${m[2]} ===`);
+        lines.push(``);
+        lines.push(`SELECTED EVENTS`);
+        (data.selected || []).slice(0, 8).forEach(e => lines.push(`${e.year}  ${e.text}`));
+        lines.push(``);
+        lines.push(`EVENTS`);
+        (data.events || []).slice(0, 15).forEach(e => lines.push(`${e.year}  ${e.text}`));
+        lines.push(``);
+        lines.push(`BIRTHS`);
+        (data.births || []).slice(0, 10).forEach(e => lines.push(`${e.year}  ${e.text}`));
+        lines.push(``);
+        lines.push(`DEATHS`);
+        (data.deaths || []).slice(0, 10).forEach(e => lines.push(`${e.year}  ${e.text}`));
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.whois = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Domain or IP' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: 'example.com' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Lookup via RDAP', onClick: async () => {
+      resultBox(c, 'Looking up…');
+      try {
+        const q = input.value.trim();
+        const isIp = /^\d+\.\d+\.\d+\.\d+$/.test(q) || q.includes(':');
+        const url = isIp ? `https://rdap.org/ip/${q}` : `https://rdap.org/domain/${q}`;
+        const r = await fetch(url);
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const data = await r.json();
+        resultBox(c, JSON.stringify(data, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message + '\n\nTry the PHP-backed WHOIS tool (TCP socket) for more detailed output.'); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Raw WHOIS (server-side)', onClick: async () => {
+      resultBox(c, 'Looking up via api/whois.php…');
+      try {
+        const r = await fetch('api/whois.php?q=' + encodeURIComponent(input.value.trim()));
+        const text = await r.text();
+        resultBox(c, text || '(empty response)');
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.regexcodegen = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Regex pattern (without slashes)' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: '^[a-z][a-z0-9_]*$' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Flags' }));
+    const flags = el('input', { type: 'text', className: 'glass-input', value: 'g', placeholder: 'gim' });
+    fg2.appendChild(flags);
+    c.appendChild(fg2);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:12px;line-height:1.6' });
+    c.appendChild(out);
+    function render() {
+      const p = input.value;
+      const f = flags.value;
+      const esc = (s, quote) => s.replace(/\\/g, '\\\\').replace(new RegExp(quote, 'g'), '\\' + quote);
+      const caseInsens = f.includes('i');
+      const multiline = f.includes('m');
+      out.textContent = [
+        '─── JavaScript ───',
+        `const re = /${p}/${f};`,
+        `if (re.test(str)) { /* match */ }`,
+        '',
+        '─── Python ───',
+        `import re`,
+        `re.${f.includes('g') ? 'findall' : 'search'}(r'${esc(p, "'")}', s${caseInsens || multiline ? ', flags=' + [caseInsens && 're.IGNORECASE', multiline && 're.MULTILINE'].filter(Boolean).join(' | ') : ''})`,
+        '',
+        '─── PHP ───',
+        `preg_match${f.includes('g') ? '_all' : ''}('/${esc(p, "/")}/${f.replace('g', '')}', $str, $m);`,
+        '',
+        '─── Java ───',
+        `Pattern p = Pattern.compile("${esc(p, '"')}"${caseInsens ? ', Pattern.CASE_INSENSITIVE' : ''});`,
+        `Matcher m = p.matcher(str);`,
+        '',
+        '─── Go ───',
+        `re := regexp.MustCompile(\`${p}\`)`,
+        `matches := re.${f.includes('g') ? 'FindAllString' : 'FindString'}(s, -1)`,
+        '',
+        '─── C# ───',
+        `var re = new Regex(@"${p.replace(/"/g, '""')}"${caseInsens ? ', RegexOptions.IgnoreCase' : ''});`,
+        `var m = re.Match${f.includes('g') ? 'es' : ''}(input);`,
+        '',
+        '─── Ruby ───',
+        `/${p}/${f.replace('g', '')}.match(str)`,
+        '',
+        '─── Rust (regex crate) ───',
+        `let re = Regex::new(r"${esc(p, '"')}").unwrap();`,
+      ].join('\n');
+    }
+    input.addEventListener('input', render);
+    flags.addEventListener('input', render);
+    render();
+  };
+
+  toolBuilders.worldclock = (c) => {
+    const zones = [
+      ['Auckland',      'Pacific/Auckland'],
+      ['Sydney',        'Australia/Sydney'],
+      ['Tokyo',         'Asia/Tokyo'],
+      ['Seoul',         'Asia/Seoul'],
+      ['Shanghai',      'Asia/Shanghai'],
+      ['Hong Kong',     'Asia/Hong_Kong'],
+      ['Singapore',     'Asia/Singapore'],
+      ['Bangkok',       'Asia/Bangkok'],
+      ['Mumbai',        'Asia/Kolkata'],
+      ['Dubai',         'Asia/Dubai'],
+      ['Moscow',        'Europe/Moscow'],
+      ['Istanbul',      'Europe/Istanbul'],
+      ['Cairo',         'Africa/Cairo'],
+      ['Johannesburg',  'Africa/Johannesburg'],
+      ['Athens',        'Europe/Athens'],
+      ['Berlin',        'Europe/Berlin'],
+      ['Paris',         'Europe/Paris'],
+      ['London',        'Europe/London'],
+      ['Lisbon',        'Europe/Lisbon'],
+      ['Reykjavík',     'Atlantic/Reykjavik'],
+      ['São Paulo',     'America/Sao_Paulo'],
+      ['Buenos Aires',  'America/Argentina/Buenos_Aires'],
+      ['New York',      'America/New_York'],
+      ['Toronto',       'America/Toronto'],
+      ['Chicago',       'America/Chicago'],
+      ['Mexico City',   'America/Mexico_City'],
+      ['Denver',        'America/Denver'],
+      ['Los Angeles',   'America/Los_Angeles'],
+      ['Vancouver',     'America/Vancouver'],
+      ['Anchorage',     'America/Anchorage'],
+      ['Honolulu',      'Pacific/Honolulu'],
+      ['UTC',           'UTC'],
+    ];
+    const grid = el('div', { style: 'display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px' });
+    const cards = zones.map(([name, tz]) => {
+      const card = el('div', { style: 'padding:14px;border-radius:14px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);transition:all 0.2s' });
+      const cityEl = el('div', { textContent: name, style: 'font-size:13px;color:rgba(255,255,255,0.6);margin-bottom:4px' });
+      const timeEl = el('div', { style: 'font-size:22px;font-weight:600;color:#fff;font-variant-numeric:tabular-nums;font-family:ui-monospace,monospace' });
+      const dateEl = el('div', { style: 'font-size:11px;color:rgba(255,255,255,0.4);margin-top:4px' });
+      card.appendChild(cityEl); card.appendChild(timeEl); card.appendChild(dateEl);
+      grid.appendChild(card);
+      return { tz, timeEl, dateEl };
+    });
+    c.appendChild(grid);
+    function tick() {
+      const now = new Date();
+      cards.forEach(({ tz, timeEl, dateEl }) => {
+        try {
+          timeEl.textContent = now.toLocaleTimeString('en-US', { hour12: false, timeZone: tz });
+          dateEl.textContent = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: tz });
+        } catch (e) {
+          timeEl.textContent = '—';
+        }
+      });
+    }
+    tick();
+    const int = setInterval(tick, 1000);
+    c._cleanup = () => clearInterval(int);
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 GENERATORS
+  // ═══════════════════════════════════════════════
+
+  toolBuilders.randomnum = (c) => {
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const minW = el('div', { className: 'form-group' });
+    minW.appendChild(el('label', { textContent: 'Min' }));
+    const minI = el('input', { type: 'number', className: 'glass-input', value: '1' });
+    minW.appendChild(minI);
+    const maxW = el('div', { className: 'form-group' });
+    maxW.appendChild(el('label', { textContent: 'Max' }));
+    const maxI = el('input', { type: 'number', className: 'glass-input', value: '100' });
+    maxW.appendChild(maxI);
+    row.appendChild(minW); row.appendChild(maxW);
+    c.appendChild(row);
+
+    const row2 = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const cntW = el('div', { className: 'form-group' });
+    cntW.appendChild(el('label', { textContent: 'How many' }));
+    const cntI = el('input', { type: 'number', className: 'glass-input', value: '10', min: '1', max: '100000' });
+    cntW.appendChild(cntI);
+    const sepW = el('div', { className: 'form-group' });
+    sepW.appendChild(el('label', { textContent: 'Separator' }));
+    let sep = '\n';
+    sepW.appendChild(glassPicker('rn-sep', ['Newline', 'Comma', 'Space', 'Tab', 'Pipe'], 'Newline', (v) => { sep = v === 'Newline' ? '\n' : v === 'Comma' ? ', ' : v === 'Space' ? ' ' : v === 'Tab' ? '\t' : ' | '; }).wrapper);
+    row2.appendChild(cntW); row2.appendChild(sepW);
+    c.appendChild(row2);
+
+    const opts = el('div', { style: 'margin:12px 0' });
+    let integer = true, unique = false;
+    opts.appendChild(iosToggle('rn-int', 'Integer (not decimal)', true, v => { integer = v; }).row);
+    opts.appendChild(iosToggle('rn-unique', 'Unique values (no repeats)', false, v => { unique = v; }).row);
+    c.appendChild(opts);
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Generate', onClick: () => {
+      try {
+        const a = parseFloat(minI.value), b = parseFloat(maxI.value);
+        const n = Math.min(100000, parseInt(cntI.value) || 1);
+        if (isNaN(a) || isNaN(b)) throw new Error('Min and max required');
+        const lo = Math.min(a, b), hi = Math.max(a, b);
+        const out = [];
+        if (unique && integer) {
+          const range = hi - lo + 1;
+          if (range < n) throw new Error(`Cannot generate ${n} unique integers in [${lo},${hi}] (only ${range} possible)`);
+          const pool = Array.from({ length: range }, (_, i) => lo + i);
+          for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+          out.push(...pool.slice(0, n));
+        } else {
+          for (let i = 0; i < n; i++) {
+            let v = Math.random() * (hi - lo) + lo;
+            if (integer) v = Math.floor(v + (hi >= 0 ? 0 : 0));
+            if (integer) v = Math.floor(Math.random() * (hi - lo + 1)) + lo;
+            out.push(v);
+          }
+        }
+        resultBox(c, out.join(sep));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Dice (1d6)', onClick: () => {
+      const n = Math.min(100000, parseInt(cntI.value) || 1);
+      const out = Array.from({ length: n }, () => Math.floor(Math.random() * 6) + 1);
+      resultBox(c, out.join(sep));
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Lottery 1-49 × 6', onClick: () => {
+      const pool = Array.from({ length: 49 }, (_, i) => i + 1);
+      for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+      resultBox(c, pool.slice(0, 6).sort((a, b) => a - b).join(', '));
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.htpasswd = (c) => {
+    if (typeof CryptoJS === 'undefined') {
+      c.appendChild(el('div', { className: 'result-box', textContent: 'CryptoJS is still loading. Close and reopen the tool in a moment.' }));
+      return;
+    }
+    const fg1 = el('div', { className: 'form-group' });
+    fg1.appendChild(el('label', { textContent: 'Username' }));
+    const user = el('input', { type: 'text', className: 'glass-input', value: 'admin' });
+    fg1.appendChild(user);
+    c.appendChild(fg1);
+
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Password' }));
+    const pass = el('input', { type: 'text', className: 'glass-input', value: 'secret' });
+    fg2.appendChild(pass);
+    c.appendChild(fg2);
+
+    const btns = el('div', { className: 'btn-group' });
+
+    // Apache APR1 MD5 implementation (htpasswd -m compatible)
+    function apr1(password, salt) {
+      // Based on the apr_md5_crypt spec, implemented on top of CryptoJS.MD5
+      const md5 = (d) => CryptoJS.MD5(CryptoJS.enc.Latin1.parse(d));
+      const words = (h) => CryptoJS.enc.Latin1.stringify(h);
+      let ctx = password + '$apr1$' + salt;
+      let fctx = password + salt + password;
+      let f = words(md5(fctx));
+      let len = password.length;
+      while (len > 0) { ctx += f.substr(0, Math.min(16, len)); len -= 16; }
+      let i = password.length;
+      while (i) {
+        ctx += (i & 1) ? '\0' : password[0];
+        i >>>= 1;
+      }
+      let digest = words(md5(ctx));
+      for (let j = 0; j < 1000; j++) {
+        let c2 = '';
+        if (j & 1) c2 += password; else c2 += digest;
+        if (j % 3) c2 += salt;
+        if (j % 7) c2 += password;
+        if (j & 1) c2 += digest; else c2 += password;
+        digest = words(md5(c2));
+      }
+      // Rearrange
+      const order = [0,6,12,1,7,13,2,8,14,3,9,15,4,10,5];
+      let rearranged = '';
+      for (const i2 of order) rearranged += digest[i2];
+      rearranged += '\0\0' + digest[11];
+      // Base64-encode using apache's custom alphabet
+      const alpha = './0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+      let out = '';
+      for (let i3 = 0; i3 < rearranged.length; i3 += 3) {
+        const n = (rearranged.charCodeAt(i3) << 16) | (rearranged.charCodeAt(i3+1) << 8) | rearranged.charCodeAt(i3+2);
+        for (let k = 0; k < 4 && (i3 + k * 3/4) < 16; k++) {
+          if (i3 === 15 && k === 1) { out += alpha[(n >> 16) & 0x3f]; break; }
+          out += alpha[(n >> (18 - k * 6)) & 0x3f];
+        }
+      }
+      out = out.slice(0, 22);
+      return '$apr1$' + salt + '$' + out;
+    }
+
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'MD5 (APR1)', onClick: () => {
+      try {
+        const salt = Array.from({ length: 8 }, () => './0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'[Math.floor(Math.random() * 64)]).join('');
+        const hash = apr1(pass.value, salt);
+        resultBox(c, user.value + ':' + hash);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'SHA1 (insecure, legacy)', onClick: () => {
+      const hash = '{SHA}' + CryptoJS.SHA1(pass.value).toString(CryptoJS.enc.Base64);
+      resultBox(c, user.value + ':' + hash);
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Plain (unsafe)', onClick: () => {
+      resultBox(c, user.value + ':' + pass.value);
+    }}));
+    c.appendChild(btns);
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5);line-height:1.6' });
+    note.innerHTML = 'Bcrypt (<code>htpasswd -B</code>) is the recommended algorithm but requires server-side computation — use the PHP-backed version if available. APR1-MD5 is widely supported but showing its age.';
+    c.appendChild(note);
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 DATA / IMAGE / MATH additions
+  // ═══════════════════════════════════════════════
+
+  toolBuilders.setdiff = (c) => {
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const aW = el('div', { className: 'form-group' });
+    aW.appendChild(el('label', { textContent: 'List A (one per line)' }));
+    const aT = el('textarea', { className: 'glass-textarea', rows: '10' });
+    aW.appendChild(aT);
+    const bW = el('div', { className: 'form-group' });
+    bW.appendChild(el('label', { textContent: 'List B (one per line)' }));
+    const bT = el('textarea', { className: 'glass-textarea', rows: '10' });
+    bW.appendChild(bT);
+    row.appendChild(aW); row.appendChild(bW);
+    c.appendChild(row);
+
+    const opts = el('div', { style: 'margin:12px 0;display:flex;gap:8px;flex-wrap:wrap' });
+    let caseInsens = false, trim = true;
+    opts.appendChild(iosToggle('sd-trim', 'Trim whitespace', true, v => { trim = v; compute(); }).row);
+    opts.appendChild(iosToggle('sd-case', 'Case-insensitive', false, v => { caseInsens = v; compute(); }).row);
+    c.appendChild(opts);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:13px;line-height:1.6' });
+    c.appendChild(out);
+
+    function toSet(t) {
+      let items = t.split(/\r?\n/);
+      if (trim) items = items.map(s => s.trim());
+      items = items.filter(Boolean);
+      if (caseInsens) items = items.map(s => s.toLowerCase());
+      return [...new Set(items)];
+    }
+    function compute() {
+      const A = toSet(aT.value);
+      const B = toSet(bT.value);
+      const sA = new Set(A), sB = new Set(B);
+      const inter = A.filter(x => sB.has(x));
+      const onlyA = A.filter(x => !sB.has(x));
+      const onlyB = B.filter(x => !sA.has(x));
+      const union = [...new Set([...A, ...B])];
+      const symdiff = [...onlyA, ...onlyB];
+      out.textContent = [
+        `A size: ${A.length}    B size: ${B.length}`,
+        `Union (A ∪ B): ${union.length}`,
+        `Intersection (A ∩ B): ${inter.length}`,
+        `Only in A (A \\ B): ${onlyA.length}`,
+        `Only in B (B \\ A): ${onlyB.length}`,
+        `Symmetric diff (A △ B): ${symdiff.length}`,
+        ``,
+        `─── A ∩ B (${inter.length}) ───`,
+        inter.join('\n') || '(none)',
+        ``,
+        `─── A \\ B (${onlyA.length}) ───`,
+        onlyA.join('\n') || '(none)',
+        ``,
+        `─── B \\ A (${onlyB.length}) ───`,
+        onlyB.join('\n') || '(none)',
+      ].join('\n');
+    }
+    aT.addEventListener('input', compute);
+    bT.addEventListener('input', compute);
+    aT.value = 'apple\nbanana\ncherry\ndate\nelderberry';
+    bT.value = 'banana\ncherry\nfig\ngrape';
+    compute();
+  };
+
+  toolBuilders.drawpad = (c) => {
+    const toolbar = el('div', { style: 'display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px' });
+    const canvas = el('canvas', { style: 'width:100%;height:480px;border-radius:14px;background:#fff;cursor:crosshair;border:1px solid rgba(255,255,255,0.1)' });
+    canvas.width = 1200; canvas.height = 800;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    let color = '#1d1d1d', size = 4, mode = 'brush';
+
+    const colorIn = el('input', { type: 'color', value: color, style: 'width:38px;height:32px;border:none;background:transparent;padding:0' });
+    colorIn.oninput = () => color = colorIn.value;
+    toolbar.appendChild(colorIn);
+
+    const swatch = el('div', { style: 'display:flex;gap:6px' });
+    ['#1d1d1d','#ef4444','#f59e0b','#10b981','#3b82f6','#a855f7','#ec4899','#6b7280','#ffffff'].forEach(col => {
+      swatch.appendChild(el('button', { style: `width:22px;height:22px;border-radius:50%;background:${col};border:1px solid rgba(0,0,0,0.2);cursor:pointer;padding:0`, onClick: () => { color = col; colorIn.value = col; } }));
+    });
+    toolbar.appendChild(swatch);
+
+    const sizeIn = el('input', { type: 'range', value: size, min: '1', max: '40', style: 'width:120px' });
+    sizeIn.oninput = () => size = parseInt(sizeIn.value);
+    toolbar.appendChild(el('span', { textContent: 'Size', style: 'color:rgba(255,255,255,0.6);font-size:12px' }));
+    toolbar.appendChild(sizeIn);
+
+    const modeBtns = el('div', { className: 'btn-group' });
+    const brushBtn = el('button', { className: 'btn btn-primary btn-sm', textContent: 'Brush', onClick: () => { mode = 'brush'; setActive(brushBtn); } });
+    const eraserBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Eraser', onClick: () => { mode = 'eraser'; setActive(eraserBtn); } });
+    const rectBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Rect', onClick: () => { mode = 'rect'; setActive(rectBtn); } });
+    const lineBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Line', onClick: () => { mode = 'line'; setActive(lineBtn); } });
+    function setActive(b) { [brushBtn, eraserBtn, rectBtn, lineBtn].forEach(x => { x.className = x === b ? 'btn btn-primary btn-sm' : 'btn btn-secondary btn-sm'; }); }
+    modeBtns.appendChild(brushBtn); modeBtns.appendChild(eraserBtn); modeBtns.appendChild(rectBtn); modeBtns.appendChild(lineBtn);
+    toolbar.appendChild(modeBtns);
+
+    const clearBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Clear', onClick: () => {
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      history = []; histIdx = -1;
+    }});
+    const dlBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Download PNG', onClick: () => {
+      const a = el('a', { href: canvas.toDataURL('image/png'), download: 'drawing.png' });
+      a.click();
+    }});
+    const undoBtn = el('button', { className: 'btn btn-secondary btn-sm', textContent: '↶ Undo', onClick: () => undo() });
+    toolbar.appendChild(undoBtn);
+    toolbar.appendChild(clearBtn);
+    toolbar.appendChild(dlBtn);
+
+    c.appendChild(toolbar);
+    c.appendChild(canvas);
+
+    let history = [], histIdx = -1;
+    function snapshot() {
+      history = history.slice(0, histIdx + 1);
+      history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+      if (history.length > 30) history.shift(); else histIdx++;
+    }
+    function undo() {
+      if (histIdx <= 0) return;
+      histIdx--;
+      ctx.putImageData(history[histIdx], 0, 0);
+    }
+    snapshot();
+
+    let drawing = false, startX = 0, startY = 0, snapshotStart = null;
+    function pos(e) {
+      const r = canvas.getBoundingClientRect();
+      const scaleX = canvas.width / r.width, scaleY = canvas.height / r.height;
+      const x = ((e.touches ? e.touches[0].clientX : e.clientX) - r.left) * scaleX;
+      const y = ((e.touches ? e.touches[0].clientY : e.clientY) - r.top) * scaleY;
+      return [x, y];
+    }
+    function start(e) {
+      e.preventDefault();
+      drawing = true;
+      [startX, startY] = pos(e);
+      if (mode === 'brush' || mode === 'eraser') {
+        ctx.beginPath();
+        ctx.moveTo(startX, startY);
+        ctx.strokeStyle = mode === 'eraser' ? '#ffffff' : color;
+        ctx.lineWidth = size * (mode === 'eraser' ? 2 : 1);
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+      } else {
+        snapshotStart = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      }
+    }
+    function move(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      const [x, y] = pos(e);
+      if (mode === 'brush' || mode === 'eraser') {
+        ctx.lineTo(x, y);
+        ctx.stroke();
+      } else {
+        ctx.putImageData(snapshotStart, 0, 0);
+        ctx.strokeStyle = color;
+        ctx.lineWidth = size;
+        if (mode === 'rect') ctx.strokeRect(startX, startY, x - startX, y - startY);
+        else if (mode === 'line') { ctx.beginPath(); ctx.moveTo(startX, startY); ctx.lineTo(x, y); ctx.stroke(); }
+      }
+    }
+    function end() { if (drawing) { drawing = false; snapshot(); } }
+
+    canvas.addEventListener('mousedown', start);
+    canvas.addEventListener('mousemove', move);
+    canvas.addEventListener('mouseup', end);
+    canvas.addEventListener('mouseleave', end);
+    canvas.addEventListener('touchstart', start);
+    canvas.addEventListener('touchmove', move);
+    canvas.addEventListener('touchend', end);
+  };
+
+  toolBuilders.interestcalc = (c) => {
+    const grid = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    function field(label, val, step) {
+      const w = el('div', { className: 'form-group' });
+      w.appendChild(el('label', { textContent: label }));
+      const i = el('input', { type: 'number', className: 'glass-input', value: val, step: step || 'any' });
+      w.appendChild(i);
+      grid.appendChild(w);
+      return i;
+    }
+    const principal = field('Principal', '10000');
+    const rate      = field('Annual interest rate (%)', '5');
+    const years     = field('Time (years)', '10');
+    const times     = field('Compounds per year', '12');
+    c.appendChild(grid);
+
+    const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:13px;line-height:1.7' });
+    c.appendChild(out);
+
+    function update() {
+      const p = parseFloat(principal.value);
+      const r = parseFloat(rate.value) / 100;
+      const t = parseFloat(years.value);
+      const n = parseFloat(times.value);
+      if ([p, r, t, n].some(isNaN)) { out.textContent = 'Enter all values'; return; }
+      const simple = p * r * t;
+      const compound = p * Math.pow(1 + r / n, n * t) - p;
+      const continuous = p * Math.exp(r * t) - p;
+      // Amortized loan (standard mortgage formula)
+      const monthlyR = r / 12;
+      const totalPayments = t * 12;
+      const monthlyPayment = monthlyR === 0 ? p / totalPayments : p * monthlyR * Math.pow(1 + monthlyR, totalPayments) / (Math.pow(1 + monthlyR, totalPayments) - 1);
+      const totalPaid = monthlyPayment * totalPayments;
+      const lines = [
+        `=== Principal ${p.toFixed(2)} @ ${(r*100).toFixed(2)}% over ${t} years ===`,
+        ``,
+        `Simple interest          ${simple.toFixed(2)}  (final: ${(p+simple).toFixed(2)})`,
+        `Compound (${n}x/yr)        ${compound.toFixed(2)}  (final: ${(p+compound).toFixed(2)})`,
+        `Continuous compounding   ${continuous.toFixed(2)}  (final: ${(p+continuous).toFixed(2)})`,
+        ``,
+        `=== Loan amortization (monthly) ===`,
+        `Monthly payment          ${monthlyPayment.toFixed(2)}`,
+        `Total paid               ${totalPaid.toFixed(2)}`,
+        `Total interest           ${(totalPaid - p).toFixed(2)}`,
+      ];
+      out.textContent = lines.join('\n');
+    }
+    [principal, rate, years, times].forEach(i => i.addEventListener('input', update));
+    update();
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 REFERENCE TABLES
+  // ═══════════════════════════════════════════════
+
+  toolBuilders.httpstatus = (c) => {
+    const rows = [
+      ['100','Continue','Request headers received, continue sending body'],
+      ['101','Switching Protocols','Server accepted protocol upgrade'],
+      ['102','Processing','(WebDAV) Request received, still processing'],
+      ['103','Early Hints','Preload hints while response prepared'],
+      ['200','OK','Standard success response'],
+      ['201','Created','Resource successfully created'],
+      ['202','Accepted','Request accepted but not yet processed'],
+      ['203','Non-Authoritative Information','Response from a proxy, modified'],
+      ['204','No Content','Success with no body'],
+      ['205','Reset Content','Client should reset the document'],
+      ['206','Partial Content','Range request response'],
+      ['207','Multi-Status','(WebDAV) Multiple resources statuses'],
+      ['208','Already Reported','(WebDAV) Members already listed'],
+      ['226','IM Used','Server has fulfilled GET with instance manipulations'],
+      ['300','Multiple Choices','Multiple options for the resource'],
+      ['301','Moved Permanently','Resource has new permanent URI'],
+      ['302','Found','Temporary redirect (historical)'],
+      ['303','See Other','Redirect to different URI via GET'],
+      ['304','Not Modified','Cached version is still valid'],
+      ['305','Use Proxy','Deprecated — must use proxy'],
+      ['307','Temporary Redirect','Same method, different URI'],
+      ['308','Permanent Redirect','Preserves method, permanent'],
+      ['400','Bad Request','Malformed request syntax'],
+      ['401','Unauthorized','Authentication required'],
+      ['402','Payment Required','Reserved for future use'],
+      ['403','Forbidden','Server refuses to authorize'],
+      ['404','Not Found','Resource does not exist'],
+      ['405','Method Not Allowed','HTTP method not supported on this resource'],
+      ['406','Not Acceptable','Cannot produce requested content type'],
+      ['407','Proxy Authentication Required','Proxy authentication needed'],
+      ['408','Request Timeout','Client did not produce request in time'],
+      ['409','Conflict','Conflict with current state'],
+      ['410','Gone','Resource permanently removed'],
+      ['411','Length Required','Content-Length header missing'],
+      ['412','Precondition Failed','Precondition header not met'],
+      ['413','Payload Too Large','Request body too large'],
+      ['414','URI Too Long','Request URI longer than server can process'],
+      ['415','Unsupported Media Type','Payload format not supported'],
+      ['416','Range Not Satisfiable','Range request outside content size'],
+      ['417','Expectation Failed','Expect header requirement not met'],
+      ['418','I\'m a teapot','Easter egg — short and stout'],
+      ['421','Misdirected Request','Request directed at wrong server'],
+      ['422','Unprocessable Entity','Semantic errors in request'],
+      ['423','Locked','(WebDAV) Resource locked'],
+      ['424','Failed Dependency','(WebDAV) Previous request failed'],
+      ['425','Too Early','Unwilling to risk replay'],
+      ['426','Upgrade Required','Client must upgrade protocol'],
+      ['428','Precondition Required','Precondition header required'],
+      ['429','Too Many Requests','Rate limit exceeded'],
+      ['431','Request Header Fields Too Large','Headers collectively too large'],
+      ['451','Unavailable For Legal Reasons','Censored / legal demand'],
+      ['500','Internal Server Error','Generic server error'],
+      ['501','Not Implemented','Method not recognized'],
+      ['502','Bad Gateway','Invalid response from upstream'],
+      ['503','Service Unavailable','Server temporarily unavailable'],
+      ['504','Gateway Timeout','Upstream server timeout'],
+      ['505','HTTP Version Not Supported','HTTP version not supported'],
+      ['506','Variant Also Negotiates','Config error in content negotiation'],
+      ['507','Insufficient Storage','(WebDAV) Out of disk space'],
+      ['508','Loop Detected','(WebDAV) Infinite loop detected'],
+      ['510','Not Extended','Further extensions required'],
+      ['511','Network Authentication Required','Captive portal authentication'],
+    ];
+    makeReferenceTable(c, ['Code', 'Name', 'Meaning'], rows, { placeholder: 'Search by code or name…' });
+  };
+
+  toolBuilders.httpheadersref = (c) => {
+    const rows = [
+      // Request
+      ['Accept','Request','Content types the client can process'],
+      ['Accept-Charset','Request','Preferred character sets'],
+      ['Accept-Encoding','Request','Acceptable content codings (gzip, br, deflate)'],
+      ['Accept-Language','Request','Preferred natural languages'],
+      ['Authorization','Request','Credentials for authentication (Bearer, Basic, Digest)'],
+      ['Cache-Control','Both','Caching directives: no-cache, max-age, immutable'],
+      ['Connection','Both','Control options (keep-alive, close)'],
+      ['Content-Length','Both','Body size in bytes'],
+      ['Content-Type','Both','MIME type of body'],
+      ['Cookie','Request','Stored cookies sent to server'],
+      ['Date','Both','Message timestamp'],
+      ['DNT','Request','Do Not Track preference'],
+      ['Expect','Request','Behavior server must meet (100-continue)'],
+      ['Host','Request','Target server name and port'],
+      ['If-Match','Request','Conditional — perform action only if ETag matches'],
+      ['If-Modified-Since','Request','Conditional — only if changed after date'],
+      ['If-None-Match','Request','Conditional — only if ETag differs'],
+      ['If-Range','Request','Range request conditional'],
+      ['If-Unmodified-Since','Request','Conditional — only if not changed'],
+      ['Origin','Request','Origin of the request (CORS)'],
+      ['Pragma','Both','Legacy HTTP/1.0 cache control'],
+      ['Range','Request','Partial content byte range'],
+      ['Referer','Request','URL of previous page'],
+      ['User-Agent','Request','Client software identification'],
+      ['Upgrade','Request','Upgrade to different protocol (WebSocket)'],
+      // Response
+      ['Access-Control-Allow-Origin','Response','CORS allowed origins'],
+      ['Access-Control-Allow-Methods','Response','CORS allowed HTTP methods'],
+      ['Access-Control-Allow-Headers','Response','CORS allowed custom headers'],
+      ['Access-Control-Max-Age','Response','CORS preflight cache duration'],
+      ['Age','Response','Seconds since generation by origin'],
+      ['Allow','Response','Allowed methods on the resource'],
+      ['Content-Disposition','Response','Inline or attachment; filename'],
+      ['Content-Encoding','Response','Encoding applied (gzip, br)'],
+      ['Content-Language','Response','Natural language of body'],
+      ['Content-Location','Response','Alternate location of entity'],
+      ['Content-Range','Response','Where in body a partial message belongs'],
+      ['Content-Security-Policy','Response','Allowed content sources'],
+      ['ETag','Response','Opaque identifier for resource version'],
+      ['Expires','Response','Date after which response is stale'],
+      ['Last-Modified','Response','Last modification timestamp'],
+      ['Link','Response','Related resource (preload, prev, next)'],
+      ['Location','Response','Redirect target URL'],
+      ['Refresh','Response','Reload / redirect after N seconds'],
+      ['Retry-After','Response','When to retry after 503/429'],
+      ['Server','Response','Server software identification'],
+      ['Set-Cookie','Response','Create/update a cookie on the client'],
+      ['Strict-Transport-Security','Response','Enforce HTTPS for future requests'],
+      ['Trailer','Response','Headers appearing at end of chunked response'],
+      ['Transfer-Encoding','Response','Transfer encoding used (chunked)'],
+      ['Vary','Response','Headers that affect cache key'],
+      ['WWW-Authenticate','Response','Authentication scheme demanded'],
+      ['X-Content-Type-Options','Response','Disable MIME sniffing (nosniff)'],
+      ['X-Forwarded-For','Request','Original client IP through proxies'],
+      ['X-Forwarded-Proto','Request','Original scheme through proxies'],
+      ['X-Frame-Options','Response','Clickjacking protection (DENY/SAMEORIGIN)'],
+      ['X-Powered-By','Response','Backend technology (often removed for security)'],
+      ['X-Request-ID','Both','Request correlation identifier'],
+      ['X-XSS-Protection','Response','Legacy XSS filter control'],
+    ];
+    makeReferenceTable(c, ['Header', 'Direction', 'Description'], rows, { placeholder: 'Filter headers…' });
+  };
+
+  toolBuilders.httpmethods = (c) => {
+    const rows = [
+      ['GET','Safe','✓','✓','Retrieve a resource'],
+      ['HEAD','Safe','✓','✓','Same as GET but without body'],
+      ['POST','Unsafe','✗','✗','Create or submit data'],
+      ['PUT','Unsafe','✓','✗','Replace a resource entirely'],
+      ['PATCH','Unsafe','✗','✗','Partial update of a resource'],
+      ['DELETE','Unsafe','✓','✗','Remove a resource'],
+      ['OPTIONS','Safe','✓','✓','Describe methods supported'],
+      ['TRACE','Safe','✓','✓','Diagnostic echo of request'],
+      ['CONNECT','Unsafe','✗','✗','Establish tunnel through proxy (HTTPS)'],
+      ['REPORT','Unsafe','✗','✗','(WebDAV) Report a resource'],
+      ['PROPFIND','Safe','✓','✗','(WebDAV) Retrieve resource properties'],
+      ['PROPPATCH','Unsafe','✓','✗','(WebDAV) Update resource properties'],
+      ['MKCOL','Unsafe','✓','✗','(WebDAV) Create a collection'],
+      ['COPY','Unsafe','✓','✗','(WebDAV) Copy a resource'],
+      ['MOVE','Unsafe','✓','✗','(WebDAV) Move a resource'],
+      ['LOCK','Unsafe','✗','✗','(WebDAV) Lock a resource'],
+      ['UNLOCK','Unsafe','✓','✗','(WebDAV) Unlock a resource'],
+    ];
+    makeReferenceTable(c, ['Method', 'Safety', 'Idempotent', 'Cacheable', 'Purpose'], rows, { placeholder: 'Filter methods…' });
+  };
+
+  toolBuilders.mimetypes = (c) => {
+    const rows = [
+      ['text/plain','.txt','Plain text'],
+      ['text/html','.html, .htm','HTML document'],
+      ['text/css','.css','Cascading Style Sheet'],
+      ['text/javascript','.js, .mjs','JavaScript (historical)'],
+      ['text/csv','.csv','Comma-separated values'],
+      ['text/xml','.xml','XML (deprecated for app/xml)'],
+      ['text/markdown','.md','Markdown'],
+      ['application/json','.json','JSON data'],
+      ['application/xml','.xml','XML document'],
+      ['application/javascript','.js','JavaScript (modern)'],
+      ['application/octet-stream','.bin','Arbitrary binary data'],
+      ['application/pdf','.pdf','PDF document'],
+      ['application/zip','.zip','ZIP archive'],
+      ['application/gzip','.gz','gzip compressed'],
+      ['application/x-7z-compressed','.7z','7z archive'],
+      ['application/x-tar','.tar','TAR archive'],
+      ['application/x-rar-compressed','.rar','RAR archive'],
+      ['application/x-www-form-urlencoded','—','URL-encoded form submission'],
+      ['multipart/form-data','—','File upload form'],
+      ['application/vnd.ms-excel','.xls','Excel 97-2003'],
+      ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.xlsx','Excel 2007+'],
+      ['application/msword','.doc','Word 97-2003'],
+      ['application/vnd.openxmlformats-officedocument.wordprocessingml.document','.docx','Word 2007+'],
+      ['application/vnd.ms-powerpoint','.ppt','PowerPoint 97-2003'],
+      ['application/vnd.openxmlformats-officedocument.presentationml.presentation','.pptx','PowerPoint 2007+'],
+      ['application/rtf','.rtf','Rich Text Format'],
+      ['application/sql','.sql','SQL script'],
+      ['application/graphql','—','GraphQL query'],
+      ['application/ld+json','.jsonld','JSON-LD'],
+      ['application/yaml','.yaml, .yml','YAML'],
+      ['application/toml','.toml','TOML'],
+      ['application/wasm','.wasm','WebAssembly'],
+      ['application/manifest+json','.webmanifest','Web App Manifest'],
+      ['application/atom+xml','.atom','Atom feed'],
+      ['application/rss+xml','.rss','RSS feed'],
+      ['application/vnd.api+json','—','JSON:API'],
+      ['image/png','.png','PNG image'],
+      ['image/jpeg','.jpg, .jpeg','JPEG image'],
+      ['image/gif','.gif','GIF image'],
+      ['image/svg+xml','.svg','SVG vector image'],
+      ['image/webp','.webp','WebP image'],
+      ['image/avif','.avif','AVIF image'],
+      ['image/heic','.heic','HEIC (Apple)'],
+      ['image/bmp','.bmp','Bitmap'],
+      ['image/tiff','.tiff, .tif','TIFF image'],
+      ['image/x-icon','.ico','Favicon'],
+      ['audio/mpeg','.mp3','MP3 audio'],
+      ['audio/wav','.wav','WAV audio'],
+      ['audio/ogg','.ogg','Ogg Vorbis audio'],
+      ['audio/webm','.weba','WebM audio'],
+      ['audio/flac','.flac','FLAC'],
+      ['audio/aac','.aac','AAC audio'],
+      ['audio/midi','.mid, .midi','MIDI'],
+      ['video/mp4','.mp4','MP4 video'],
+      ['video/webm','.webm','WebM video'],
+      ['video/x-matroska','.mkv','Matroska video'],
+      ['video/ogg','.ogv','Ogg Theora video'],
+      ['video/mpeg','.mpg, .mpeg','MPEG video'],
+      ['video/quicktime','.mov','QuickTime'],
+      ['video/x-msvideo','.avi','AVI'],
+      ['font/ttf','.ttf','TrueType font'],
+      ['font/otf','.otf','OpenType font'],
+      ['font/woff','.woff','Web Open Font Format'],
+      ['font/woff2','.woff2','Web Open Font Format 2'],
+      ['application/vnd.apple.mpegurl','.m3u8','HLS playlist'],
+      ['application/dash+xml','.mpd','MPEG-DASH manifest'],
+      ['message/rfc822','.eml','Email message'],
+    ];
+    makeReferenceTable(c, ['MIME Type', 'Extensions', 'Description'], rows, { placeholder: 'Search MIME types…' });
+  };
+
+  toolBuilders.commonports = (c) => {
+    const rows = [
+      ['7','TCP/UDP','Echo protocol'],
+      ['20','TCP','FTP data transfer'],
+      ['21','TCP','FTP control'],
+      ['22','TCP','SSH, SFTP, SCP'],
+      ['23','TCP','Telnet (insecure)'],
+      ['25','TCP','SMTP mail'],
+      ['37','TCP/UDP','Time protocol'],
+      ['43','TCP','WHOIS'],
+      ['53','TCP/UDP','DNS'],
+      ['67','UDP','DHCP server'],
+      ['68','UDP','DHCP client'],
+      ['69','UDP','TFTP'],
+      ['80','TCP','HTTP'],
+      ['110','TCP','POP3'],
+      ['111','TCP/UDP','NFS / RPC'],
+      ['119','TCP','NNTP (Usenet)'],
+      ['123','UDP','NTP (time sync)'],
+      ['135','TCP','Microsoft RPC'],
+      ['137-139','TCP/UDP','NetBIOS'],
+      ['143','TCP','IMAP'],
+      ['161','UDP','SNMP'],
+      ['162','UDP','SNMP traps'],
+      ['179','TCP','BGP'],
+      ['389','TCP/UDP','LDAP'],
+      ['443','TCP','HTTPS'],
+      ['445','TCP','Microsoft SMB'],
+      ['465','TCP','SMTPS (SSL)'],
+      ['500','UDP','IPsec IKE'],
+      ['514','UDP','Syslog'],
+      ['515','TCP','LPD printer'],
+      ['520','UDP','RIP routing'],
+      ['546-547','UDP','DHCPv6'],
+      ['554','TCP/UDP','RTSP (streaming)'],
+      ['563','TCP','NNTPS'],
+      ['587','TCP','SMTP submission'],
+      ['631','TCP','IPP / CUPS printing'],
+      ['636','TCP','LDAPS'],
+      ['853','TCP','DNS over TLS (DoT)'],
+      ['873','TCP','rsync'],
+      ['989-990','TCP','FTPS'],
+      ['993','TCP','IMAPS'],
+      ['995','TCP','POP3S'],
+      ['1080','TCP','SOCKS proxy'],
+      ['1194','UDP','OpenVPN'],
+      ['1433','TCP','Microsoft SQL Server'],
+      ['1521','TCP','Oracle DB'],
+      ['1701','UDP','L2TP VPN'],
+      ['1723','TCP','PPTP VPN'],
+      ['1812-1813','UDP','RADIUS'],
+      ['2049','TCP','NFS'],
+      ['2082-2083','TCP','cPanel'],
+      ['2375-2376','TCP','Docker API'],
+      ['3000','TCP','Grafana / Node dev'],
+      ['3128','TCP','Squid proxy'],
+      ['3306','TCP','MySQL / MariaDB'],
+      ['3389','TCP','Microsoft RDP'],
+      ['4369','TCP','Erlang Port Mapper'],
+      ['4430','TCP','Alternate HTTPS'],
+      ['5060-5061','TCP/UDP','SIP / SIPS'],
+      ['5353','UDP','mDNS'],
+      ['5432','TCP','PostgreSQL'],
+      ['5672','TCP','AMQP (RabbitMQ)'],
+      ['5900-5901','TCP','VNC'],
+      ['5984','TCP','CouchDB'],
+      ['6379','TCP','Redis'],
+      ['6443','TCP','Kubernetes API'],
+      ['6514','TCP','Syslog TLS'],
+      ['6660-6669','TCP','IRC'],
+      ['7000','TCP','Cassandra inter-node'],
+      ['8000','TCP','Dev HTTP (Python)'],
+      ['8080','TCP','Alternate HTTP'],
+      ['8086','TCP','InfluxDB'],
+      ['8443','TCP','Alternate HTTPS'],
+      ['8883','TCP','MQTT over TLS'],
+      ['9000','TCP','Portainer / PHP-FPM'],
+      ['9042','TCP','Cassandra native'],
+      ['9090','TCP','Prometheus'],
+      ['9092','TCP','Kafka'],
+      ['9200','TCP','Elasticsearch'],
+      ['9418','TCP','Git protocol'],
+      ['11211','TCP/UDP','Memcached'],
+      ['27017','TCP','MongoDB'],
+      ['50070','TCP','Hadoop NameNode'],
+    ];
+    makeReferenceTable(c, ['Port', 'Proto', 'Service'], rows, { placeholder: 'Filter port or service…' });
+  };
+
+  toolBuilders.asciitable = (c) => {
+    const ctrl = {
+      0:'NUL (null)',1:'SOH (start of heading)',2:'STX (start of text)',3:'ETX (end of text)',
+      4:'EOT (end of transmission)',5:'ENQ (enquiry)',6:'ACK (acknowledge)',7:'BEL (bell)',
+      8:'BS (backspace)',9:'HT (horizontal tab)',10:'LF (line feed)',11:'VT (vertical tab)',
+      12:'FF (form feed)',13:'CR (carriage return)',14:'SO (shift out)',15:'SI (shift in)',
+      16:'DLE (data link escape)',17:'DC1 (XON)',18:'DC2',19:'DC3 (XOFF)',
+      20:'DC4',21:'NAK (negative ack)',22:'SYN (sync idle)',23:'ETB (end of trans. block)',
+      24:'CAN (cancel)',25:'EM (end of medium)',26:'SUB (substitute)',27:'ESC (escape)',
+      28:'FS (file separator)',29:'GS (group separator)',30:'RS (record separator)',31:'US (unit separator)',
+      127:'DEL (delete)'
+    };
+    const rows = [];
+    for (let i = 0; i < 128; i++) {
+      const name = ctrl[i] || String.fromCharCode(i);
+      const dec = String(i);
+      const hex = '0x' + i.toString(16).padStart(2, '0').toUpperCase();
+      const oct = '0' + i.toString(8);
+      const bin = i.toString(2).padStart(8, '0');
+      const html = (i < 32 || i === 127) ? '' : `&#${i};`;
+      rows.push([dec, hex, oct, bin, name, html]);
+    }
+    makeReferenceTable(c, ['Dec', 'Hex', 'Oct', 'Bin', 'Character', 'HTML'], rows, { placeholder: 'Filter ASCII…' });
+  };
+
+  toolBuilders.useragents = (c) => {
+    const rows = [
+      ['Chrome Windows','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'],
+      ['Chrome macOS','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'],
+      ['Chrome Linux','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'],
+      ['Chrome Android','Mozilla/5.0 (Linux; Android 14; SM-S921B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36'],
+      ['Chrome iOS','Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/121.0.0.0 Mobile/15E148 Safari/604.1'],
+      ['Firefox Windows','Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0'],
+      ['Firefox macOS','Mozilla/5.0 (Macintosh; Intel Mac OS X 14.0; rv:122.0) Gecko/20100101 Firefox/122.0'],
+      ['Firefox Linux','Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0'],
+      ['Firefox Android','Mozilla/5.0 (Android 14; Mobile; rv:122.0) Gecko/122.0 Firefox/122.0'],
+      ['Safari macOS','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15'],
+      ['Safari iPhone','Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'],
+      ['Safari iPad','Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'],
+      ['Edge Windows','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0'],
+      ['Edge macOS','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0'],
+      ['Opera Windows','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0'],
+      ['Brave','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/121.0.0.0 Safari/537.36'],
+      ['Samsung Internet','Mozilla/5.0 (Linux; Android 14; SAMSUNG SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0 Mobile Safari/537.36'],
+      ['UC Browser','Mozilla/5.0 (Linux; U; Android 14; en-US; SM-G991B Build/UP1A.231005.007) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/13.8.0.1306 Mobile Safari/534.30'],
+      ['Googlebot','Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'],
+      ['Googlebot Image','Googlebot-Image/1.0'],
+      ['Googlebot Mobile','Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'],
+      ['Bingbot','Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'],
+      ['DuckDuckBot','DuckDuckBot-Https/1.1; (+https://duckduckgo.com/duckduckbot)'],
+      ['YandexBot','Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)'],
+      ['Baiduspider','Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)'],
+      ['Applebot','Mozilla/5.0 (Device; OS_version) AppleWebKit/WebKit_version (KHTML, like Gecko) Version/Safari_version Safari/WebKit_version (Applebot/Applebot_version; +http://www.apple.com/go/applebot)'],
+      ['Twitterbot','Twitterbot/1.0'],
+      ['FacebookBot','facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'],
+      ['LinkedInBot','LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)'],
+      ['Slackbot','Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'],
+      ['curl 8','curl/8.6.0'],
+      ['wget','Wget/1.21.4'],
+      ['Python requests','python-requests/2.31.0'],
+      ['Node fetch','node-fetch/1.0 (+https://github.com/bitinn/node-fetch)'],
+      ['Go http client','Go-http-client/1.1'],
+      ['Postman','PostmanRuntime/7.36.3'],
+      ['IE 11','Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'],
+    ];
+    makeReferenceTable(c, ['Name', 'User-Agent String'], rows, { placeholder: 'Search browser / bot…', copy: r => r[1] });
+  };
+
+  toolBuilders.keycodes = (c) => {
+    const rows = [
+      ['Backspace','Backspace','8'],
+      ['Tab','Tab','9'],
+      ['Enter','Enter','13'],
+      ['Shift','ShiftLeft / ShiftRight','16'],
+      ['Ctrl','ControlLeft / ControlRight','17'],
+      ['Alt','AltLeft / AltRight','18'],
+      ['Pause','Pause','19'],
+      ['CapsLock','CapsLock','20'],
+      ['Escape','Escape','27'],
+      ['Space','Space','32'],
+      ['PageUp','PageUp','33'],
+      ['PageDown','PageDown','34'],
+      ['End','End','35'],
+      ['Home','Home','36'],
+      ['ArrowLeft','ArrowLeft','37'],
+      ['ArrowUp','ArrowUp','38'],
+      ['ArrowRight','ArrowRight','39'],
+      ['ArrowDown','ArrowDown','40'],
+      ['Insert','Insert','45'],
+      ['Delete','Delete','46'],
+      ['0–9 top row','Digit0–Digit9','48–57'],
+      ['A–Z','KeyA–KeyZ','65–90'],
+      ['Meta (Win/Cmd)','MetaLeft / MetaRight','91 / 93'],
+      ['Numpad 0–9','Numpad0–Numpad9','96–105'],
+      ['Numpad *','NumpadMultiply','106'],
+      ['Numpad +','NumpadAdd','107'],
+      ['Numpad -','NumpadSubtract','109'],
+      ['Numpad .','NumpadDecimal','110'],
+      ['Numpad /','NumpadDivide','111'],
+      ['F1–F12','F1–F12','112–123'],
+      ['NumLock','NumLock','144'],
+      ['ScrollLock','ScrollLock','145'],
+      [';','Semicolon','186'],
+      ['=','Equal','187'],
+      [',','Comma','188'],
+      ['-','Minus','189'],
+      ['.','Period','190'],
+      ['/','Slash','191'],
+      ['`','Backquote','192'],
+      ['[','BracketLeft','219'],
+      ['\\','Backslash','220'],
+      [']','BracketRight','221'],
+      ['\'','Quote','222'],
+    ];
+    makeReferenceTable(c, ['Key', 'KeyboardEvent.code', 'keyCode'], rows, { placeholder: 'Filter keys…' });
+  };
+
+  toolBuilders.androidkeys = (c) => {
+    const rows = [
+      ['KEYCODE_UNKNOWN','0','Unknown'],
+      ['KEYCODE_SOFT_LEFT','1','Soft left'],
+      ['KEYCODE_SOFT_RIGHT','2','Soft right'],
+      ['KEYCODE_HOME','3','Home'],
+      ['KEYCODE_BACK','4','Back'],
+      ['KEYCODE_CALL','5','Call'],
+      ['KEYCODE_ENDCALL','6','End call'],
+      ['KEYCODE_0 – 9','7–16','Number keys'],
+      ['KEYCODE_STAR','17','*'],
+      ['KEYCODE_POUND','18','#'],
+      ['KEYCODE_DPAD_UP','19','D-pad up'],
+      ['KEYCODE_DPAD_DOWN','20','D-pad down'],
+      ['KEYCODE_DPAD_LEFT','21','D-pad left'],
+      ['KEYCODE_DPAD_RIGHT','22','D-pad right'],
+      ['KEYCODE_DPAD_CENTER','23','D-pad center'],
+      ['KEYCODE_VOLUME_UP','24','Volume up'],
+      ['KEYCODE_VOLUME_DOWN','25','Volume down'],
+      ['KEYCODE_POWER','26','Power'],
+      ['KEYCODE_CAMERA','27','Camera'],
+      ['KEYCODE_CLEAR','28','Clear'],
+      ['KEYCODE_A – Z','29–54','Letter keys'],
+      ['KEYCODE_COMMA','55',','],
+      ['KEYCODE_PERIOD','56','.'],
+      ['KEYCODE_ALT_LEFT','57','Alt (left)'],
+      ['KEYCODE_ALT_RIGHT','58','Alt (right)'],
+      ['KEYCODE_SHIFT_LEFT','59','Shift (left)'],
+      ['KEYCODE_SHIFT_RIGHT','60','Shift (right)'],
+      ['KEYCODE_TAB','61','Tab'],
+      ['KEYCODE_SPACE','62','Space'],
+      ['KEYCODE_ENTER','66','Enter'],
+      ['KEYCODE_DEL','67','Delete / Backspace'],
+      ['KEYCODE_MENU','82','Menu'],
+      ['KEYCODE_NOTIFICATION','83','Notification'],
+      ['KEYCODE_SEARCH','84','Search'],
+      ['KEYCODE_MEDIA_PLAY_PAUSE','85','Play/Pause'],
+      ['KEYCODE_MEDIA_STOP','86','Media stop'],
+      ['KEYCODE_MEDIA_NEXT','87','Next track'],
+      ['KEYCODE_MEDIA_PREVIOUS','88','Previous track'],
+      ['KEYCODE_MUTE','91','Microphone mute'],
+      ['KEYCODE_PAGE_UP','92','Page up'],
+      ['KEYCODE_PAGE_DOWN','93','Page down'],
+      ['KEYCODE_ESCAPE','111','Escape'],
+      ['KEYCODE_FORWARD_DEL','112','Forward delete'],
+      ['KEYCODE_CTRL_LEFT','113','Ctrl (left)'],
+      ['KEYCODE_CTRL_RIGHT','114','Ctrl (right)'],
+      ['KEYCODE_F1 – F12','131–142','Function keys'],
+      ['KEYCODE_APP_SWITCH','187','Recents / App switch'],
+      ['KEYCODE_ASSIST','219','Google Assistant'],
+    ];
+    makeReferenceTable(c, ['Constant', 'Code', 'Key'], rows, { placeholder: 'Filter…' });
+  };
+
+  toolBuilders.androidperms = (c) => {
+    const rows = [
+      ['INTERNET','Network','Open network sockets'],
+      ['ACCESS_NETWORK_STATE','Network','View network connection state'],
+      ['ACCESS_WIFI_STATE','Network','View Wi-Fi connection state'],
+      ['CHANGE_WIFI_STATE','Network','Connect/disconnect from Wi-Fi'],
+      ['BLUETOOTH','Network','Pair with Bluetooth devices'],
+      ['BLUETOOTH_ADMIN','Network','Discover and manage pairings'],
+      ['BLUETOOTH_CONNECT','Network','Connect to paired Bluetooth devices (Android 12+)'],
+      ['BLUETOOTH_SCAN','Network','Scan for Bluetooth devices (Android 12+)'],
+      ['NFC','Hardware','Perform I/O over NFC'],
+      ['USE_BIOMETRIC','Hardware','Use biometric authentication'],
+      ['USE_FINGERPRINT','Hardware','(deprecated) Use fingerprint sensor'],
+      ['CAMERA','Hardware','Access camera'],
+      ['RECORD_AUDIO','Hardware','Record audio'],
+      ['MODIFY_AUDIO_SETTINGS','Hardware','Change audio settings'],
+      ['VIBRATE','Hardware','Access vibrator'],
+      ['FLASHLIGHT','Hardware','(deprecated) Access flashlight'],
+      ['READ_CONTACTS','User data','Read contacts data'],
+      ['WRITE_CONTACTS','User data','Modify contacts data'],
+      ['GET_ACCOUNTS','User data','Access accounts on device'],
+      ['READ_CALL_LOG','User data','Read call log'],
+      ['WRITE_CALL_LOG','User data','Write call log'],
+      ['READ_SMS','User data','Read SMS messages'],
+      ['SEND_SMS','User data','Send SMS'],
+      ['RECEIVE_SMS','User data','Monitor incoming SMS'],
+      ['READ_PHONE_STATE','User data','Read phone number, IMEI'],
+      ['CALL_PHONE','User data','Initiate phone call'],
+      ['READ_CALENDAR','User data','Read calendar events'],
+      ['WRITE_CALENDAR','User data','Write calendar events'],
+      ['ACCESS_FINE_LOCATION','Location','Precise location (GPS)'],
+      ['ACCESS_COARSE_LOCATION','Location','Approximate location (network)'],
+      ['ACCESS_BACKGROUND_LOCATION','Location','Location while app is in background'],
+      ['READ_EXTERNAL_STORAGE','Storage','Read shared storage (pre-Android 13)'],
+      ['WRITE_EXTERNAL_STORAGE','Storage','Write shared storage (pre-Android 10)'],
+      ['MANAGE_EXTERNAL_STORAGE','Storage','Full shared storage access (Android 11+)'],
+      ['READ_MEDIA_IMAGES','Storage','Read images (Android 13+)'],
+      ['READ_MEDIA_VIDEO','Storage','Read video (Android 13+)'],
+      ['READ_MEDIA_AUDIO','Storage','Read audio (Android 13+)'],
+      ['POST_NOTIFICATIONS','UI','Post notifications (Android 13+)'],
+      ['SYSTEM_ALERT_WINDOW','UI','Draw over other apps'],
+      ['WAKE_LOCK','System','Prevent phone from sleeping'],
+      ['REQUEST_IGNORE_BATTERY_OPTIMIZATIONS','System','Exempt from battery optimizations'],
+      ['FOREGROUND_SERVICE','System','Run foreground service'],
+      ['RECEIVE_BOOT_COMPLETED','System','Run at boot'],
+      ['SCHEDULE_EXACT_ALARM','System','Schedule exact alarms (Android 12+)'],
+      ['BIND_NOTIFICATION_LISTENER_SERVICE','Service','Listen to notifications'],
+      ['BIND_ACCESSIBILITY_SERVICE','Service','Accessibility service'],
+      ['BIND_INPUT_METHOD','Service','Provide an input method'],
+      ['BIND_DEVICE_ADMIN','Service','Device admin'],
+      ['PACKAGE_USAGE_STATS','Privileged','Read app usage statistics'],
+      ['REQUEST_INSTALL_PACKAGES','System','Install APKs'],
+    ];
+    makeReferenceTable(c, ['Permission', 'Group', 'Purpose'], rows, { placeholder: 'Filter permissions…' });
+  };
+
+  toolBuilders.specialchars = (c) => {
+    const groups = {
+      'Arrows': '←→↑↓↔↕↖↗↘↙⇐⇒⇑⇓⇔⇕⇦⇨⇧⇩➜➔➞➡⬅⬆⬇⬈⬉⬊⬋⤴⤵↪↩↰↱↲↳',
+      'Math': '+−×÷±∓=≠≈≡≢≤≥<>≪≫∞∝∑∏∫∬∭∮∂∇∆√∛∜%‰∀∃∄∅∈∉∋∌∩∪⊂⊃⊆⊇⊄⊅⊕⊗⊙',
+      'Currency': '$€¥£¢₹₽₩¤₿﷼₺₪₫₱₡₦₮₴₵₸₲₦₥₭₳₯₤₢₠₣￠￥￡￦',
+      'Greek': 'αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ',
+      'Fractions': '½⅓⅔¼¾⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅐⅑⅒⅟',
+      'Superscript': '⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿⁱ',
+      'Subscript': '₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎ₐₑₒₓₕₖₗₘₙₚₛₜ',
+      'Checks & crosses': '✓✔✗✘✕✖☑☒☐',
+      'Stars': '★☆✦✧✩✪✫✬✭✮✯✰⭐✨',
+      'Hearts': '♥♡❤❣❥❦❧💕💖💘💝💞💓💔',
+      'Cards': '♠♣♥♦♤♧♡♢',
+      'Music': '♩♪♫♬♭♮♯𝄞𝄢',
+      'Weather': '☀☁☂☃☄❄❅❆☔⚡☁️⛅☀️🌧🌨🌩🌪🌫🌬',
+      'Clocks': '🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚🕛',
+      'Punctuation': '…«»‹›"‚„‛‴‵‶‷‾⁂⁃⁄⁅⁆⁎⁑⁒⁓⁗¡¿‖‗' + '“”‘’„‚',
+      'Technical': '⌂⌘⌥⌃⌤⎋⎇⇧⇪⏎⏏⏚⏳⌛⏲⏰⏱',
+      'Shapes': '■□▪▫▬▭▮▯▰▱▲△▴▵▶▷▸▹►▻▼▽▾▿◀◁◂◃◄◅◆◇◈◉◊○◌◍◎●◐◑◒◓◔◕',
+      'Geometric': '★☆✢✣✤✥✦✧✩✪✫',
+      'Enclosed': 'ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ',
+      'Astrology': '☉☽☿♀♁♂♃♄♅♆♇',
+      'Gender': '♀♂⚤⚥⚦⚧⚪⚫',
+      'Roman': 'ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫⅬⅭⅮⅯⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅺⅻⅼⅽⅾⅿ',
+      'CJK Punct': '。、「」『』〝〞〟〔〕〖〗〘〙〚〛〜〝〞〟〄〠〡〢〣〤〥〦〧〨〩〪〭〮〯〫〬〰〱〲〳〴〵〶〷〸〹〺〻〼',
+    };
+    const search = el('input', { type: 'text', className: 'glass-input', placeholder: 'Search group (e.g., "arrow", "heart", "math")…' });
+    c.appendChild(search);
+    const wrap = el('div', { style: 'margin-top:12px;max-height:62vh;overflow:auto' });
+    c.appendChild(wrap);
+
+    function render(filter) {
+      wrap.innerHTML = '';
+      const f = (filter || '').toLowerCase();
+      for (const [name, chars] of Object.entries(groups)) {
+        if (f && !name.toLowerCase().includes(f) && !chars.includes(f)) continue;
+        const section = el('div', { style: 'margin-bottom:18px' });
+        section.appendChild(el('div', { textContent: name, style: 'font-size:12px;color:rgba(255,255,255,0.6);margin-bottom:8px;letter-spacing:0.5px;text-transform:uppercase' }));
+        const grid = el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' });
+        for (const ch of chars) {
+          const btn = el('button', { textContent: ch, style: 'min-width:38px;height:38px;padding:4px 8px;border-radius:10px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);cursor:pointer;font-size:20px;color:#fff;transition:all 0.15s' });
+          btn.addEventListener('mouseenter', () => btn.style.background = 'rgba(255,255,255,0.1)');
+          btn.addEventListener('mouseleave', () => btn.style.background = 'rgba(255,255,255,0.04)');
+          btn.addEventListener('click', () => {
+            navigator.clipboard.writeText(ch).then(() => {
+              btn.style.background = 'rgba(0,200,120,0.3)';
+              setTimeout(() => btn.style.background = 'rgba(255,255,255,0.04)', 400);
+            });
+          });
+          btn.title = 'U+' + ch.codePointAt(0).toString(16).toUpperCase().padStart(4, '0') + ' — click to copy';
+          grid.appendChild(btn);
+        }
+        section.appendChild(grid);
+        wrap.appendChild(section);
+      }
+    }
+    search.addEventListener('input', () => render(search.value));
+    render('');
+  };
+
+  toolBuilders.linuxcmds = (c) => {
+    const rows = [
+      ['ls','File','List directory contents — ls -lah'],
+      ['cd','File','Change directory'],
+      ['pwd','File','Print working directory'],
+      ['mkdir','File','Create directory — mkdir -p a/b/c'],
+      ['rmdir','File','Remove empty directory'],
+      ['rm','File','Remove files/dirs — rm -rf dir'],
+      ['cp','File','Copy — cp -r src dest'],
+      ['mv','File','Move / rename — mv a b'],
+      ['ln','File','Create link — ln -s target linkname'],
+      ['touch','File','Create empty file / update mtime'],
+      ['find','File','Find files — find . -name "*.log" -mtime +7'],
+      ['locate','File','Find via pre-built db — locate foo'],
+      ['stat','File','File stats — stat file'],
+      ['file','File','Identify file type'],
+      ['du','File','Disk usage — du -sh *'],
+      ['df','File','Disk free — df -h'],
+      ['cat','Text','Concatenate files'],
+      ['less','Text','Paged viewer (q to quit)'],
+      ['head','Text','First N lines — head -20'],
+      ['tail','Text','Last N lines — tail -f logfile'],
+      ['grep','Text','Regex search — grep -rn "TODO" src/'],
+      ['sed','Text','Stream editor — sed -i "s/old/new/g" file'],
+      ['awk','Text','Text processing — awk "{print $1}"'],
+      ['cut','Text','Cut columns — cut -d, -f1,3'],
+      ['sort','Text','Sort lines — sort -u'],
+      ['uniq','Text','Unique lines — sort | uniq -c'],
+      ['wc','Text','Count words/lines — wc -l'],
+      ['tr','Text','Translate chars — tr "a-z" "A-Z"'],
+      ['xargs','Text','Build command from input'],
+      ['jq','Text','JSON query — jq ".field" data.json'],
+      ['chmod','Perms','Change permissions — chmod 755 file'],
+      ['chown','Perms','Change owner — chown user:group file'],
+      ['chgrp','Perms','Change group'],
+      ['umask','Perms','Default permission mask'],
+      ['sudo','Perms','Run as root — sudo command'],
+      ['su','Perms','Switch user'],
+      ['ps','Proc','List processes — ps aux'],
+      ['top','Proc','Real-time process viewer'],
+      ['htop','Proc','Interactive process viewer'],
+      ['kill','Proc','Send signal — kill -9 PID'],
+      ['killall','Proc','Kill processes by name'],
+      ['pgrep','Proc','Find processes by name'],
+      ['pkill','Proc','Kill processes by name'],
+      ['jobs','Proc','Active jobs in shell'],
+      ['fg','Proc','Bring job to foreground'],
+      ['bg','Proc','Send job to background'],
+      ['nohup','Proc','Run ignoring SIGHUP'],
+      ['screen','Proc','Terminal multiplexer'],
+      ['tmux','Proc','Better terminal multiplexer'],
+      ['uname','System','System info — uname -a'],
+      ['uptime','System','Uptime and load average'],
+      ['date','System','Show/set date'],
+      ['hostname','System','Show/set hostname'],
+      ['free','System','Memory usage — free -h'],
+      ['lscpu','System','CPU info'],
+      ['lsblk','System','Block devices'],
+      ['lsof','System','List open files — lsof -i :80'],
+      ['dmesg','System','Kernel ring buffer'],
+      ['journalctl','System','systemd logs — journalctl -u nginx -f'],
+      ['systemctl','System','Manage services — systemctl restart nginx'],
+      ['service','System','SysV service control'],
+      ['ping','Net','ICMP ping'],
+      ['curl','Net','HTTP client — curl -sI url'],
+      ['wget','Net','Download — wget -c url'],
+      ['ssh','Net','Secure shell'],
+      ['scp','Net','Secure copy'],
+      ['rsync','Net','Sync files — rsync -av src/ dest/'],
+      ['netstat','Net','Network stats (deprecated)'],
+      ['ss','Net','Socket stats — ss -tulpn'],
+      ['ip','Net','IP config — ip addr'],
+      ['ifconfig','Net','Interface config (deprecated)'],
+      ['dig','Net','DNS lookup — dig example.com'],
+      ['host','Net','DNS lookup'],
+      ['nslookup','Net','DNS lookup (interactive)'],
+      ['traceroute','Net','Trace network route'],
+      ['mtr','Net','Traceroute + ping'],
+      ['nmap','Net','Network scanner'],
+      ['nc','Net','Netcat — nc -lp 1234'],
+      ['iptables','Net','Firewall rules'],
+      ['tar','Archive','tar xzvf archive.tgz'],
+      ['gzip','Archive','Compress — gzip file'],
+      ['gunzip','Archive','Decompress .gz'],
+      ['zip','Archive','ZIP archive'],
+      ['unzip','Archive','Extract ZIP'],
+      ['7z','Archive','7-Zip'],
+      ['apt','Pkg','Debian package manager — apt install pkg'],
+      ['yum','Pkg','RHEL package manager (legacy)'],
+      ['dnf','Pkg','Modern RHEL package manager'],
+      ['pacman','Pkg','Arch package manager'],
+      ['brew','Pkg','macOS package manager'],
+      ['git','VCS','Version control — git status'],
+      ['vim','Edit','Terminal editor'],
+      ['nano','Edit','Friendly terminal editor'],
+      ['echo','Shell','Print to stdout'],
+      ['printf','Shell','Formatted print'],
+      ['env','Shell','Show environment'],
+      ['export','Shell','Export variable — export X=1'],
+      ['alias','Shell','Define alias'],
+      ['history','Shell','Command history'],
+      ['which','Shell','Locate command'],
+      ['whereis','Shell','Locate binary/source/manual'],
+      ['man','Shell','Manual pages'],
+      ['help','Shell','Bash built-in help'],
+    ];
+    makeReferenceTable(c, ['Command', 'Category', 'Description'], rows, { placeholder: 'Filter commands…' });
+  };
+
+  toolBuilders.regexcheat = (c) => {
+    const rows = [
+      ['.','Anchor','Any char except newline (without /s flag)'],
+      ['^','Anchor','Start of string (or line with /m)'],
+      ['$','Anchor','End of string (or line with /m)'],
+      ['\\b','Anchor','Word boundary'],
+      ['\\B','Anchor','Non-word boundary'],
+      ['\\A','Anchor','Start of string (some flavors)'],
+      ['\\Z','Anchor','End of string'],
+      ['\\d','Class','Digit [0-9]'],
+      ['\\D','Class','Non-digit'],
+      ['\\w','Class','Word char [A-Za-z0-9_]'],
+      ['\\W','Class','Non-word char'],
+      ['\\s','Class','Whitespace'],
+      ['\\S','Class','Non-whitespace'],
+      ['[abc]','Class','Any of a, b, or c'],
+      ['[^abc]','Class','None of a, b, c'],
+      ['[a-z]','Class','Range a to z'],
+      ['[a-zA-Z0-9_]','Class','Same as \\w'],
+      ['\\p{L}','Class','Any Unicode letter (with /u)'],
+      ['\\p{N}','Class','Any Unicode number'],
+      ['*','Quantifier','0 or more (greedy)'],
+      ['+','Quantifier','1 or more (greedy)'],
+      ['?','Quantifier','0 or 1'],
+      ['{n}','Quantifier','Exactly n'],
+      ['{n,}','Quantifier','n or more'],
+      ['{n,m}','Quantifier','n to m'],
+      ['*?','Quantifier','0 or more (lazy)'],
+      ['+?','Quantifier','1 or more (lazy)'],
+      ['(abc)','Group','Capturing group'],
+      ['(?:abc)','Group','Non-capturing group'],
+      ['(?<name>abc)','Group','Named capture'],
+      ['(?=abc)','Lookaround','Positive lookahead'],
+      ['(?!abc)','Lookaround','Negative lookahead'],
+      ['(?<=abc)','Lookaround','Positive lookbehind'],
+      ['(?<!abc)','Lookaround','Negative lookbehind'],
+      ['a|b','Alternation','a or b'],
+      ['\\1','Backref','First captured group'],
+      ['\\k<name>','Backref','Named backref'],
+      ['$1','Replace','First captured group in replacement'],
+      ['$&','Replace','Entire match'],
+      ['$`','Replace','Text before match'],
+      ['$\'','Replace','Text after match'],
+      ['/g','Flag','Global (all matches)'],
+      ['/i','Flag','Case-insensitive'],
+      ['/m','Flag','Multiline (^ $ match per line)'],
+      ['/s','Flag','Dotall (. matches \\n)'],
+      ['/u','Flag','Unicode'],
+      ['/y','Flag','Sticky (JS)'],
+      ['/x','Flag','Extended (ignore whitespace)'],
+    ];
+    makeReferenceTable(c, ['Token', 'Type', 'Meaning'], rows, { placeholder: 'Filter regex syntax…' });
+  };
+
+  toolBuilders.regexcommon = (c) => {
+    const rows = [
+      ['Email','^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'],
+      ['Strict email (RFC)','^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$'],
+      ['URL (http/https)','^https?:\\/\\/[^\\s/$.?#].[^\\s]*$'],
+      ['URL (any)','^[a-zA-Z][a-zA-Z0-9+.-]*:\\/\\/[^\\s/$.?#].[^\\s]*$'],
+      ['IPv4','^(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)$'],
+      ['IPv6','^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$'],
+      ['MAC address','^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$'],
+      ['CIDR IPv4','^(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\/(?:\\d|[12]\\d|3[0-2])$'],
+      ['Domain name','^[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9](?:\\.[a-zA-Z]{2,})+$'],
+      ['Hostname','^[a-zA-Z0-9]([a-zA-Z0-9\\-]{0,61}[a-zA-Z0-9])?(\\.[a-zA-Z0-9]([a-zA-Z0-9\\-]{0,61}[a-zA-Z0-9])?)*$'],
+      ['Slug','^[a-z0-9]+(?:-[a-z0-9]+)*$'],
+      ['Date YYYY-MM-DD','^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$'],
+      ['Time HH:MM:SS','^([01]\\d|2[0-3]):[0-5]\\d(:[0-5]\\d)?$'],
+      ['ISO 8601','^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'],
+      ['US phone','^(\\+?1[-.\\s]?)?\\(?[2-9]\\d{2}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}$'],
+      ['China mobile','^1[3-9]\\d{9}$'],
+      ['E.164 phone','^\\+[1-9]\\d{1,14}$'],
+      ['US ZIP code','^\\d{5}(-\\d{4})?$'],
+      ['UK postcode','^[A-Z]{1,2}\\d[A-Z\\d]? ?\\d[A-Z]{2}$'],
+      ['Credit card','^\\d{4}[- ]?\\d{4}[- ]?\\d{4}[- ]?\\d{4}$'],
+      ['Visa','^4\\d{12}(?:\\d{3})?$'],
+      ['MasterCard','^5[1-5]\\d{14}$'],
+      ['Amex','^3[47]\\d{13}$'],
+      ['UUID v4','^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'],
+      ['MD5','^[a-f0-9]{32}$'],
+      ['SHA-1','^[a-f0-9]{40}$'],
+      ['SHA-256','^[a-f0-9]{64}$'],
+      ['Base64','^(?:[A-Za-z0-9+\\/]{4})*(?:[A-Za-z0-9+\\/]{2}==|[A-Za-z0-9+\\/]{3}=)?$'],
+      ['Hex color','^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$'],
+      ['Strong password','^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$'],
+      ['Username (3-20)','^[a-zA-Z0-9_]{3,20}$'],
+      ['Integer','^-?\\d+$'],
+      ['Decimal','^-?\\d+(\\.\\d+)?$'],
+      ['Positive integer','^[1-9]\\d*$'],
+      ['HTML tag','<\\/?[a-z][\\s\\S]*?>'],
+      ['HTML comment','<!--[\\s\\S]*?-->'],
+      ['Windows path','^[a-zA-Z]:\\\\(?:[^\\\\\\/:*?"<>|\\r\\n]+\\\\)*[^\\\\\\/:*?"<>|\\r\\n]*$'],
+      ['Unix path','^\\/(?:[^/\\0]+\\/?)*$'],
+      ['Filename','^[^\\\\/:*?"<>|]+\\.[a-zA-Z0-9]{1,8}$'],
+      ['GitHub username','^[a-zA-Z\\d](?:[a-zA-Z\\d]|-(?=[a-zA-Z\\d])){0,38}$'],
+      ['Twitter handle','^@?(\\w){1,15}$'],
+      ['Hashtag','#[a-zA-Z]\\w*'],
+      ['China ID card','^[1-9]\\d{5}(18|19|20)\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])\\d{3}[\\dXx]$'],
+    ];
+    makeReferenceTable(c, ['Pattern', 'Regex'], rows, { placeholder: 'Search patterns…', copy: r => r[1] });
+  };
+
+  toolBuilders.capitals = (c) => {
+    const rows = [
+      ['Afghanistan','Kabul','AS'],['Albania','Tirana','EU'],['Algeria','Algiers','AF'],['Andorra','Andorra la Vella','EU'],
+      ['Angola','Luanda','AF'],['Antigua and Barbuda','Saint John\'s','NA'],['Argentina','Buenos Aires','SA'],['Armenia','Yerevan','AS'],
+      ['Australia','Canberra','OC'],['Austria','Vienna','EU'],['Azerbaijan','Baku','AS'],['Bahamas','Nassau','NA'],
+      ['Bahrain','Manama','AS'],['Bangladesh','Dhaka','AS'],['Barbados','Bridgetown','NA'],['Belarus','Minsk','EU'],
+      ['Belgium','Brussels','EU'],['Belize','Belmopan','NA'],['Benin','Porto-Novo','AF'],['Bhutan','Thimphu','AS'],
+      ['Bolivia','La Paz / Sucre','SA'],['Bosnia and Herzegovina','Sarajevo','EU'],['Botswana','Gaborone','AF'],['Brazil','Brasília','SA'],
+      ['Brunei','Bandar Seri Begawan','AS'],['Bulgaria','Sofia','EU'],['Burkina Faso','Ouagadougou','AF'],['Burundi','Gitega','AF'],
+      ['Cambodia','Phnom Penh','AS'],['Cameroon','Yaoundé','AF'],['Canada','Ottawa','NA'],['Cape Verde','Praia','AF'],
+      ['Central African Republic','Bangui','AF'],['Chad','N\'Djamena','AF'],['Chile','Santiago','SA'],['China','Beijing','AS'],
+      ['Colombia','Bogotá','SA'],['Comoros','Moroni','AF'],['Congo (DRC)','Kinshasa','AF'],['Congo (Republic)','Brazzaville','AF'],
+      ['Costa Rica','San José','NA'],['Côte d\'Ivoire','Yamoussoukro','AF'],['Croatia','Zagreb','EU'],['Cuba','Havana','NA'],
+      ['Cyprus','Nicosia','EU'],['Czech Republic','Prague','EU'],['Denmark','Copenhagen','EU'],['Djibouti','Djibouti City','AF'],
+      ['Dominica','Roseau','NA'],['Dominican Republic','Santo Domingo','NA'],['Ecuador','Quito','SA'],['Egypt','Cairo','AF'],
+      ['El Salvador','San Salvador','NA'],['Equatorial Guinea','Malabo','AF'],['Eritrea','Asmara','AF'],['Estonia','Tallinn','EU'],
+      ['Eswatini','Mbabane','AF'],['Ethiopia','Addis Ababa','AF'],['Fiji','Suva','OC'],['Finland','Helsinki','EU'],
+      ['France','Paris','EU'],['Gabon','Libreville','AF'],['Gambia','Banjul','AF'],['Georgia','Tbilisi','AS'],
+      ['Germany','Berlin','EU'],['Ghana','Accra','AF'],['Greece','Athens','EU'],['Grenada','Saint George\'s','NA'],
+      ['Guatemala','Guatemala City','NA'],['Guinea','Conakry','AF'],['Guinea-Bissau','Bissau','AF'],['Guyana','Georgetown','SA'],
+      ['Haiti','Port-au-Prince','NA'],['Honduras','Tegucigalpa','NA'],['Hungary','Budapest','EU'],['Iceland','Reykjavík','EU'],
+      ['India','New Delhi','AS'],['Indonesia','Jakarta','AS'],['Iran','Tehran','AS'],['Iraq','Baghdad','AS'],
+      ['Ireland','Dublin','EU'],['Israel','Jerusalem','AS'],['Italy','Rome','EU'],['Jamaica','Kingston','NA'],
+      ['Japan','Tokyo','AS'],['Jordan','Amman','AS'],['Kazakhstan','Astana','AS'],['Kenya','Nairobi','AF'],
+      ['Kiribati','Tarawa','OC'],['Korea, North','Pyongyang','AS'],['Korea, South','Seoul','AS'],['Kosovo','Pristina','EU'],
+      ['Kuwait','Kuwait City','AS'],['Kyrgyzstan','Bishkek','AS'],['Laos','Vientiane','AS'],['Latvia','Riga','EU'],
+      ['Lebanon','Beirut','AS'],['Lesotho','Maseru','AF'],['Liberia','Monrovia','AF'],['Libya','Tripoli','AF'],
+      ['Liechtenstein','Vaduz','EU'],['Lithuania','Vilnius','EU'],['Luxembourg','Luxembourg City','EU'],['Madagascar','Antananarivo','AF'],
+      ['Malawi','Lilongwe','AF'],['Malaysia','Kuala Lumpur','AS'],['Maldives','Malé','AS'],['Mali','Bamako','AF'],
+      ['Malta','Valletta','EU'],['Marshall Islands','Majuro','OC'],['Mauritania','Nouakchott','AF'],['Mauritius','Port Louis','AF'],
+      ['Mexico','Mexico City','NA'],['Micronesia','Palikir','OC'],['Moldova','Chișinău','EU'],['Monaco','Monaco','EU'],
+      ['Mongolia','Ulaanbaatar','AS'],['Montenegro','Podgorica','EU'],['Morocco','Rabat','AF'],['Mozambique','Maputo','AF'],
+      ['Myanmar','Naypyidaw','AS'],['Namibia','Windhoek','AF'],['Nauru','Yaren','OC'],['Nepal','Kathmandu','AS'],
+      ['Netherlands','Amsterdam','EU'],['New Zealand','Wellington','OC'],['Nicaragua','Managua','NA'],['Niger','Niamey','AF'],
+      ['Nigeria','Abuja','AF'],['North Macedonia','Skopje','EU'],['Norway','Oslo','EU'],['Oman','Muscat','AS'],
+      ['Pakistan','Islamabad','AS'],['Palau','Ngerulmud','OC'],['Palestine','Ramallah','AS'],['Panama','Panama City','NA'],
+      ['Papua New Guinea','Port Moresby','OC'],['Paraguay','Asunción','SA'],['Peru','Lima','SA'],['Philippines','Manila','AS'],
+      ['Poland','Warsaw','EU'],['Portugal','Lisbon','EU'],['Qatar','Doha','AS'],['Romania','Bucharest','EU'],
+      ['Russia','Moscow','EU/AS'],['Rwanda','Kigali','AF'],['Saint Kitts and Nevis','Basseterre','NA'],['Saint Lucia','Castries','NA'],
+      ['Saint Vincent','Kingstown','NA'],['Samoa','Apia','OC'],['San Marino','San Marino','EU'],['São Tomé','São Tomé','AF'],
+      ['Saudi Arabia','Riyadh','AS'],['Senegal','Dakar','AF'],['Serbia','Belgrade','EU'],['Seychelles','Victoria','AF'],
+      ['Sierra Leone','Freetown','AF'],['Singapore','Singapore','AS'],['Slovakia','Bratislava','EU'],['Slovenia','Ljubljana','EU'],
+      ['Solomon Islands','Honiara','OC'],['Somalia','Mogadishu','AF'],['South Africa','Pretoria','AF'],['South Sudan','Juba','AF'],
+      ['Spain','Madrid','EU'],['Sri Lanka','Sri Jayawardenepura Kotte','AS'],['Sudan','Khartoum','AF'],['Suriname','Paramaribo','SA'],
+      ['Sweden','Stockholm','EU'],['Switzerland','Bern','EU'],['Syria','Damascus','AS'],['Taiwan','Taipei','AS'],
+      ['Tajikistan','Dushanbe','AS'],['Tanzania','Dodoma','AF'],['Thailand','Bangkok','AS'],['Timor-Leste','Dili','AS'],
+      ['Togo','Lomé','AF'],['Tonga','Nukuʻalofa','OC'],['Trinidad and Tobago','Port of Spain','NA'],['Tunisia','Tunis','AF'],
+      ['Turkey','Ankara','AS/EU'],['Turkmenistan','Ashgabat','AS'],['Tuvalu','Funafuti','OC'],['Uganda','Kampala','AF'],
+      ['Ukraine','Kyiv','EU'],['United Arab Emirates','Abu Dhabi','AS'],['United Kingdom','London','EU'],['United States','Washington, D.C.','NA'],
+      ['Uruguay','Montevideo','SA'],['Uzbekistan','Tashkent','AS'],['Vanuatu','Port Vila','OC'],['Vatican City','Vatican City','EU'],
+      ['Venezuela','Caracas','SA'],['Vietnam','Hanoi','AS'],['Yemen','Sana\'a','AS'],['Zambia','Lusaka','AF'],['Zimbabwe','Harare','AF'],
+    ];
+    makeReferenceTable(c, ['Country', 'Capital', 'Region'], rows, { placeholder: 'Filter country/capital…' });
+  };
+
+  toolBuilders.currencies = (c) => {
+    const rows = [
+      ['United States','USD','$','US Dollar'],['Eurozone','EUR','€','Euro'],['United Kingdom','GBP','£','Pound Sterling'],
+      ['Japan','JPY','¥','Yen'],['China','CNY','¥','Renminbi / Yuan'],['Switzerland','CHF','₣','Swiss Franc'],
+      ['Canada','CAD','C$','Canadian Dollar'],['Australia','AUD','A$','Australian Dollar'],['New Zealand','NZD','NZ$','New Zealand Dollar'],
+      ['Singapore','SGD','S$','Singapore Dollar'],['Hong Kong','HKD','HK$','Hong Kong Dollar'],['Taiwan','TWD','NT$','New Taiwan Dollar'],
+      ['Korea, South','KRW','₩','South Korean Won'],['India','INR','₹','Indian Rupee'],['Indonesia','IDR','Rp','Rupiah'],
+      ['Thailand','THB','฿','Thai Baht'],['Malaysia','MYR','RM','Ringgit'],['Philippines','PHP','₱','Philippine Peso'],
+      ['Vietnam','VND','₫','Vietnamese Dong'],['Saudi Arabia','SAR','﷼','Riyal'],['UAE','AED','د.إ','UAE Dirham'],
+      ['Turkey','TRY','₺','Turkish Lira'],['Israel','ILS','₪','Shekel'],['Egypt','EGP','£','Egyptian Pound'],
+      ['South Africa','ZAR','R','Rand'],['Nigeria','NGN','₦','Naira'],['Kenya','KES','KSh','Kenyan Shilling'],
+      ['Morocco','MAD','د.م.','Moroccan Dirham'],['Brazil','BRL','R$','Real'],['Mexico','MXN','$','Mexican Peso'],
+      ['Argentina','ARS','$','Argentine Peso'],['Chile','CLP','$','Chilean Peso'],['Colombia','COP','$','Colombian Peso'],
+      ['Peru','PEN','S/','Sol'],['Venezuela','VES','Bs.','Sovereign Bolívar'],['Russia','RUB','₽','Ruble'],
+      ['Ukraine','UAH','₴','Hryvnia'],['Poland','PLN','zł','Złoty'],['Czech Republic','CZK','Kč','Czech Koruna'],
+      ['Hungary','HUF','Ft','Forint'],['Romania','RON','lei','Romanian Leu'],['Sweden','SEK','kr','Swedish Krona'],
+      ['Norway','NOK','kr','Norwegian Krone'],['Denmark','DKK','kr','Danish Krone'],['Iceland','ISK','kr','Icelandic Króna'],
+      ['Qatar','QAR','﷼','Qatari Riyal'],['Kuwait','KWD','د.ك','Dinar'],['Bahrain','BHD','.د.ب','Dinar'],
+      ['Oman','OMR','﷼','Rial'],['Jordan','JOD','د.أ','Dinar'],['Lebanon','LBP','ل.ل','Lebanese Pound'],
+      ['Pakistan','PKR','₨','Rupee'],['Bangladesh','BDT','৳','Taka'],['Sri Lanka','LKR','₨','Rupee'],
+      ['Nepal','NPR','रू','Rupee'],['Myanmar','MMK','K','Kyat'],['Cambodia','KHR','៛','Riel'],
+      ['Laos','LAK','₭','Kip'],['Afghanistan','AFN','؋','Afghani'],['Iran','IRR','﷼','Iranian Rial'],
+      ['Iraq','IQD','ع.د','Dinar'],['(International)','XDR','SDR','IMF Special Drawing Rights'],
+      ['Gold','XAU','oz','Gold (troy ounce)'],['Silver','XAG','oz','Silver (troy ounce)'],
+      ['Bitcoin','BTC','₿','Bitcoin'],['Ethereum','ETH','Ξ','Ether'],
+    ];
+    makeReferenceTable(c, ['Country/Region', 'Code', 'Symbol', 'Name'], rows, { placeholder: 'Filter currencies…' });
+  };
+
+  toolBuilders.dialcodes = (c) => {
+    const rows = [
+      ['Afghanistan','AF','+93','Asia/Kabul','+04:30'],['Albania','AL','+355','Europe/Tirane','+01:00'],
+      ['Algeria','DZ','+213','Africa/Algiers','+01:00'],['Argentina','AR','+54','America/Argentina/Buenos_Aires','-03:00'],
+      ['Australia','AU','+61','Australia/Sydney','+10:00'],['Austria','AT','+43','Europe/Vienna','+01:00'],
+      ['Bangladesh','BD','+880','Asia/Dhaka','+06:00'],['Belgium','BE','+32','Europe/Brussels','+01:00'],
+      ['Brazil','BR','+55','America/Sao_Paulo','-03:00'],['Canada','CA','+1','America/Toronto','-05:00'],
+      ['Chile','CL','+56','America/Santiago','-04:00'],['China','CN','+86','Asia/Shanghai','+08:00'],
+      ['Colombia','CO','+57','America/Bogota','-05:00'],['Croatia','HR','+385','Europe/Zagreb','+01:00'],
+      ['Czech Republic','CZ','+420','Europe/Prague','+01:00'],['Denmark','DK','+45','Europe/Copenhagen','+01:00'],
+      ['Egypt','EG','+20','Africa/Cairo','+02:00'],['Finland','FI','+358','Europe/Helsinki','+02:00'],
+      ['France','FR','+33','Europe/Paris','+01:00'],['Germany','DE','+49','Europe/Berlin','+01:00'],
+      ['Greece','GR','+30','Europe/Athens','+02:00'],['Hong Kong','HK','+852','Asia/Hong_Kong','+08:00'],
+      ['Hungary','HU','+36','Europe/Budapest','+01:00'],['Iceland','IS','+354','Atlantic/Reykjavik','UTC'],
+      ['India','IN','+91','Asia/Kolkata','+05:30'],['Indonesia','ID','+62','Asia/Jakarta','+07:00'],
+      ['Iran','IR','+98','Asia/Tehran','+03:30'],['Iraq','IQ','+964','Asia/Baghdad','+03:00'],
+      ['Ireland','IE','+353','Europe/Dublin','UTC'],['Israel','IL','+972','Asia/Jerusalem','+02:00'],
+      ['Italy','IT','+39','Europe/Rome','+01:00'],['Japan','JP','+81','Asia/Tokyo','+09:00'],
+      ['Jordan','JO','+962','Asia/Amman','+02:00'],['Kazakhstan','KZ','+7','Asia/Almaty','+05:00'],
+      ['Kenya','KE','+254','Africa/Nairobi','+03:00'],['Korea, South','KR','+82','Asia/Seoul','+09:00'],
+      ['Kuwait','KW','+965','Asia/Kuwait','+03:00'],['Lebanon','LB','+961','Asia/Beirut','+02:00'],
+      ['Malaysia','MY','+60','Asia/Kuala_Lumpur','+08:00'],['Mexico','MX','+52','America/Mexico_City','-06:00'],
+      ['Morocco','MA','+212','Africa/Casablanca','+01:00'],['Nepal','NP','+977','Asia/Kathmandu','+05:45'],
+      ['Netherlands','NL','+31','Europe/Amsterdam','+01:00'],['New Zealand','NZ','+64','Pacific/Auckland','+12:00'],
+      ['Nigeria','NG','+234','Africa/Lagos','+01:00'],['Norway','NO','+47','Europe/Oslo','+01:00'],
+      ['Oman','OM','+968','Asia/Muscat','+04:00'],['Pakistan','PK','+92','Asia/Karachi','+05:00'],
+      ['Peru','PE','+51','America/Lima','-05:00'],['Philippines','PH','+63','Asia/Manila','+08:00'],
+      ['Poland','PL','+48','Europe/Warsaw','+01:00'],['Portugal','PT','+351','Europe/Lisbon','UTC'],
+      ['Qatar','QA','+974','Asia/Qatar','+03:00'],['Romania','RO','+40','Europe/Bucharest','+02:00'],
+      ['Russia','RU','+7','Europe/Moscow','+03:00'],['Saudi Arabia','SA','+966','Asia/Riyadh','+03:00'],
+      ['Singapore','SG','+65','Asia/Singapore','+08:00'],['South Africa','ZA','+27','Africa/Johannesburg','+02:00'],
+      ['Spain','ES','+34','Europe/Madrid','+01:00'],['Sri Lanka','LK','+94','Asia/Colombo','+05:30'],
+      ['Sweden','SE','+46','Europe/Stockholm','+01:00'],['Switzerland','CH','+41','Europe/Zurich','+01:00'],
+      ['Taiwan','TW','+886','Asia/Taipei','+08:00'],['Thailand','TH','+66','Asia/Bangkok','+07:00'],
+      ['Turkey','TR','+90','Europe/Istanbul','+03:00'],['UAE','AE','+971','Asia/Dubai','+04:00'],
+      ['Ukraine','UA','+380','Europe/Kyiv','+02:00'],['United Kingdom','GB','+44','Europe/London','UTC'],
+      ['United States','US','+1','America/New_York','-05:00'],['Vietnam','VN','+84','Asia/Ho_Chi_Minh','+07:00'],
+    ];
+    makeReferenceTable(c, ['Country', 'ISO', 'Dial Code', 'Timezone', 'UTC Offset'], rows, { placeholder: 'Filter country…' });
+  };
+
+  toolBuilders.holidays = (c) => {
+    const rows = [
+      ['Jan 1','New Year\'s Day','Worldwide'],
+      ['Jan 6','Epiphany','Christian'],
+      ['Jan 26','Australia Day','Australia'],
+      ['Feb (varies)','Chinese New Year','East Asia'],
+      ['Feb 14','Valentine\'s Day','Commercial'],
+      ['Mar 8','International Women\'s Day','Worldwide'],
+      ['Mar 17','St. Patrick\'s Day','Ireland / USA'],
+      ['Mar/Apr (varies)','Easter Sunday','Christian'],
+      ['Apr 1','April Fools\' Day','Worldwide'],
+      ['Apr 5','Qingming Festival','China'],
+      ['Apr 22','Earth Day','Worldwide'],
+      ['May 1','Labour Day / May Day','Worldwide'],
+      ['May 5','Cinco de Mayo','Mexico / USA'],
+      ['May (2nd Sun)','Mother\'s Day','Worldwide (various dates)'],
+      ['Jun (varies)','Dragon Boat Festival','China'],
+      ['Jun (3rd Sun)','Father\'s Day','Worldwide'],
+      ['Jun 21','Summer Solstice','Northern hemisphere'],
+      ['Jul 1','Canada Day','Canada'],
+      ['Jul 4','Independence Day','USA'],
+      ['Jul 14','Bastille Day','France'],
+      ['Aug 15','Independence Day','India / Korea'],
+      ['Sep (varies)','Mid-Autumn Festival','China'],
+      ['Sep (1st Mon)','Labor Day','USA / Canada'],
+      ['Oct 1','National Day','China'],
+      ['Oct 3','German Unity Day','Germany'],
+      ['Oct 31','Halloween','Western'],
+      ['Nov 1','All Saints\' Day','Catholic'],
+      ['Nov 5','Guy Fawkes Night','UK'],
+      ['Nov 11','Veterans Day','USA'],
+      ['Nov (4th Thu)','Thanksgiving','USA'],
+      ['Dec 8','Bodhi Day','Buddhist'],
+      ['Dec 21','Winter Solstice','Worldwide'],
+      ['Dec 24','Christmas Eve','Christian'],
+      ['Dec 25','Christmas Day','Worldwide'],
+      ['Dec 26','Boxing Day','Commonwealth'],
+      ['Dec 31','New Year\'s Eve','Worldwide'],
+    ];
+    makeReferenceTable(c, ['Date', 'Holiday', 'Region'], rows, { placeholder: 'Filter holidays…' });
+  };
+
+  toolBuilders.dynasties = (c) => {
+    const rows = [
+      ['夏 Xia','c. 2070–1600 BCE','Legendary / early bronze age'],
+      ['商 Shang','c. 1600–1046 BCE','First confirmed dynasty; oracle bones'],
+      ['周 Zhou (Western)','1046–771 BCE','Feudal system, Mandate of Heaven'],
+      ['周 Zhou (Eastern)','771–256 BCE','Spring/Autumn and Warring States'],
+      ['秦 Qin','221–207 BCE','First unified empire; Great Wall begun'],
+      ['汉 Han (Western)','202 BCE–9 CE','Confucianism adopted; Silk Road'],
+      ['新 Xin','9–23 CE','Wang Mang usurpation'],
+      ['汉 Han (Eastern)','25–220 CE','Paper invented; Buddhism arrives'],
+      ['三国 Three Kingdoms','220–280','Wei, Shu, Wu — Romance of the Three Kingdoms'],
+      ['晋 Jin (Western)','265–316','Brief reunification'],
+      ['晋 Jin (Eastern)','317–420','Fragmentation'],
+      ['南北朝 Northern & Southern','420–589','Division era'],
+      ['隋 Sui','581–618','Reunification; Grand Canal'],
+      ['唐 Tang','618–907','Golden age; poetry; cosmopolitan'],
+      ['五代十国 Five Dynasties','907–960','Political fragmentation'],
+      ['宋 Song (Northern)','960–1127','Printing; gunpowder; Neo-Confucianism'],
+      ['宋 Song (Southern)','1127–1279','Capital at Lin\'an (Hangzhou)'],
+      ['辽 Liao','907–1125','Khitan dynasty in the north'],
+      ['金 Jin','1115–1234','Jurchen; conquered Northern Song'],
+      ['元 Yuan','1271–1368','Mongol rule; Marco Polo'],
+      ['明 Ming','1368–1644','Forbidden City; Zheng He voyages'],
+      ['清 Qing','1636–1912','Last imperial dynasty (Manchu)'],
+      ['中华民国 ROC','1912–1949','Republic on mainland'],
+      ['中华人民共和国 PRC','1949–present','People\'s Republic'],
+    ];
+    makeReferenceTable(c, ['Dynasty 朝代', 'Period', 'Notes'], rows, { placeholder: 'Filter…' });
+  };
+
+  toolBuilders.dns = (c) => {
+    const rows = [
+      ['Google','8.8.8.8 / 8.8.4.4','2001:4860:4860::8888','dns.google','Widely trusted'],
+      ['Cloudflare','1.1.1.1 / 1.0.0.1','2606:4700:4700::1111','one.one.one.one','Privacy-focused'],
+      ['Cloudflare Malware','1.1.1.2 / 1.0.0.2','2606:4700:4700::1112','security.cloudflare-dns.com','Blocks malware'],
+      ['Cloudflare Family','1.1.1.3 / 1.0.0.3','2606:4700:4700::1113','family.cloudflare-dns.com','Blocks malware + adult'],
+      ['Quad9','9.9.9.9','2620:fe::fe','dns.quad9.net','Blocks malware/phishing'],
+      ['Quad9 (no filter)','9.9.9.10','2620:fe::10','dns10.quad9.net','Unfiltered alternative'],
+      ['OpenDNS','208.67.222.222 / 208.67.220.220','2620:119:35::35','dns.opendns.com','Owned by Cisco'],
+      ['OpenDNS FamilyShield','208.67.222.123 / 208.67.220.123','','','Blocks adult content'],
+      ['AdGuard','94.140.14.14 / 94.140.15.15','2a10:50c0::ad1:ff','dns.adguard-dns.com','Blocks ads + trackers'],
+      ['AdGuard Family','94.140.14.15 / 94.140.15.16','2a10:50c0::bad1:ff','family.adguard-dns.com','Family protection'],
+      ['Level3','4.2.2.1 / 4.2.2.2','','','Legacy; acquired by CenturyLink'],
+      ['Verisign','64.6.64.6 / 64.6.65.6','2620:74:1b::1:1','','Operator of .com/.net'],
+      ['Yandex','77.88.8.8','','dns.yandex.ru','Russia'],
+      ['Yandex Safe','77.88.8.88','','','Blocks malware'],
+      ['DNS.SB','185.222.222.222 / 185.184.222.222','2a09::','dns.sb','Germany, no logs'],
+      ['Control D Free','76.76.2.0 / 76.76.10.0','2606:1a40::','p1.freedns.controld.com','Customizable'],
+      ['NextDNS','45.90.28.0 / 45.90.30.0','2a07:a8c0::','dns.nextdns.io','Per-account, free tier'],
+      ['Comodo','8.26.56.26 / 8.20.247.20','','','Security-focused'],
+      ['Neustar UltraDNS','156.154.70.1 / 156.154.71.1','','','Commercial'],
+      ['China Telecom','114.114.114.114','','','Mainland China'],
+      ['AliDNS','223.5.5.5 / 223.6.6.6','','','Alibaba, China'],
+      ['DNSPod','119.29.29.29','','','Tencent, China'],
+      ['Baidu','180.76.76.76','','','China'],
+    ];
+    makeReferenceTable(c, ['Provider', 'IPv4', 'IPv6', 'Hostname', 'Notes'], rows, { placeholder: 'Filter DNS…' });
+  };
+
+  // ═══════════════════════════════════════════════
+  //  v17 CLOUD (PHP-backed) TOOLS
+  // ═══════════════════════════════════════════════
+
+  function _bytes(n) {
+    if (n < 1024) return n + ' B';
+    if (n < 1048576) return (n / 1024).toFixed(1) + ' KB';
+    if (n < 1073741824) return (n / 1048576).toFixed(2) + ' MB';
+    return (n / 1073741824).toFixed(2) + ' GB';
+  }
+
+  toolBuilders.cloudfile = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Pick a file (≤ 20 MB)' }));
+    const input = el('input', { type: 'file', className: 'glass-input' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:12px' });
+    const ttlW = el('div', { className: 'form-group' });
+    ttlW.appendChild(el('label', { textContent: 'Expire after' }));
+    let ttl = 86400;
+    ttlW.appendChild(glassPicker('cf-ttl', ['1 hour', '6 hours', '24 hours', '7 days', '30 days'], '24 hours', (v) => {
+      ttl = { '1 hour': 3600, '6 hours': 21600, '24 hours': 86400, '7 days': 604800, '30 days': 2592000 }[v];
+    }).wrapper);
+    const dlW = el('div', { className: 'form-group' });
+    dlW.appendChild(el('label', { textContent: 'Max downloads' }));
+    const dlIn = el('input', { type: 'number', className: 'glass-input', placeholder: 'unlimited', min: '1', max: '1000' });
+    dlW.appendChild(dlIn);
+    row.appendChild(ttlW); row.appendChild(dlW);
+    c.appendChild(row);
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Upload', onClick: async () => {
+      if (!input.files || !input.files[0]) { resultBox(c, 'Please pick a file first.'); return; }
+      const f = input.files[0];
+      if (f.size > 20 * 1024 * 1024) { resultBox(c, 'File exceeds 20 MB.'); return; }
+      resultBox(c, `Uploading ${f.name} (${_bytes(f.size)})…`);
+      try {
+        const fd = new FormData();
+        fd.append('file', f);
+        fd.append('ttl', ttl);
+        if (dlIn.value) fd.append('max_downloads', dlIn.value);
+        const r = await fetch('api/fileshare.php', { method: 'POST', body: fd });
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        resultBox(c, [
+          `✓ Uploaded`,
+          `Filename       ${data.filename}`,
+          `Size           ${_bytes(data.size)}`,
+          `MIME           ${data.mime_type}`,
+          `Expires        ${new Date(data.expires_at * 1000).toLocaleString()}`,
+          `Max downloads  ${data.max_downloads ?? 'unlimited'}`,
+          ``,
+          `Share URL:`,
+          data.url,
+        ].join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+
+    const fg2 = el('div', { className: 'form-group', style: 'margin-top:18px' });
+    fg2.appendChild(el('label', { textContent: 'Or check an existing share by ID' }));
+    const idIn = el('input', { type: 'text', className: 'glass-input', placeholder: 'paste share ID' });
+    fg2.appendChild(idIn);
+    c.appendChild(fg2);
+    const btns2 = el('div', { className: 'btn-group' });
+    btns2.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Get info', onClick: async () => {
+      try {
+        const r = await fetch('api/fileshare.php?id=' + encodeURIComponent(idIn.value) + '&meta=1');
+        const data = await r.json();
+        resultBox(c, JSON.stringify(data, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns2);
+  };
+
+  toolBuilders.cloudpaste = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Paste content' }));
+    const input = el('textarea', { className: 'glass-textarea', rows: '10' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+
+    const row = el('div', { style: 'display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px' });
+    const langW = el('div', { className: 'form-group' });
+    langW.appendChild(el('label', { textContent: 'Language' }));
+    const langIn = el('input', { type: 'text', className: 'glass-input', placeholder: 'plaintext' });
+    langW.appendChild(langIn);
+    const ttlW = el('div', { className: 'form-group' });
+    ttlW.appendChild(el('label', { textContent: 'Expire after' }));
+    let ttl = 86400 * 7;
+    ttlW.appendChild(glassPicker('cp-ttl', ['10 minutes', '1 hour', '24 hours', '7 days', '30 days', '1 year'], '7 days', (v) => {
+      ttl = { '10 minutes': 600, '1 hour': 3600, '24 hours': 86400, '7 days': 604800, '30 days': 2592000, '1 year': 31536000 }[v];
+    }).wrapper);
+    const burnW = el('div', { className: 'form-group' });
+    burnW.appendChild(el('label', { textContent: 'Burn after read' }));
+    let burn = false;
+    burnW.appendChild(iosToggle('cp-burn', 'Delete on first view', false, v => { burn = v; }).row);
+    row.appendChild(langW); row.appendChild(ttlW); row.appendChild(burnW);
+    c.appendChild(row);
+
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Create paste', onClick: async () => {
+      if (!input.value.trim()) { resultBox(c, 'Paste content cannot be empty.'); return; }
+      try {
+        const r = await fetch('api/paste.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content: input.value, language: langIn.value, ttl, burn_after: burn })
+        });
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        const url = location.origin + '/api/paste.php?id=' + data.id;
+        resultBox(c, [
+          `✓ Paste created`,
+          `ID            ${data.id}`,
+          `Expires       ${new Date(data.expires_at * 1000).toLocaleString()}`,
+          `Burn-after    ${data.burn_after ? 'yes' : 'no'}`,
+          ``,
+          `View URL:`,
+          url,
+        ].join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'View existing (by ID)', onClick: async () => {
+      const id = prompt('Paste ID:');
+      if (!id) return;
+      try {
+        const r = await fetch('api/paste.php?id=' + encodeURIComponent(id));
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        input.value = data.content;
+        langIn.value = data.language || '';
+        resultBox(c, `Loaded paste ${id} (${data.view_count} views)`);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.cloudshort = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Long URL' }));
+    const input = el('input', { type: 'text', className: 'glass-input', placeholder: 'https://example.com/very/long/path?with=lots&of=params' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Shorten', onClick: async () => {
+      if (!input.value) return;
+      try {
+        const r = await fetch('api/shorturl.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ target: input.value })
+        });
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        resultBox(c, [
+          `✓ Shortened`,
+          `ID         ${data.id}`,
+          `Target     ${data.target}`,
+          ``,
+          `Short URL:`,
+          data.short_url,
+        ].join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    btns.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Stats by ID', onClick: async () => {
+      const id = prompt('Short URL ID:');
+      if (!id) return;
+      try {
+        const r = await fetch('api/shorturl.php?stats=' + encodeURIComponent(id));
+        const data = await r.json();
+        resultBox(c, JSON.stringify(data, null, 2));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.cloudheaders = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URL' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: 'https://example.com' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Method' }));
+    let method = 'GET';
+    fg2.appendChild(glassPicker('ch-method', ['GET', 'HEAD', 'POST', 'OPTIONS'], 'GET', (v) => { method = v; }).wrapper);
+    c.appendChild(fg2);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Fetch headers', onClick: async () => {
+      resultBox(c, 'Fetching…');
+      try {
+        const r = await fetch('api/headers.php?url=' + encodeURIComponent(input.value) + '&method=' + method);
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        const lines = [];
+        lines.push(`HTTP ${data.status_code}  •  ${data.response_time_ms} ms  •  ${_bytes(data.size_download)} body`);
+        if (data.final_url !== data.url) lines.push(`Redirected to: ${data.final_url}`);
+        if (data.primary_ip) lines.push(`Origin: ${data.primary_ip}:${data.primary_port}`);
+        if (data.content_encoding) lines.push(`Encoding: ${data.content_encoding}`);
+        lines.push(``);
+        lines.push(`─── Response Headers ───`);
+        data.headers.forEach(([k, v]) => lines.push(`${k}: ${v}`));
+        if (data.body_preview) {
+          lines.push(``, `─── Body preview (first 1024 chars) ───`);
+          lines.push(data.body_preview);
+        }
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.cloudgzip = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'URL' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: 'https://www.google.com' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Check', onClick: async () => {
+      resultBox(c, 'Fetching three times (identity, gzip, brotli)…');
+      try {
+        const r = await fetch('api/gzipcheck.php?url=' + encodeURIComponent(input.value));
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        const u = data.uncompressed;
+        const lines = [
+          `URL              ${data.url}`,
+          `HTTP status      ${data.status_code}`,
+          `Uncompressed     ${_bytes(u)}`,
+          ``,
+          `─── gzip ───`,
+          `Encoding: ${data.gzip.encoding}    Enabled: ${data.gzip.enabled ? '✓' : '✗'}`,
+          `Bytes:    ${_bytes(data.gzip.bytes)}     Savings: ${data.gzip.savings_percent}%`,
+          ``,
+          `─── brotli ───`,
+          `Encoding: ${data.brotli.encoding}    Enabled: ${data.brotli.enabled ? '✓' : '✗'}`,
+          `Bytes:    ${_bytes(data.brotli.bytes)}     Savings: ${data.brotli.savings_percent}%`,
+        ];
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.cloudbroken = (c) => {
+    const fg = el('div', { className: 'form-group' });
+    fg.appendChild(el('label', { textContent: 'Page URL to scan' }));
+    const input = el('input', { type: 'text', className: 'glass-input', value: 'https://example.com' });
+    fg.appendChild(input);
+    c.appendChild(fg);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Scan (up to 40 links)', onClick: async () => {
+      resultBox(c, 'Crawling…  this can take 20–60 seconds.');
+      try {
+        const r = await fetch('api/brokenlinks.php?url=' + encodeURIComponent(input.value));
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        const lines = [`Page: ${data.url}`, `Found: ${data.total_links} links · Checked: ${data.checked} · Broken: ${data.broken_count}`, ``];
+        data.links.forEach(l => {
+          const flag = l.broken ? '✗' : '✓';
+          const code = String(l.status).padStart(3);
+          lines.push(`${flag} ${code}  ${l.target.slice(0, 80)}`);
+          if (l.broken && l.error) lines.push(`        ${l.error}`);
+        });
+        resultBox(c, lines.join('\n'));
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
+  };
+
+  toolBuilders.cloudbcrypt = (c) => {
+    const fg1 = el('div', { className: 'form-group' });
+    fg1.appendChild(el('label', { textContent: 'Username' }));
+    const user = el('input', { type: 'text', className: 'glass-input', value: 'admin' });
+    fg1.appendChild(user);
+    c.appendChild(fg1);
+    const fg2 = el('div', { className: 'form-group' });
+    fg2.appendChild(el('label', { textContent: 'Password' }));
+    const pass = el('input', { type: 'password', className: 'glass-input', value: 'secret', autocomplete: 'off' });
+    fg2.appendChild(pass);
+    c.appendChild(fg2);
+    const fg3 = el('div', { className: 'form-group' });
+    fg3.appendChild(el('label', { textContent: 'Cost (4–14, default 10)' }));
+    const cost = el('input', { type: 'number', className: 'glass-input', value: '10', min: '4', max: '14' });
+    fg3.appendChild(cost);
+    c.appendChild(fg3);
+    const btns = el('div', { className: 'btn-group' });
+    btns.appendChild(el('button', { className: 'btn btn-primary btn-sm', textContent: 'Hash', onClick: async () => {
+      try {
+        // POST so the password doesn't end up in URL/query logs.
+        const r = await fetch('api/bcrypt.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ user: user.value, pass: pass.value, cost: parseInt(cost.value, 10) || 10 }),
+        });
+        const data = await r.json();
+        if (data.error) throw new Error(data.error);
+        resultBox(c, data.line);
+      } catch (e) { resultBox(c, 'Error: ' + e.message); }
+    }}));
+    c.appendChild(btns);
   };
 
 })();
