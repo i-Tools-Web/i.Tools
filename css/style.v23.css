@@ -332,27 +332,282 @@ body {
               inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
-/* Language toggle — sits at the right of the cat-nav.
-   Same height as nav items so the row stays visually balanced. */
+/* Language toggle — anchors to the top-right of the sticky cat-nav so it's
+   always visible while scrolling, but stays out of the search bar AND the
+   category scroll list. The cat-nav is position:sticky which counts as
+   positioned, so absolute positioning lands it at the top-right corner. */
 .lang-toggle {
-  flex-shrink: 0;
-  margin-left: 8px;
-  padding: 7px 14px;
+  position: absolute;
+  top: 10px;
+  right: 24px;
+  z-index: 2;
+  padding: 6px 14px;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
   color: rgba(0, 0, 0, 0.7);
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.55);
   border: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 .lang-toggle:hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.85);
   color: var(--text-primary);
   transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.lang-toggle:active {
+  transform: translateY(0);
+}
+
+/* ===========================================
+   v22 — Reusable light-glass widgets used by
+   the Reference tables, World Clock, Keyboard
+   Tester, Text Effects, Special Chars picker,
+   HTML Table Builder. These all live inside
+   the tool panel which is light glass on a
+   vivid gradient — they MUST use dark text
+   on a light translucent background.
+   =========================================== */
+
+/* Generic light-glass tile / card — dark text, light translucent bg */
+.itools-tile {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: 14px;
+  color: var(--text-primary);
+  padding: 14px;
+  transition: all var(--transition-fast);
+}
+.itools-tile.is-clickable { cursor: pointer; }
+.itools-tile.is-clickable:hover {
+  background: rgba(255, 255, 255, 0.65);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+.itools-tile-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.itools-tile-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, Menlo, monospace;
+}
+.itools-tile-meta {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+/* Reference table — searchable scrollable data list */
+.ref-table-wrap {
+  margin-top: 12px;
+  max-height: 62vh;
+  overflow: auto;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border-subtle);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+.ref-table thead th {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  white-space: nowrap;
+}
+.ref-table tbody tr {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.ref-table tbody tr:hover { background: rgba(255, 255, 255, 0.55); }
+.ref-table tbody tr.copied { background: rgba(0, 200, 120, 0.18); }
+.ref-table tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+.ref-table tbody td.mono {
+  font-family: ui-monospace, Menlo, monospace;
+}
+.ref-table-count {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* Special-characters picker — clickable Unicode tiles in a wrap-grid */
+.char-grid-section { margin-bottom: 18px; }
+.char-grid-section-title {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.char-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.char-tile {
+  min-width: 38px;
+  height: 38px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--glass-border-subtle);
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--text-primary);
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.char-tile:hover {
+  background: rgba(255, 255, 255, 0.75);
+  transform: translateY(-1px);
+}
+.char-tile.copied { background: rgba(0, 200, 120, 0.3); }
+
+/* Keyboard tester — large key display panel */
+.keyboard-display {
+  padding: 24px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--glass-border-subtle);
+  text-align: center;
+  min-height: 200px;
+  color: var(--text-primary);
+}
+.keyboard-display .key {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-height: 1.2em;
+  font-family: ui-monospace, Menlo, monospace;
+}
+.keyboard-display .hint {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+.keyboard-info {
+  margin-top: 16px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  font-size: 13px;
+  font-family: ui-monospace, Menlo, monospace;
+  white-space: pre-wrap;
+  color: var(--text-primary);
+}
+.keyboard-history {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 120px;
+  overflow: auto;
+}
+.keyboard-history span {
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: 6px;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+/* Text effects preview rows — light card with sample text */
+.fx-row {
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--glass-border-subtle);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.15s;
+}
+.fx-row:hover { background: rgba(255, 255, 255, 0.65); }
+.fx-row .fx-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.fx-row .fx-sample {
+  font-size: 15px;
+  color: var(--text-primary);
+  word-break: break-all;
+}
+
+/* WebSocket / similar terminal-style log panels — these intentionally
+   stay dark since they look like a terminal. Just need lighter borders. */
+.tool-log {
+  max-height: 280px;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(20, 20, 30, 0.85);
+  color: rgba(255, 255, 255, 0.92);
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.tool-status {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--glass-border-subtle);
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+/* On narrow phones the search bar uses the full width — tuck the toggle
+   into the corner with a smaller pad so it doesn't overlap. */
+@media (max-width: 480px) {
+  .lang-toggle {
+    top: 8px;
+    right: 12px;
+    padding: 4px 10px;
+    font-size: 11px;
+  }
 }
 
 /* Scroll offset for sections (accounts for sticky nav) */

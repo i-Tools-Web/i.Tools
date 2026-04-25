@@ -6331,22 +6331,19 @@
     update();
   }
 
-  // Generic reference table: searchable, copy-on-click
+  // Generic reference table: searchable, copy-on-click. All visual styling
+  // lives in CSS (.ref-table-wrap / .ref-table) so it stays consistent with
+  // the project's light-glass design and is easy to retheme.
   function makeReferenceTable(container, columns, rows, opts) {
     opts = opts || {};
-    const search = el('input', { type: 'text', className: 'glass-input', placeholder: opts.placeholder || 'Search…' });
+    const search = el('input', { type: 'text', className: 'glass-input', placeholder: opts.placeholder || (lang === 'zh' ? '搜索…' : 'Search…') });
     container.appendChild(search);
 
-    const wrap = el('div', { style: 'margin-top:12px;max-height:62vh;overflow:auto;border-radius:14px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08)' });
-    const table = el('table', { style: 'width:100%;border-collapse:collapse;font-size:13px' });
+    const wrap = el('div', { className: 'ref-table-wrap' });
+    const table = el('table', { className: 'ref-table' });
     const thead = el('thead');
     const htr = el('tr');
-    columns.forEach(c => {
-      htr.appendChild(el('th', {
-        textContent: c,
-        style: 'position:sticky;top:0;background:rgba(20,20,30,0.95);backdrop-filter:blur(8px);padding:10px 12px;text-align:left;font-weight:600;color:rgba(255,255,255,0.9);border-bottom:1px solid rgba(255,255,255,0.1);z-index:1'
-      }));
-    });
+    columns.forEach(c => htr.appendChild(el('th', { textContent: c })));
     thead.appendChild(htr);
     table.appendChild(thead);
 
@@ -6355,7 +6352,7 @@
     wrap.appendChild(table);
     container.appendChild(wrap);
 
-    const count = el('div', { style: 'margin-top:8px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    const count = el('div', { className: 'ref-table-count' });
     container.appendChild(count);
 
     function render(filter) {
@@ -6365,28 +6362,26 @@
       rows.forEach(row => {
         const rowText = row.join(' ').toLowerCase();
         if (f && !rowText.includes(f)) return;
-        const tr = el('tr', { style: 'cursor:pointer;transition:background 0.15s' });
-        tr.addEventListener('mouseenter', () => tr.style.background = 'rgba(255,255,255,0.05)');
-        tr.addEventListener('mouseleave', () => tr.style.background = '');
+        const tr = el('tr');
         tr.addEventListener('click', () => {
           const txt = opts.copy ? opts.copy(row) : row.join('\t');
           navigator.clipboard.writeText(txt).then(() => {
-            tr.style.background = 'rgba(0,200,120,0.2)';
-            setTimeout(() => tr.style.background = '', 400);
+            tr.classList.add('copied');
+            setTimeout(() => tr.classList.remove('copied'), 400);
           });
         });
         row.forEach((cell, i) => {
-          const td = el('td', {
-            style: 'padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.05);color:rgba(255,255,255,0.85);vertical-align:top'
-          });
-          if (i === 0 && opts.firstColMono !== false) td.style.fontFamily = 'ui-monospace,monospace';
+          const td = el('td');
+          if (i === 0 && opts.firstColMono !== false) td.classList.add('mono');
           td.textContent = cell;
           tr.appendChild(td);
         });
         tbody.appendChild(tr);
         shown++;
       });
-      count.textContent = `${shown} of ${rows.length} rows  •  click row to copy`;
+      count.textContent = lang === 'zh'
+        ? `共 ${rows.length} 行,显示 ${shown} 行  •  点击复制`
+        : `${shown} of ${rows.length} rows  •  click row to copy`;
     }
     search.addEventListener('input', () => render(search.value));
     render('');
@@ -6876,7 +6871,7 @@
       resultBox(c, [...input.value].map(ch => t2s[ch] || ch).join(''));
     }}));
     c.appendChild(btns);
-    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Basic converter using ~700 common character pairs. For full accuracy on formal documents use OpenCC.' });
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73', textContent: 'Basic converter using ~700 common character pairs. For full accuracy on formal documents use OpenCC.' });
     c.appendChild(note);
     input.value = '中国古代文学';
   };
@@ -6992,7 +6987,7 @@
     input.value = '1234.56';
     update();
     // Examples
-    const examples = el('div', { style: 'margin-top:12px;font-size:12px;color:rgba(255,255,255,0.6);line-height:1.8' });
+    const examples = el('div', { style: 'margin-top:12px;font-size:12px;color:#6e6e73;line-height:1.8' });
     examples.innerHTML = 'Examples: <code>0</code>, <code>100</code>, <code>10050.7</code>, <code>1000000000.00</code>';
     c.appendChild(examples);
   };
@@ -7098,12 +7093,12 @@
       wrap.innerHTML = '';
       const val = input.value || 'Hello World 123';
       for (const [name, fn] of Object.entries(effects)) {
-        const card = el('div', { style: 'padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;transition:all 0.15s' });
+        const card = el('div', { className: 'fx-row' });
         const meta = el('div');
-        meta.appendChild(el('div', { textContent: name, style: 'font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px' }));
-        meta.appendChild(el('div', { textContent: fn(val), style: 'font-size:15px;color:#fff;word-break:break-all' }));
+        meta.appendChild(el('div', { textContent: name, className: 'fx-label' }));
+        meta.appendChild(el('div', { textContent: fn(val), className: 'fx-sample' }));
         card.appendChild(meta);
-        card.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: 'Copy', onClick: (e) => {
+        card.appendChild(el('button', { className: 'btn btn-secondary btn-sm', textContent: lang === 'zh' ? '复制' : 'Copy', onClick: (e) => {
           e.stopPropagation();
           navigator.clipboard.writeText(fn(val));
         }}));
@@ -7123,7 +7118,7 @@
     const input = el('textarea', { className: 'glass-textarea', rows: '6' });
     fg.appendChild(input);
     c.appendChild(fg);
-    const stats = el('div', { style: 'font-size:12px;color:rgba(255,255,255,0.6);margin-bottom:8px' });
+    const stats = el('div', { style: 'font-size:12px;color:#6e6e73;margin-bottom:8px' });
     c.appendChild(stats);
     const btns = el('div', { className: 'btn-group' });
 
@@ -7215,7 +7210,7 @@
       } catch (e) { resultBox(c, 'Error: ' + e.message); }
     }}));
     c.appendChild(btns);
-    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73' });
     note.textContent = `${title} — ciphertext is OpenSSL-compatible (salted, base64). Compatible with "openssl enc -d" when the same passphrase is used.`;
     c.appendChild(note);
     input.value = 'Hello, World!';
@@ -7936,7 +7931,7 @@
       } catch (e) { resultBox(c, 'Error: ' + e.message); }
     }}));
     c.appendChild(btns);
-    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Lightweight brace-based indenter. For production-grade formatting use prettier, black, rubocop, gofmt, etc.' });
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73', textContent: 'Lightweight brace-based indenter. For production-grade formatting use prettier, black, rubocop, gofmt, etc.' });
     c.appendChild(note);
     input.value = 'void main(){int x=1;if(x>0){printf("%d",x);}else{printf("no");}}';
   };
@@ -7973,7 +7968,7 @@
       resultBox(c, out);
     }}));
     c.appendChild(btns);
-    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)', textContent: 'Note: obfuscation is not encryption. Anyone can deobfuscate these outputs easily. Use for mild source protection only.' });
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73', textContent: 'Note: obfuscation is not encryption. Anyone can deobfuscate these outputs easily. Use for mild source protection only.' });
     c.appendChild(note);
     input.value = 'function greet(name){console.log("Hello, " + name);}\ngreet("world");';
   };
@@ -8107,7 +8102,7 @@ Header set X-Frame-Options "DENY"`;
     row.appendChild(rWrap); row.appendChild(cWrap); row.appendChild(opt);
     c.appendChild(row);
 
-    const grid = el('div', { style: 'margin-top:12px;overflow:auto;border-radius:12px;background:rgba(255,255,255,0.04);padding:12px' });
+    const grid = el('div', { style: 'margin-top:12px;overflow:auto;border-radius:12px;background:rgba(255,255,255,0.45);border:1px solid var(--glass-border-subtle);padding:12px' });
     c.appendChild(grid);
 
     const out = el('div', { className: 'result-box', style: 'white-space:pre;font-family:ui-monospace,monospace;font-size:12px' });
@@ -8268,10 +8263,10 @@ Header set X-Frame-Options "DENY"`;
     const url = el('input', { type: 'text', className: 'glass-input', value: 'wss://echo.websocket.org' });
     fg.appendChild(url);
     c.appendChild(fg);
-    const status = el('div', { style: 'padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.05);margin-bottom:12px;font-size:13px', textContent: '● Not connected' });
+    const status = el('div', { className: 'tool-status', textContent: '● ' + (lang === 'zh' ? '未连接' : 'Not connected') });
     c.appendChild(status);
     let ws = null;
-    const log = el('div', { style: 'max-height:280px;overflow:auto;padding:10px;border-radius:12px;background:rgba(0,0,0,0.3);font-family:ui-monospace,monospace;font-size:12px;line-height:1.6;margin-bottom:12px' });
+    const log = el('div', { className: 'tool-log' });
     c.appendChild(log);
     function logLine(kind, msg) {
       const colors = { in: '#7FD1B9', out: '#F6A192', sys: 'rgba(255,255,255,0.55)', err: '#F78181' };
@@ -8356,29 +8351,23 @@ Header set X-Frame-Options "DENY"`;
   };
 
   toolBuilders.keyboardtest = (c) => {
-    const display = el('div', { style: 'padding:24px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-align:center;min-height:200px' });
-    const keyDisplay = el('div', { style: 'font-size:56px;font-weight:700;color:#fff;min-height:1.2em' });
-    const label = el('div', { style: 'margin-top:12px;color:rgba(255,255,255,0.6);font-size:13px', textContent: 'Press any key on your keyboard' });
+    const display = el('div', { className: 'keyboard-display' });
+    const keyDisplay = el('div', { className: 'key' });
+    const label = el('div', { className: 'hint', textContent: lang === 'zh' ? '按下键盘上的任意键' : 'Press any key on your keyboard' });
     display.appendChild(keyDisplay);
     display.appendChild(label);
     c.appendChild(display);
 
-    const info = el('pre', { style: 'margin-top:16px;padding:14px;background:rgba(0,0,0,0.25);border-radius:12px;font-size:13px;font-family:ui-monospace,monospace;white-space:pre-wrap' });
-    info.textContent = 'Waiting…';
+    const info = el('pre', { className: 'keyboard-info', textContent: lang === 'zh' ? '等待按键…' : 'Waiting…' });
     c.appendChild(info);
 
     const history = [];
-    const historyEl = el('div', { style: 'margin-top:12px;display:flex;flex-wrap:wrap;gap:6px;max-height:120px;overflow:auto' });
+    const historyEl = el('div', { className: 'keyboard-history' });
     c.appendChild(historyEl);
 
     function renderHistory() {
       historyEl.innerHTML = '';
-      history.slice(-30).forEach(k => {
-        historyEl.appendChild(el('span', {
-          textContent: k,
-          style: 'padding:4px 10px;background:rgba(255,255,255,0.08);border-radius:6px;font-family:ui-monospace,monospace;font-size:12px'
-        }));
-      });
+      history.slice(-30).forEach(k => historyEl.appendChild(el('span', { textContent: k })));
     }
 
     function onKey(e) {
@@ -8424,7 +8413,7 @@ Header set X-Frame-Options "DENY"`;
 
     const frame = el('iframe', { style: 'width:100%;height:420px;margin-top:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:#fff' });
     c.appendChild(frame);
-    const count = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5)' });
+    const count = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73' });
     c.appendChild(count);
 
     let timer = null, n = 0;
@@ -8816,10 +8805,10 @@ Icon=web-browser
     ];
     const grid = el('div', { style: 'display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px' });
     const cards = zones.map(([name, tz]) => {
-      const card = el('div', { style: 'padding:14px;border-radius:14px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);transition:all 0.2s' });
-      const cityEl = el('div', { textContent: name, style: 'font-size:13px;color:rgba(255,255,255,0.6);margin-bottom:4px' });
-      const timeEl = el('div', { style: 'font-size:22px;font-weight:600;color:#fff;font-variant-numeric:tabular-nums;font-family:ui-monospace,monospace' });
-      const dateEl = el('div', { style: 'font-size:11px;color:rgba(255,255,255,0.4);margin-top:4px' });
+      const card = el('div', { className: 'itools-tile' });
+      const cityEl = el('div', { textContent: name, className: 'itools-tile-label' });
+      const timeEl = el('div', { className: 'itools-tile-value' });
+      const dateEl = el('div', { className: 'itools-tile-meta' });
       card.appendChild(cityEl); card.appendChild(timeEl); card.appendChild(dateEl);
       grid.appendChild(card);
       return { tz, timeEl, dateEl };
@@ -8991,7 +8980,7 @@ Icon=web-browser
       resultBox(c, user.value + ':' + pass.value);
     }}));
     c.appendChild(btns);
-    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:rgba(255,255,255,0.5);line-height:1.6' });
+    const note = el('div', { style: 'margin-top:10px;font-size:12px;color:#6e6e73;line-height:1.6' });
     note.innerHTML = 'Bcrypt (<code>htpasswd -B</code>) is the recommended algorithm but requires server-side computation — use the PHP-backed version if available. APR1-MD5 is widely supported but showing its age.';
     c.appendChild(note);
   };
@@ -9085,7 +9074,7 @@ Icon=web-browser
 
     const sizeIn = el('input', { type: 'range', value: size, min: '1', max: '40', style: 'width:120px' });
     sizeIn.oninput = () => size = parseInt(sizeIn.value);
-    toolbar.appendChild(el('span', { textContent: 'Size', style: 'color:rgba(255,255,255,0.6);font-size:12px' }));
+    toolbar.appendChild(el('span', { textContent: 'Size', style: 'color:#6e6e73;font-size:12px' }));
     toolbar.appendChild(sizeIn);
 
     const modeBtns = el('div', { className: 'btn-group' });
@@ -9813,20 +9802,18 @@ Icon=web-browser
       const f = (filter || '').toLowerCase();
       for (const [name, chars] of Object.entries(groups)) {
         if (f && !name.toLowerCase().includes(f) && !chars.includes(f)) continue;
-        const section = el('div', { style: 'margin-bottom:18px' });
-        section.appendChild(el('div', { textContent: name, style: 'font-size:12px;color:rgba(255,255,255,0.6);margin-bottom:8px;letter-spacing:0.5px;text-transform:uppercase' }));
-        const grid = el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' });
+        const section = el('div', { className: 'char-grid-section' });
+        section.appendChild(el('div', { textContent: name, className: 'char-grid-section-title' }));
+        const grid = el('div', { className: 'char-grid' });
         for (const ch of chars) {
-          const btn = el('button', { textContent: ch, style: 'min-width:38px;height:38px;padding:4px 8px;border-radius:10px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);cursor:pointer;font-size:20px;color:#fff;transition:all 0.15s' });
-          btn.addEventListener('mouseenter', () => btn.style.background = 'rgba(255,255,255,0.1)');
-          btn.addEventListener('mouseleave', () => btn.style.background = 'rgba(255,255,255,0.04)');
+          const btn = el('button', { textContent: ch, className: 'char-tile' });
           btn.addEventListener('click', () => {
             navigator.clipboard.writeText(ch).then(() => {
-              btn.style.background = 'rgba(0,200,120,0.3)';
-              setTimeout(() => btn.style.background = 'rgba(255,255,255,0.04)', 400);
+              btn.classList.add('copied');
+              setTimeout(() => btn.classList.remove('copied'), 400);
             });
           });
-          btn.title = 'U+' + ch.codePointAt(0).toString(16).toUpperCase().padStart(4, '0') + ' — click to copy';
+          btn.title = 'U+' + ch.codePointAt(0).toString(16).toUpperCase().padStart(4, '0') + ' — ' + (lang === 'zh' ? '点击复制' : 'click to copy');
           grid.appendChild(btn);
         }
         section.appendChild(grid);
